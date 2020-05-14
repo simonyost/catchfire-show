@@ -3,9 +3,14 @@ layout: default
 ---
 <div class="wrapper style1">
     <article class="container">
+        <a class="button alt" href="{{ site.baseurl }}/episodes.html"><< return to episodes</a>
         <header class="major">
             <h2 class="post-title">{{ page.title }}</h2>
-                <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+            <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}    
+            {% if page.episode %}
+                <br><br>
+                Episode • {{ page.episode }}{% endif %}
+            </p>
         </header>
 
         <section class="post-content">

@@ -6,62 +6,29 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 14 May 2020 16:05:26 -0500</pubDate>
-    <lastBuildDate>Thu, 14 May 2020 16:05:26 -0500</lastBuildDate>
+    <pubDate>Thu, 14 May 2020 17:46:41 -0500</pubDate>
+    <lastBuildDate>Thu, 14 May 2020 17:46:41 -0500</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
-        <title>Curabitur</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/pic03.jpg&quot; class=&quot;fit image&quot; /&gt;
-Curabitur orci turpis, egestas placerat velit eget, dictum pellentesque ipsum. Suspendisse potenti. Suspendisse ac maximus arcu. Sed ut mattis ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum eleifend odio vitae varius aliquam. Quisque ac pretium nisi. Curabitur tempus urna ac ultrices commodo.&lt;/p&gt;
+        <title>Show trailer</title>
+        <description>&lt;p&gt;Move past archetypes to find your prototype. The Catch Fire Show is a new podcast about dialing in on whom we want serve and then developing the skills to serve with passion.&lt;/p&gt;
 
-&lt;p&gt;Curabitur iaculis est at mattis mattis. Aliquam erat volutpat. Etiam vitae cursus quam. Nunc ultricies nunc non lorem fringilla cursus. Etiam dapibus libero ac turpis accumsan pulvinar. Sed auctor velit eget mi consequat bibendum. Aliquam interdum purus eget metus pretium ullamcorper.&lt;/p&gt;
+&lt;!--more--&gt;
 
-&lt;p&gt;Pellentesque feugiat ex non ligula commodo, eget varius tortor pellentesque. Pellentesque id tortor felis. Cras fringilla ante eget orci laoreet, non consequat urna suscipit. Pellentesque luctus ac nulla vitae porttitor. Proin sed tortor quis magna efficitur efficitur a id leo. Donec efficitur augue et laoreet maximus. Ut semper egestas porttitor. Phasellus sagittis vulputate sem at laoreet.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/pic03.jpg&quot; class=&quot;fit image&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Sed lobortis urna ut mi volutpat, sit amet euismod sapien tincidunt. Nulla facilisi. Pellentesque quis tempus neque. Mauris dictum ac sapien nec congue. In hac habitasse platea dictumst. Duis id pellentesque nisl. Morbi eget massa magna.&lt;/p&gt;
+&lt;p&gt;The episodes will primarily be interviews with folks that are a few steps further in the journey to help us along.&lt;/p&gt;
+
+&lt;p&gt;We hope you will join us.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allow=&quot;autoplay&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/820041949&amp;amp;color=%23ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true&quot;&gt;&lt;/iframe&gt;
 </description>
-        <pubDate>Tue, 17 Feb 2015 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/2015/02/17/Curabitur.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/02/17/Curabitur.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Suspendisse pellentesque</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/pic01.jpg&quot; class=&quot;fit image&quot; /&gt;
-Suspendisse pellentesque mollis turpis, vitae ullamcorper arcu sagittis in. Pellentesque viverra, diam vel ultrices lobortis, urna diam efficitur diam, non ultricies enim massa et neque. Mauris lacinia purus nibh, ac consequat mi molestie ac. Suspendisse at sapien ac magna posuere imperdiet eget id nisi. Nulla facilisi. Pellentesque id magna eu sapien consectetur pulvinar nec eget massa. Nunc ut volutpat felis. Vestibulum pharetra ligula vel mattis aliquam. Etiam tempor vitae nulla nec euismod. Vivamus eget justo libero. Curabitur dictum, turpis vel porttitor semper, elit turpis vehicula nibh, quis mollis metus tortor at magna.&lt;/p&gt;
-
-&lt;p&gt;Maecenas posuere sodales magna id tincidunt. Nunc sapien ipsum, efficitur et mauris nec, tristique gravida leo. Donec at bibendum lectus, sit amet fringilla risus. Donec et justo mi. In risus risus, faucibus eget eros eget, tincidunt posuere purus. Maecenas porta lacus metus, nec varius enim egestas ac. In hac habitasse platea dictumst. Nullam a nisi nulla. Nam vel varius enim, sit amet fringilla massa. Proin vel aliquam felis, quis scelerisque arcu.&lt;/p&gt;
-
-&lt;p&gt;Sed consequat mi id malesuada efficitur. Vestibulum efficitur tortor ut dictum porta. Morbi dapibus viverra risus, et laoreet lorem commodo et. Donec hendrerit posuere magna a efficitur. Nullam euismod eget nulla eget iaculis. Donec porttitor faucibus porta. Morbi et risus dolor. Mauris venenatis sem id neque hendrerit ultrices.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 06 Feb 2015 08:37:44 -0600</pubDate>
-        <link>http://localhost:4000/update/2015/02/06/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/update/2015/02/06/welcome-to-jekyll.html</guid>
-        
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Lorem</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/pic02.jpg&quot; class=&quot;fit image&quot; /&gt;
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus fringilla dui. Donec laoreet maximus elit. Mauris ullamcorper condimentum lobortis. Donec maximus, mi vitae iaculis placerat, ligula mi maximus lectus, ac varius mi nulla id neque. Quisque porta eros nisi, eu fringilla urna dictum vitae. Vestibulum id metus eu nisl sodales consectetur. Phasellus et ultrices lacus.&lt;/p&gt;
-
-&lt;p&gt;Curabitur orci turpis, egestas placerat velit eget, dictum pellentesque ipsum. Suspendisse potenti. Suspendisse ac maximus arcu. Sed ut mattis ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum eleifend odio vitae varius aliquam. Quisque ac pretium nisi. Curabitur tempus urna ac ultrices commodo.&lt;/p&gt;
-
-&lt;p&gt;Curabitur iaculis est at mattis mattis. Aliquam erat volutpat. Etiam vitae cursus quam. Nunc ultricies nunc non lorem fringilla cursus. Etiam dapibus libero ac turpis accumsan pulvinar. Sed auctor velit eget mi consequat bibendum. Aliquam interdum purus eget metus pretium ullamcorper.&lt;/p&gt;
-
-&lt;p&gt;Pellentesque feugiat ex non ligula commodo, eget varius tortor pellentesque. Pellentesque id tortor felis. Cras fringilla ante eget orci laoreet, non consequat urna suscipit. Pellentesque luctus ac nulla vitae porttitor. Proin sed tortor quis magna efficitur efficitur a id leo. Donec efficitur augue et laoreet maximus. Ut semper egestas porttitor. Phasellus sagittis vulputate sem at laoreet.&lt;/p&gt;
-
-&lt;p&gt;Sed lobortis urna ut mi volutpat, sit amet euismod sapien tincidunt. Nulla facilisi. Pellentesque quis tempus neque. Mauris dictum ac sapien nec congue. In hac habitasse platea dictumst. Duis id pellentesque nisl. Morbi eget massa magna.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 30 Jan 2015 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/2015/01/30/Lorem.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/01/30/Lorem.html</guid>
+        <pubDate>Tue, 12 May 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2020/05/12/Show-Trailer.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/05/12/Show-Trailer.html</guid>
         
         
       </item>

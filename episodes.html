@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="inner">
+        <h2>Episodes</h2>
+        <p>Catch Fire Show</p>
+    </div>
+</section>
+<section id="main" class="wrapper style1">
+    {% for post in site.posts %}
+        <div class="wrapper {% cycle 'style1', 'style2' %}">
+            <header class="major">
+                <h2><a href="{{ site.baseurl }}{{ post.url }}">
+                    {% if post.episode %}{{ post.episode }} // {% endif %}{{ post.title }}
+                </a></h2>
+            </header>
+            <section class="6u -3u">
+                {{ post.excerpt }}
+            </section>
+            <section class="special">
+                <ul class="actions">
+                    <li><a href="{{ site.baseurl }}{{ post.url }}" class="button {% cycle '', 'alt'%}">Read More</a></li>
+                </ul>
+            </section>
+        </div>
+    {% endfor %}
+</section>

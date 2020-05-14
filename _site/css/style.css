@@ -8,6 +8,19 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
+/* Custom */
+
+.signup {
+	margin: 0 auto;
+	max-width: 400px;
+	min-width: 200px;
+}
+
+.signup .button {
+	margin-top: 1.5em;
+}
+
+
 /* Basic */
 
 	body {
