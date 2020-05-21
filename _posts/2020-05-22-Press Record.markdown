@@ -2,7 +2,7 @@
 layout: post
 author: Daniel Fitzpatrick
 episode: 001
-sc_track_id: 820041949
+sc_track_id: 825440092
 ---
 Today we welcome Daniel Fitzpatrick to the show. Daniel is a founding member of We Are Root Mod. One of the reasons I asked Daniel to join us today is because musicians are a great example of zooming past an archetype to a prototype...
 
