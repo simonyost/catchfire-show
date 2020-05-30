@@ -1,0 +1,69 @@
+<!-- Apps Pricing Section Start -->		
+      <div id="pricing" class="themeix-price-sec pt-150 pb-120">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="sec-title p-b-50">
+                     <h2>Our Pricing</h2>
+                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut  and typesetting.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="themeix-price">
+                     <div class="tab-content">
+                        <div id="monthly" class="tab-pane fade show active" role="tabpanel">
+                           <div class="row">
+                              {% for price_table in site.data.pricing %}
+                                 <div class="col-md-4 col-sm-4  price-inner-box">
+                                    <div class="sngl-price">
+                                       <div class="price-heading">
+									   {% if price_table.name %}
+                                          <h1>{{price_table.name}}</h1>
+										{% endif %} 
+										{% if price_table.time %}
+                                          <span>{{price_table.time}}</span>		
+										{% endif %}   
+                                       </div>
+									   {% if price_table.price %}
+                                       <div class="pakage-price">									   
+                                          <h1>{{price_table.price}}</h1>
+                                       </div>
+									   {% endif %}   
+                                       <ul>
+									    {% if price_table.domain_limit %}
+                                          <li>{{price_table.domain_limit}}</li>
+										{% endif %}   
+										{% if price_table.mailbox_space %}  
+                                          <li>{{price_table.mailbox_space}}</li>
+										{% endif %}   
+										{% if price_table.bandwidth %}  										  
+                                          <li>{{price_table.bandwidth}}</li>
+										{% endif %}   
+										{% if price_table.themes %}  										  
+                                          <li>{{price_table.themes}}</li>
+										{% endif %}   
+										{% if price_table.support %}  										  
+                                          <li>{{price_table.support}}</li>
+										{% endif %}   
+										  
+                                       </ul>
+									   {% if price_table.button_label %} 
+                                       <div class="snglPrice-lrnMore">
+                                          <a href="{{price_table.url}}" class="btn price_btn">{{price_table.button_label}}</a>
+                                       </div>
+									   {% endif %} 
+                                    </div>
+                                 </div>
+                              {% endfor %}
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Apps Pricing Section End -->	
+      	

@@ -1,0 +1,36 @@
+<!-- Team Section Start -->		
+   <div id="team" class="team-sec">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="sec-title p-b-50">
+                  <h2>Meet The Guests</h2>
+                  <p>These are some of the wonderful people that you will hear on the show.</p>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <div class="all-team">
+                  {% for member in site.data.team_member %}
+                     <div class="single-team">
+                        <div class="team-thumb">	
+                           <img src="{{member.image}}" alt="{{member.name}}"/>
+                        </div>
+                        <div class="team-text">
+                           <h2>{{member.name}}</h2>
+                           <h4>{{member.designation}}</h4>
+                           <ul class="list-inline pl-0">
+                              <li class="list-inline-item"><a href="{{member.facebook_url}}"><i class="fa fa-facebook"></i></a></li>
+                              <li class="list-inline-item"><a href="{{member.twitter_url}}"><i class="fa fa-twitter"></i></a></li>
+                              <li class="list-inline-item"><a href="{{member.linkedin_url}}"><i class="fa fa-linkedin"></i></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  {% endfor %}
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+<!-- Team Section End -->

@@ -1,0 +1,27 @@
+- name: Maritin Hook
+  designation: UI/UX Designer
+  facebook_url: https://facebook.com/martinhook
+  twitter_url: https://twitter.com/martinhook
+  linkedin_url: https://linkedin.com/martinhook
+  image: /assets/images/team_1.png
+
+- name: Ross Taylor
+  designation: Soft Engineer
+  facebook_url: https://facebook.com/ross
+  twitter_url: https://twitter.com/ross
+  linkedin_url: https://linkedin.com/ross
+  image: /assets/images/team_2.png
+
+- name: Jesson Roy
+  designation: Founder/CEO
+  facebook_url: https://facebook.com/roy
+  twitter_url: https://twitter.com/roy
+  linkedin_url: https://linkedin.com/roy
+  image: /assets/images/team_3.png
+
+- name: Maritin Hook
+  designation: UI/UX Designer
+  facebook_url: https://facebook.com/martinhook
+  twitter_url: https://twitter.com/martinhook
+  linkedin_url: https://linkedin.com/martinhook
+  image: /assets/images/team_1.png

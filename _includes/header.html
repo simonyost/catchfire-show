@@ -1,18 +1,34 @@
-<!-- Header -->
-<header id="header" class="skel-layers-fixed">
-    <h1><a href="{{ site.baseurl }}/" class="site-title" >{{ site.title }}</a></h1>
-    <nav id="nav">
-        <ul>
-            <li><a href="{{ site.baseurl }}/">Home</a></li>
-            <!-- <li><a href="{{ site.baseurl }}/left-sidebar.html">Left Sidebar</a></li>
-            <li><a href="{{ site.baseurl }}/right-sidebar.html">Right Sidebar</a></li>
-            <li><a href="{{ site.baseurl }}/no-sidebar.html">No Sidebar</a></li> -->
-            <li><a href="{{ site.baseurl }}/episodes.html">Episodes</a></li>
-            {% for page in site.pages %}
-                  {% if page.title %}
-                    <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-                  {% endif %}
-            {% endfor %}
-        </ul>
-    </nav>
+
+<!-- Header Start -->
+<header>
+<!-- Main Menu Section Start -->
+<div class="menu-sec menu-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="logo">
+                    <a href="{{site.url}}"><img src="{{site.logo_url}}" alt="{{site.title}}"/></a>
+                </div>
+                <div class="logo sticky-logo">
+                    <a href="{{site.url}}"><img src="{{site.sticky_logo_url}}" alt="{{site.title}}"/></a>
+                </div>
+            </div>
+            <div class="col-md-10">
+                <div class="menu">
+                    <nav id="main-menu" class="main-menu">
+                        {% if page.layout == 'default' %}
+                            {% include navigation.html %}
+                        {% else %}
+                            <ul>
+                                <li><a href="{{site.url}}">Back to Home</a></li>
+                            </ul>
+                        {% endif %}
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Main Menu Section End -->
 </header>
+<!-- Header End -->	

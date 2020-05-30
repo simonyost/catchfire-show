@@ -1,0 +1,31 @@
+<!-- Apps Service Section Start -->	
+      <div id="services" class="service-sec pt-150 pb-120">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="sec-title p-b-50">
+                     <h2>Services</h2>
+                     <p>Lsemper viverra nam libero justo laoreet sit amet cursus sit amet dictum sit amet justo.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               {% for service in site.data.services%}
+                  <div class="col-md-4 col-sm-4 inner-box">
+                     <div class="inner">
+                        <div class="themeix-box">
+                           <div class="service-icon">
+                              <img src="{{service.icon}}" alt="{{service.name}}"/>
+                           </div>
+                           <div class="service-content">
+                              <h2>{{service.name}}</h2>
+                              <p>{{service.description}}</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               {% endfor %}
+            </div>
+         </div>
+      </div>
+      <!-- Apps Service Section End -->

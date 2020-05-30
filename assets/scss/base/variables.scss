@@ -1,0 +1,70 @@
+// Global Variables
+
+// Spacing 
+
+$sectionspace: (40,50,60,70,80,90,100,150,200); 
+$innerspace: (15,20,25,30,40,50,60); 
+$sides: (top, bottom, left, right);
+$sides2: (top, bottom);
+
+$section-200:  200px;
+$section-150:  150px;
+$section-100:  100px;
+$inner-30:  30px;
+$inner-40:  40px;
+$inner-50:  50px;
+$inner-60:  60px;
+$inner-70:  70px;
+
+// Fonts Color
+
+$color1: #ffffff;
+$color2: #F63951 ;
+$color3: #000000 ;
+$color4: #555555 ;
+$color5: #d4d4d4 ;
+$color6: #f8f8f9 ;
+
+
+// Typography
+
+$font-family1:           'Open Sans', sans-serif;
+$font-family2:          'Poppins', sans-serif;
+$font-size-base:              1.6 !default; 
+$small-font-size:             14px ; 
+$font-weight-light:           300;
+$font-weight-normal:          400 !default;
+$font-weight-medium:          500 ;
+$font-weight-semibold:        600 ;
+$font-weight-bold:            700 !default;
+$line-height-base:            1.8 !default;
+$h1-font-size:                $font-size-base * 2.5;
+$h2-font-size:                $font-size-base * 2.25;
+$h3-font-size:                $font-size-base * 2;
+$h4-font-size:                $font-size-base * 1.75;
+$h5-font-size:                $font-size-base * 1.5;
+$h6-font-size:                $font-size-base * 1;
+
+$headings-font-family:         'Poppins', sans-serif;
+$headings-line-height:        1.2 !default;
+$big-font1:                   $font-size-base * 4.75;
+$big-font2:                   $font-size-base * 3.25;
+$big-font3:                   $font-size-base * 2.75;
+// Component
+$border:                     1px solid #d6d6d6 ;
+$box-shadow:                 0 0 20px 10px #f4f4f4  !default;
+$box-shadow2:                 0 0 5px 0 rgba(0, 0, 0, 0.25) !default;
+$transition-base:             all 500ms ease !default;
+$transition2:            all 0.4s ease 0s;
+
+
+
+// Responsive Layout
+
+$desktop-device: 1195px !default;
+$laptop-device: 991px;
+$tablet-device: 767px;
+$mobile-device: 575px;
+
+
+

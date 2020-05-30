@@ -1,0 +1,31 @@
+<!-- Apps Screenshot Section Start -->		
+      <div id="screenshots" class="themeix-screenshots">
+         <div class="themeix-screenshots-overlay"></div>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="sec-title p-b-50">
+                     <h2>App Screenshot</h2>
+                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut  and typesetting.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-1"></div>
+               <div class="col-md-10">
+                  <div class="themeix-frame">
+                     <img src="/assets/images/apps-frame.png" alt=""/>
+                  </div>
+                  <div class="all-apps-screenshots">
+                     {% for screenshot in site.data.app_screenshot %}
+                        <div class="themeix-screenshots-single">
+                           <img src="{{screenshot.image}}" alt="Screenshot"/>
+                        </div>
+                     {% endfor %}
+                  </div>
+               </div>
+               <div class="col-md-1"></div>
+            </div>
+         </div>
+      </div>
+      <!-- Apps Screenshot Section End -->	
