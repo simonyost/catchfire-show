@@ -1,21 +1,17 @@
 - title: home
   url: home
-  submenu:
-  - title: home gradient
-    url: /home-gradient
-  - title: home image
-    url: /home-image
-  - title: home video
-    url: /home-video
-- title: services
-  url: services 
-- title: screenshots
-  url: screenshots
-- title: pricing
-  url: pricing
-- title: team
+#   submenu:
+#   - title: home gradient
+#     url: /home-gradient
+#   - title: home image
+#     url: /home-image
+#   - title: home video
+#     url: /home-video
+# - title: services
+#   url: services 
+- title: guests
   url: team
-- title: blog
+- title: episodes
   url: blog
 - title: contact
   url: contact
