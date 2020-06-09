@@ -1,0 +1,120 @@
+
+body {
+  font-family: $font-family1; 
+  @include font-size($font-size-base);
+  line-height: $line-height-base;
+  font-weight: $font-weight-normal;
+  color:$color4;
+}
+
+@include placeholder {
+     font-size:$font-size-base;
+	 line-height:$line-height-base;
+    font-weight:$font-weight-normal;
+}
+
+
+h1, .heading-1 { @include font-size($h1-font-size); 
+
+   @include tablet{
+       @include font-size($h1-font-size - 1.5); 
+   }
+}
+h2, .heading-2 { @include font-size($h2-font-size); 
+    @include tablet{
+	   @include font-size($h2-font-size - .5);
+	} 
+}
+h3, .heading-3 { @include font-size($h3-font-size); 
+    @include tablet{
+	    @include font-size($h3-font-size - 1.5);
+	} 
+}
+h4, .heading-4 { @include font-size($h4-font-size); 
+}
+h5, .heading-5 { @include font-size($h5-font-size);
+}
+h6, .heading-6 { @include font-size($h6-font-size);
+}
+.big-font1{ @include font-size($big-font1); }
+.big-font2{ @include font-size($big-font2); }
+.big-font3{ @include font-size($big-font3); }
+h1, h2, h3, h4, h5, h6 ,
+.heading-1, .heading-2, 
+.heading-3, .heading-4, 
+.heading-5, .heading-6{
+  font-family: $font-family2;
+  line-height:$headings-line-height;
+  font-weight: $font-weight-bold;
+
+}
+
+h1, h2, h3, h4, h5, h6, h1 a, h2 a , h3 a , h4 a, h5 a, h6 a {
+  color:$color3;
+}
+h1 a, h2 a , h3 a , h4 a, h5 a, h6 a{
+  transition:$transition-base;
+  &:hover{
+      color:$color2;
+
+  }
+}
+
+
+small,
+.small {
+  @include font-size($small-font-size);
+  font-weight: $font-weight-normal;
+}
+
+// Font Weight
+
+.font-weight-bold{
+   font-weight:$font-weight-bold !important;
+}
+.weight-semibold{
+   font-weight:$font-weight-semibold !important;
+}
+.weight-medium{
+   font-weight:$font-weight-medium !important;
+}
+.weight-normal{
+   font-weight:$font-weight-normal !important;
+}
+.weight-light{ 
+   font-weight:$font-weight-light !important;
+}
+
+
+// Invert Color
+
+
+.white-all{
+   h1,h2,h3,h4,h5,h6,p,a,span,label,input,textarea,em,b,*{
+     color:$color1 !important;
+   }
+}
+.white-text{
+     color:$color1 !important;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
