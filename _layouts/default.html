@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+   <head>
+      <!-- meta -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name='description' content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}'>
+      <meta name="keywords" content="{% if page.keywords %}{{ page.keywords}}{% else %}{{ site.keywords }}{% endif %}">
+      <!-- Facebook Open Graph -->	
+      <meta content="{{ site.title }}" property="og:site_name">
+      <meta property="og:locale" content="en_US" />
+      {% if page.title %}
+         <meta content="{{ page.title }}" property="og:title">
+      {% else %}
+         <meta content="{{ site.title }}" property="og:title">
+      {% endif %}
+      {% if page.title %}
+         <meta content="article" property="og:type">
+      {% else %}
+         <meta content="website" property="og:type">
+      {% endif %}
+      {% if page.description %}
+         <meta content="{{ page.description }}" property="og:description">
+      {% else %}
+         <meta content="{{ site.description }}" property="og:description">
+      {% endif %}
+      {% if page.url %}
+         <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+      {% endif %}	
+      {% if page.post_image %}
+          <meta content="{{ page.post_image }}" property="og:image">
+      {% else %}
+         <meta content="{{ site.cover_image }}" property="og:image">
+      {% endif %}
+      {% if page.tag %}{% for tag in page.tag %}
+         <meta content="{{ tag }}" property="article:tag">
+      {% endfor %}{% endif %}
+      {% if page.categories %}{% for category in page.categories limit:1 %}
+         <meta content="{{ category }}" property="article:section">
+      {% endfor %}{% endif %}
+      {% if page.date %}
+         <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+      {% endif %}	
+      <!-- Twitter cards -->
+      <meta name="twitter:site"    content="@{{ site.twitter_username }}">
+      <meta name="twitter:creator" content="@{{ page.twitter_username }}">
+      {% if page.title %}
+         <meta name="twitter:title"   content="{{ page.title }}">
+      {% else %}
+         <meta name="twitter:title"   content="{{ site.title }}">
+      {% endif %}	
+      {% if page.description %}
+         <meta name="twitter:description" content="{{ page.description }}">
+      {% else %}
+         <meta name="twitter:description" content="{{ site.description }}">
+      {% endif %}
+      {% if page.post_image %}
+         <meta name="twitter:card"  content="summary_large_image">
+         <meta name="twitter:image" content="{{ site.url }}{{ page.post_image }}">
+      {% else %}
+         <meta name="twitter:card"  content="summary">
+         <meta name="twitter:image" content="{{ site.cover_image }}">
+      {% endif %}
+    
+      
+      <!-- Title -->
+      <title>{% if page.title %} {{page.title}} {% else %} {{site.title}} {% endif %}</title>
+      <!-- Favicon Icon -->
+      <link rel="shortcut icon" href="{{baseurl}}/assets/images/favicon.png" type="image/x-icon"/
+      <!-- Apple Touch Icons -->
+      <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/apple-touch-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/apple-touch-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/apple-touch-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/apple-touch-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/apple-touch-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/apple-touch-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon-180x180.png">
+      
+      <!-- gulp:css -->
+      <link rel="stylesheet" href="/assets/css/app.min.css">
+      <!-- endgulp -->
+   </head>
+   <body>
+      <!-- Preloader Start -->
+      <div id="preloader">
+         <div id="preloader-status"></div>
+      </div>
+      <!-- Preloader End -->
+
+      {% include header.html %}
+         {{content}}
+      {% include footer.html %}
+
+       <!-- gulp:js -->
+       <script src="/assets/js/build.min.js"></script>
+       <!-- endgulp -->
+    </body>
+ </html>
+ 

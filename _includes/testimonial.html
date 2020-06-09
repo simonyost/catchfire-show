@@ -1,0 +1,66 @@
+<!-- Client Testimonial Section Start -->
+      <div class="client-testimonial team-sec pt-100">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="sec-title p-b-50">
+                     <h2>Client Testimonials</h2>
+                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut  and typesetting.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="client-active owl-carousel owl-theme">
+                  {% for testimonial in site.data.testimonials %}
+                     <div class="col-md-12">
+                        <div class="our-client">
+                           <div class="client-img">
+                              <img src="{{testimonial.image}}" alt="{{testimonial.name}}">
+                           </div>
+                           <div class="details">
+                              <h2><a href="{{testimonial.website}}">{{testimonial.name}}</a></h2>
+                              <span>{{testimonial.designation}}</span>
+                              <div class="client-border-shape"></div>
+                           </div>
+                           <div class="rating">
+                              <p>{{testimonial.review}}</p>
+                              {% if testimonial.rating == 1 %}
+                                 <i class="fa fa-star" aria-hidden="true"></i>
+                                 <i class="fa fa-star-o" aria-hidden="true"></i>
+                                 <i class="fa fa-star-o" aria-hidden="true"></i>
+                                 <i class="fa fa-star-o" aria-hidden="true"></i>
+                                 <i class="fa fa-star-o" aria-hidden="true"></i>
+                              {% elsif testimonial.rating == 2 %}
+                                 <i class="fa fa-star" aria-hidden="true"></i>
+                                 <i class="fa fa-star" aria-hidden="true"></i>
+                                 <i class="fa fa-star-o" aria-hidden="true"></i>
+                                 <i class="fa fa-star-o" aria-hidden="true"></i>
+                                 <i class="fa fa-star-o" aria-hidden="true"></i>
+                              {% elsif testimonial.rating == 3 %}
+                                 <i class="fa fa-star" aria-hidden="true"></i>
+                                 <i class="fa fa-star" aria-hidden="true"></i>
+                                 <i class="fa fa-star" aria-hidden="true"></i>
+                                 <i class="fa fa-star-o" aria-hidden="true"></i>
+                                 <i class="fa fa-star-o" aria-hidden="true"></i>
+                              {% elsif testimonial.rating == 4 %}
+                                 <i class="fa fa-star" aria-hidden="true"></i>
+                                 <i class="fa fa-star" aria-hidden="true"></i>
+                                 <i class="fa fa-star" aria-hidden="true"></i>
+                                 <i class="fa fa-star" aria-hidden="true"></i>
+                                 <i class="fa fa-star-o" aria-hidden="true"></i>
+                              {% elsif testimonial.rating == 5 %}
+                                 <i class="fa fa-star" aria-hidden="true"></i>
+                                 <i class="fa fa-star" aria-hidden="true"></i>
+                                 <i class="fa fa-star" aria-hidden="true"></i>
+                                 <i class="fa fa-star" aria-hidden="true"></i>
+                                 <i class="fa fa-star" aria-hidden="true"></i>
+                              {% endif %}
+                           </div>
+                        </div>
+                     </div>
+                  {% endfor %}
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Client Testimonial Section End -->  

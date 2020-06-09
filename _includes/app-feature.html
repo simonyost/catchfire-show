@@ -1,0 +1,19 @@
+<!-- Apps Feature Section Start -->	
+      <div class="themeix-feature-section pt-100 pb-100">
+      <div class="container">
+         <div class="row">
+            {% for feature in site.data.app_features %}
+               <div class="col-md-4 col-sm-4">
+                  <div class="themeix-feature-item">
+                     <div class="themeix-feature-item-icon">	
+                        <img src="{{feature.icon}}" alt="{{feature.name}}"/>
+                     </div>
+                     <h2>{{feature.name}}</h2>
+                     <p>{{feature.description}}</p>
+                  </div>
+               </div>
+            {% endfor %}
+         </div>
+      </div>
+      </div>
+      <!-- Apps Feature Section End -->

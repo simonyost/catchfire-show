@@ -1,0 +1,11 @@
+- name: Zoom Past Archetypes
+  icon: /assets/images/icon/001-forest.png
+  description: We all love archetypes--categories that are tangible--but they are currently failing us.
+
+- name: Find your Prototype
+  icon: /assets/images/icon/003-man.png
+  description: The solution to archetypes. Getting specific on who, what, and how you want to serve.
+
+- name: Continue Refining
+  icon: /assets/images/icon/bulb.png
+  description: Your prototype can evolve for the rest of your life. We are here to join you for the ride.

@@ -1,0 +1,23 @@
+- name: Awesome Design
+  icon: /assets/images/icon/pie-chart.png
+  description: Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget felis eget nunc
+
+- name: Mobile Friendly
+  icon: /assets/images/icon/rocket.png
+  description: Faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis
+
+- name: Fast Caching
+  icon: /assets/images/icon/clock.png
+  description: Titor lacus luctus accumsan tortor posuere ac ut consequat semper viverra nam libero justo laoreet.
+
+- name: Navigate Easily
+  icon: /assets/images/icon/diamond.png
+  description: With this loupe you get the chance to stun and amaze your visitors. Also to highlight.
+
+- name: Search Better
+  icon: /assets/images/icon/lock.png
+  description: Welis bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida dictum fusce ut placerat.
+
+- name: Optimized Server
+  icon: /assets/images/icon/tools.png
+  description: Lacinia at quis risus sed vulputate odio ut enim blandit volutpat maecenas volutpat blandit aliquam

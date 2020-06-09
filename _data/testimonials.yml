@@ -1,0 +1,30 @@
+- name: Mary Richards
+  image: /assets/images/client7.png
+  designation: Director, Project Management
+  review: I’ve been lucky enough to know Simon for a few years now. He’s a thoughtful, compassionate, and knowledgable mentor. I learned a lot about my work and myself while working with him. Fast forward to a few years later and Simon’s still someone I can turn to and I am grateful.
+  website: https://www.linkedin.com/in/mary-richards-2a74052/
+  rating: 5
+
+- name: Arthur Bishop
+  image: /assets/images/client4.png
+  designation: Technology & Project Leader
+  review: Simon is a uniquely innovative leader and great coach, truly ahead of his time.
+  website: https://www.linkedin.com/in/arthurbishop/
+  rating: 5
+
+- name: Jason Magers
+  image: /assets/images/client5.png
+  designation: Creative Leader & Musician
+  review: Simon is a master at synthesizing information and making it accessible and applicable which has helped to clarify my goals and take the next steps towards growth and development.
+  website: https://www.linkedin.com/in/jason-magers-7b15a31a4/
+  rating: 5
+
+- name: AJ Wallace
+  image: /assets/images/client6.png
+  designation: Software Engineer
+  review: Simon has been a key influencer in my personal and professional growth. Somehow he knew I’d be a great developer way before I did. I remember sitting at lunch dismissing his suggestion to look into coding (I was going to be a famous music producer.) A few years later I was starting my first development job.
+  website: https://www.linkedin.com/in/ajwallacemusic/
+  rating: 5
+
+
+  

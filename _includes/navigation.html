@@ -1,0 +1,14 @@
+<ul>
+    {% for link in site.data.navigation %}
+        <li>
+        <a href="#{{link.url}}">{{link.title}}</a>
+            {% if link.submenu %}
+                <ul>
+                    {% for sublink in link.submenu %}
+                    <li><a href="{{sublink.url}}">{{sublink.title}}</a></li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </li>
+    {% endfor %}
+</ul>
