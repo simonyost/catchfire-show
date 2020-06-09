@@ -9,8 +9,8 @@
 #     url: /home-video
 # - title: services
 #   url: services 
-- title: voices
-  url: team
+# - title: voices
+#   url: team
 - title: episodes
   url: blog
 - title: contact

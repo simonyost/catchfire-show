@@ -21,9 +21,15 @@
                            <h2>{{member.name}}</h2>
                            <h4>{{member.designation}}</h4>
                            <ul class="list-inline pl-0">
+                              {% if member.facebook_url %}
                               <li class="list-inline-item"><a href="{{member.facebook_url}}"><i class="fa fa-facebook"></i></a></li>
+                              {% endif %}
+                              {% if member.twitter_url %}
                               <li class="list-inline-item"><a href="{{member.twitter_url}}"><i class="fa fa-twitter"></i></a></li>
+                              {% endif %}
+                              {% if member.linkedin_url %}
                               <li class="list-inline-item"><a href="{{member.linkedin_url}}"><i class="fa fa-linkedin"></i></a></li>
+                              {% endif %}
                            </ul>
                         </div>
                      </div>
