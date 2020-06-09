@@ -1514,6 +1514,9 @@ small,
     width: 100%;
     height: auto; }
 
+blockquote {
+  margin: 0 0 2rem; }
+
 .entry-content {
   margin-bottom: 30px; }
   .entry-content blockquote {
@@ -1532,6 +1535,15 @@ small,
     width: 44px;
     height: 38px;
     background-repeat: no-repeat; }
+  .entry-content h2 {
+    margin-top: 2.5rem;
+    font-size: 20px; }
+  .entry-content h3 {
+    font-size: 15px;
+    color: #d24d00;
+    border-bottom: 1px solid #d24d00;
+    margin-bottom: .2rem;
+    padding-bottom: .2rem; }
 
 .blog-detail-button {
   float: left;
@@ -2521,6 +2533,8 @@ small,
     padding-top: 60px; }
   .pb-100 {
     padding-bottom: 60px; }
+  .pb-50 {
+    padding-bottom: 20px; }
   .pb-120 {
     padding-bottom: 40px; }
   .sec-title {
