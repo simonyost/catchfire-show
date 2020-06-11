@@ -18,6 +18,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - gulpfile.js
+  - docs/
 
 # Site Settings
 twitter_username: simonyost
