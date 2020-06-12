@@ -7,8 +7,8 @@
 #     url: /home-image
 #   - title: home video
 #     url: /home-video
-# - title: services
-#   url: services 
+- title: video
+  url: video 
 # - title: voices
 #   url: team
 - title: episodes
