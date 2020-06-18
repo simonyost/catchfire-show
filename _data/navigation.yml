@@ -1,5 +1,5 @@
 - title: home
-  url: home
+  url: /#home
 #   submenu:
 #   - title: home gradient
 #     url: /home-gradient
@@ -8,10 +8,12 @@
 #   - title: home video
 #     url: /home-video
 - title: video
-  url: video 
+  url: /#video 
 # - title: voices
 #   url: team
 - title: episodes
-  url: blog
+  url: /#blog
 - title: contact
-  url: contact
+  url: /#contact
+- title: cohort
+  url: /cohort.html

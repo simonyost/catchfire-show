@@ -1,7 +1,7 @@
 <ul>
     {% for link in site.data.navigation %}
         <li>
-        <a href="#{{link.url}}">{{link.title}}</a>
+        <a href="{{link.url}}">{{link.title}}</a>
             {% if link.submenu %}
                 <ul>
                     {% for sublink in link.submenu %}
