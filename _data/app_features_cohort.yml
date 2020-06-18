@@ -1,0 +1,11 @@
+- name: Starting Learning
+  icon: /assets/images/icon/001-forest.png
+  description: School is great and all, but lets stop just attending and start learning.
+
+- name: Unlock your Prototype
+  icon: /assets/images/icon/003-man.png
+  description: The solution to archetypes. Getting specific on who, what, and how you want to serve.
+
+- name: A Crew
+  icon: /assets/images/icon/jet.png
+  description: Join a group of others that are learning and growing together. The experience makes for fast friends.
