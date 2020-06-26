@@ -1,5 +1,5 @@
 # To Develop
-`bundle exec jekyll watch`
+`bundle exec jekyll serve`
 `gulp watch`
 
 # To Build for Deploy
