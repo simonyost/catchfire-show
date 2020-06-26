@@ -1,6 +1,6 @@
 # To Develop
 `bundle exec jekyll serve`
-`gulp watch`
+`gulp sass`
 
 # To Build for Deploy
 `bundle exec jekyll build`
