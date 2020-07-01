@@ -7,3 +7,6 @@
 `bundle exec jekyll build`
 `rm -rf ./docs`
 `mv ./_site ./docs`
+
+
+`bundle exec jekyll build && rm -rf ./docs && mv ./_site ./docs`
