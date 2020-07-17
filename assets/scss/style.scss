@@ -323,6 +323,7 @@
 .bannar-image {
 	position: relative;
 	background: #10cb7f url(../images/show_img/b6.jpg) no-repeat scroll center center / cover;
+
 	.bannar-text {
 		padding-bottom: 0;
 		ul li:last-child a {
@@ -332,6 +333,9 @@
 	.bannar-wrapper {
 		padding-bottom: $section-150;
 	}
+}
+.bannar-image.coach {
+	background: #10cb7f url(../images/show_img/b7.jpg) no-repeat scroll center center / cover;
 }
 .all-slide {
 	.owl-item {
