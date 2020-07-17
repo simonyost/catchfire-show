@@ -3,10 +3,10 @@
 # Developed by https://themeix.com
 # Version : 1.0.0
 ###################################################################
-title: Catch Fire Show | a new podcast
+title: Catch Fire Show
 email: hello@catchfire.show
 description: >- # this means to ignore newlines until "baseurl:"
-  A new podcast about zooming past archetypes and unlocking your prototype.
+  A new podcast telling stories of those activating their skills by zooming past typical career options and finding their own pattern.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://catchfire.show" # the base hostname & protocol for your site, e.g. https://example.com
 
@@ -42,6 +42,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-archives
+  - jekyll-seo-tag
 
 
 ###################################################################

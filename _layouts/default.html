@@ -63,11 +63,8 @@
          <meta name="twitter:image" content="{{ site.cover_image }}">
       {% endif %}
     
-      
-      <!-- Title -->
-      <title>{% if page.title %} {{page.title}} | {{site.title}} {% else %} {{site.title}} {% endif %}</title>
       <!-- Favicon Icon -->
-      <link rel="shortcut icon" href="{{baseurl}}/assets/images/favicon.png" type="image/x-icon"/
+      <link rel="shortcut icon" href="{{baseurl}}/assets/images/favicon.png" type="image/x-icon"/>
       <!-- Apple Touch Icons -->
       <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
       <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/apple-touch-icon-57x57.png">
@@ -83,6 +80,8 @@
       <link rel="stylesheet" href="/assets/css/app.min.css">
       <!-- endgulp -->
 
+      {% seo %}
+      
       {% include tracking.html %}
    </head>
    <body>
