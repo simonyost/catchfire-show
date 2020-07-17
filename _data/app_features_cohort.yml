@@ -1,10 +1,11 @@
-- name: Starting Learning
+- name: Activate your Skills
   icon: /assets/images/icon/001-forest.png
-  description: School is great and all, but lets stop just attending and start learning.
+  description: You have skills and can learn new ones. Let's put them to use so you can produce value and get compensated.
 
-- name: Unlock your Prototype
+- name: Unlock your Pattern
   icon: /assets/images/icon/003-man.png
-  description: The solution to archetypes. Getting specific on who, what, and how you want to serve.
+  description: >
+    Standards can be exploded into three pieces: who you serve, how you serve, and what you need to serve. Using those three pieces you can design your pattern.
 
 - name: A Crew
   icon: /assets/images/icon/jet.png

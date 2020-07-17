@@ -19,6 +19,8 @@ exclude:
   - Gemfile.lock
   - gulpfile.js
   - docs/
+  - node_modules
+  - .sass-cache
 
 # Site Settings
 twitter_username: simonyost
