@@ -1,5 +1,5 @@
 - title: home
-  url: /#home
+  url: /
 #   submenu:
 #   - title: home gradient
 #     url: /home-gradient
@@ -7,13 +7,9 @@
 #     url: /home-image
 #   - title: home video
 #     url: /home-video
-- title: video
-  url: /#video 
-# - title: voices
-#   url: team
-- title: episodes
-  url: /#blog
-- title: contact
-  url: /#contact
+- title: podcast
+  url: /podcast.html
+- title: about
+  url: /about.html
 - title: coach
   url: /coach.html

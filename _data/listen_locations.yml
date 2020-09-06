@@ -1,0 +1,15 @@
+- name: Apple Podcasts
+  fa: apple
+  url: https://podcasts.apple.com/us/podcast/catch-fire-show/id1513500111
+- name: Spoify
+  fa: spotify
+  url: https://open.spotify.com/show/47EIWNNOV5Kc1ogZQk5jnK?si=HWjoElRuRoqvGsL2kanJUA
+- name: Stitcher
+  fa: rss
+  url: https://www.stitcher.com/s?fid=549331&refid=stpr
+- name: Google Podcasts
+  fa: google
+  url: https://podcasts.google.com/?feed%3DaHR0cHM6Ly9mZWVkcy5zb3VuZGNsb3VkLmNvbS91c2Vycy9zb3VuZGNsb3VkOnVzZXJzOjI4MjI0MDM4MC9zb3VuZHMucnNz
+- name: iHeartRadio
+  fa: heart
+  url: https://www.iheart.com/podcast/269-catch-fire-show-68517274/
