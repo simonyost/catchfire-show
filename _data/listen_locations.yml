@@ -13,3 +13,6 @@
 - name: iHeartRadio
   fa: heart
   url: https://www.iheart.com/podcast/269-catch-fire-show-68517274/
+- name: Pocket Casts
+  fa: rss-square
+  url: https://pca.st/log73tm3
