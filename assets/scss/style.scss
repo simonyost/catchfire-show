@@ -334,9 +334,15 @@
 		padding-bottom: $section-150;
 	}
 }
+
+// specific banners
 .bannar-image.coach {
 	background: #10cb7f url(../images/show_img/b7.jpg) no-repeat scroll center center / cover;
 }
+.bannar-image.cast {
+	background: #10cb7f url(../images/show_img/b4.jpg) no-repeat scroll center center / cover;
+}
+
 .all-slide {
 	.owl-item {
 		height: 7$inner-50;
