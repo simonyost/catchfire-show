@@ -30,6 +30,7 @@
                     </section>
                 </div>
                 <div class="social-icon d-flex justify-content-center">
+                    <hr />
                     <ul class="list-inline">
                         {% if site.facebook_url %}
                             <li class="list-inline-item facebook"><a href="{{site.facebook_url}}"><i class="fa fa-facebook"></i> Facebook</a></li>
@@ -56,7 +57,7 @@
                 <div class="footer-bottom text-center">
                 <div class="bottom-text pt-4">
                     <p> </p>
-                    <address class="footer-address">@ Copyright - {{ site.time | date: '%Y' }}<span> | {{ site.title }} </span></address>
+                    <address class="footer-address">@ Copyright - {{ site.time | date: '%Y' }}<span> | {{ site.title }} | <a href="{{site.url}}/privacy.html">Privacy Policy</a></span></address>
                     <p></p>
                 </div>
                 </div>
