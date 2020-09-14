@@ -27,7 +27,6 @@
 @import 'base/reset';
 @import 'base/functions';
 @import 'base/typography'; 
- 
 
 .pt-150{padding-top:$section-150}
 .pb-150{padding-bottom:$section-150}
@@ -2635,3 +2634,36 @@ a.loadmore-btn:hover,a.loadmore-btn:focus, a.loadmore-btn:active  {
     color: #fff;
 }
  
+// Custom
+.list-inline {
+	text-align: center;
+.list-inline-item {
+	&.button {
+		border: 1px solid $color2;
+		padding: .6em 1.2em;
+		margin-left: auto;
+		margin-right: auto;
+		
+		&:hover {
+			background-color: $color2;
+			color: $color1;
+
+			a {
+				color: $color1;
+			}
+		}
+	}
+}
+}
+
+@media(max-width: $laptop-device) {
+	.list-inline {
+
+	.list-inline-item {
+		&.button {
+			margin-top: 1.2em;
+		}
+	}
+}
+	
+}

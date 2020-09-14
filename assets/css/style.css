@@ -2680,3 +2680,20 @@ a.loadmore-btn:hover, a.loadmore-btn:focus, a.loadmore-btn:active {
   background: #d24d00;
   border-color: #d24d00;
   color: #fff; }
+
+.list-inline {
+  text-align: center; }
+  .list-inline .list-inline-item.button {
+    border: 1px solid #d24d00;
+    padding: .6em 1.2em;
+    margin-left: auto;
+    margin-right: auto; }
+    .list-inline .list-inline-item.button:hover {
+      background-color: #d24d00;
+      color: #ffffff; }
+      .list-inline .list-inline-item.button:hover a {
+        color: #ffffff; }
+
+@media (max-width: 991px) {
+  .list-inline .list-inline-item.button {
+    margin-top: 1.2em; } }
