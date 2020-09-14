@@ -200,7 +200,7 @@
 	top: 0;
 }
 .banner-sec {
-	background:$color2;
+	background: $color2 !important;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-image: url(../images/Rose-Petals.svg);
@@ -211,6 +211,9 @@
 	display: inline-block;
 	padding:40% 0;
 
+	&.short {
+		padding:30% 0 5% 0;
+	}
 }
 .bannar-text {
 	position: relative;
@@ -2458,12 +2461,12 @@ font-size: 16px;
 display:none;
 }
 .carve-banner-sec {
-	background: #fb4d7e;
+	background: $color2;
 }
 .banner-sec {
 	padding-bottom: 90px;
 	height: auto;
-	background: #fb4d7e;
+	background:$color2;
 }
 .apps-feature-text {
 	margin-bottom: 40px;
