@@ -821,6 +821,7 @@
 }
 .team-thumb {
 	position: relative;
+	padding-bottom: 135px;
 }
 .team-thumb::before {
 	position: absolute;
@@ -2666,4 +2667,8 @@ a.loadmore-btn:hover,a.loadmore-btn:focus, a.loadmore-btn:active  {
 	}
 }
 	
+}
+
+.single-team.slick-slide.slick-center .team-text {
+	bottom: 0px;
 }

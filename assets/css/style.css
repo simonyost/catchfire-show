@@ -1264,7 +1264,8 @@ small,
           color: #000000; }
 
 .team-thumb {
-  position: relative; }
+  position: relative;
+  padding-bottom: 135px; }
 
 .team-thumb::before {
   position: absolute;
@@ -2697,3 +2698,6 @@ a.loadmore-btn:hover, a.loadmore-btn:focus, a.loadmore-btn:active {
 @media (max-width: 991px) {
   .list-inline .list-inline-item.button {
     margin-top: 1.2em; } }
+
+.single-team.slick-slide.slick-center .team-text {
+  bottom: 0px; }

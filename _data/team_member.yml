@@ -3,24 +3,46 @@
   facebook_url: https://www.facebook.com/daniel.fitzpatrickii
   twitter_url: https://twitter.com/WakeUpMusic7
   linkedin_url: https://www.linkedin.com/in/daniel-fitzpatrick-ii-10819370/
-  image: /assets/images/team_daniel.png
-
-- name: Darla Ahlert
-  designation: Solution Architect
-  facebook_url: https://www.facebook.com/alraddarla
-  linkedin_url: https://www.linkedin.com/in/darlaahlert/
-  image: /assets/images/team_darla.png
-
-- name: Simon Yost
-  designation: Host & Technology Leader
-  facebook_url: https://www.facebook.com/simonyost
-  twitter_url: https://twitter.com/simonyost
-  linkedin_url: https://www.linkedin.com/in/simonyost
-  image: /assets/images/team_simonyost.png
+  image: /assets/images/show_img/001/cast.png
 
 - name: Josh Dix
   designation: Coach at Leadershipxd.com
   facebook_url: https://www.facebook.com/jdix05
   twitter_url: https://twitter.com/leadershipxd
   linkedin_url: https://www.linkedin.com/in/josh-dix/
-  image: /assets/images/team_joshdix.png
+  image: /assets/images/show_img/005/cast.png
+
+- name: Liz Hunt
+  designation: sample2
+  facebook_url: hi
+  twitter_url: hi
+  linkedin_url: hi
+  image: /assets/images/show_img/006/cast.png
+
+- name: Kelvin Walker
+  designation: sample2
+  facebook_url: hi
+  twitter_url: hi
+  linkedin_url: hi
+  image: /assets/images/show_img/008/cast.png
+
+- name: Sean Walsh
+  designation: sample2
+  facebook_url: hi
+  twitter_url: hi
+  linkedin_url: hi
+  image: /assets/images/show_img/009/cast.png
+
+- name: David Dolak
+  designation: sample2
+  facebook_url: hi
+  twitter_url: hi
+  linkedin_url: hi
+  image: /assets/images/show_img/014/cast.png
+
+- name: Tamarah Usher
+  designation: sample2
+  facebook_url: hi
+  twitter_url: hi
+  linkedin_url: hi
+  image: /assets/images/show_img/015/cast.png
