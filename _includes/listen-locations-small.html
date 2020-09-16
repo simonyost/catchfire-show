@@ -1,32 +1,18 @@
-<!-- Apps Feature Section Start -->
-<div class="themeix-feature-section pt-100">
-   <div class="container">
+<!-- Listen Locations Start -->
+<div class="row m-b-50">
+   <div class="col-md-12">
+      <div class="social-icon d-flex justify-content-center">
 
-
-      <div class="row">
-         <div class="col-md-12">
-            <div class="sec-title">
-               <h2>Subscribe and Listen</h2>
-            </div>
-         </div>
-
+         <ul class="list-inline small">
+            {% for location in site.data.listen_locations %}
+            <li class="list-inline-item button">
+               <a href="{{location.url}}"><i class="fa fa-{{location.fa}}"></i> {{location.name}}
+               </a>
+            </li>
+            {% endfor %}
+         </ul>
       </div>
-      <div class="row">
-         <div class="col-md-12">
-            <div class="social-icon d-flex justify-content-center pt-4">
 
-               <ul class="list-inline">
-                  {% for location in site.data.listen_locations %}
-                  <li class="list-inline-item button">
-                     <a href="{{location.url}}"><i class="fa fa-{{location.fa}}"></i> {{location.name}}
-                     </a>
-                  </li>
-                  {% endfor %}
-               </ul>
-            </div>
-
-         </div>
-      </div>
    </div>
 </div>
-<!-- Apps Feature Section End -->
+<!-- Listen Locations End -->
