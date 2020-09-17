@@ -1,0 +1,18 @@
+<!-- Listen Locations Start -->
+<div class="row m-b-50">
+   <div class="col-md-12">
+      <div class="social-icon d-flex justify-content-center">
+
+         <ul class="list-inline small">
+            {% for location in site.data.listen_locations %}
+            <li class="list-inline-item button">
+               <a href="{{location.url}}"><i class="fa fa-{{location.fa}}"></i> {{location.name}}
+               </a>
+            </li>
+            {% endfor %}
+         </ul>
+      </div>
+
+   </div>
+</div>
+<!-- Listen Locations End -->

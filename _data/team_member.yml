@@ -5,12 +5,6 @@
   linkedin_url: https://www.linkedin.com/in/daniel-fitzpatrick-ii-10819370/
   image: /assets/images/show_img/001/cast.png
 
-- name: Darla Ahlert
-  designation: Solution Architect
-  facebook_url: https://www.facebook.com/alraddarla
-  linkedin_url: https://www.linkedin.com/in/darlaahlert/
-  image: /assets/images/show_img/004/cast.png
-
 - name: Josh Dix
   designation: Coach at Leadershipxd.com
   facebook_url: https://www.facebook.com/jdix05
@@ -18,9 +12,33 @@
   linkedin_url: https://www.linkedin.com/in/josh-dix/
   image: /assets/images/show_img/005/cast.png
 
-- name: Sample
-  designation: Coach at Leadershipxd.com
-  facebook_url: https://www.facebook.com/jdix05
-  twitter_url: https://twitter.com/leadershipxd
-  linkedin_url: https://www.linkedin.com/in/josh-dix/
-  image: /assets/images/show_img/006/cast.png/
+- name: Liz Hunt
+  designation: Owner & Creative Director of DayCloud Studios
+  facebook_url: https://www.facebook.com/lizhuntdesigner
+  twitter_url: https://twitter.com/lizhunt
+  linkedin_url: https://www.linkedin.com/in/liz-hunt-61639a7a/
+  image: /assets/images/show_img/006/cast.png
+
+- name: Kelvin Walker
+  designation: Metro District Superintendent of the Alliance (C&MA)
+  facebook_url: https://www.facebook.com/kelvincitocaminante
+  linkedin_url: https://www.linkedin.com/in/kelvin-walker-82a9b933/
+  image: /assets/images/show_img/008/cast.png
+
+- name: Sean Walsh
+  designation: Co-Founder and Managing Director 1904labs
+  facebook_url: https://www.facebook.com/sean.walsh.7758235
+  linkedin_url: https://www.linkedin.com/in/seanjosephwalsh/
+  image: /assets/images/show_img/009/cast.png
+
+- name: David Dolak
+  designation: Partner / Chief Creative Officer at Phoenix Creative Co.
+  facebook_url: https://www.facebook.com/david.dolak.96
+  linkedin_url: https://www.linkedin.com/in/david-dolak-2582b55/
+  image: /assets/images/show_img/014/cast.png
+
+- name: Tamarah Usher
+  designation: Digital strategist, business architect, service designer, sustainability consultant and futurist.
+  facebook_url: https://www.facebook.com/tamarahusher
+  linkedin_url: https://www.linkedin.com/in/tamarahusher/
+  image: /assets/images/show_img/015/cast.png
