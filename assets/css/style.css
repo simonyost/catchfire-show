@@ -694,7 +694,10 @@ small,
   .logo.sticky-logo {
     display: none; }
   .logo img {
-    max-height: 46px; }
+    max-width: 83%; }
+    @media (max-width: 768px) {
+      .logo img {
+        max-width: 30% !important; } }
 
 .sticky_menu .logo {
   padding: 10px 0; }
@@ -785,6 +788,16 @@ small,
   background-position: center center;
   background-image: url(../images/Rose-Petals.svg);
   background-size: cover; }
+  .banner-sec.hamilton {
+    background-image: url("../images/hamilton-banner-2.jpg") !important;
+    background-repeat: no-repeat !important;
+    background-size: auto 100% !important; }
+    @media (min-width: 1584px) {
+      .banner-sec.hamilton {
+        background-size: 100% auto !important; } }
+    .banner-sec.hamilton .bannar-wrapper {
+      display: inline-block;
+      padding: 20% 0 5% 0; }
 
 .bannar-wrapper {
   display: inline-block;
@@ -1013,7 +1026,7 @@ small,
   color: #f8f8f9; }
 
 .themeix-feature-text span {
-  color: #ff4f81;
+  color: #d24d00;
   font-size: 22px; }
 
 .themeix-feature-text h2 {
