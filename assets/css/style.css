@@ -625,6 +625,9 @@ small,
 .white-text {
   color: #ffffff !important; }
 
+.pt-40 {
+  padding-top: 40px; }
+
 .pt-150 {
   padding-top: 150px; }
 
