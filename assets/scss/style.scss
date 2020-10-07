@@ -21,6 +21,7 @@
 19.Footer Section
 ===========================*/
 
+@import "bootstrap/bootstrap";
 @import "base/fonts";
 @import "base/variables";
 @import "base/reset";
@@ -2646,6 +2647,25 @@ a.loadmore-btn:active {
 	bottom: 0px;
 }
 
+
+
+
+.ad {
+	padding: 1em;
+	margin: 0 0 60px 0;
+
+	&.hamilton {
+		background: url(/assets/images/hamilton-banner-2.jpg);
+	}
+
+	&.dark {
+		color: #eee;
+
+		h1, h2, h3, h4, h5 {
+			color: #fff;
+		}
+	}
+}
 
 // responsive video
 // https://www.ostraining.com/blog/coding/responsive-videos/

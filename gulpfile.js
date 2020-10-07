@@ -15,7 +15,7 @@
     var File_Name = 'jekyll-papp.zip';
     var CSS_Files = [
 
-        './assets/css/bootstrap.min.css',
+        // './assets/css/bootstrap.min.css', <<< added scss to build
         './assets/css/font-awesome.min.css',
         './assets/css/slick.css',
         './assets/css/slick-theme.css',

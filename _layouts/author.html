@@ -3,6 +3,7 @@ layout: default
 pagination:
   enabled: true
 ---
+
 {% assign author = site.authors | where: 'author_id', page.author_id | first %}
 <!-- Breadcrumb Start  !-->
 <div class="bradcrumb-sec">
@@ -22,6 +23,9 @@ pagination:
 <!-- Blog Section Start -->
 <div id="blog" class="blog-sec pt-150  pb-150">
   <div class="container">
+
+      {% include ad-hamilton.html %}
+
       <div class="row">
 	   {% assign author_posts = site.posts | where: 'author_id', page.author_id %}
           {% for post in author_posts %}
