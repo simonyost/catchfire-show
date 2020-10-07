@@ -18,7 +18,7 @@ comments: true
 <!-- Breadcrumb End  !-->
 
 <!-- Blog Details Start  !-->
-<div class="blog-details pt-150 pb-100">
+<div class="blog-details pt-5 pb-100">
    <div class="container">
 
       {% include ad-hamilton.html %}
@@ -28,9 +28,9 @@ comments: true
          <div class="col-md-8">
             <div class="blog-detail">
                {% if page.post_image %}
-               <div class="blog-images pb-4">
+               <!-- <div class="blog-images pb-4">
                   <img src="{{page.post_image}}" alt="{{page.title}}">
-               </div>
+               </div> -->
                {% endif %}
                <div class="entry-content">
                   {{page.content}}

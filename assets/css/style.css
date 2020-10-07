@@ -8906,7 +8906,7 @@ blockquote {
   margin-bottom: 0; }
 
 .bradcrumb-sec {
-  background-image: url(../images/post-img2.jpg);
+  background-image: url(../images/post-img3.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   padding-bottom: 120px;
@@ -8915,7 +8915,7 @@ blockquote {
   background-size: cover; }
 
 .bradcrumb-overlay {
-  background-color: rgba(210, 77, 0, 0.35);
+  background-color: rgba(0, 0, 0, 0.35);
   height: 100%;
   position: absolute;
   width: 100%;
