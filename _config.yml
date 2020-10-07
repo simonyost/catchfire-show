@@ -43,6 +43,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-archives
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 
 ###################################################################
@@ -107,6 +108,8 @@ feed:
     posts:
       path: "/sitemap.xml"
       
+whitelist:
+  - jekyll-redirect-from
  
 ###################################################################
 # If you need any help please contact our support portal
