@@ -1,3 +1,22 @@
+- name: Courtney Orlando
+  designation: Grammy award-winning artist and producer
+  facebook_url: https://www.facebook.com/iamcourtneyorlando
+  linkedin_url: https://www.linkedin.com/in/courtney-jr-peebles-05a2a19/
+  image: /assets/images/show_img/s02_02/cast.png
+
+- name: Todd Henry
+  designation: Five time author and International Speaker
+  facebook_url: http://facebook.com/toddhenry.ac
+  linkedin_url: https://www.linkedin.com/in/toddhenry1/
+  image: /assets/images/show_img/s02_03/cast.png
+
+- name: Liz Hunt
+  designation: Owner & Creative Director of DayCloud Studios
+  facebook_url: https://www.facebook.com/lizhuntdesigner
+  twitter_url: https://twitter.com/lizhunt
+  linkedin_url: https://www.linkedin.com/in/liz-hunt-61639a7a/
+  image: /assets/images/show_img/006/cast.png
+  
 - name: Daniel Fitzpatrick II
   designation: Musican, We Are Root Mod
   facebook_url: https://www.facebook.com/daniel.fitzpatrickii
@@ -11,13 +30,6 @@
   twitter_url: https://twitter.com/leadershipxd
   linkedin_url: https://www.linkedin.com/in/josh-dix/
   image: /assets/images/show_img/005/cast.png
-
-- name: Liz Hunt
-  designation: Owner & Creative Director of DayCloud Studios
-  facebook_url: https://www.facebook.com/lizhuntdesigner
-  twitter_url: https://twitter.com/lizhunt
-  linkedin_url: https://www.linkedin.com/in/liz-hunt-61639a7a/
-  image: /assets/images/show_img/006/cast.png
 
 - name: Kelvin Walker
   designation: Metro District Superintendent of the Alliance (C&MA)
@@ -42,9 +54,3 @@
   facebook_url: https://www.facebook.com/tamarahusher
   linkedin_url: https://www.linkedin.com/in/tamarahusher/
   image: /assets/images/show_img/015/cast.png
-
-- name: Courtney Orlando
-  designation: Grammy award-winning artist and producer
-  facebook_url: https://www.facebook.com/iamcourtneyorlando
-  linkedin_url: https://www.linkedin.com/in/courtney-jr-peebles-05a2a19/
-  image: /assets/images/show_img/s02_02/cast.png
