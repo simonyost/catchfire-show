@@ -8123,7 +8123,7 @@ small,
 
 .bannar-image {
   position: relative;
-  background: #10cb7f url(../images/show_img/b8.png) no-repeat scroll center center/cover; }
+  background: #10cb7f url(../images/show_img/b10.png) no-repeat scroll center center/cover; }
   .bannar-image .bannar-text {
     padding-bottom: 0; }
     .bannar-image .bannar-text ul li:last-child a {
@@ -8135,7 +8135,7 @@ small,
   background: #10cb7f url(../images/show_img/b7.jpg) no-repeat scroll center center/cover; }
 
 .bannar-image.cast {
-  background: #10cb7f url(../images/show_img/b9.png) no-repeat scroll center center/cover; }
+  background: #10cb7f url(../images/show_img/b8.png) no-repeat scroll center center/cover; }
 
 .all-slide .owl-item {
   height: 7 50px; }
