@@ -112,6 +112,10 @@ comments: true
          <!-- Sidebar Start -->
          <div class="col-md-4">
 
+            {% if page.firecard %}
+               {% include fire-card.html %}
+            {% endif %}
+
             <div class="themeix-widget-box m-b-60">
 
                <h4 class="m-b-20">News Category</h4>
