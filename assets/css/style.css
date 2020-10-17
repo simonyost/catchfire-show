@@ -8913,6 +8913,12 @@ blockquote {
   padding-top: 220px;
   position: relative;
   background-size: cover; }
+  .bradcrumb-sec.slim {
+    padding-bottom: 70px;
+    padding-top: 120px; }
+    .bradcrumb-sec.slim .page-heading h1 {
+      font-size: 32px;
+      font-weight: 600; }
 
 .bradcrumb-overlay {
   background-color: rgba(0, 0, 0, 0.35);

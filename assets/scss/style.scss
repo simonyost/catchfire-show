@@ -1333,6 +1333,16 @@ blockquote {
 	padding-top: 220px;
 	position: relative;
 	background-size: cover;
+
+	&.slim {
+		padding-bottom: 70px;
+		padding-top: 120px;
+
+		.page-heading h1 {
+			font-size: 32px;
+			font-weight: 600;
+		}
+	}
 }
 .bradcrumb-overlay {
 	background-color: adjust-color(#000, $lightness: 0%, $alpha: -0.65);
