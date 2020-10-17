@@ -2,6 +2,7 @@
 layout: default
 comments: true
 ---
+
 <!-- Breadcrumb Start  !-->
 <div class="bradcrumb-sec">
    <div class="bradcrumb-overlay"></div>
@@ -21,8 +22,12 @@ comments: true
 <div class="blog-details pt-5 pb-100">
    <div class="container">
 
-      {% include ad-hamilton.html %}
 
+      {% if page.megaphone %}
+         <iframe class="m-t-20 m-b-20" frameborder="0" height="200" scrolling="no"
+            src="https://playlist.megaphone.fm?e={{page.megaphone}}&light=true" width="100%"></iframe>
+         {% include listen-locations-small.html %}
+      {% endif %}
 
       <div class="row">
          <div class="col-md-8">
@@ -32,6 +37,9 @@ comments: true
                   <img src="{{page.post_image}}" alt="{{page.title}}">
                </div> -->
                {% endif %}
+
+               {% include ad-hamilton.html %}
+               
                <div class="entry-content">
                   {{page.content}}
                </div>
