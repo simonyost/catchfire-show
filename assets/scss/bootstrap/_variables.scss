@@ -72,13 +72,14 @@ $color3: #000000;
 $color4: #555555;
 $color5: #d4d4d4;
 $color6: #f8f8f9;
+$color7: #591200;
 
 $primary:       $color2 !default;
 $secondary:     $color4 !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
-$danger:        $red !default;
+$danger:        $color7 !default;
 $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
 

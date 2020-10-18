@@ -2692,3 +2692,14 @@ a.loadmore-btn:active {
     width:100%;
     position:absolute;
 }
+
+// fire card
+.card {
+	background-color: $color7;
+	color: $color1;
+	padding: 2em;
+
+	h4 {
+		color: $color2;
+	}
+}

@@ -1,0 +1,77 @@
+---
+layout: default
+<!-- pagination:
+  enabled: true -->
+---
+
+ <!-- Banner Section Start -->	
+ <div id="bannar-effect" class="bannar-image">
+  <div class="container">
+     <div class="row">
+        <div class="col-md-8">
+              
+                 <div class="bannar-wrapper short">
+                    <div class="bannar-text">
+                       <h2 class="text-white">Fire Cards</h2>
+                       <p>more about the cards</p>
+                       <ul class="pl-0">
+                          <li id="fb-group"><a href="https://www.facebook.com/groups/catch.fire.show"><i class="fa fa-facebook"></i> Join</a></li>
+                          <li id="subscribe-scroll"><a href="#listen"><i class="fa fa-headphones"></i> Listen</a></li>
+                       </ul>    
+                    </div>
+                 </div>
+           
+        </div>
+     </div>
+  </div>
+</div>
+<!-- Banner Section End -->		
+
+
+<!-- Blog Section Start -->
+<div id="blog" class="blog-sec pt-40  pb-150">
+  <div class="container">
+
+    <!-- <div class="row">
+      <div class="col-sm-12">
+        <div class="sec-title p-b-50">
+          <h2>Fire Cards</h2>
+        </div>
+      </div>
+    </div> -->
+
+
+    <!-- start table -->
+    <div class="row"> 
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Who</th>
+            <th scope="col">How</th>
+            <th scope="col">What</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          {% assign author_posts = site.posts %}
+          {% for post in author_posts %}
+            {% if post.firecard %}
+            <tr>
+              <td>
+                <a href="{{post.url}}">{{post.firecard.first}} {{post.firecard.last}}</a>
+              </td>
+              <td>{{post.firecard.who}}</td>
+              <td>{{post.firecard.how}}</td>
+              <td>{{post.firecard.what}}</td>
+            </tr>
+            {% endif %}
+          {% endfor %}
+
+        </tbody>
+      </table>
+    </div>
+    <!-- end table -->
+  </div>
+</div>
+<!-- Blog Section End -->

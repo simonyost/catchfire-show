@@ -8,6 +8,8 @@
 #   - title: home video
 #     url: /home-video
 - title: podcast
-  url: /podcast.html
+  url: /podcast
+- title: fire cards
+  url: /cards
 - title: coach
-  url: /coach.html
+  url: /coach
