@@ -3,11 +3,12 @@
          <div id="bannar-effect" class="bannar-image">
             <div class="container">
                <div class="row">
-                  <div class="col-md-8">
+                  <div class="col-md-10">
                         {% for banner_content in site.data.banner-content %}
                            <div class="bannar-wrapper">
                               <div class="bannar-text">
-                                 <h2 class="text-white">{{banner_content.title}}</h2>
+                                 <h2 class="text-white">{{banner_content.title1}}</h2>
+                                 <p class="lead">{{banner_content.title2}}</p>
                                  <p>{{banner_content.subtitle}}</p>
                                  <ul class="pl-0">
                                     <li id="fb-group"><a href="https://www.facebook.com/groups/catch.fire.show"><i class="fa fa-facebook"></i> Join</a></li>
