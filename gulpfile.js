@@ -41,7 +41,11 @@
         './assets/js/modernizr.min.js',
         './assets/js/waypoints.min.js',
         './assets/js/jquery.meanmenu.min.js',	
-        './assets/js/simple-jekyll-search.min.js',	
+        './assets/js/simple-jekyll-search.min.js',
+        // './node_modules/algoliasearch-helper/dist/algoliasearch.helper.js',
+        // './node_modules/instantsearch.js/dist/instantsearch.development.js',
+        // './node_modules/instantsearch.js/es/widgets/hits/defaultTemplates.js',
+        // './node_modules/instantsearch.js/es/widgets/search-box/search-box.js',
         './assets/js/app.js'
     ];
 	
