@@ -1,23 +1,24 @@
-- name: Awesome Design
-  icon: /assets/images/icon/pie-chart.png
-  description: Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget felis eget nunc
+- name: Creatives
+  examples: Musicians. Authors. Content-creators.
+  fa-icon: paint-brush
 
-- name: Mobile Friendly
-  icon: /assets/images/icon/rocket.png
-  description: Faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis
+- name: Entrepreneurs
+  examples: Successes. Failures.
+  fa-icon: line-chart
 
-- name: Fast Caching
-  icon: /assets/images/icon/clock.png
-  description: Titor lacus luctus accumsan tortor posuere ac ut consequat semper viverra nam libero justo laoreet.
+- name: Technologists
+  examples: Coders. Engineers. Designers.
+  fa-icon: laptop
 
-- name: Navigate Easily
-  icon: /assets/images/icon/diamond.png
-  description: With this loupe you get the chance to stun and amaze your visitors. Also to highlight.
+- name: Leaders
+  examples: celebrities. unknown. bosses. pracitioners.
+  fa-icon: users
 
-- name: Search Better
-  icon: /assets/images/icon/lock.png
-  description: Welis bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida dictum fusce ut placerat.
+- name: Protestors
+  examples: Minorities. Underdogs.
+  fa-icon: hand-paper-o
 
-- name: Optimized Server
-  icon: /assets/images/icon/tools.png
-  description: Lacinia at quis risus sed vulputate odio ut enim blandit volutpat maecenas volutpat blandit aliquam
+- name: Students
+  examples: Traditional. Self-taught.
+  fa-icon: graduation-cap
+
