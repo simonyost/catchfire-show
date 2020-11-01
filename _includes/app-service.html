@@ -18,13 +18,14 @@
                                  <img src="{{service.icon}}" alt="{{service.name}}"/>
                               {% endif %}
                               {%if service.fa-icon %}
-                                 <i class="fa fa-3x text-white fa-{{service.fa-icon}}"></i>
+                                 <i class="pt-1 pb-1 fa fa-2x text-white fa-{{service.fa-icon}}"></i>
                               {% endif %}
                            </div>
                            <div class="service-content">
                               <h2 class="text-uppercase">{{service.name}}</h2>
                               <p class="lead text-capitalize">{{service.examples}}</p>
                               <p>{{service.description}}</p>
+                              <a class="btn btn-secondary btn-sm" href="/podcast/{{service.tag-url}}">explore >></a>
                            </div>
                         </div>
                      </div>

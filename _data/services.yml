@@ -1,24 +1,30 @@
 - name: Creatives
   examples: Musicians. Authors. Content-creators.
   fa-icon: paint-brush
+  tag-url: creatives
 
 - name: Entrepreneurs
   examples: Successes. Failures.
   fa-icon: line-chart
+  tag-url: entrepreneurs
 
 - name: Technologists
   examples: Coders. Engineers. Designers.
   fa-icon: laptop
+  tag-url: technologists
 
 - name: Leaders
   examples: celebrities. unknown. bosses. pracitioners.
   fa-icon: users
+  tag-url: leaders
 
 - name: Protestors
   examples: Minorities. Underdogs.
   fa-icon: hand-paper-o
+  tag-url: protestors
 
 - name: Students
   examples: Traditional. Self-taught.
   fa-icon: graduation-cap
+  tag-url: students
 

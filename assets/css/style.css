@@ -8312,6 +8312,8 @@ small,
   .service-content h2 {
     font-size: 22px;
     color: #000000; }
+  .service-content .lead {
+    min-height: 4em; }
 
 .all-apps-screenshots {
   padding-top: 80px; }
