@@ -9973,3 +9973,8 @@ a.loadmore-btn:active {
   height: 100%;
   width: 100%;
   position: absolute; }
+
+.reset-ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }

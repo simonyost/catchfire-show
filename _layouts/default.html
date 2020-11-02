@@ -140,21 +140,30 @@
          instantsearch.widgets.hits({
             container: '#hits',
             cssClasses: {
-               list: 'list-group list-group-flush',
-               item: 'list-group-item',
+               list: 'row reset-ol',
+               item: 'col-md-3 col-sm-6',
             },
             templates: {
                item: function (hit) {
                   if (hit.type == 'post') {
+                     // console.log(hit);
+                     
                      return `
-                     <a href="{{ site.baseurl }}${hit.url}" class="list-group-item list-group-item-action">
-                     <div class="d-flex w-100 justify-content-between">
-                     <h5 class="mb-1">${hit.title}</h5>
+                     <div class="card">
+                     <a href="{{ site.baseurl }}${hit.url}">
+                        <img class="card-img-top mb-1" src="${hit.post_image}">
+                     </a>
+
+                     <div class="card-body">
+                     <h5 class="card-title">
+                        <a href="{{ site.baseurl }}${hit.url}">${hit.title}</a>
+                     </h5>
+                     <p class="card-text"> ${hit._highlightResult.content.value}</p>
+                     </div>
+
+                     <small>Topics: ${hit.tags}</small>
                      
                      </div>
-                     <p class="mb-2"> ${hit._highlightResult.content.value}</p>
-                     <small>Topics: ${hit.tags}</small>
-                     </a>
                      `;
                   }
                }
