@@ -1,0 +1,36 @@
+---
+layout: default
+search: true
+<!-- pagination:
+  enabled: true -->
+---
+
+
+<!-- Breadcrumb Start  !-->
+<div class="bradcrumb-sec slim">
+  <div class="bradcrumb-overlay"></div>
+  <div class="container">
+     <div class="row">
+        <div class="col-md-12 text-center">
+           <div class="page-heading">
+            <h1>Search Playground</h1>
+           </div>
+        </div>
+     </div>
+  </div>
+</div>
+<!-- Breadcrumb End  !-->
+
+<p>trying below...</p>
+
+<hr/>
+
+appId: '{{ site.algolia.application_id }}',
+indexName: '{{ site.algolia.index_name }}',
+apiKey: '{{ site.algolia.search_only_api_key }}',
+
+<hr />
+
+  search box <div id="searchbox"></div>
+
+  hits <div id="hits"></div>
