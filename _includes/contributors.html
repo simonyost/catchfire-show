@@ -1,0 +1,48 @@
+<!-- Team Section Start -->
+<div id="team" class="team-sec">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12">
+            <div class="sec-title p-b-50">
+               <h2>Contributors</h2>
+               <p>Passion people with uncommon paths.</p>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-md-12">
+            <div class="all-team">
+               {% assign contributors = site.contributors | where: 'feature', 'true'  %}
+               {% for member in contributors %}
+               <div class="single-team">
+                  <div class="team-thumb">
+                     <a href="{{member.url}}">
+                        <img src="{{member.image}}" alt="{{member.name}}" />
+                     </a>
+                  </div>
+                  <div class="team-text">
+                     <h2><a href="{{member.url}}">{{member.name}}</a></h2>
+                     <h4>{{member.bio}}</h4>
+                     <ul class="list-inline pl-0">
+                        {% if member.facebook_url %}
+                        <li class="list-inline-item"><a href="{{member.facebook_url}}"><i
+                                 class="fa fa-facebook"></i></a></li>
+                        {% endif %}
+                        {% if member.twitter_url %}
+                        <li class="list-inline-item"><a href="{{member.twitter_url}}"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        {% endif %}
+                        {% if member.linkedin_url %}
+                        <li class="list-inline-item"><a href="{{member.linkedin_url}}"><i
+                                 class="fa fa-linkedin"></i></a></li>
+                        {% endif %}
+                     </ul>
+                  </div>
+               </div>
+               {% endfor %}
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- Team Section End -->

@@ -1,13 +1,23 @@
 - title: home
   url: /
-#   submenu:
-#   - title: home gradient
-#     url: /home-gradient
-#   - title: home image
-#     url: /home-image
-#   - title: home video
-#     url: /home-video
+- title: topics
+  url: #
+  submenu:
+  - title: creatives
+    url: /podcast/creatives
+  - title: entrepreneurs
+    url: /podcast/entrepreneurs
+  - title: technologists
+    url: /podcast/technologists
+  - title: leaders
+    url: /podcast/leaders
+  - title: protestors
+    url: /podcast/protestors
+  - title: students
+    url: /podcast/students
 - title: podcast
-  url: /podcast.html
+  url: /podcast
+- title: contributors
+  url: /contributors
 - title: coach
-  url: /coach.html
+  url: /coach

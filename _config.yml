@@ -60,7 +60,7 @@ pagination:
   enabled: true
   debug: false
   collection: 'posts'
-  per_page: 3
+  per_page: 30
   permalink: '/pages/:num/' # Pages are simple html files 
   title: ':title - page :num'
   limit: 0
@@ -105,10 +105,10 @@ jekyll-archives:
     category: '/category/:name/'
  
 collections:
-  authors:
+  contributors:
     title: Authors
     output: true
-    permalink: /authors/:path/    
+    permalink: /contributors/:path/    
     
 feed:
   collections:

@@ -11,7 +11,7 @@ comments: true
          <div class="col-md-12 text-center">
             <div class="page-heading">
                <h1>{{page.title}}</h1>
-               {% if page.tags %}
+               {% if page.tags.size > 0 %}
                <p class="lead text-white">
                   /
                   {% for tag in page.tags %}
@@ -41,11 +41,6 @@ comments: true
       <div class="row">
          <div class="col-md-8">
             <div class="blog-detail">
-               {% if page.post_image %}
-               <!-- <div class="blog-images pb-4">
-                  <img src="{{page.post_image}}" alt="{{page.title}}">
-               </div> -->
-               {% endif %}
 
                <div class="entry-content">
                   {{page.content}}
@@ -72,33 +67,33 @@ comments: true
                      </a>
                   </div>
                </div>
-               {% assign author = site.authors | where: 'author_id', page.author_id | first %}
-               {% if author %}
+               {% assign contributor = site.contributors | where: 'contributor_id', page.contributor_id | first %}
+               {% if contributor %}
                <div class="admin-sec">
                   <div class="about-admin">
-                     <div class="admin-author m-b-60 clearfix">
+                     <div class="admin-contributor m-b-60 clearfix">
                         <h4 class="m-b-20">Author Bio</h4>
                         <div class="row">
                            <div class="col-md-12">
                               <div class="card profile-card-2 m-t-40">
                                  <div class="card-body pt-5">
-                                    <a href="{{author.url}}"><img src="{{author.image}}" alt="{{author.name}}"
+                                    <a href="{{contributor.url}}"><img src="{{contributor.image}}" alt="{{contributor.name}}"
                                           class="profile" /></a>
-                                    <h5 class="card-title">{{author.name}}</h5>
-                                    <p class="card-text">{{author.bio}}</p>
+                                    <h5 class="card-title">{{contributor.name}}</h5>
+                                    <p class="card-text">{{contributor.bio}}</p>
 
                                     <div class="icon-block">
-                                       {% if author.facebook %}
-                                       <a href="{{author.facebook}}"><i class="fa fa-facebook"></i></a>
+                                       {% if contributor.facebook %}
+                                       <a href="{{contributor.facebook}}"><i class="fa fa-facebook"></i></a>
                                        {% endif %}
-                                       {% if author.twitter %}
-                                       <a href="{{author.twitter}}"> <i class="fa fa-twitter"></i></a>
+                                       {% if contributor.twitter %}
+                                       <a href="{{contributor.twitter}}"> <i class="fa fa-twitter"></i></a>
                                        {% endif %}
-                                       {% if author.instagram %}
-                                       <a href="{{author.instagram}}"> <i class="fa fa-instagram"></i></a>
+                                       {% if contributor.instagram %}
+                                       <a href="{{contributor.instagram}}"> <i class="fa fa-instagram"></i></a>
                                        {% endif %}
-                                       {% if author.reddit %}
-                                       <a href="{{author.reddit}}"> <i class="fa fa-reddit"></i></a>
+                                       {% if contributor.reddit %}
+                                       <a href="{{contributor.reddit}}"> <i class="fa fa-reddit"></i></a>
                                        {% endif %}
                                     </div>
                                  </div>
@@ -121,14 +116,25 @@ comments: true
 
             <div class="themeix-widget-box m-b-60">
 
-               <h4 class="m-b-20">News Category</h4>
+               <div class="themeix-widget-box m-b-60">
+                  <h4 class="m-b-20">Topics</h4>
+                  <div class="tagcloud05">
+                     <ul>
+                        {% for tag in site.tags %}
+                        <li><a href="/podcast/{{tag[0]}}"><span>{{tag[0]}}</span></a></li>
+                        {% endfor %}
+                     </ul>
+                  </div>
+               </div>
+
+               <h4 class="m-b-20">Categories</h4>
                <ul class="list-group mb-3">
                   {% assign categories_list = site.categories %}
                   {% if categories_list.first[0] == null %}
                   {% for category in categories_cgflist %}
                   <li class="list-group-item d-flex justify-content-between lh-condensed">
                      <div>
-                        <p class="my-0"><a href="/category/{{category}}">{{ category | camelcase }}<< /a>
+                        <p class="my-0"><a href="/category/{{category}}">123{{ category | camelcase }}</a>
                         </p>
                      </div>
                      <span class="text-muted">{{ site.tags[category].size }} Posts</span>
@@ -166,16 +172,7 @@ comments: true
                </div>
                {% endfor %}
             </div>
-            <div class="themeix-widget-box m-b-60">
-               <h4 class="m-b-20">Topics</h4>
-               <div class="tagcloud05">
-                  <ul>
-                     {% for tag in site.tags %}
-                     <li><a href="/podcast/{{tag[0]}}"><span>{{tag[0]}}</span></a></li>
-                     {% endfor %}
-                  </ul>
-               </div>
-            </div>
+
          </div>
       </div>
       <!-- Sidebar End -->

@@ -10,7 +10,7 @@
 		"type": "git",
 		"url": "git://github.com/themeix/gulp-quickstart-pack.git"
 	},
-	"author": {
+	"contributor": {
 		"name": "Themeix",
 		"email": "support@themeix.com",
 		"url": "https://themeix.com"

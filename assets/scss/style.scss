@@ -1202,7 +1202,7 @@ blockquote {
 	margin-right: $inner-30;
 }
 .themeix-box-left {
-	&.post-author-thumb {
+	&.post-contributor-thumb {
 		width: 90px;
 		height: 90px;
 		display: inline-block;
@@ -1905,7 +1905,7 @@ blockquote {
 .services-left .themeix-box-body h2 {
 	margin-bottom: $inner-30;
 }
-.admin-author .themeix-box {
+.admin-contributor .themeix-box {
 	width: 100%;
 	margin-top: 80px;
 }
@@ -2059,7 +2059,7 @@ blockquote {
 .comments-details {
 	display: table;
 	width: 100%;
-	.author-image {
+	.contributor-image {
 		width: 80px;
 		float: left;
 		img {
@@ -2565,7 +2565,7 @@ div#results-container {
 		}
 	}
 }
-a.by_author {
+a.by_contributor {
 	text-transform: capitalize;
 }
 

@@ -8796,7 +8796,7 @@ blockquote {
   float: left;
   margin-right: 30px; }
 
-.themeix-box-left.post-author-thumb {
+.themeix-box-left.post-contributor-thumb {
   width: 90px;
   height: 90px;
   display: inline-block;
@@ -8806,7 +8806,7 @@ blockquote {
   margin-right: 20px;
   padding-right: 0;
   text-align: center; }
-  .themeix-box-left.post-author-thumb img {
+  .themeix-box-left.post-contributor-thumb img {
     padding-top: 11px; }
 
 .themeix-box-left.comentator-thumb {
@@ -9385,7 +9385,7 @@ blockquote {
 .services-left .themeix-box-body h2 {
   margin-bottom: 30px; }
 
-.admin-author .themeix-box {
+.admin-contributor .themeix-box {
   width: 100%;
   margin-top: 80px; }
 
@@ -9515,16 +9515,16 @@ blockquote {
 .comments-details {
   display: table;
   width: 100%; }
-  .comments-details .author-image {
+  .comments-details .contributor-image {
     width: 80px;
     float: left; }
-    .comments-details .author-image img {
+    .comments-details .contributor-image img {
       width: 80px;
       height: 80px;
       -o-object-fit: cover;
          object-fit: cover;
       border-radius: 50px; }
-    .comments-details .author-image a {
+    .comments-details .contributor-image a {
       display: block; }
   .comments-details .comment-text {
     width: calc(100% - 80px);
@@ -9890,7 +9890,7 @@ div#results-container {
         font-size: 12px;
         font-weight: 900; }
 
-a.by_author {
+a.by_contributor {
   text-transform: capitalize; }
 
 @media only screen and (min-width: 0px) and (max-width: 510px) {
