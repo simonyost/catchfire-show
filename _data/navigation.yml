@@ -19,5 +19,8 @@
   url: /podcast
 - title: contributors
   url: /contributors
+  submenu:
+  - title: host
+    url: /contributors/simon_yost
 - title: coach
   url: /coach
