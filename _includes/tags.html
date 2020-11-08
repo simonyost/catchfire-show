@@ -6,7 +6,7 @@
       <div class="row">
          <div class="col-md-12">
             <div class="sec-title">
-               <h2>Subscribe</h2>
+               <h3>Topics</h3>
             </div>
          </div>
 
@@ -15,14 +15,15 @@
          <div class="col-md-12">
             <div class="social-icon d-flex justify-content-center pt-4">
 
-               <ul class="list-inline">
-                  {% for location in site.data.listen_locations %}
-                  <li class="list-inline-item button">
-                     <a href="{{location.url}}"><i class="fa fa-{{location.fa}}"></i> {{location.name}}
-                     </a>
-                  </li>
-                  {% endfor %}
-               </ul>
+               <div class="tagcloud05">
+                  <ul>
+                     {% for tag in site.tags %}
+                     <li><a href="/podcast/{{tag[0]}}"><span>{{tag[0]}}</span></a></li>
+                     {% endfor %}
+                  </ul>
+               </div>
+
+
             </div>
 
          </div>

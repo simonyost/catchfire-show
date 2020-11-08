@@ -13,8 +13,11 @@ pagination:
     <div class="bradcrumb-overlay"></div>
     <div class="container">
        <div class="row">
-          <div class="col-md-12 text-center">
-             <div class="page-heading">
+         <div class="col-4 col-lg-3">
+          <img src="{{contributor.image}}" alt="{{contributor.name}}"/>	
+         </div>
+          <div class="col-8 col-lg-9 text-center">
+             <div class="page-heading pt-lg-5 mt-lg-5 mt-md-5 pt-md-4 pt-sm-3 pt-5">
                 <h1>{{contributor.name}}</h1>
              </div>
           </div>
@@ -29,42 +32,42 @@ pagination:
 
     <div class="row">
       <div class="col-md-3 col-sm-6 d-none d-sm-block">
-          <img src="{{contributor.image}}" alt="{{contributor.name}}"/>	
-      </div>
-      <div class="col-md-6 col-sm-6">
         <h3 class="mb-0 d-none d-sm-block">{{contributor.name}}</h3>
         <p class="mt-0 d-none d-sm-block">{{contributor.location}}</p> 
-        <ul class="pl-0">
+        <ul class="pl-0  d-none d-sm-block">
           {% if contributor.facebook_url %}
-          <li class="list-inline-item"><a href="{{member.facebook_url}}"><i class="fa fa-facebook"></i></a></li>
+          <li class="list-inline-item"><a href="{{contributor.facebook_url}}"><i class="fa fa-facebook"></i></a></li>
           {% endif %}
           {% if contributor.twitter_url %}
-          <li class="list-inline-item"><a href="{{member.twitter_url}}"><i class="fa fa-twitter"></i></a></li>
+          <li class="list-inline-item"><a href="{{contributor.twitter_url}}"><i class="fa fa-twitter"></i></a></li>
           {% endif %}
           {% if contributor.linkedin_url %}
-          <li class="list-inline-item"><a href="{{member.linkedin_url}}"><i class="fa fa-linkedin"></i></a></li>
+          <li class="list-inline-item"><a href="{{contributor.linkedin_url}}"><i class="fa fa-linkedin"></i></a></li>
           {% endif %}
        </ul>
+      </div>
+      <div class="col-md-6 col-sm-6">
        <p>{{contributor.bio}}</p>
       </div>
 
-      <div class="col-md-3 col-sm-12 d-none d-sm-block">
-        <div class="row bg-primary py-md-5 px-md-5 pt-sm-4 text-center">
-          <h1 class="col-md-12 col-sm-6 text-white mb-4">
+      <div class="col-md-3 col-sm-12">
+
+        <div class="row bg-primary py-md-5 px-md-5 pt-4 text-center">
+          <h1 class="col-md-12 col-6 text-white mb-4">
             <i class="fa fa-headphones pr-2"></i> {{contributor_posts | size}}
           </h1>
-          <h1 class="col-md-12 col-sm-6 text-white">
+          <h1 class="col-md-12 col-6 text-white">
             <i class="fa fa-file-movie-o pr-2"></i> {{contributor_clips | size}}
           </h1>
         </div>
       </div>
 
-      <div class="col-12 my-5">
+      <div class="col-12 mt-5 d-none d-sm-block">
         <hr>
       </div>
     </div>
 
-      <div class="row">
+      <div class="row mt-5">
           {% for post in contributor_posts %}
             <div class="col-md-4 col-sm-6">
               <div class="themeix-box">

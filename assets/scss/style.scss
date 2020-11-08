@@ -2024,11 +2024,12 @@ blockquote {
 	.profile {
 		border-radius: 50%;
 		position: absolute;
-		top: -42px;
-		left: 8%;
-		max-width: 75px;
-		border: 3px solid rgba(255, 255, 255, 1);
+		top: -55px;
+		left: 10%;
+		max-width: 100px;
 		transform: translate(-50%, 0);
+		border: 1px solid rgba(0,0,0,.125);
+		background-color: #eee;
 	}
 	h5 {
 		font-weight: 600;
