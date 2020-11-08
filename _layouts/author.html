@@ -5,14 +5,17 @@ pagination:
 ---
 
 {% assign author = site.authors | where: 'author_id', page.author_id | first %}
+{% assign author_posts = site.posts | where: 'author_id', page.author_id | where: post.categories, 'podcast' %}
+{% assign author_clips = null %}
+
 <!-- Breadcrumb Start  !-->
-<div class="bradcrumb-sec">
+<div class="bradcrumb-sec slim">
     <div class="bradcrumb-overlay"></div>
     <div class="container">
        <div class="row">
           <div class="col-md-12 text-center">
              <div class="page-heading">
-                <h1>{{page.title}}</h1>
+                <h1>{{author.name}}</h1>
              </div>
           </div>
        </div>
@@ -24,8 +27,44 @@ pagination:
 <div id="blog" class="blog-sec pt-150  pb-150">
   <div class="container">
 
+    <div class="row">
+      <div class="col-md-3 col-sm-6 d-none d-sm-block">
+          <img src="{{author.image}}" alt="{{author.name}}"/>	
+      </div>
+      <div class="col-md-6 col-sm-6">
+        <h3 class="mb-0 d-none d-sm-block">{{author.name}}</h3>
+        <p class="mt-0 d-none d-sm-block">{{author.location}}</p> 
+        <ul class="pl-0">
+          {% if author.facebook_url %}
+          <li class="list-inline-item"><a href="{{member.facebook_url}}"><i class="fa fa-facebook"></i></a></li>
+          {% endif %}
+          {% if author.twitter_url %}
+          <li class="list-inline-item"><a href="{{member.twitter_url}}"><i class="fa fa-twitter"></i></a></li>
+          {% endif %}
+          {% if author.linkedin_url %}
+          <li class="list-inline-item"><a href="{{member.linkedin_url}}"><i class="fa fa-linkedin"></i></a></li>
+          {% endif %}
+       </ul>
+       <p>{{author.bio}}</p>
+      </div>
+
+      <div class="col-md-3 col-sm-12 d-none d-sm-block">
+        <div class="row bg-primary py-md-5 px-md-5 pt-sm-4 text-center">
+          <h1 class="col-md-12 col-sm-6 text-white mb-4">
+            <i class="fa fa-headphones pr-2"></i> {{author_posts | size}}
+          </h1>
+          <h1 class="col-md-12 col-sm-6 text-white">
+            <i class="fa fa-file-movie-o pr-2"></i> {{author_clips | size}}
+          </h1>
+        </div>
+      </div>
+
+      <div class="col-12 my-5">
+        <hr>
+      </div>
+    </div>
+
       <div class="row">
-	   {% assign author_posts = site.posts | where: 'author_id', page.author_id %}
           {% for post in author_posts %}
             <div class="col-md-4 col-sm-6">
               <div class="themeix-box">
@@ -36,6 +75,8 @@ pagination:
                     <div class="blog-text">
                         <div class="post-info">
                           <h2><a href="{{post.url}}">{{post.title}}</a></h2>
+
+                          <h2><a href="{{post.url}}">{{post.categories}}</a></h2>
                         </div>
                         <p>{{post.excerpt}}</p>
                     </div>
