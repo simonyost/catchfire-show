@@ -22,8 +22,13 @@ pagination:
 <div id="blog" class="blog-sec pt-150 pb-150">
   <div class="container">
 
+    {% if page.pagination.collection == 'contributors' %}
+      {% assign posts = paginator.posts | sort: "name" %}
+    {% else %}
+      {% assign posts = paginator.posts %}
+    {% endif %}
       <div class="row infinite-scroll">
-        {% for post in paginator.posts %}
+        {% for post in posts %}
             {% if page.pagination.collection == 'contributors' %}
             <div class="col-md-4 col-sm-6 post-item blog-post">
               <div class="themeix-box">

@@ -1,7 +1,7 @@
 ---
 layout: default
 pagination:
-  enabled: true
+enabled: true
 ---
 
 {% assign contributor = site.contributors | where: 'contributor_id', page.contributor_id | first %}
@@ -10,20 +10,20 @@ pagination:
 
 <!-- Breadcrumb Start  !-->
 <div class="bradcrumb-sec slim">
-    <div class="bradcrumb-overlay"></div>
-    <div class="container">
-       <div class="row">
-         <div class="col-4 col-lg-3">
-          <img src="{{contributor.image}}" alt="{{contributor.name}}"/>	
-         </div>
-          <div class="col-8 col-lg-9 text-center">
-             <div class="page-heading pt-lg-5 mt-lg-5 mt-md-5 pt-md-4 pt-sm-3 pt-5">
-                <h1>{{contributor.name}}</h1>
-             </div>
-          </div>
-       </div>
+  <div class="bradcrumb-overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-4 col-lg-3">
+        <img src="{{contributor.image}}" alt="{{contributor.name}}" />
+      </div>
+      <div class="col-8 col-lg-9 text-center">
+        <div class="page-heading pt-lg-5 mt-lg-5 mt-md-5 pt-md-4 pt-sm-3 pt-5">
+          <h1>{{contributor.name}}</h1>
+        </div>
+      </div>
     </div>
- </div>
+  </div>
+</div>
 <!-- Breadcrumb End  !-->
 
 <!-- Blog Section Start -->
@@ -33,7 +33,7 @@ pagination:
     <div class="row">
       <div class="col-md-3 col-sm-6 d-none d-sm-block">
         <h3 class="mb-0 d-none d-sm-block">{{contributor.name}}</h3>
-        <p class="mt-0 d-none d-sm-block">{{contributor.location}}</p> 
+        <p class="mt-0 d-none d-sm-block">{{contributor.location}}</p>
         <ul class="pl-0  d-none d-sm-block">
           {% if contributor.facebook_url %}
           <li class="list-inline-item"><a href="{{contributor.facebook_url}}"><i class="fa fa-facebook"></i></a></li>
@@ -44,10 +44,14 @@ pagination:
           {% if contributor.linkedin_url %}
           <li class="list-inline-item"><a href="{{contributor.linkedin_url}}"><i class="fa fa-linkedin"></i></a></li>
           {% endif %}
-       </ul>
+        </ul>
       </div>
       <div class="col-md-6 col-sm-6">
-       <p>{{contributor.bio}}</p>
+        {% if page.content.size > 0 %}
+          {{page.content}}
+        {% else%}
+          <p>{{contributor.bio}}</p>
+        {% endif %}
       </div>
 
       <div class="col-md-3 col-sm-12">
@@ -67,28 +71,28 @@ pagination:
       </div>
     </div>
 
-      <div class="row mt-5">
-          {% for post in contributor_posts %}
-            <div class="col-md-4 col-sm-6">
-              <div class="themeix-box">
-                  <div class="single-post">
-                    <div class="single-post-thumb">	
-                        <img src="{{post.post_image}}" alt="{{post.title}}"/>	
-                    </div>
-                    <div class="blog-text">
-                        <div class="post-info">
-                          <h2><a href="{{post.url}}">{{post.title}}</a></h2>
-
-                          <h2><a href="{{post.url}}">{{post.categories}}</a></h2>
-                        </div>
-                        <p>{{post.excerpt}}</p>
-                    </div>
-                  </div>
-              </div>
+    <div class="row mt-5">
+      {% for post in contributor_posts %}
+      <div class="col-md-4 col-sm-6">
+        <div class="themeix-box">
+          <div class="single-post">
+            <div class="single-post-thumb">
+              <img src="{{post.post_image}}" alt="{{post.title}}" />
             </div>
-        {% endfor %}
-        
+            <div class="blog-text">
+              <div class="post-info">
+                <h2><a href="{{post.url}}">{{post.title}}</a></h2>
+
+                <h2><a href="{{post.url}}">{{post.categories}}</a></h2>
+              </div>
+              <p>{{post.excerpt}}</p>
+            </div>
+          </div>
+        </div>
       </div>
+      {% endfor %}
+
+    </div>
   </div>
 </div>
 <!-- Blog Section End -->
