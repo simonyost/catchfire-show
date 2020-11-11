@@ -114,6 +114,8 @@ feed:
   collections:
     posts:
       path: "/sitemap.xml"
+    contributors:
+      path: "/contributors.xml"
       
 whitelist:
   - jekyll-redirect-from
