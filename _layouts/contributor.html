@@ -35,14 +35,17 @@ enabled: true
         <h3 class="mb-0 d-none d-sm-block">{{contributor.name}}</h3>
         <p class="mt-0 d-none d-sm-block">{{contributor.location}}</p>
         <ul class="pl-0  d-none d-sm-block">
+          {% if contributor.website %}
+          <li class="list-inline-item"><a href="{{contributor.website}}" target="_blank"><i class="fa fa-globe"></i></a></li>
+          {% endif %}
           {% if contributor.facebook_url %}
-          <li class="list-inline-item"><a href="{{contributor.facebook_url}}"><i class="fa fa-facebook"></i></a></li>
+          <li class="list-inline-item"><a href="{{contributor.facebook_url}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
           {% endif %}
           {% if contributor.twitter_url %}
-          <li class="list-inline-item"><a href="{{contributor.twitter_url}}"><i class="fa fa-twitter"></i></a></li>
+          <li class="list-inline-item"><a href="{{contributor.twitter_url}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
           {% endif %}
           {% if contributor.linkedin_url %}
-          <li class="list-inline-item"><a href="{{contributor.linkedin_url}}"><i class="fa fa-linkedin"></i></a></li>
+          <li class="list-inline-item"><a href="{{contributor.linkedin_url}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
           {% endif %}
         </ul>
       </div>

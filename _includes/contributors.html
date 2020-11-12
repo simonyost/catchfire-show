@@ -25,16 +25,20 @@
                      <h4>{{member.bio}}</h4>
                      <ul class="list-inline pl-0">
                         {% if member.facebook_url %}
-                        <li class="list-inline-item"><a href="{{member.facebook_url}}"><i
+                        <li class="list-inline-item"><a href="{{member.facebook_url}}" target="_blank"><i
                                  class="fa fa-facebook"></i></a></li>
                         {% endif %}
                         {% if member.twitter_url %}
-                        <li class="list-inline-item"><a href="{{member.twitter_url}}"><i class="fa fa-twitter"></i></a>
+                        <li class="list-inline-item"><a href="{{member.twitter_url}}" target="_blank"><i class="fa fa-twitter"></i></a>
                         </li>
                         {% endif %}
                         {% if member.linkedin_url %}
-                        <li class="list-inline-item"><a href="{{member.linkedin_url}}"><i
+                        <li class="list-inline-item"><a href="{{member.linkedin_url}}" target="_blank"><i
                                  class="fa fa-linkedin"></i></a></li>
+                        {% endif %}
+                        {% if member.website %}
+                        <li class="list-inline-item"><a href="{{member.website}}" target="_blank"><i
+                                 class="fa fa-globe"></i></a></li>
                         {% endif %}
                      </ul>
                   </div>
