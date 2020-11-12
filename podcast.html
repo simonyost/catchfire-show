@@ -37,7 +37,8 @@ redirect_from:
     </div>
     <div class="row">
 
-      {% for post in site.posts %}
+      {% assign posts = site.posts | where: 'categories', 'podcast'  %}
+      {% for post in posts %}
       <div class="col-md-4 col-sm-6">
         <div class="themeix-box">
           <div class="single-post">
