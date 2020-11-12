@@ -5,3 +5,4 @@ node_modules
 vendor/
 .bundle/
 .DS_Store
+assets/images/.DS_Store
