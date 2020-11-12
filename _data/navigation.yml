@@ -1,7 +1,7 @@
 - title: home
   url: /
 - title: topics
-  url: /podcast
+  url: /topics
   submenu:
   - title: creatives
     url: /podcast/creatives
