@@ -37,13 +37,19 @@ comments: true
       {% endif %}
 
       {% if page.youtube %}
-      <div class="video-responsive">
-         <iframe src="https://www.youtube.com/embed/{{page.youtube}}?modestbranding=1&rel=0&cc_load_policy=1&theme=light&fs=0&controls=1" width="560" height="315" frameborder="0"></iframe>
-     </div>
-     {% endif %}
+      <div class="row">
+         <div class="col-12 col-lg-8 offset-lg-2 mb-2 mb-lg-4">
+            <div class="video-responsive">
+               <iframe
+                  src="https://www.youtube.com/embed/{{page.youtube}}?modestbranding=1&rel=0&cc_load_policy=1&theme=light&fs=0&controls=1"
+                  width="560" height="315" frameborder="0"></iframe>
+            </div>
+         </div>
+      </div>
+      {% endif %}
 
-     {% include listen-locations-small.html %}
-     <hr class="mb-5" />
+      {% include listen-locations-small.html %}
+      <hr class="mb-5" />
 
       <div class="row">
          <div class="col-md-8">
@@ -84,8 +90,8 @@ comments: true
                            <div class="col-md-12">
                               <div class="card profile-card-2 m-t-40">
                                  <div class="card-body pt-5">
-                                    <a href="{{contributor.url}}"><img src="{{contributor.image}}" alt="{{contributor.name}}"
-                                          class="profile" /></a>
+                                    <a href="{{contributor.url}}"><img src="{{contributor.image}}"
+                                          alt="{{contributor.name}}" class="profile" /></a>
                                     <h5 class="card-title">{{contributor.name}}</h5>
                                     <p class="card-text">{{contributor.bio}}</p>
 
