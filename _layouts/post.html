@@ -34,9 +34,16 @@ comments: true
 
       <iframe class="m-t-20 m-b-20" frameborder="0" height="200" scrolling="no"
          src="https://playlist.megaphone.fm?e={{page.megaphone}}&light=true" width="100%"></iframe>
-      {% include listen-locations-small.html %}
-      <hr class="mb-5" />
       {% endif %}
+
+      {% if page.youtube %}
+      <div class="video-responsive">
+         <iframe src="https://www.youtube.com/embed/{{page.youtube}}?modestbranding=1&rel=0&cc_load_policy=1&theme=light&fs=0&controls=1" width="560" height="315" frameborder="0"></iframe>
+     </div>
+     {% endif %}
+
+     {% include listen-locations-small.html %}
+     <hr class="mb-5" />
 
       <div class="row">
          <div class="col-md-8">

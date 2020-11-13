@@ -20,6 +20,8 @@
 - title: contributors
   url: /contributors
   submenu:
+  - title: all
+    url: /contributors
   - title: host
     url: /contributors/simon_yost
 - title: coach

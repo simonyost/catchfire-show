@@ -5,8 +5,9 @@ enabled: true
 ---
 
 {% assign contributor = site.contributors | where: 'contributor_id', page.contributor_id | first %}
-{% assign contributor_posts = site.posts | where: 'contributor_id', page.contributor_id | where: post.categories, 'podcast' %}
-{% assign contributor_clips = null %}
+{% assign contributor_posts = site.posts | where: 'contributor_id', page.contributor_id | sort: "title" %}
+{% assign contributor_podcast = site.posts | where: 'contributor_id', page.contributor_id | where: 'categories', 'podcast' %}
+{% assign contributor_clips = site.posts | where: 'contributor_id', page.contributor_id | where: 'categories', 'clip' %}
 
 <!-- Breadcrumb Start  !-->
 <div class="bradcrumb-sec slim">
@@ -61,10 +62,10 @@ enabled: true
 
         <div class="row bg-primary py-md-5 px-md-5 pt-4 text-center">
           <h1 class="col-md-12 col-6 text-white mb-4">
-            <i class="fa fa-headphones pr-2"></i> {{contributor_posts | size}}
+            <i class="fa fa-headphones pr-2"></i> {{contributor_podcast.size}}
           </h1>
           <h1 class="col-md-12 col-6 text-white">
-            <i class="fa fa-file-movie-o pr-2"></i> {{contributor_clips | size}}
+            <i class="fa fa-file-movie-o pr-2"></i> {{contributor_clips.size}}
           </h1>
         </div>
       </div>

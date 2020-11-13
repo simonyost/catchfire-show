@@ -27,19 +27,10 @@ comments: true
 <!-- Breadcrumb End  !-->
 
 <!-- Blog Details Start  !-->
-<div class="blog-details pt-5 pb-100">
+<div class="blog-details pt-5">
    <div class="container">
-
-      {% if page.megaphone %}
-
-      <iframe class="m-t-20 m-b-20" frameborder="0" height="200" scrolling="no"
-         src="https://playlist.megaphone.fm?e={{page.megaphone}}&light=true" width="100%"></iframe>
-      {% include listen-locations-small.html %}
-      <hr class="mb-5" />
-      {% endif %}
-
       <div class="row">
-         <div class="col-md-8">
+         <div class="col-12">
             <div class="blog-detail">
 
                <div class="entry-content">
@@ -67,115 +58,17 @@ comments: true
                      </a>
                   </div>
                </div>
-               {% assign contributor = site.contributors | where: 'contributor_id', page.contributor_id | first %}
-               {% if contributor %}
-               <div class="admin-sec">
-                  <div class="about-admin">
-                     <div class="admin-contributor m-b-60 clearfix">
-                        <h4 class="m-b-20">Author Bio</h4>
-                        <div class="row">
-                           <div class="col-md-12">
-                              <div class="card profile-card-2 m-t-40">
-                                 <div class="card-body pt-5">
-                                    <a href="{{contributor.url}}"><img src="{{contributor.image}}" alt="{{contributor.name}}"
-                                          class="profile" /></a>
-                                    <h5 class="card-title">{{contributor.name}}</h5>
-                                    <p class="card-text">{{contributor.bio}}</p>
 
-                                    <div class="icon-block">
-                                       {% if contributor.facebook %}
-                                       <a href="{{contributor.facebook}}"><i class="fa fa-facebook"></i></a>
-                                       {% endif %}
-                                       {% if contributor.twitter %}
-                                       <a href="{{contributor.twitter}}"> <i class="fa fa-twitter"></i></a>
-                                       {% endif %}
-                                       {% if contributor.instagram %}
-                                       <a href="{{contributor.instagram}}"> <i class="fa fa-instagram"></i></a>
-                                       {% endif %}
-                                       {% if contributor.reddit %}
-                                       <a href="{{contributor.reddit}}"> <i class="fa fa-reddit"></i></a>
-                                       {% endif %}
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               {% endif %}
             </div>
-            <div class="comment-form ">
-               {% if page.comments %}
-               {% include disqus-comment.html %}
-               {% endif %}
-            </div>
-         </div>
-         <!-- Sidebar Start -->
-         <div class="col-md-4">
-
-            <div class="themeix-widget-box m-b-60">
-
-               <div class="themeix-widget-box m-b-60">
-                  <h4 class="m-b-20">Topics</h4>
-                  <div class="tagcloud05">
-                     <ul>
-                        {% for tag in site.tags %}
-                        <li><a href="/podcast/{{tag[0]}}"><span>{{tag[0]}}</span></a></li>
-                        {% endfor %}
-                     </ul>
-                  </div>
-               </div>
-
-               <h4 class="m-b-20">Categories</h4>
-               <ul class="list-group mb-3">
-                  {% assign categories_list = site.categories %}
-                  {% if categories_list.first[0] == null %}
-                  {% for category in categories_cgflist %}
-                  <li class="list-group-item d-flex justify-content-between lh-condensed">
-                     <div>
-                        <p class="my-0"><a href="/category/{{category}}">123{{ category | camelcase }}</a>
-                        </p>
-                     </div>
-                     <span class="text-muted">{{ site.tags[category].size }} Posts</span>
-                  </li>
-                  {% endfor %}
-                  {% else %}
-                  {% for category in categories_list %}
-                  <li class="list-group-item d-flex justify-content-between lh-condensed">
-                     <div>
-                        <p class="my-0"><a href="/category/{{category[0]}}">{{ category[0] | camelcase }}</a></p>
-                     </div>
-                     <span class="text-muted">{{ category[1].size }} Posts</span>
-                  </li>
-                  {% endfor %}
-                  {% endif %}
-                  {% assign categories_list = nil %}
-               </ul>
-            </div>
-            <div class="themeix-widget-box m-b-60">
-               <h4 class="m-b-20">Recent Post</h4>
-               {% for post in site.posts limit:5 %}
-               <div class="themeix-post-box clearfix">
-                  <div class="img-left">
-                     <a href="{{post.url}}"><img src="{{post.post_image}}" alt="{{post.title}}"></a>
-                  </div>
-                  <div class="themeix-box-body">
-                     <div class="themeix-box-right">
-                        <h3><a href="{{post.url}}">{{post.title}}</a></h3>
-                        <ul class="pl-0">
-                           <li><a href="#"><i class="fa fa-calendar"
-                                    aria-hidden="true"></i>{{ post.date | date: "%b %d, %Y" }}</a></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-               {% endfor %}
-            </div>
-
          </div>
       </div>
-      <!-- Sidebar End -->
+      
+      <row class="mt-0 pt-0">
+         <div class="col-12 mt-0 pt-0 mb-5">
+            <hr class="mb-5">
+            {% include tags.html %}
+         </div>
+      </row>
    </div>
 </div>
 <!-- Blog Details End  !-->
