@@ -15,7 +15,11 @@ excerpt: "Graduating soon? Spend time learning about your next adventure."
 
 <div class="row">
     <div class="col-md-6 offset-md-3">
-        <p class="lead">Graduating soon? Spend time learning about <b>your next adventure</b> with us at Catch Fire Show. Explore stories of passionate people taking uncommon paths.</p>
+        <p class="lead">Are you graduating soon? If so, what comes next is unscripted. <b>It is up to you!</b></p>
+        <p class="lead">You have the potential to set your course. Join us in believing that. Whatever comes next is a course you influence. Take a moment to dream. Set aside your circumstances, your place, or your income, and imagine for a moment.</p>
+        <p class="lead">Our goal at the Catch Fire Show is to show you what’s possible. Your story will be uniquely yours. <b>Let’s dive in and explore together.</b></p>
+
+
         <hr class="my-5">
     </div>
 </div>
