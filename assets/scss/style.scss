@@ -2684,11 +2684,15 @@ a.loadmore-btn:active {
 
 // responsive video
 // https://www.ostraining.com/blog/coding/responsive-videos/
-.video-responsive{
+.video-responsive {
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
-    height:0;
+	height:0;
+	
+	&.square {
+		padding-bottom:100%;
+	}
 }
 .video-responsive iframe{
     left:0;
@@ -2696,4 +2700,18 @@ a.loadmore-btn:active {
     height:100%;
     width:100%;
     position:absolute;
+}
+
+// topics
+
+.clip {
+	p {
+		min-height: 114px;
+	}
+
+	&.tall {
+		p {
+			min-height: 195px;
+		}
+	}
 }
