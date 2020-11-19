@@ -358,7 +358,32 @@
 
 .bannar-image {
 	position: relative;
-	background: #10cb7f url(../images/show_img/b11.png) no-repeat scroll center center / cover;
+	background: $primary url(../images/show_img/b11.png) no-repeat scroll center center / cover;
+
+	// specific banners
+	&.coach {
+		background: $primary url(../images/show_img/b7.png) no-repeat scroll center center / cover;
+	}
+	&.cast {
+		background: $primary url(../images/show_img/b8.png) no-repeat scroll center center / cover;
+	}
+	&.friendsgiving {
+		background: $primary url(../images/friendsgiving/04.png) no-repeat scroll center center / cover;
+
+		.bannar-wrapper {
+			padding: 65% 0 15% 0;
+
+			@media (max-width: 768px) {
+				padding: 350px 0 50px 0;
+			}
+			@media only screen and (min-width: 768px) and (max-width: 991px) {
+				padding: 340px 0 80px 0;
+			}
+			@media only screen and (min-width: 1199px) {
+				padding: 450px 0 100px 0;
+			}
+		}
+	}
 
 	.bannar-text {
 		padding-bottom: 0;
@@ -371,13 +396,6 @@
 	}
 }
 
-// specific banners
-.bannar-image.coach {
-	background: #10cb7f url(../images/show_img/b7.png) no-repeat scroll center center / cover;
-}
-.bannar-image.cast {
-	background: #10cb7f url(../images/show_img/b8.png) no-repeat scroll center center / cover;
-}
 
 .all-slide {
 	.owl-item {
