@@ -2733,3 +2733,30 @@ a.loadmore-btn:active {
 		}
 	}
 }
+
+// themeix-describe-sec
+.themeix-describe-sec {
+	background-color: $primary;
+
+	a {
+		color: white !important;
+		text-decoration: underline;
+	}
+
+	.patreon {
+		width: 1.5em;
+	}
+
+	ul {
+		li {
+			a {
+				background-color: #222 !important;
+				text-decoration: none;
+
+				&:hover{
+					border-color: #fff;
+				}
+			}
+		}
+	}
+}

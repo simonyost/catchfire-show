@@ -8442,3 +8442,16 @@ a.loadmore-btn:active {
 
 .clip.tall p {
   min-height: 195px; }
+
+.themeix-describe-sec {
+  background-color: #d24d00; }
+  .themeix-describe-sec a {
+    color: white !important;
+    text-decoration: underline; }
+  .themeix-describe-sec .patreon {
+    width: 1.5em; }
+  .themeix-describe-sec ul li a {
+    background-color: #222 !important;
+    text-decoration: none; }
+    .themeix-describe-sec ul li a:hover {
+      border-color: #fff; }
