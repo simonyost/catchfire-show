@@ -1356,6 +1356,10 @@ blockquote {
 	position: relative;
 	background-size: cover;
 
+	&.contributor {
+		background-image: url(../images/map-wide.png);
+	}
+
 	&.slim {
 		padding-bottom: 70px;
 		padding-top: 120px;

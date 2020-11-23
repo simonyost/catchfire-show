@@ -7375,6 +7375,8 @@ blockquote {
   padding-top: 220px;
   position: relative;
   background-size: cover; }
+  .bradcrumb-sec.contributor {
+    background-image: url(../images/map-wide.png); }
   .bradcrumb-sec.slim {
     padding-bottom: 70px;
     padding-top: 120px; }
