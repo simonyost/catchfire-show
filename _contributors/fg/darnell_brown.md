@@ -7,7 +7,7 @@ twitter_url:
 linkedin_url: https://www.linkedin.com/in/darnell-dj-brown-4b28a0134/
 website: 
 bio: 
-#image: /assets/images/contributor_img/vince_mahtani.png
+image: /assets/images/contributor_img/darnell_brown.png
 location: St. Louis, MO, USA
 ---
 

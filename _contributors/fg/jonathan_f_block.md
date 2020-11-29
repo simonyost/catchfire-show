@@ -7,7 +7,7 @@ twitter_url: https://twitter.com/JonathanFBlock
 linkedin_url: https://www.linkedin.com/in/jonathanfblock/
 website: 
 bio: 
-#image: /assets/images/contributor_img/vince_mahtani.png
+image: /assets/images/contributor_img/jonathan_block.png
 location: Atlanta, GA, USA
 ---
 With experience in industry, big 4 consulting, and the US White House, Jonathan has successfully guided CEO handovers, culture turnarounds, digital transformations, mergers and acquisitions, strategy changes, and technology implementations. In the organizational development space more broadly, he has launched innovation greenhouses and led performance management for Fortune 250 companies. Jonathan's work has reached thousands of employees in more than 25 countries, and he has served clients on six continents.

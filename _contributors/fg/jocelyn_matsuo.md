@@ -7,7 +7,7 @@ twitter_url: https://twitter.com/jocelynmatsuo
 linkedin_url: https://www.linkedin.com/in/jocelyn-matsuo-68851753/
 website: 
 bio: Software Developer, Actor, Entrepreneur
-#image: /assets/images/contributor_img/vince_mahtani.png
+image: /assets/images/contributor_img/jocelyn_matsuo.png
 location: St. Louis, MO, USA
 ---
 

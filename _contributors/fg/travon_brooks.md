@@ -7,7 +7,7 @@ twitter_url:
 linkedin_url: https://www.linkedin.com/in/tavon-t-brooks-60237380/
 website: 
 bio: Mentor, Activitist, Entrepreneur
-#image: /assets/images/contributor_img/vince_mahtani.png
+image: /assets/images/contributor_img/tavon_brooks.png
 location: St. Louis, MO, USA
 ---
 

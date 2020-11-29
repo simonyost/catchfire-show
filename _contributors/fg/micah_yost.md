@@ -7,7 +7,7 @@ twitter_url: https://twitter.com/micahyost
 linkedin_url: https://www.linkedin.com/in/micahyost/
 website: 
 bio: Entrepreneur
-#image: /assets/images/contributor_img/vince_mahtani.png
+image: /assets/images/contributor_img/micah_yost.png
 location: Omaha, NE, USA
 ---
 
