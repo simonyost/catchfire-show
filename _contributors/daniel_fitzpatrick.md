@@ -2,7 +2,7 @@
 layout: contributor
 name: Daniel Fitzpatrick II
 contributor_id: 2
-facebook_url: https://www.facebook.com/daniel.fitzpatrickii
+facebook_url: https://www.facebook.com/Sonic-Souljah-100785638537325/
 twitter_url: https://twitter.com/WakeUpMusic7
 linkedin_url: https://www.linkedin.com/in/daniel-fitzpatrick-ii-10819370/
 website: https://www.thewakeupmusic.com
@@ -11,7 +11,7 @@ image: /assets/images/contributor_img/daniel_fitzpatrick.png
 location: St. Louis, MO, USA
 feature: true
 ---
-Daniel Fitzpatrick II is the founder of <a href="https://www.thewakeupmusic.com">Wake Up Music Group</a>, a music production company that composes music for many styles, genres, and purposes. He serves as a songwriter, composer, sound engineer, pianist and cellist.
+Daniel Fitzpatrick II (a.k.a. Sonic Souljah) is the founder of <a href="https://www.thewakeupmusic.com">Wake Up Music Group</a>, a music production company that composes music for many styles, genres, and purposes. He serves as a songwriter, composer, sound engineer, pianist and cellist.
 
 Coming from a family of musicians, it didn't take very long for the gift of playing and creating music to shine through Daniel's life. Daniel's father, Daniel "LaDale" Fitzpatrick I, served as a wonderful inspiration to music as a pianist, organist, and songwriter, sharing the stage and the studio with artists such as Buddy Guy, Willie Clayton, Walter Hawkins, and many more. Being around this type of musicianship was infectious, and served as a solid foundation for the things to come. At 9 years old, Daniel began playing  classical music on the cello and at 14, out of curiosity and inspiration from his father, Daniel began playing piano and recording music.
 
