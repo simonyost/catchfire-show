@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Jonathan F. Block joins Friendsgiving"
+title: "Jonathan F. Block joins Friendsgiving 2020"
 redirect_from:
 - /jb
 date: 2020-11-25 01:00:00
 post_image: /assets/images/friendsgiving/jonathan.png
-tags: [leaders]
+tags: [leaders, friendsgiving]
 categories: [podcast]
 contributor_id: 26
 comments: false
