@@ -8445,6 +8445,9 @@ a.loadmore-btn:active {
 .clip.tall p {
   min-height: 195px; }
 
+.patreon.icon {
+  width: 1.2em; }
+
 .themeix-describe-sec {
   background-color: #d24d00; }
   .themeix-describe-sec a {

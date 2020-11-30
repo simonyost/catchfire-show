@@ -6,7 +6,7 @@ facebook_url: https://www.facebook.com/jonathanfblock
 twitter_url: https://twitter.com/JonathanFBlock
 linkedin_url: https://www.linkedin.com/in/jonathanfblock/
 website: 
-bio: 
+bio: Former White House staffer and Communication Leader
 image: /assets/images/contributor_img/jonathan_block.png
 location: Atlanta, GA, USA
 ---

@@ -1,5 +1,5 @@
 <!-- Apps Descriptions Section Start -->	
-      <div id="about" class="themeix-describe-sec py-5 mt-5">
+      <div id="community" class="themeix-describe-sec py-5 mt-5">
          <div class="container">
             <div class="row">
                <div class="col-md-6 d-flex align-items-center">

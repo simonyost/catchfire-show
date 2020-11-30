@@ -10,4 +10,4 @@ bio: Entrepreneur
 image: /assets/images/contributor_img/micah_yost.png
 location: Omaha, NE, USA
 ---
-
+Micah's experienced over the past 15 years working with technology, communication, and creativity. He is eternally curious and always learning new things. He is specifically fascinated with the future of work. Micah has consulted around the world on marketing, lead generation, and communication. He has helped raise over $500 million in funding by crafting unique pitches and communication strategies. 
