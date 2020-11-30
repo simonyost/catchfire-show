@@ -8,7 +8,7 @@ tags: [students]
 categories: [topic]
 contributor_id: 14
 comments: false
-featured: true
+featured: false
 description: "Graduating soon? Spend time learning about your next adventure."
 excerpt: "Graduating soon? Spend time learning about your next adventure."
 ---

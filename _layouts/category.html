@@ -50,6 +50,7 @@ enabled: true
             <div class="blog-text">
               <div class="post-info">
                 <h2><a href="{{post.url}}">{{post.name}}</a></h2>
+                <small><i class="fa fa-map-marker"></i> {{post.location}}</small>
               </div>
 
               {% if post.tags.size > 0 %}
@@ -61,8 +62,8 @@ enabled: true
                 </ul>
               </div>
               {% endif %}
-
-              <p>{{post.bio}}</p>
+              
+              <p><small>{{post.bio}}</small></p>
             </div>
           </div>
         </div>
