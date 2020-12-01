@@ -29,7 +29,7 @@ exclude:
   - .sass-cache
 
 # Site Settings
-twitter_username: simonyost
+twitter_username: catchfire_show
 logo_url: /assets/images/show_img/logo.png
 sticky_logo_url: /assets/images/show_img/logo_flame.png
 cover_image: /assets/images/blog-img-13
@@ -37,7 +37,7 @@ mailclimp_url: 'https://show.us18.list-manage.com/subscribe/post?u=fced616372d18
 #dribble_url: https://dribble.com/themeix
 facebook_url: https://www.facebook.com/catch.fire.show/
 instagram_url: https://www.instagram.com/catch.fire.show/
-#twitter_url: http://twitter.com/simonyost
+twitter_url: http://twitter.com/catchfire_show
 linkedin_url: https://www.linkedin.com/company/catch-fire-show/
 pinterest_url: https://www.pinterest.com/catchfireshowpodcast
 medium_url: https://medium.com/catchfire
