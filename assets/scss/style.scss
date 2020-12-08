@@ -361,6 +361,24 @@
 	background: $primary url(../images/show_img/b11.png) no-repeat scroll center center / cover;
 
 	// specific banners
+	&.begin {
+		background: $primary url(../images/beginnings/banner.png) no-repeat scroll center center / cover;
+
+		.bannar-wrapper {
+			padding: 65% 0 15% 0;
+
+			@media (max-width: 768px) {
+				padding: 350px 0 50px 0;
+			}
+			@media only screen and (min-width: 768px) and (max-width: 991px) {
+				padding: 340px 0 80px 0;
+			}
+			@media only screen and (min-width: 1199px) {
+				padding: 450px 0 100px 0;
+			}
+		}
+	}
+
 	&.coach {
 		background: $primary url(../images/show_img/b7.png) no-repeat scroll center center / cover;
 	}
@@ -371,7 +389,7 @@
 		background: $primary url(../images/friendsgiving/04.png) no-repeat scroll center center / cover;
 
 		.bannar-wrapper {
-			padding: 65% 0 15% 0;
+			padding: 165% 0 15% 0;
 
 			@media (max-width: 768px) {
 				padding: 350px 0 50px 0;
@@ -2743,7 +2761,7 @@ a.loadmore-btn:active {
 	width: 1.2em;
 }
 
-.themeix-describe-sec {
+#community.themeix-describe-sec {
 	background-color: $primary;
 
 	a {
@@ -2753,6 +2771,34 @@ a.loadmore-btn:active {
 
 	.patreon {
 		width: 1.5em;
+	}
+
+	ul {
+		li {
+			a {
+				background-color: #222 !important;
+				text-decoration: none;
+
+				&:hover{
+					border-color: #fff;
+				}
+			}
+		}
+	}
+}
+
+
+.themeix-feature-section.stripe {
+	background-color: $primary;
+	color: #fff;
+
+	h2 {
+		color: #fff;
+	}
+
+	a {
+		color: white !important;
+		text-decoration: underline;
 	}
 
 	ul {

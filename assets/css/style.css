@@ -6573,6 +6573,19 @@ small,
 .bannar-image {
   position: relative;
   background: #d24d00 url(../images/show_img/b11.png) no-repeat scroll center center/cover; }
+  .bannar-image.begin {
+    background: #d24d00 url(../images/beginnings/banner.png) no-repeat scroll center center/cover; }
+    .bannar-image.begin .bannar-wrapper {
+      padding: 65% 0 15% 0; }
+      @media (max-width: 768px) {
+        .bannar-image.begin .bannar-wrapper {
+          padding: 350px 0 50px 0; } }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .bannar-image.begin .bannar-wrapper {
+          padding: 340px 0 80px 0; } }
+      @media only screen and (min-width: 1199px) {
+        .bannar-image.begin .bannar-wrapper {
+          padding: 450px 0 100px 0; } }
   .bannar-image.coach {
     background: #d24d00 url(../images/show_img/b7.png) no-repeat scroll center center/cover; }
   .bannar-image.cast {
@@ -6580,7 +6593,7 @@ small,
   .bannar-image.friendsgiving {
     background: #d24d00 url(../images/friendsgiving/04.png) no-repeat scroll center center/cover; }
     .bannar-image.friendsgiving .bannar-wrapper {
-      padding: 65% 0 15% 0; }
+      padding: 165% 0 15% 0; }
       @media (max-width: 768px) {
         .bannar-image.friendsgiving .bannar-wrapper {
           padding: 350px 0 50px 0; } }
@@ -8448,15 +8461,29 @@ a.loadmore-btn:active {
 .patreon.icon {
   width: 1.2em; }
 
-.themeix-describe-sec {
+#community.themeix-describe-sec {
   background-color: #d24d00; }
-  .themeix-describe-sec a {
+  #community.themeix-describe-sec a {
     color: white !important;
     text-decoration: underline; }
-  .themeix-describe-sec .patreon {
+  #community.themeix-describe-sec .patreon {
     width: 1.5em; }
-  .themeix-describe-sec ul li a {
+  #community.themeix-describe-sec ul li a {
     background-color: #222 !important;
     text-decoration: none; }
-    .themeix-describe-sec ul li a:hover {
+    #community.themeix-describe-sec ul li a:hover {
+      border-color: #fff; }
+
+.themeix-feature-section.stripe {
+  background-color: #d24d00;
+  color: #fff; }
+  .themeix-feature-section.stripe h2 {
+    color: #fff; }
+  .themeix-feature-section.stripe a {
+    color: white !important;
+    text-decoration: underline; }
+  .themeix-feature-section.stripe ul li a {
+    background-color: #222 !important;
+    text-decoration: none; }
+    .themeix-feature-section.stripe ul li a:hover {
       border-color: #fff; }
