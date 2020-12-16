@@ -1,6 +1,7 @@
 ---
 layout: contributor
 name: Tyler Huckabee
+last: Huckabee
 contributor_id: 17
 facebook_url: https://www.facebook.com/tyler.huckabee
 twitter_url: https://twitter.com/TylerHuckabee

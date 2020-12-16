@@ -1,6 +1,7 @@
 ---
 layout: contributor
 name: Micah Yost
+last: Yost
 contributor_id: 22
 facebook_url: https://www.facebook.com/micah.a.yost
 twitter_url: https://twitter.com/micahyost

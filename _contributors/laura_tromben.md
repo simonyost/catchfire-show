@@ -1,6 +1,7 @@
 ---
 layout: contributor
 name: Laura Tromben
+last: Tromben
 contributor_id: 24
 facebook_url: https://www.facebook.com/babybunnylt
 twitter_url: https://twitter.com/LauraT1904Labs

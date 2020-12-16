@@ -1,6 +1,7 @@
 ---
 layout: contributor
 name: Jeff Pawlow
+last: Pawlow
 contributor_id: 6
 facebook_url: https://www.facebook.com/jeff.pawlow
 twitter_url: 

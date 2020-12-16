@@ -1,6 +1,7 @@
 ---
 layout: contributor
 name: Daniel Fitzpatrick II
+last: Fitzpatrick
 contributor_id: 2
 facebook_url: https://www.facebook.com/Sonic-Souljah-100785638537325/
 twitter_url: https://twitter.com/WakeUpMusic7

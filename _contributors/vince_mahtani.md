@@ -1,6 +1,7 @@
 ---
 layout: contributor
 name: Vince Mahtani
+last: Mahtani
 contributor_id: 18
 facebook_url: https://www.facebook.com/vincentmahtani
 twitter_url: 

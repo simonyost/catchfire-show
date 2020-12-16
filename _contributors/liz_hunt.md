@@ -1,6 +1,7 @@
 ---
 layout: contributor
 name: Liz Hunt
+last: Hunt
 contributor_id: 11
 facebook_url: https://www.facebook.com/lizhuntdesigner
 twitter_url: https://twitter.com/lizhunt

@@ -1,6 +1,7 @@
 ---
 layout: contributor
 name: Darnell DJ Brown
+last: Brown
 contributor_id: 25
 facebook_url: https://www.facebook.com/darnell.j.brown
 twitter_url: 

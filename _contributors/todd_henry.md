@@ -1,6 +1,7 @@
 ---
 layout: contributor
 name: Todd Henry
+last: Henry
 contributor_id: 16
 twitter_url: 
 facebook_url: http://facebook.com/toddhenry.ac

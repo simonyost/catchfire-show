@@ -1,6 +1,7 @@
 ---
 layout: contributor
 name: Travon Brooks
+last: Brooks
 contributor_id: 20
 facebook_url: https://www.facebook.com/tavon.brooks
 twitter_url: 

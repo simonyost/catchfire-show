@@ -1,6 +1,7 @@
 ---
 layout: contributor
 name: Kelvin Walker
+last: Walker
 contributor_id: 10
 facebook_url: https://www.facebook.com/kelvincitocaminante
 linkedin_url: https://www.linkedin.com/in/kelvin-walker-82a9b933/

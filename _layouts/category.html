@@ -6,99 +6,100 @@ enabled: true
 <!-- Breadcrumb Start  !-->
 {% if page.pagination.collection == 'contributors' %}
 <div class="bradcrumb-sec contributor">
-{% else %}
-<div class="bradcrumb-sec">
-{% endif %}
-  <div class="bradcrumb-overlay"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <div class="page-heading">
-          <h1>{{page.title}}</h1>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Breadcrumb End  !-->
-
-<!-- Blog Section Start -->
-<div id="blog" class="blog-sec pb-150">
-  <div class="container">
-
-    {% if page.pagination.collection == 'contributors' %}
-      {% assign posts = paginator.posts | sort: "name" %}
-      <!-- <div class="row pt-5">
-        <div class="col-md-10 offset-md-1">
-          <iframe src="https://snazzymaps.com/embed/275872" width="100%" height="350px"
-            style="border:none;"></iframe>
-        </div>
-      </div> -->
-    {% else %}
-    {% assign posts = paginator.posts %}
+  {% else %}
+  <div class="bradcrumb-sec">
     {% endif %}
-
-    <div class="row pt-150 infinite-scroll">
-      {% for post in posts %}
-      {% if page.pagination.collection == 'contributors' %}
-      <div class="col-md-4 col-sm-6 post-item blog-post">
-        <div class="themeix-box">
-          <div class="single-post">
-            <div class="single-post-thumb">
-              <a href="{{post.url}}"><img src="{{post.image}}" alt="{{post.name}}" /></a>
-            </div>
-            <div class="blog-text">
-              <div class="post-info">
-                <h2><a href="{{post.url}}">{{post.name}}</a></h2>
-                <small><i class="fa fa-map-marker pr-1"></i> {{post.location}}</small>
-              </div>
-
-              {% if post.tags.size > 0 %}
-              <div class="tagcloud05">
-                <ul>
-                  {% for tag in post.tags %}
-                  <li><a href="/podcast/{{tag}}"><span>{{tag}}</span></a></li>
-                  {% endfor %}
-                </ul>
-              </div>
-              {% endif %}
-              
-              <p><small>{{post.bio}}</small></p>
-            </div>
+    <div class="bradcrumb-overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="page-heading">
+            <h1>{{page.title}}</h1>
           </div>
         </div>
       </div>
-      {% else %}
-      <div class="col-md-4 col-sm-6 post-item blog-post">
-        <div class="themeix-box">
-          <div class="single-post">
-            <div class="single-post-thumb">
-              <img src="{{post.post_image}}" alt="{{post.title}}" />
-            </div>
-            <div class="blog-text">
-              <div class="post-info">
-                <h2><a href="{{post.url}}">{{post.title}}</a></h2>
-              </div>
-
-              <p>{{post.excerpt}}</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      {% endif %}
-      {% endfor %}
-
     </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="loadmore text-center">
-          <a href="#" class="loadmore-btn btn btn-primary">Load More
-            <i class="fa fa-spinner fa-pulse ml-2" aria-hidden="true"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-
   </div>
-</div>
-<!-- Blog Section End -->
+  <!-- Breadcrumb End  !-->
+
+  <!-- Blog Section Start -->
+  <div id="blog" class="blog-sec pb-150">
+    <div class="container">
+
+      {% if page.pagination.collection == 'contributors' and jekyll.environment != 'production' %}
+        <!-- just for DEV -->
+        {% assign posts = paginator.posts | sort: "contributor_id"  %}
+        <h4 class="mt-5">last id <small>{{posts.last.contributor_id}} // {{posts.last.name}}</small></h4>
+
+        <!-- for PROD -->
+        {% assign posts = paginator.posts | sort: "last" %}
+      {% elsif page.pagination.collection == 'contributors' %}
+        {% assign posts = paginator.posts | sort: "last" %}
+      {% else %}
+        {% assign posts = paginator.posts %}
+      {% endif %}
+
+      <div class="row pt-150 infinite-scroll">
+        {% for post in posts %}
+        {% if page.pagination.collection == 'contributors' %}
+        <div class="col-md-4 col-sm-6 post-item blog-post">
+          <div class="themeix-box">
+            <div class="single-post">
+              <div class="single-post-thumb">
+                <a href="{{post.url}}"><img src="{{post.image}}" alt="{{post.name}}" /></a>
+              </div>
+              <div class="blog-text">
+                <div class="post-info">
+                  <h2><a href="{{post.url}}">{{post.name}}</a></h2>
+                  <small><i class="fa fa-map-marker pr-1"></i> {{post.location}}</small>
+                </div>
+
+                {% if post.tags.size > 0 %}
+                <div class="tagcloud05">
+                  <ul>
+                    {% for tag in post.tags %}
+                    <li><a href="/podcast/{{tag}}"><span>{{tag}}</span></a></li>
+                    {% endfor %}
+                  </ul>
+                </div>
+                {% endif %}
+
+                <p><small>{{post.bio}}</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% else %}
+        <div class="col-md-4 col-sm-6 post-item blog-post">
+          <div class="themeix-box">
+            <div class="single-post">
+              <div class="single-post-thumb">
+                <img src="{{post.post_image}}" alt="{{post.title}}" />
+              </div>
+              <div class="blog-text">
+                <div class="post-info">
+                  <h2><a href="{{post.url}}">{{post.title}}</a></h2>
+                </div>
+
+                <p>{{post.excerpt}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="loadmore text-center">
+            <a href="#" class="loadmore-btn btn btn-primary">Load More
+              <i class="fa fa-spinner fa-pulse ml-2" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- Blog Section End -->

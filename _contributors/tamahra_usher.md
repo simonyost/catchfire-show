@@ -1,6 +1,7 @@
 ---
 layout: contributor
 name: Tamarah Usher
+last: Usher
 contributor_id: 15
 facebook_url: https://www.facebook.com/tamarahusher
 linkedin_url: https://www.linkedin.com/in/tamarahusher/

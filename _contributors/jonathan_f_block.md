@@ -1,6 +1,7 @@
 ---
 layout: contributor
 name: Jonathan F. Block
+last: Block
 contributor_id: 26
 facebook_url: https://www.facebook.com/jonathanfblock
 twitter_url: https://twitter.com/JonathanFBlock

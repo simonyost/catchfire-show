@@ -1,6 +1,7 @@
 ---
 layout: contributor
 name: David Dolak
+last: Dolak
 contributor_id: 5
 facebook_url: https://www.facebook.com/david.dolak.96
 linkedin_url: https://www.linkedin.com/in/david-dolak-2582b55/

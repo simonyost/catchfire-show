@@ -1,6 +1,7 @@
 ---
 layout: contributor
 name: Sean Walsh
+last: Walsh
 contributor_id: 12
 facebook_url: https://www.facebook.com/sean.walsh.7758235
 linkedin_url: https://www.linkedin.com/in/seanjosephwalsh/

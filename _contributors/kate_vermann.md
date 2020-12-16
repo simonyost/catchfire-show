@@ -1,6 +1,7 @@
 ---
 layout: contributor
 name: Kate Vermann
+last: Vermann
 contributor_id: 21
 facebook_url: https://www.facebook.com/kate.vermann
 twitter_url: https://twitter.com/KVermann

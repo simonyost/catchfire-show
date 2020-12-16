@@ -1,6 +1,7 @@
 ---
 layout: contributor
 name: Kelly Wood
+last: Wood
 contributor_id: 9
 facebook_url: https://www.facebook.com/kelly.wood.96
 twitter_url: 

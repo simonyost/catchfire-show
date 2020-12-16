@@ -1,6 +1,7 @@
 ---
 layout: contributor
 name: Courtney Orlando
+last: Orlando
 contributor_id: 1
 facebook_url: https://www.facebook.com/iamcourtneyorlando
 linkedin_url: https://www.linkedin.com/in/courtney-jr-peebles-05a2a19/

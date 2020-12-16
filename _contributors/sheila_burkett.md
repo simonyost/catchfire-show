@@ -1,6 +1,7 @@
 ---
 layout: contributor
 name: Sheila Burkett
+last: Burkett
 contributor_id: 13
 facebook_url: https://www.facebook.com/saburkett
 twitter_url: 

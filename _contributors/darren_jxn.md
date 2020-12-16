@@ -1,6 +1,7 @@
 ---
 layout: contributor
 name: Darren Jxn
+last: Jxn
 contributor_id: 4
 facebook_url: 
 twitter_url: 

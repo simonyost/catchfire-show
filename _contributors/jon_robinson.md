@@ -1,6 +1,7 @@
 ---
 layout: contributor
 name: Jon Robinson
+last: Robinson
 contributor_id: 7
 facebook_url: https://www.facebook.com/jon.robinson.5
 twitter_url: 

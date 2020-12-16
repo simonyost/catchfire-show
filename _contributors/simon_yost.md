@@ -1,6 +1,7 @@
 ---
 layout: contributor
 name: Simon Yost
+last: Yost
 contributor_id: 14
 email: hello@catchfire.show
 facebook_url: https://www.facebook.com/simonyost

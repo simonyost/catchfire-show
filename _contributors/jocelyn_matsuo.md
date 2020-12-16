@@ -1,6 +1,7 @@
 ---
 layout: contributor
 name: Jocelyn Matsuo
+last: Matsuo
 contributor_id: 23
 facebook_url: https://www.facebook.com/jocelyn.matsuo
 twitter_url: https://twitter.com/jocelynmatsuo

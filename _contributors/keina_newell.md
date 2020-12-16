@@ -1,6 +1,7 @@
 ---
 layout: contributor
 name: Keina Newell
+last: Newell
 contributor_id: 19
 facebook_url: https://www.facebook.com/wealthovernow
 linkedin_url: https://www.linkedin.com/in/keina-newell-55562b133/

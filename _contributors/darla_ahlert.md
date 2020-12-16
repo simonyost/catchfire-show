@@ -1,6 +1,7 @@
 ---
 layout: contributor
 name: Darla Ahlert
+last: Ahlert
 contributor_id: 3
 facebook_url: https://www.facebook.com/alraddarla
 twitter_url: 

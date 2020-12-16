@@ -1,6 +1,7 @@
 ---
 layout: contributor
 name: Josh Dix
+last: Dix
 contributor_id: 8
 facebook_url: https://www.facebook.com/jdix05
 twitter_url: https://twitter.com/leadershipxd
