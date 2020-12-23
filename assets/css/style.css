@@ -8487,3 +8487,15 @@ a.loadmore-btn:active {
     text-decoration: none; }
     .themeix-feature-section.stripe ul li a:hover {
       border-color: #fff; }
+
+.ig-roll .media img {
+  width: 9em !important;
+  height: 9em !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0% 50%;
+     object-position: 0% 50%;
+  overflow: hidden; }
+  .ig-roll .media img.center {
+    -o-object-position: 50% 50%;
+       object-position: 50% 50%; }

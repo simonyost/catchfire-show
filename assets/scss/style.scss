@@ -2814,3 +2814,19 @@ a.loadmore-btn:active {
 		}
 	}
 }
+
+.ig-roll {
+	.media {
+		img {
+			width: 9em !important;
+			height: 9em !important;
+			object-fit: cover;
+			object-position: 0% 50%;
+			overflow: hidden;
+
+			&.center {
+				object-position: 50% 50%;
+			}
+		}
+	}
+}
