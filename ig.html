@@ -24,6 +24,29 @@ redirect_from:
       <div class="col-10 offset-1 col-md-8 offset-md-2">
         <ul class="list-unstyled">
 
+          <!-- Creatives -->
+          <li class="media pb-5">
+            <a href="/podcast/creatives"><img class="mr-3 center"
+                src="/assets/images/social/olga-guryanova-Th-i7Z1ufK8-unsplash.jpg" alt="Creatives" /></a>
+            <div class="media-body">
+              <a href="/podcast/creatives"><b class="text-primary">Creatives</b></a><br />
+              How do creative people find their way in the post-quarantine world? Here stories from professionals that
+              have taken uncommon paths.
+            </div>
+          </li>
+
+          <!-- Protestors -->
+          <li class="media pb-5">
+            <a href="/podcast/protestors"><img class="mr-3 center"
+                src="/assets/images/social/sushil-nash-ZIKnVsJVJpg-unsplash.jpg" alt="Protestors" /></a>
+            <div class="media-body">
+              <a href="/podcast/creatives"><b class="text-primary">Protestors</b></a><br />
+              How do protestors find careers in the post-quarantine world? Here stories from professionals that
+              have taken uncommon paths.
+            </div>
+          </li>
+
+
           {% assign posts = site.posts | where: 'categories', 'podcast' %}
           {% for post in posts limit:2 %}
           <li class="media pb-5">
@@ -35,21 +58,16 @@ redirect_from:
           </li>
           {% endfor %}
 
-          <!-- Creatives -->
-          <li class="media pb-5">
-            <a href="/podcast/creatives"><img class="mr-3 center" src="/assets/images/social/pierrick-van-troost-yXXvJecrTQA-unsplash.jpg" alt="Creatives" /></a>
-            <div class="media-body">
-              <a href="/podcast/creatives"><b class="text-primary">Creatives</b></a><br />
-              How do creative people find their way in the post-quarantine world? Here stories from professionals that have taken uncommon paths.
-            </div>
-          </li>
+
 
           <!-- Beginnings -->
           <li class="media pb-5">
-            <a href="/beginnings"><img class="mr-3 center" src="/assets/images/beginnings/banner.png" alt="beginnings" /></a>
+            <a href="/beginnings"><img class="mr-3 center" src="/assets/images/beginnings/banner.png"
+                alt="beginnings" /></a>
             <div class="media-body">
               <a href="/beginnings"><b class="text-primary">#beginnings</b></a><br />
-              Starting is the worst. Or, it can feel that way. Let's keep your daydream. Join our beginnings Livestream to hear from others just starting their careers.
+              Starting is the worst. Or, it can feel that way. Let's keep your daydream. Join our beginnings Livestream
+              to hear from others just starting their careers.
             </div>
           </li>
 
