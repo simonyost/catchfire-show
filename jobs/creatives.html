@@ -1,0 +1,44 @@
+---
+layout: job-list
+<!-- pagination:
+  enabled: true -->
+title: Jobs for Creatives
+---
+
+
+<!-- Blog Section Start -->
+<div class="blog-sec pt-100 pb-150">
+  <div class="container">
+    <div class="row">
+      {% assign jobs = site.data.jobs.creative %}
+      {% for job in jobs %}
+      {% if job.publish == 'x' %} {% if job.has_expired == 'false' %}
+      <div class="col-md-6 col-sm-12">
+        <div class="themeix-box">
+          <div class="single-post no-image">
+            <div class="blog-text">
+              <div class="post-info">
+                <h2><a href="{{job.url}}" target="_blank">{{job.job_title | capitalize}}</a></h2>
+                
+                <!-- details -->
+                <p><span class="badge bg-secondary text-white mr-2">company</span><small>{{ job.company_name | capitalize }}</small></p>
+                <p><span class="badge bg-secondary text-white mr-2">location</span><small>{{ job.inferred_city }}, {{
+                    job.inferred_state }}</small></p>
+                <p><span class="badge bg-secondary text-white mr-2">skills</span><small>{{ job.inferred_skills |
+                    uppercase | replace:'|',', ' }}</small></p>
+                <hr />
+              </div>
+              <p>{{job.job_description | strip_newlines | truncate: 150, '...' }}</p>
+
+              <a href="{{job.url}}" target="_blank" class="btn btn-primary mt-3">More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif %}{% endif %}
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+<!-- Blog Section End -->

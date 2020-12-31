@@ -7120,6 +7120,12 @@ small,
     min-width: 100%; }
   .single-post:hover .post-info h2 a {
     color: #d24d00; }
+  .single-post.no-image h2 {
+    -webkit-margin-before: 0 !important;
+            margin-block-start: 0 !important;
+    line-height: 1.2; }
+  .single-post.no-image .blog-text {
+    border-top: 1px solid #f0f0f0 !important; }
 
 .single-post-thumb {
   overflow: hidden; }
