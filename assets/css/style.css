@@ -7396,6 +7396,8 @@ blockquote {
   background-size: cover; }
   .bradcrumb-sec.contributor {
     background-image: url(../images/map-wide.png); }
+  .bradcrumb-sec.job {
+    background-image: url(../images/jobs-banner-001.jpg); }
   .bradcrumb-sec.slim {
     padding-bottom: 70px;
     padding-top: 120px; }
