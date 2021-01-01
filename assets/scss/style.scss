@@ -100,7 +100,7 @@
 	}
 }
 .logo {
-	padding: 20px 0;
+	padding: 26px 0 20px 0;
 	&.sticky-logo {
 		display: none;
 	}
@@ -1388,9 +1388,18 @@ blockquote {
 		background-image: url(../images/map-wide.png);
 	}
 
-	&.job {
+	&.job.creative {
 		background-image: url(../images/jobs-banner-001.jpg);
 	}
+
+	&.job.protestors {
+		background-image: url(../images/jobs-banner-002.jpg);
+	}
+
+	&.job.technologists {
+		background-image: url(../images/jobs-banner-003.jpg);
+	}
+	
 
 	&.slim {
 		padding-bottom: 70px;

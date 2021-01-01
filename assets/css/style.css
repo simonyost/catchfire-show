@@ -7396,8 +7396,12 @@ blockquote {
   background-size: cover; }
   .bradcrumb-sec.contributor {
     background-image: url(../images/map-wide.png); }
-  .bradcrumb-sec.job {
+  .bradcrumb-sec.job.creative {
     background-image: url(../images/jobs-banner-001.jpg); }
+  .bradcrumb-sec.job.protestors {
+    background-image: url(../images/jobs-banner-002.jpg); }
+  .bradcrumb-sec.job.technologists {
+    background-image: url(../images/jobs-banner-003.jpg); }
   .bradcrumb-sec.slim {
     padding-bottom: 70px;
     padding-top: 120px; }

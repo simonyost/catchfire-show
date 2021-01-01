@@ -2,14 +2,14 @@
 layout: job-list
 <!-- pagination:
   enabled: true -->
-title: Jobs for Creatives
-class: creative
+title: Jobs for Protestors
+class: protestors
 ---
 <!-- Blog Section Start -->
 <div class="blog-sec pt-100 pb-150">
   <div class="container">
     <div class="row">
-      {% assign jobs = site.data.jobs.creative %}
+      {% assign jobs = site.data.jobs.protestors %}
       {% for job in jobs %}
       {% if job.publish == 'x' %} {% if job.has_expired == 'false' %}
       <div class="col-md-6 col-sm-12">
