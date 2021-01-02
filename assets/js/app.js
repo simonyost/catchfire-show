@@ -158,7 +158,7 @@ $(document).ready(function(){
 		============================*/ 	
 		$('#video-bg').YTPlayer({
 			fitToBackground: true,
-			videoId: 'gVKEM4K8J8A',
+			videoId: 'ttkD1paLC8A',
 			 playerVars: {
       modestbranding: 0,
       autoplay: 1,
@@ -187,16 +187,16 @@ $(document).ready(function(){
     Infinite Scroll For Post 
     ============================================
     */
-    $('.infinite-scroll').infiniteScroll({
-        path: function path() {
-            var pageNumber = this.loadCount + 2;
-            return '/pages/' + pageNumber + '/index.html';
-        },
-        append: '.blog-post',
-        button: '.loadmore-btn',
-        scrollThreshold: false
+    // $('.infinite-scroll').infiniteScroll({
+    //     path: function path() {
+    //         var pageNumber = this.loadCount + 2;
+    //         return '/pages/' + pageNumber + '/index.html';
+    //     },
+    //     append: '.blog-post',
+    //     button: '.loadmore-btn',
+    //     scrollThreshold: false
 
-    });
+    // });
 
 
 		

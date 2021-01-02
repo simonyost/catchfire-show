@@ -6,7 +6,29 @@ redirect_from:
 - /cards
 - /podcast
 ---
-{% include banner-podcast.html %}
+<!-- Banner Section Start -->
+<div id="home">
+  <div id="bannar-effect" class="bannar-image neon">
+  </div>
+</div>
+<!-- Banner Section End -->
+
+
+<!-- context -->
+<div class="container">
+  <div class="row">
+    <div class="col-12 mt-5">
+      <div class="sec-title">
+        <h2 class="text-primary"><small>Learn from passionate people taking uncommon paths.</small></h2>
+        <p class="lead mt-3">Find your fire. Live for it.</p>
+      </div>
+    </div>
+    <div class="col-12">
+      <hr>
+    </div>
+  </div>
+</div>
+
 {% include listen-locations-section.html %}
 
 <div class="container">
@@ -41,7 +63,7 @@ redirect_from:
 
       {% assign posts = site.posts | where: 'categories', 'podcast'  %}
       {% for post in posts %}
-      <div class="col-md-4 col-sm-6">
+      <div class="col-lg-4 col-md-6 col-sm-6">
         <div class="themeix-box">
           <div class="single-post">
             <div class="single-post-thumb">

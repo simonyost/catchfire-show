@@ -1,3 +1,7 @@
+- name: YouTube
+  fa: youtube
+  url: {{site.youtube_url}}
+  large: true
 - name: Apple Podcasts
   fa: apple
   url: https://podcasts.apple.com/us/podcast/catch-fire-show/id1513500111

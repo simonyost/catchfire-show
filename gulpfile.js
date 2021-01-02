@@ -30,7 +30,7 @@
 	
         './assets/js/jquery-2.2.4.min.js',
         './assets/js/bootstrap.min.js',
-        // './assets/js/jquery.youtubebackground.js',	
+        './assets/js/jquery.youtubebackground.js',	
         './assets/js/particles.js',
         './assets/js/slick.min.js',
         './assets/js/jquery.ripples-min.js',
