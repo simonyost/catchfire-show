@@ -1,0 +1,89 @@
+---
+layout: default
+<!-- pagination:
+  enabled: true -->
+redirect_from:
+- /cards
+- /podcast
+---
+<!-- Banner Section Start -->
+<div id="home">
+  <div id="bannar-effect" class="bannar-image neon">
+  </div>
+</div>
+<!-- Banner Section End -->
+
+
+<!-- context -->
+<div class="container">
+  <div class="row">
+    <div class="col-12 mt-5">
+      <div class="sec-title">
+        <h2 class="text-primary"><small>Learn from passionate people taking uncommon paths.</small></h2>
+        <p class="lead mt-3">Find your fire. Live for it.</p>
+      </div>
+    </div>
+    <div class="col-12">
+      <hr>
+    </div>
+  </div>
+</div>
+
+<div class="row pt-100">
+  <div class="col-md-12">
+     <div class="sec-title">
+        <h2>watch <small class="pl-2"> on YouTube</small></h2>
+     </div>
+  </div>
+</div>
+<div class="row mt-2">
+  <div class="col-2 offset-4">
+     <a class="btn btn-outline-primary btn-lg" href="{{site.youtube_url}}" target="_blank"><i
+        class="fa fa-play-circle"></i> Watch</a>
+  </div>
+  <div class="col-md-3">
+     <script src="https://apis.google.com/js/platform.js"></script>
+     <div class="g-ytsubscribe" data-channelid="UCdkoR4tJna8oaHHmv67YTvw" data-layout="full" data-count="hidden">
+     </div>
+  </div>
+</div>
+
+{% include listen-locations-section.html %}
+
+
+<!-- Blog Section Start -->
+<div id="blog" class="blog-sec pt-100 pb-150">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="sec-title p-b-50">
+          <h2>Explore Episodes</h2>
+          <p>Browse all our episodes.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+
+      {% assign posts = site.posts | where: 'categories', 'podcast'  %}
+      {% for post in posts %}
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="themeix-box">
+          <div class="single-post">
+            <div class="single-post-thumb">
+              <img src="{{post.post_image}}" alt="{{post.title}}" />
+            </div>
+            <div class="blog-text">
+              <div class="post-info">
+                <h2><a href="{{post.url}}">{{post.title}}</a></h2>
+              </div>
+              <p>{{post.excerpt}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+<!-- Blog Section End -->

@@ -2,7 +2,6 @@
 layout: default
 comments: true
 ---
-
 <!-- Breadcrumb Start  !-->
 <div class="bradcrumb-sec slim">
    <div class="bradcrumb-overlay"></div>
@@ -30,7 +29,7 @@ comments: true
 <div class="blog-details pt-5">
    <div class="container">
       <div class="row">
-         <div class="col-12">
+         <div class="col-md-8 col-sm-12">
             <div class="blog-detail">
 
                <div class="entry-content">
@@ -61,8 +60,59 @@ comments: true
 
             </div>
          </div>
+
+         <!-- Sidebar Start -->
+         <div class="col-md-4 col-sm-12 pl-md-5">
+            <div class="row mb-3">
+               <h3 class="col-12">Explore Jobs</h3>
+            </div>
+            <!-- Creative -->
+            <div class="row pb-5">
+               <h5 class="col-12 text-secondary">Creative</h5>
+               {% assign jobs = site.data.jobs.creative | where: 'publish', 'x'  | where: 'has_expired', 'false' %}
+               <div class="col-12">
+                  <div class="list-group">
+                    {% for job in jobs limit:3 %}
+                    <a href="/jobs/creatives" class="list-group-item list-group-item-action">{{job.job_title | titlecase}} <small>{{
+                        job.inferred_city }}, {{
+                        job.inferred_state }}</small></a>
+                    {% endfor %}
+                  </div>
+                </div>
+             </div>
+
+            <!-- Technology -->
+            <div class="row pb-5">
+               <h5 class="col-12 text-secondary">Technology</h5>
+               {% assign jobs = site.data.jobs.technologists | where: 'publish', 'x'  | where: 'has_expired', 'false' %}
+               <div class="col-12">
+                  <div class="list-group">
+                    {% for job in jobs limit:3 %}
+                    <a href="/jobs/technologists" class="list-group-item list-group-item-action">{{job.job_title | titlecase}} <small>{{
+                        job.inferred_city }}, {{
+                        job.inferred_state }}</small></a>
+                    {% endfor %}
+                  </div>
+                </div>
+             </div>
+
+            <!-- Featured -->
+            <div class="row pb-5">
+               <h5 class="col-12 text-secondary">Featured</h5>
+               {% assign jobs = site.data.jobs.featured | where: 'publish', 'x'  | where: 'has_expired', 'false' %}
+               <div class="col-12">
+                  <div class="list-group">
+                    {% for job in jobs limit:3 %}
+                    <a href="/jobs" class="list-group-item list-group-item-action">{{job.job_title | titlecase}}</a>
+                    {% endfor %}
+                  </div>
+                </div>
+             </div>
+
+         </div>
+         <!-- Sidebar End -->
       </div>
-      
+
       <row class="mt-0 pt-0">
          <div class="col-12 mt-0 pt-0 mb-5">
             <hr class="mb-5">

@@ -1,0 +1,26 @@
+{% for job in jobs %}
+{% if job.publish == 'x' %} {% if job.has_expired == 'false' %}
+<div class="col-md-6 col-sm-12">
+  <div class="themeix-box">
+    <div class="single-post no-image bg-primary">
+      <div class="blog-text text-white">
+        <div class="post-info">
+          <h2><a class="text-secondary" href="{{job.url}}" target="_blank">{{job.job_title | titlecase | truncate: 35, '...' }}</a></h2>
+          
+          <!-- details -->
+          <p><span class="badge bg-secondary text-white mr-2">company</span><small>{{ job.company_name | titlecase }}</small></p>
+          <p><span class="badge bg-secondary text-white mr-2">location</span><small>{{ job.inferred_city }}, {{
+              job.inferred_state }}</small></p>
+          <p><span class="badge bg-secondary text-white mr-2">skills</span><small>{{ job.inferred_skills |
+              titlecase | replace:'|',', ' | truncatewords: 6, '' }}</small></p>
+          <hr />
+        </div>
+        <p>{{job.job_description | strip_newlines | truncate: 300, '...' }}</p>
+
+        <a href="{{job.url}}" target="_blank" class="btn btn-outline-secondary btn-sm mt-3">More</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}{% endif %}
+{% endfor %}

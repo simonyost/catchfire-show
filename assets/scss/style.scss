@@ -100,7 +100,7 @@
 	}
 }
 .logo {
-	padding: 20px 0;
+	padding: 26px 0 20px 0;
 	&.sticky-logo {
 		display: none;
 	}
@@ -294,10 +294,8 @@
 	position: relative;
 	overflow: hidden;
 	.bannar-wrapper {
-		padding-top: 35%;
-		padding-bottom: 0;
+		padding: 45% 0;
 		text-align: center;
-		padding-bottom: 33%;
 	}
 }
 .video-banner-sec::before {
@@ -384,6 +382,14 @@
 	}
 	&.cast {
 		background: $primary url(../images/show_img/b8.png) no-repeat scroll center center / cover;
+	}
+	&.neon {
+		background: $primary url(../images/cfs_neon.jpg) no-repeat scroll center center / cover;
+		padding: 20% 0;
+		
+		@media (max-width: 768px) {
+			padding: 32% 0;
+		}
 	}
 	&.friendsgiving {
 		background: $primary url(../images/friendsgiving/04.png) no-repeat scroll center center / cover;
@@ -1044,6 +1050,11 @@
 		max-width: 240px;
 		min-width: 100%;
 	}
+
+	.post-info h2 a {
+		line-height: 1.1;
+
+	}
 	&:hover {
 		.single-post-thumb img {
 			transform: scale(1.3);
@@ -1053,6 +1064,16 @@
 		}
 		.post-info h2 a {
 			color: $color2;
+		}
+	}
+
+	&.no-image {
+		h2 {
+			margin-block-start: 0 !important;
+			line-height: 1.2;
+		}
+		.blog-text {
+			border-top: 1px solid #f0f0f0 !important;
 		}
 	}
 }
@@ -1377,6 +1398,23 @@ blockquote {
 	&.contributor {
 		background-image: url(../images/map-wide.png);
 	}
+
+	&.job {
+		background-image: url(../images/jobs-banner-004.jpg);
+		padding: 15% 0;
+
+		&.creative {
+			background-image: url(../images/jobs-banner-001.jpg);
+		}
+		&.protestors {
+			background-image: url(../images/jobs-banner-002.jpg);
+		}
+		&.technologists {
+			background-image: url(../images/jobs-banner-003.jpg);
+		}
+	}
+
+	
 
 	&.slim {
 		padding-bottom: 70px;
@@ -2829,4 +2867,8 @@ a.loadmore-btn:active {
 			}
 		}
 	}
+}
+
+.strike {
+	text-decoration: line-through;
 }

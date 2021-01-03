@@ -1,17 +1,60 @@
 ---
 layout: default
 ---
-{% include banner-image.html %}
+<!-- Banner Section Start -->
+<div id="home">
+   <div id="bannar-effect" class="bannar-image">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-10">
+
+               <div class="bannar-wrapper">
+                  <div class="bannar-text">
+                     <h1>Find your fire. Live for it.</h1>
+                     <ul class="pl-0">
+                        <li id="subscribe-scroll"><a href="/show"><i class="fa fa-play-circle"></i> Watch Show</a>
+                        <li id="fb-group"><a href="/jobs"><i class="fa fa-search"></i> Explore Jobs</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- Banner Section End -->
 
 {% include video-s2-trailer.html %}
 
 <div class="row pt-150">
    <div class="col-md-12">
       <div class="sec-title">
-         <h2>the show <small class="pl-2"> on podcast</small></h2>
+         <h2>watch <small class="pl-2"> on YouTube</small></h2>
       </div>
    </div>
 </div>
+<div class="row mt-2">
+   <div class="col-2 offset-4">
+      <a class="btn btn-outline-primary btn-lg" href="{{site.youtube_url}}" target="_blank"><i
+         class="fa fa-play-circle"></i> Watch</a>
+   </div>
+   <div class="col-md-3">
+      <script src="https://apis.google.com/js/platform.js"></script>
+      <div class="g-ytsubscribe" data-channelid="UCdkoR4tJna8oaHHmv67YTvw" data-layout="full" data-count="hidden">
+      </div>
+   </div>
+</div>
+
+
+
+<div class="row pt-150">
+   <div class="col-md-12">
+      <div class="sec-title">
+         <h2>listen <small class="pl-2"> on podcast</small></h2>
+      </div>
+   </div>
 </div>
 {% include listen-locations.html %}
 
@@ -20,9 +63,8 @@ layout: default
 <div class="row pt-150">
    <div class="col-md-12">
       <div class="sec-title">
-         <h2>#beginnings <small class="pl-2"> on Instagram</small></h2>
+         <h2>follow <small class="pl-2"> on Instagram</small></h2>
       </div>
    </div>
-</div>
 </div>
 {% include insta-grid.html %}

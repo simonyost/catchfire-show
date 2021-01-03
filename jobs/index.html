@@ -1,0 +1,122 @@
+---
+layout: default
+redirect_from:
+---
+<!-- Breadcrumb Start  !-->
+<div class="bradcrumb-sec job">
+  <div class="bradcrumb-overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="page-heading pt-0 pb-0">
+          <h1>Job Board</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Breadcrumb End  !-->
+
+<!-- context -->
+<div class="container">
+  <div class="row">
+    <div class="col-12 mt-5 mb-4">
+      <div class="sec-title">
+        <h2 class="text-primary"><small>Earn and contribute in the post-pandemic world.</small></h2>
+        <p class="lead mt-3">Find your fire. Live for it.</p>
+      </div>
+    </div>
+    <div class="col-12">
+      <hr>
+    </div>
+  </div>
+</div>
+
+<!-- Job List -->
+<div class="blog-sec mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sec-title">
+          <h2>Explore</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+
+      <!-- creatives -->
+      <div class="col-md-4 col-sm-6">
+        <div class="themeix-box">
+          <div class="single-post">
+            <div class="single-post-thumb">
+              <img src="/assets/images/jobs-banner-001.jpg" alt="jobs for creatives" />
+            </div>
+            <div class="blog-text">
+              <div class="post-info">
+                <h2><a href="/jobs/creatives">Creative Jobs</a></h2>
+              </div>
+              <p>How do creatives find careers post-pandemic? Explore our creative job opportunities for more.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- technologists -->
+      <div class="col-md-4 col-sm-6">
+        <div class="themeix-box">
+          <div class="single-post">
+            <div class="single-post-thumb">
+              <img src="/assets/images/jobs-banner-003.jpg" alt="jobs for technologists" />
+            </div>
+            <div class="blog-text">
+              <div class="post-info">
+                <h2><a href="/jobs/technologists">Jobs for Technologists</a></h2>
+              </div>
+              <p>Technologists have more choices post-pandemic than ever before. Look for your next step on our job board.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- protestors -->
+      <div class="col-md-4 col-sm-6">
+        <div class="themeix-box">
+          <div class="single-post">
+            <div class="single-post-thumb">
+              <img src="/assets/images/jobs-banner-002.jpg" alt="jobs for protestors" />
+            </div>
+            <div class="blog-text">
+              <div class="post-info">
+                <h2><a href="/jobs/protestors">Jobs for <span class="strike">Protestors</span> People</a></h2>
+              </div>
+              <p>Being a protestor does not define you, and neither does your job. Use our job board to find opportunities to bring your whole self to work.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+<!-- Job List End -->
+
+<!-- Feature Section Start -->
+<div class="blog-sec pt-100 pb-150">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-12">
+        <div class="sec-title">
+          <h2>Featured Jobs</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      {% assign jobs = site.data.jobs.featured %}
+      {% include job-cards-lg.html %}
+    </div>
+  </div>
+</div>
+<!-- Feature Section End -->

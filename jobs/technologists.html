@@ -1,0 +1,18 @@
+---
+layout: job-list
+<!-- pagination:
+  enabled: true -->
+title: Jobs for Technologists
+class: technologists
+---
+<!-- Blog Section Start -->
+<div class="blog-sec pt-100 pb-150">
+  <div class="container">
+    <div class="row">
+      {% assign jobs = site.data.jobs.technologists %}
+      {% include job-cards.html %}
+
+    </div>
+  </div>
+</div>
+<!-- Blog Section End -->
