@@ -1,13 +1,20 @@
 ---
 layout: job-list
-<!-- pagination:
-  enabled: true -->
 title: Jobs for <span class="strike">Protestors</span> People
 class: protestors
 ---
 <!-- Blog Section Start -->
 <div class="blog-sec pt-100 pb-150">
   <div class="container">
+
+    <!-- INTRO -->
+    <div class="row mb-5">
+      <div class="col-10 offset-1">
+        <p class="lead">Being a protestor does not define you, and neither does your job. Explore below to find opportunities to bring your whole self to work.</p>
+        <!-- <hr class="mt-5"> -->
+      </div>
+    </div>
+
     <div class="row">
       {% assign jobs = site.data.jobs.protestors %}
       {% include job-cards.html %}

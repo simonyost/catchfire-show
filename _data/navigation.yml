@@ -14,11 +14,13 @@
 - title: contributors
   url: /contributors
 - title: jobs
-  url: /jobs
+  url: /jobs/featured
   submenu:
+  - title: featured
+    url: /jobs/featured/
   - title: creatives
     url: /jobs/creatives/
-  - title: technologists
+  - title: technology
     url: /jobs/technologists
   - title: protestors
     url: /jobs/protestors

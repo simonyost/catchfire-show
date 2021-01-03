@@ -111,6 +111,10 @@ collections:
     title: Authors
     output: true
     permalink: /contributors/:path/    
+  jobs:
+    title: Jobs
+    output: true
+    permalink: /jobs/:title/    
     
 feed:
   collections:
@@ -118,6 +122,8 @@ feed:
       path: "/sitemap.xml"
     contributors:
       path: "/contributors.xml"
+    jobs:
+      path: "/jobs.xml"
       
 whitelist:
   - jekyll-redirect-from

@@ -1,13 +1,20 @@
 ---
 layout: job-list
-<!-- pagination:
-  enabled: true -->
 title: Jobs for Technologists
 class: technologists
 ---
 <!-- Blog Section Start -->
 <div class="blog-sec pt-100 pb-150">
   <div class="container">
+
+    <!-- INTRO -->
+    <div class="row mb-5">
+      <div class="col-10 offset-1">
+        <p class="lead">Technologists have more choices post-pandemic than ever before. Look for your next step below.</p>
+        <!-- <hr class="mt-5"> -->
+      </div>
+    </div>
+
     <div class="row">
       {% assign jobs = site.data.jobs.technologists %}
       {% include job-cards.html %}
