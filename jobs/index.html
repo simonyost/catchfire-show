@@ -32,6 +32,25 @@ redirect_from:
   </div>
 </div>
 
+<!-- Blog Section Start -->
+<div class="blog-sec pt-100 pb-150">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-12">
+        <div class="sec-title">
+          <h2>Featured Jobs</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      {% assign jobs = site.data.jobs.featured %}
+      {% include job-cards-lg.html %}
+    </div>
+  </div>
+</div>
+<!-- Blog Section End -->
+
 <!-- Job List -->
 <div class="blog-sec mt-5">
   <div class="container">
