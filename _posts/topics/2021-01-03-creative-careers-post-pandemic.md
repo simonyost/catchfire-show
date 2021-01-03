@@ -1,10 +1,8 @@
 ---
 layout: topic
 title: How do creatives find careers post-pandemic?
-redirect_from:
-- /creative-post-pandemic
-date: 2020-11-10 05:00:00
-post_image: /assets/images/show_img/014/001.png 
+date: 2020-01-03 05:00:00
+post_image: /assets/images/jobs-banner-001.jpg
 tags: [creatives]
 categories: [topic]
 contributor_id: 14
@@ -13,6 +11,21 @@ description: "There are many common and uncommon job titles for creative skills.
 excerpt: "There are many common and uncommon job titles for creative skills..."
 ---
 <p class="lead">Taking your next step in the post-pandemic workforce is an adventure best started with momentum.</p>
+
+<!-- RELATED VIDEO -->
+<div class="row bg-primary text-white py-5 px-3 my-5">
+    <div class="col-6 col-md-4">
+        <div class="video-responsive square">
+            <iframe src="https://share.descript.com/embed/bc4fa35b-13a7-4f53-b496-5bd503a96b3a" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="col-6 col-md-8">
+        <h2 class="text-white mt-0">Related: Finding Opportunities</h2>
+        <p class="lead">"Once there's motion, once you're in front of people, opportunity does present itself. It might not be the opportunity you think you want, but it will, something will happen again."</p>
+        <a class="btn btn-secondary" href="/podcast/2020/08/29/david-dolak">Full Episode</a>
+    </div>
+</div>
+
 
 Your next opportunity will likely not come through more time spent watching Netflix. There are many ways to build momentum right where you are. Here are some examples of momentum-generators:
 
