@@ -9,9 +9,16 @@ class: creative
 <div class="blog-sec pt-100 pb-150">
   <div class="container">
     <div class="row">
-      {% assign jobs = site.data.jobs.creative %}
-      {% include job-cards.html %}
+      {% assign topics = site.posts | where: 'id', '/topic/2020/11/09/creative-careers-post-pandemic' %}
+      {% assign topic = topics.first %}
+      {% include related-post.html %}
     </div>
   </div>
+
+  <div class="row">
+    {% assign jobs = site.data.jobs.creative %}
+    {% include job-cards.html %}
+  </div>
+</div>
 </div>
 <!-- Blog Section End -->

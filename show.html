@@ -29,23 +29,26 @@ redirect_from:
   </div>
 </div>
 
-{% include listen-locations-section.html %}
-
-<div class="container">
-  <div class="row">
-    <div class="col-12 my-5">
-      <hr>
-    </div>
-    <div class="col-12">
-      <div class="sec-title">
-        <h2>Explore</h2>
-      </div>
-    </div>
+<div class="row pt-100">
+  <div class="col-md-12">
+     <div class="sec-title">
+        <h2>watch <small class="pl-2"> on YouTube</small></h2>
+     </div>
+  </div>
+</div>
+<div class="row mt-2">
+  <div class="col-2 offset-4">
+     <a class="btn btn-outline-primary btn-lg" href="{{site.youtube_url}}" target="_blank"><i
+        class="fa fa-play-circle"></i> Watch</a>
+  </div>
+  <div class="col-md-3">
+     <script src="https://apis.google.com/js/platform.js"></script>
+     <div class="g-ytsubscribe" data-channelid="UCdkoR4tJna8oaHHmv67YTvw" data-layout="full" data-count="hidden">
+     </div>
   </div>
 </div>
 
-
-{% include tags.html %}
+{% include listen-locations-section.html %}
 
 
 <!-- Blog Section Start -->
@@ -54,7 +57,7 @@ redirect_from:
     <div class="row">
       <div class="col-sm-12">
         <div class="sec-title p-b-50">
-          <h3>Episodes</h3>
+          <h2>Explore Episodes</h2>
           <p>Browse all our episodes.</p>
         </div>
       </div>

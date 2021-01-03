@@ -8520,3 +8520,6 @@ a.loadmore-btn:active {
   .ig-roll .media img.center {
     -o-object-position: 50% 50%;
        object-position: 50% 50%; }
+
+.strike {
+  text-decoration: line-through; }

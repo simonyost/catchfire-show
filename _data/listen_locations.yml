@@ -1,6 +1,6 @@
 - name: YouTube
   fa: youtube
-  url: {{site.youtube_url}}
+  url: https://www.youtube.com/channel/UCdkoR4tJna8oaHHmv67YTvw
   large: true
 - name: Apple Podcasts
   fa: apple

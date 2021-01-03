@@ -32,25 +32,6 @@ redirect_from:
   </div>
 </div>
 
-<!-- Blog Section Start -->
-<div class="blog-sec pt-100 pb-150">
-  <div class="container">
-    <div class="row mb-4">
-      <div class="col-12">
-        <div class="sec-title">
-          <h2>Featured Jobs</h2>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      {% assign jobs = site.data.jobs.featured %}
-      {% include job-cards-lg.html %}
-    </div>
-  </div>
-</div>
-<!-- Blog Section End -->
-
 <!-- Job List -->
 <div class="blog-sec mt-5">
   <div class="container">
@@ -73,9 +54,9 @@ redirect_from:
             </div>
             <div class="blog-text">
               <div class="post-info">
-                <h2><a href="/jobs/creatives">creatives</a></h2>
+                <h2><a href="/jobs/creatives">Creative Jobs</a></h2>
               </div>
-              <p>hiMom</p>
+              <p>How do creatives find careers post-pandemic? Explore our creative job opportunities for more.</p>
             </div>
           </div>
         </div>
@@ -90,9 +71,9 @@ redirect_from:
             </div>
             <div class="blog-text">
               <div class="post-info">
-                <h2><a href="/jobs/technologists">technologists</a></h2>
+                <h2><a href="/jobs/technologists">Jobs for Technologists</a></h2>
               </div>
-              <p>hiMom</p>
+              <p>Technologists have more choices post-pandemic than ever before. Look for your next step on our job board.</p>
             </div>
           </div>
         </div>
@@ -107,9 +88,9 @@ redirect_from:
             </div>
             <div class="blog-text">
               <div class="post-info">
-                <h2><a href="/jobs/protestors">protestors</a></h2>
+                <h2><a href="/jobs/protestors">Jobs for <span class="strike">Protestors</span> People</a></h2>
               </div>
-              <p>hiMom</p>
+              <p>Being a protestor does not define you, and neither does your job. Use our job board to find opportunities to bring your whole self to work.</p>
             </div>
           </div>
         </div>
@@ -119,4 +100,23 @@ redirect_from:
     </div>
   </div>
 </div>
-<!-- Blog Section End -->
+<!-- Job List End -->
+
+<!-- Feature Section Start -->
+<div class="blog-sec pt-100 pb-150">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-12">
+        <div class="sec-title">
+          <h2>Featured Jobs</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      {% assign jobs = site.data.jobs.featured %}
+      {% include job-cards-lg.html %}
+    </div>
+  </div>
+</div>
+<!-- Feature Section End -->
