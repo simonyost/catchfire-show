@@ -27,7 +27,7 @@ excerpt: How do creatives find careers post-pandemic? Explore creative job oppor
 
   <!-- REMOTE -->
   <div class="row mt-5">
-    <h1 class="col-12 mb-3 text-center">Remote Jobs for Creatives</h1>
+    <h1 class="col-12 mb-3 text-center">Remote Jobs</h1>
     {% assign jobs = site.data.jobs.creative | where: 'publish', 'x' | where: 'has_expired', 'false' | where:
     'is_remote', 'true' %}
     {% if jobs %}
@@ -41,7 +41,7 @@ excerpt: How do creatives find careers post-pandemic? Explore creative job oppor
 
   <!-- ON LOCATION -->
   <div class="row mt-5">
-    <h1 class="col-12 mb-3 text-center">On Location Jobs for Creatives</h1>
+    <h1 class="col-12 mb-3 text-center">On Location Jobs</h1>
     {% assign jobs = site.data.jobs.creative | where: 'publish', 'x' | where: 'has_expired', 'false' | where:
     'is_remote', 'false' %}
     {% if jobs %}
