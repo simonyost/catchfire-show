@@ -16,11 +16,34 @@ excerpt: Being a protestor does not define you, and neither does your job. Explo
       </div>
     </div>
 
-    <div class="row">
-      {% assign jobs = site.data.jobs.protestors %}
-      {% include job-cards.html %}
+  <!-- REMOTE -->
+  <div class="row mt-5">
+    <h1 class="col-12 mb-3 text-center">Remote Jobs</h1>
+    {% assign jobs = site.data.jobs.protestors | where: 'publish', 'x' | where: 'has_expired', 'false' | where:
+    'is_remote', 'true' %}
+    {% if jobs %}
+      {% for job in jobs %}
+        {% include job-cards.html %}
+      {% endfor %}
+    {% else %}
+      <p>No jobs found.</p>
+    {% endif %}
+  </div>
 
-    </div>
+  <!-- ON LOCATION -->
+  <div class="row mt-5">
+    <h1 class="col-12 mb-3 text-center">On Location Jobs</h1>
+    {% assign jobs = site.data.jobs.protestors | where: 'publish', 'x' | where: 'has_expired', 'false' | where:
+    'is_remote', 'false' %}
+    {% if jobs %}
+      {% for job in jobs %}
+        {% include job-cards.html %}
+      {% endfor %}
+    {% else %}
+      <p>No jobs found.</p>
+    {% endif %}
+  </div>
+  
   </div>
 </div>
 <!-- Blog Section End -->
