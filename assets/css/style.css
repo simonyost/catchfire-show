@@ -8523,3 +8523,7 @@ a.loadmore-btn:active {
 
 .strike {
   text-decoration: line-through; }
+
+.fa.thumb {
+  font-size: 7em;
+  margin: 0 29px; }
