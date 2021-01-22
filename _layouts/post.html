@@ -30,12 +30,6 @@ comments: true
 <div class="blog-details pt-5 pb-100">
    <div class="container">
 
-      {% if page.megaphone %}
-
-      <iframe class="m-t-20 m-b-20" frameborder="0" height="200" scrolling="no"
-         src="https://playlist.megaphone.fm?e={{page.megaphone}}&light=true" width="100%"></iframe>
-      {% endif %}
-
       {% if page.youtube %}
       <div class="row">
          <div class="col-12 col-lg-8 offset-lg-2 mb-2 mb-lg-4">
@@ -46,6 +40,9 @@ comments: true
             </div>
          </div>
       </div>
+      {% else %}
+      <iframe class="m-t-20 m-b-20" frameborder="0" height="200" scrolling="no"
+         src="https://playlist.megaphone.fm?e={{page.megaphone}}&light=true" width="100%"></iframe>
       {% endif %}
 
       {% include listen-locations-small.html %}

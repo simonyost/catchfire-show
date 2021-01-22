@@ -26,8 +26,6 @@ layout: default
 </div>
 <!-- Banner Section End -->
 
-{% include video-s2-trailer.html %}
-
 <div class="row pt-150">
    <div class="col-md-12">
       <div class="sec-title">
@@ -35,30 +33,32 @@ layout: default
       </div>
    </div>
 </div>
-<div class="row mt-2">
-   <div class="col-sm-2 offset-sm-4 col-3 offset-2">
-      <a class="btn btn-outline-primary btn-lg" href="{{site.youtube_url}}" target="_blank"><i
-         class="fa fa-play-circle"></i> Watch</a>
-   </div>
-   <div class="col-4">
-      <div class="video-responsive square">
-      <script src="https://apis.google.com/js/platform.js"></script>
-      <div class="g-ytsubscribe" data-channelid="UCdkoR4tJna8oaHHmv67YTvw" data-layout="full" data-count="hidden">
-      </div>
-      </div>
-   </div>
-</div>
 
-
-
-<div class="row pt-150">
-   <div class="col-md-12">
-      <div class="sec-title">
-         <h2>listen <small class="pl-2"> on podcast</small></h2>
+   <div class="row">
+      <div class="col-10 offset-1">
+         <div class="container">
+            <div class="row">
+               {% assign posts = site.posts | where: 'categories', 'podcast' | where_exp: 'item', 'item.youtube != null' | sort: 'date' | reverse %}
+               {% for post in posts limit: 3 %}
+               <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
+                  <!-- Video start -->
+                  <div class="video-responsive">
+                     <iframe width="560" height="315" src="https://www.youtube.com/embed/{{post.youtube}}" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                  </div>
+                  <!-- End video -->
+                  <div class="mt-3">
+                  {{post.excerpt}}
+                  <a href="{{post.url}}">more...</a>
+                  </div>
+               </div>
+               {% endfor %}
+            </div>
+         </div>
       </div>
    </div>
-</div>
-{% include listen-locations.html %}
+
 
 
 

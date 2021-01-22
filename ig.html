@@ -17,66 +17,39 @@ redirect_from:
 <!-- Mini-Header  Section End -->
 
 <!-- Blog Section Start -->
-<div id="blog" class="ig-roll pt-5">
+<div id="blog">
   <div class="container">
 
-    <div class="row">
-      <div class="col-10 offset-1 col-md-8 offset-md-2">
-        <ul class="list-unstyled">
-
-
-          <!-- YouTube -->
-          <li class="media pb-5">
-            <a href="https://www.youtube.com/channel/UCdkoR4tJna8oaHHmv67YTvw">
-              <i class="fa fa-youtube thumb"></i>
-              </a>
-            <div class="media-body">
-              <a href="https://www.youtube.com/channel/UCdkoR4tJna8oaHHmv67YTvw"><b class="text-primary">Subscribe on YouTube</b></a><br />
-              Season 3 move from audio to video on Wed, Jan. 26, 2021. Subscribe on YouTube for the fresh episodes.
-            </div>
-          </li>
-
-          <!-- YouTube -->
-          <li class="media pb-5">
-            <a href="/jobs/featured/">
-              <i class="fa fa-search thumb"></i>
-              </a>
-            <div class="media-body">
-              <a href="/jobs/featured/"><b class="text-primary">Explore our Job Board</b></a><br />
-              Earn and contribute in the post-pandemic world. Find your fire. Live for it.
-            </div>
-          </li>
-
-
-
-
-          {% assign posts = site.posts | where: 'categories', 'podcast' %}
-          {% for post in posts limit:2 %}
-          <li class="media pb-5">
-            <a href="{{post.url}}"><img class="mr-3" src="{{post.post_image}}" alt="{{post.title}}" /></a>
-            <div class="media-body">
-              <a href="{{post.url}}"><b class="text-primary">{{post.title}}</b></a><br />
-              {{post.excerpt}}
-            </div>
-          </li>
-          {% endfor %}
-
-
-
-          <!-- Beginnings -->
-          <!-- <li class="media pb-5">
-            <a href="/beginnings"><img class="mr-3 center" src="/assets/images/beginnings/banner.png"
-                alt="beginnings" /></a>
-            <div class="media-body">
-              <a href="/beginnings"><b class="text-primary">#beginnings</b></a><br />
-              Starting is the worst. Or, it can feel that way. Let's keep your daydream. Join our beginnings Livestream
-              to hear from others just starting their careers.
-            </div>
-          </li> -->
-
-        </ul>
+    <div class="row mt-5">
+      <div class="col-6">
+        <a href="/jobs/featured/" class="btn btn-secondary btn-block">
+          <i class="fa fa-search pr-2"></i> Job Board
+        </a>
       </div>
+      <div class="col-6">
+        <a href="https://www.youtube.com/channel/UCdkoR4tJna8oaHHmv67YTvw" class="btn btn-secondary btn-block">
+          <i class="fa fa-youtube pr-2"></i> Subsribe
+        </a>
+      </div>
+
     </div>
+
+    <div class="row">
+      {% assign posts = site.posts | where: 'categories', 'podcast' | where_exp: 'item', 'item.youtube != null' | sort:
+      'date' | reverse %}
+      {% for post in posts limit: 3 %}
+      <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
+        <!-- Video start -->
+        <div class="video-responsive">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/{{post.youtube}}" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+        <!-- End video -->
+      </div>
+      {% endfor %}
+    </div>
+
 
   </div>
 </div>
@@ -84,11 +57,6 @@ redirect_from:
 
 <footer class="footer-area clearfix pb-5 pt-5">
   <div class="container">
-    <div class="row">
-      <div class="col-12">
-        {% include tags.html %}
-      </div>
-    </div>
 
     <div class="row">
       <div class="col-md-12 mx-auto">
