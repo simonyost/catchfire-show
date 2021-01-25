@@ -6,15 +6,9 @@
 title: Catch Fire Show
 email: hello@catchfire.show
 description: >- # this means to ignore newlines until "baseurl:"
-  Passionate people. Uncommon Paths.
+  Discover your career path. Career tips, profiles, success inspiration.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://catchfire.show" # the base hostname & protocol for your site, e.g. https://example.com
-
-
-algolia:
-  application_id: 'YRWRWFGW0C'
-  index_name: 'CatchFireShow'
-  search_only_api_key: 2ab381d4e486a69dac344333a10151f9
 
 exclude:
   - jekyll-papp-v1.0.0.zip
