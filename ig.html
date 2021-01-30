@@ -22,12 +22,12 @@ redirect_from:
 
     <div class="row mt-5">
       <div class="col-6">
-        <a href="/jobs/featured/" class="btn btn-secondary btn-block">
-          <i class="fa fa-search pr-2"></i> Job Board
+        <a href="/jobs/featured/" class="btn btn-primary btn-block">
+          <i class="fa fa-search pr-2"></i> Job Opportunities
         </a>
       </div>
       <div class="col-6">
-        <a href="http://catchfire.cc/yts" class="btn btn-secondary btn-block">
+        <a href="http://catchfire.cc/yts" class="btn btn-primary btn-block">
           <i class="fa fa-youtube pr-2"></i> Subsribe
         </a>
       </div>
@@ -35,20 +35,22 @@ redirect_from:
     </div>
 
     <div class="row">
+      <div class="col-12 mt-5">
+        <h2>Profiles</h2>
+      </div>
       {% assign posts = site.posts | where: 'categories', 'podcast' | where_exp: 'item', 'item.youtube != null' | sort:
       'date' | reverse %}
-      {% for post in posts limit: 3 %}
-      <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
-        <!-- Video start -->
-        <div class="video-responsive">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/{{post.youtube}}" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        </div>
-        <!-- End video -->
+      {% for post in posts limit: 5 %}
+      <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
+        <!-- Item start -->
+        <a href="{{post.url}}">
+          <img src="{{post.post_image}}" />
+        </a>
+        <!-- Item video -->
       </div>
       {% endfor %}
     </div>
+    
 
 
   </div>
