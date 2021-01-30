@@ -11,7 +11,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://catchfire.show" # the base hostname & protocol for your site, e.g. https://example.com
 
 exclude:
-  - jekyll-papp-v1.0.0.zip
+  - '*.zip'
+  - '*.psd'
   - package-lock.json
   - package.json
   - readme.md
@@ -121,11 +122,3 @@ feed:
       
 whitelist:
   - jekyll-redirect-from
-
-###################################################################
-# If you need any help please contact our support portal
-# https://support.themeix.com 
-# or
-# Email us at themeix@gmail.com
-# We would happpy to assist you!!
-###################################################################
