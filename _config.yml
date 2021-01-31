@@ -29,15 +29,13 @@ logo_url: /assets/images/show_img/logo.png
 sticky_logo_url: /assets/images/show_img/logo_flame.png
 cover_image: /assets/images/blog-img-13
 mailclimp_url: 'https://show.us18.list-manage.com/subscribe/post?u=fced616372d180dde25297550&amp;id=e3e524efc9'
-#dribble_url: https://dribble.com/themeix
-facebook_url: https://www.facebook.com/catch.fire.show/
-instagram_url: https://www.instagram.com/catch.fire.show/
-twitter_url: http://twitter.com/catchfire_show
-linkedin_url: https://www.linkedin.com/company/catch-fire-show/
-pinterest_url: https://www.pinterest.com/catchfireshowpodcast
+facebook_url: https://www.facebook.com/getcatchfire
+instagram_url: https://www.instagram.com/getcatchfire
+twitter_url: http://twitter.com/getcatchfire
+linkedin_url: https://www.linkedin.com/company/getcatchfire
+pinterest_url: https://www.pinterest.com/getcatchfire
 medium_url: https://medium.com/catchfire
 youtube_url: https://www.youtube.com/channel/UCdkoR4tJna8oaHHmv67YTvw
-linkedin_url: https://www.linkedin.com/company/catch-fire-show/
 
 # Build settings
 markdown: kramdown
