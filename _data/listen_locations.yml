@@ -2,6 +2,10 @@
   fa: youtube
   url: https://www.youtube.com/channel/UCdkoR4tJna8oaHHmv67YTvw
   large: true
+- name: Twitch
+  fa: twitch
+  url: https://www.twitch.tv/catchfireshow
+  large: true
 - name: Apple Podcasts
   fa: apple
   url: https://podcasts.apple.com/us/podcast/catch-fire-show/id1513500111
