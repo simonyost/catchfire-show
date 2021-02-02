@@ -12,7 +12,7 @@ comments: false
 featured: false
 description: "What is the upper limit on a human being?"
 excerpt: "What is the upper limit on a human being? Jeremy joins us to discuss this question and many others."
-megaphone: 
+buzzsprout: 7568824
 youtube: A6tiK2GrFRo
 ---
 <blockquote>

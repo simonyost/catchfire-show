@@ -13,5 +13,6 @@ featured: false
 description: "Jonathan joins us to share about his why as a leader and advice he got from a former President."
 excerpt: "Jonathan joins us to share about his why as a leader and advice he got from a former President."
 youtube: yWf9FZMspj0
+buzzsprout: 7573645
 ---
 Jonathan F. Block joins us to share about his why as a leader and advice he got from former President George W. Bush.

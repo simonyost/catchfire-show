@@ -13,5 +13,6 @@ featured: false
 description: "David is a partner and creative director at Phoenix Creative Co. in St. Louis, Missouri."
 excerpt: "David is a partner and creative director at Phoenix Creative Co. in St. Louis, Missouri."
 megaphone: POD1114986344
+buzzsprout: 7573678
 ---
 David Dolak is a partner and creative director at Phoenix Creative Co. in St. Louis, Missouri. David and I started our careers together and had the privileged of seeing each other group up professionally, starting families, and enduring some ups and downs. In this episode, we talk about our first job together, memorable projects we worked on, and how craftsmanship guides so much of the work we do.

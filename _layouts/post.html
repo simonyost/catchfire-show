@@ -40,9 +40,11 @@ comments: true
             </div>
          </div>
       </div>
-      {% else %}
-      <iframe class="m-t-20 m-b-20" frameborder="0" height="200" scrolling="no"
-         src="https://playlist.megaphone.fm?e={{page.megaphone}}&light=true" width="100%"></iframe>
+      {% elsif page.buzzsprout %}
+      <div id="buzzsprout-player-123"></div>
+      <script
+         src="https://www.buzzsprout.com/1654849/{{page.buzzsprout}}.js?container_id=buzzsprout-player-123&player=small"
+         type="text/javascript" charset="utf-8"></script>
       {% endif %}
 
       {% include listen-locations-small.html %}
@@ -175,8 +177,8 @@ comments: true
                         <h3><a href="{{post.url}}">{{post.title}}</a></h3>
                         <ul class="pl-0">
                            <li><a class="badge badge-primary text-white" href="#"></i>{{ post.categories }}</a></li>
-                           <li><a href="#"><i class="fa fa-calendar"
-                                    aria-hidden="true"></i>{{ post.date | date: "%b %d, %Y" }}</a></li>
+                           <li><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>{{ post.date | date: "%b %d,
+                                 %Y" }}</a></li>
                         </ul>
                      </div>
                   </div>
