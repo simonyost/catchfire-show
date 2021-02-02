@@ -48,7 +48,12 @@ layout: default
 <div class="row pt-150">
    <div class="col-md-12">
       <div class="sec-title">
-         <h2>watch <small class="pl-2"> on YouTube</small></h2>
+         <h2>watch <small class="pl-3">
+            <i class="fa fa-twitch"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-facebook"></i> 
+         </small> 
+         </h2>
       </div>
    </div>
 </div>
@@ -58,6 +63,40 @@ layout: default
       <div class="container">
          <div class="row">
             {% assign posts = site.posts | where: 'categories', 'podcast' | where_exp: 'item', 'item.youtube != null' |
+            sort: 'date' | reverse %}
+            <div class="col-lg-6 col-12 mt-3 bg-primary py-3 px-5">
+               <p class="text-white pb-0 mb-0">watch live this week...</p>
+               <h2 class="text-white">
+
+                  {{posts[0].title}}
+               </h2>
+               <p class="text-white">{{posts[0].excerpt}}</p>
+               <a class="btn btn-info" href="https://catchfire.cc/yts">
+                  YouTube
+               </a>
+               <a class="btn btn-info" href="https://www.facebook.com/getcatchfire/live">
+                  Facebook
+               </a>
+               <a class="btn btn-info" href="https://www.twitch.tv/catchfireshow">
+                  Twitch
+               </a>
+               
+            </div>
+            {% for post in posts limit: 1 %}
+            <div class="col-lg-6 col-12 mt-3">
+               <!-- Video start -->
+               <div class="video-responsive">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/{{post.youtube}}" frameborder="0"
+                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                     allowfullscreen></iframe>
+               </div>
+               <!-- End video -->
+            </div>
+            {% endfor %}
+         </div>
+
+         <div class="row">
+            {% assign posts = site.posts | where: 'categories', 'podcast' | where: 'featured', 'true' |
             sort: 'date' | reverse %}
             {% for post in posts limit: 3 %}
             <div class="col-lg-4 col-md-6 col-sm-6 mt-5">

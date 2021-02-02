@@ -70,13 +70,13 @@ $color1: #ffffff;
 $color2: #d24d00;
 $color3: #000000;
 $color4: #555555;
-$color5: #d4d4d4;
+$color5: #FF9900;
 $color6: #f8f8f9;
 
 $primary:       $color2 !default;
 $secondary:     $color4 !default;
 $success:       $green !default;
-$info:          $cyan !default;
+$info:          $color5 !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;

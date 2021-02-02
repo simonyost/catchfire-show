@@ -9,7 +9,7 @@ tags: [entrepreneurs, leaders]
 categories: [podcast]
 contributor_id: 
 comments: false
-featured: false
+featured: true
 description: "What is the upper limit on a human being?"
 excerpt: "What is the upper limit on a human being? Jeremy joins us to discuss this question and many others."
 buzzsprout: 7568824
