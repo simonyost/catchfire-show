@@ -27,24 +27,8 @@ layout: default
 </div>
 <!-- Banner Section End -->
 
-<div class="row pt-150">
-   <div class="col-10 offset-1 col-lg-6 offset-lg-3">
-      <div class="sec-title">
-         <h2><small class="pr-2">Can’t decide on a</small> career path?</h2>
-      </div>
 
-      <p class="lead">We help people looking for success outside traditional paths! Catch Fire Show is creating exclusive content to find your fire and live for it.</p>
-
-         <p>Catch Fire Show helps people who are looking for success outside traditional career paths. We offer...</p>
-            <ul class="mt-0">
-               <li>career tips</li>
-               <li>profiles of expert guests</li>
-               <li>job opportunities</li>
-               <li>inspiration to fuel your success</li>
-            </ul>
-   </div>
-</div>
-
+<!-- watch title  -->
 <div class="row pt-150">
    <div class="col-md-12">
       <div class="sec-title">
@@ -54,30 +38,30 @@ layout: default
             <i class="fa fa-facebook"></i> 
          </small> 
          </h2>
+
+         <h5 class="text-secondary">Watch live wednesday at 6pm CT</h5>
       </div>
    </div>
 </div>
 
+<!-- watch -->
 <div class="row">
    <div class="col-10 offset-1">
-      <div class="container">
          <div class="row">
             {% assign posts = site.posts | where: 'categories', 'podcast' | where_exp: 'item', 'item.youtube != null' |
             sort: 'date' | reverse %}
             <div class="col-lg-6 col-12 mt-3 bg-primary py-3 px-5">
-               <p class="text-white pb-0 mb-0">watch live this week...</p>
                <h2 class="text-white">
-
                   {{posts[0].title}}
                </h2>
                <p class="text-white">{{posts[0].excerpt}}</p>
-               <a class="btn btn-info" href="https://catchfire.cc/yts">
+               <a class="btn btn-info btn-sm" href="https://catchfire.cc/yts">
                   YouTube
                </a>
-               <a class="btn btn-info" href="https://www.facebook.com/getcatchfire/live">
+               <a class="btn btn-info btn-sm" href="https://www.facebook.com/getcatchfire/live">
                   Facebook
                </a>
-               <a class="btn btn-info" href="https://www.twitch.tv/catchfireshow">
+               <a class="btn btn-info btn-sm" href="https://www.twitch.tv/catchfireshow">
                   Twitch
                </a>
                
@@ -121,13 +105,31 @@ layout: default
                <a href="/show" class="btn btn-primary btn-round">more episodes</a>
             </div>
          </div>
-      </div>
+      
    </div>
 </div>
 
 
+<!-- text intro  -->
+<div class="row pt-150">
+   <div class="col-10 offset-1 col-lg-6 offset-lg-3">
+      <div class="sec-title">
+         <h2><small class="pr-2">Can’t decide on a</small> career path?</h2>
+      </div>
 
+      <p class="lead">We help people looking for success outside traditional paths! Catch Fire Show is creating exclusive content to find your fire and live for it.</p>
 
+         <p>Catch Fire Show helps people who are looking for success outside traditional career paths. We offer...</p>
+            <ul class="mt-0">
+               <li>career tips</li>
+               <li>profiles of expert guests</li>
+               <li>job opportunities</li>
+               <li>inspiration to fuel your success</li>
+            </ul>
+   </div>
+</div>
+
+<!-- follow on insta -->
 <div class="row pt-150">
    <div class="col-md-12">
       <div class="sec-title">
