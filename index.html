@@ -46,11 +46,11 @@ layout: default
 
 <!-- watch -->
 <div class="row">
-   <div class="col-10 offset-1">
+   <div class="col-12 offset-0 col-md-10 offset-md-1 col-lg-6 offset-lg-3">
          <div class="row">
             {% assign posts = site.posts | where: 'categories', 'podcast' | where_exp: 'item', 'item.youtube != null' |
             sort: 'date' | reverse %}
-            <div class="col-lg-6 col-12 mt-3 bg-primary py-3 px-5">
+            <div class="col-sm-6 offset-sm-0 col-10 offset-1 mt-3 bg-primary py-3 px-5">
                <h2 class="text-white">
                   {{posts[0].title}}
                </h2>
@@ -67,7 +67,7 @@ layout: default
                
             </div>
             {% for post in posts limit: 1 %}
-            <div class="col-lg-6 col-12 mt-3">
+            <div class="col-sm-6 offset-sm-0 col-10 offset-1 mt-3">
                <!-- Video start -->
                <div class="video-responsive">
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/{{post.youtube}}" frameborder="0"
@@ -83,7 +83,7 @@ layout: default
             {% assign posts = site.posts | where: 'categories', 'podcast' | where: 'featured', 'true' |
             sort: 'date' | reverse %}
             {% for post in posts limit: 3 %}
-            <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
+            <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-0 col-sm-6 offset-sm-0 col-8 offset-2 mt-5">
                <!-- Video start -->
                <div class="video-responsive">
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/{{post.youtube}}" frameborder="0"
