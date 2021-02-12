@@ -7026,16 +7026,22 @@ small,
     content: "\f105"; }
 
 .our-client {
-  background-color: #fcfcfc;
+  background-color: #eee;
   padding: 45px;
   position: relative;
-  margin-bottom: 30px; }
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  min-height: 350px; }
   .our-client .client-img {
-    position: absolute;
-    top: -34px; }
+    position: inherit;
+    margin: -120px auto 0 auto; }
     .our-client .client-img img {
-      border-radius: 100%; }
+      border-radius: 100%;
+      max-width: 130px;
+      border: 4px solid #eee; }
   .our-client .details {
+    text-align: left;
     margin-bottom: 20px; }
     .our-client .details h2 {
       font-weight: 600;
@@ -7043,8 +7049,10 @@ small,
       font-size: 18px; }
       .our-client .details h2 a {
         color: #13192d; }
-  .our-client .rating i {
-    color: #f2b827; }
+  .our-client .rating {
+    text-align: left; }
+    .our-client .rating i {
+      color: #f2b827; }
 
 .client-border-shape {
   height: 1px;

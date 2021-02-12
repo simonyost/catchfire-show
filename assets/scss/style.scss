@@ -935,19 +935,25 @@
 	}
 }
 .our-client {
-	background-color: #fcfcfc;
+	background-color: #eee;
 	padding: 45px;
-
 	position: relative;
+	margin-top: 50px;
 	margin-bottom: $inner-30;
+	text-align: center;
+	min-height: 350px;
 	.client-img {
-		position: absolute;
-		top: -34px;
+		position: inherit;
+		margin: -120px auto 0 auto;
+
 		img {
 			border-radius: 100%;
+			max-width: 130px;
+			border: 4px solid #eee;
 		}
 	}
 	.details {
+		text-align: left;
 		margin-bottom: 20px;
 		span {
 		}
@@ -961,8 +967,12 @@
 			}
 		}
 	}
-	.rating i {
-		color: #f2b827;
+	.rating {
+		text-align: left;
+
+		i {
+			color: #f2b827;
+		}
 	}
 }
 .client-border-shape {
