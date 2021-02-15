@@ -9,6 +9,7 @@ bio: Educator, Pastor, and Musician
 image: /assets/images/contributor_img/kelvin_walker.png
 location: New York, NY, USA
 feature: true
+feature: false
 ---
 
 Metro District Superintendent of the Alliance (C&MA)

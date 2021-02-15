@@ -10,6 +10,7 @@ website:
 bio: Software Developer, Actor, Entrepreneur
 image: /assets/images/contributor_img/jocelyn_matsuo.png
 location: St. Louis, MO, USA
+feature: false
 ---
 Jocelyn has an MFA from University of Louisville in Theatre Arts. She also graduated LAMDA's program in Classical Acting.
 

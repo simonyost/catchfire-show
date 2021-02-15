@@ -9,7 +9,7 @@ linkedin_url: https://www.linkedin.com/in/darlaahlert/
 bio: Technology Consultant
 image: /assets/images/contributor_img/darla_ahlert.png
 location: St. Louis, MO, USA
-feature: true
+feature: false
 ---
 
 Darla Ahlert is active in the tattoo, bowling, computer science, and kazoo communities.

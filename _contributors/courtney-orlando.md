@@ -9,7 +9,7 @@ website: http://iamcourtneyorlando.com
 bio: Grammy Wward-winning Musician
 image: /assets/images/contributor_img/courtney_orlando.png
 location: St. Louis, MO, USA
-feature: true
+feature: false
 ---
 Courtney Orlando is a Urban/Soul artist, songwriter and Grammy award-winning producer.
 

@@ -10,5 +10,6 @@ website:
 bio: Mentor, Activitist, Entrepreneur
 image: /assets/images/contributor_img/tavon_brooks.png
 location: St. Louis, MO, USA
+feature: false
 ---
 

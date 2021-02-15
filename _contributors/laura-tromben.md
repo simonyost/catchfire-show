@@ -10,5 +10,6 @@ website: Buisness Development, Talent Acquisition, Entrepreneur
 bio: Clients, Entrepreneur
 image: /assets/images/contributor_img/laura_tromben.png
 location: St. Louis, MO, USA
+feature: false
 ---
 

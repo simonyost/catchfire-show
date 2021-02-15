@@ -9,7 +9,7 @@ website: http://1904labs.com
 bio: Managing Director of 1904labs
 image: /assets/images/contributor_img/sean_walsh.png
 location: St. Louis, MO, USA
-feature: true
+feature: false
 ---
 
 Sean is the co-founder and Managing Director of 1904labs, a firm helping leaders digitally transform their business by implementing modern software and data solutions with innovative people who emphasize the customer and deliver results.

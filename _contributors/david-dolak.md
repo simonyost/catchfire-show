@@ -9,7 +9,7 @@ website: https://phoenixcreative.com
 bio: Partner at Phoenix Creative Co.
 image: /assets/images/contributor_img/david_dolak.png
 location: St. Louis, MO, USA
-feature: true
+feature: false
 ---
 Partner / Chief Creative Officer at Phoenix Creative Co.
 

@@ -9,4 +9,5 @@ linkedin_url: https://www.linkedin.com/in/josh-dix/
 bio: Coach at Leadershipxd.com
 image: /assets/images/contributor_img/josh_dix.png
 location: St. Louis, MO, USA
+feature: false
 ---

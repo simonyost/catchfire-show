@@ -9,7 +9,7 @@ linkedin_url:
 bio: Executive Editor at RELEVANT
 image: /assets/images/contributor_img/tyler_huckabee.png
 location: Nashville, TN, USA
-feature: true
+feature: false
 ---
 
 Tyler Huckabee is RELEVANT's executive editor. He lives in Nashville with his wife, dog and Twitter account.
