@@ -6,10 +6,22 @@ contributor_id: 1
 facebook_url: https://www.facebook.com/iamcourtneyorlando
 linkedin_url: https://www.linkedin.com/in/courtney-jr-peebles-05a2a19/
 website: http://iamcourtneyorlando.com
-bio: Grammy Wward-winning Musician
+bio: Musician
 image: /assets/images/contributor_img/courtney_orlando.png
 location: St. Louis, MO, USA
-feature: false
+
+profile: true
+summary: Courtney is a urban/soul artist, songwriter and Grammy award-winning producer.
+serve:
+  who: music listeners
+  how: creating music
+skills:
+- Creativity
+- Music Production
+- Music Composition
+- Emotional Intelligence (EQ)
+- Collaboration
+- Leadership
 ---
 Courtney Orlando is a Urban/Soul artist, songwriter and Grammy award-winning producer.
 
