@@ -958,11 +958,15 @@
 	.client-img {
 		position: inherit;
 		margin: -120px auto 0 auto;
+		border-radius: 100%;
+		width: 130px;
+		height: 130px;
+		border: 4px solid #eee;
+		overflow: hidden;
 
 		img {
-			border-radius: 100%;
-			max-width: 130px;
-			border: 4px solid #eee;
+			max-width: 125%;
+			margin: -10% 0 0 -10%;
 		}
 	}
 	.details {
@@ -979,12 +983,7 @@
 			}
 		}
 	}
-	.rating {
 
-		i {
-			color: #f2b827;
-		}
-	}
 }
 .client-border-shape {
 	height: 1px;

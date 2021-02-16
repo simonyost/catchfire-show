@@ -13,9 +13,8 @@ location: St. Louis, MO, USA
 profile: true
 summary: Darla is active in the tattoo, bowling, computer science, and kazoo communities.
 serve:
-  who: People searching for Pets
-  how: abc
-  what: 123
+  who: people searching for pets
+  how: creating software
 skills:
 - Consulting
 - Collaboration

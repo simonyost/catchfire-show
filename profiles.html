@@ -27,7 +27,7 @@ redirect_from:
       {% assign posts = site.contributors | where: 'profile', 'true' | sort: "last" %}
       {% for post in posts %}
       <h1>{{page.pagination.collection}}</h1>
-      <div class="col-md-6 col-sm-6 mb-5">
+      <div class="col-md-4 col-sm-6 mb-5">
         <div class="our-client">
           <div class="client-img">
             <a href="{{post.url}}">
@@ -51,28 +51,26 @@ redirect_from:
             <p>{{post.summary}}</p>
           </div>
 
-
           <div class="rating">
 
             {% if post.serve %}
             <h6 class="text-secondary">service</h6>
             <p> <b class="text-secondary">
-                <i class="fa large fa-users" aria-hidden="true"></i>
-                who</b>
+                <i class="fa fa-user text-primary" aria-hidden="true"></i>
+                who /</b>
               {{post.serve.who}}</p>
 
             <p> <b class="text-secondary">
-                <i class="fa large fa-users" aria-hidden="true"></i>
-                how</b>
+                <i class="fa fa-random text-primary" aria-hidden="true"></i>
+                how /</b>
               {{post.serve.how}}</p>
 
             {% endif%}
 
             {% if post.skills %}
-            <p> <b class="text-secondary">
-                <i class="fa large fa-users" aria-hidden="true"></i>
-                skills used</b></p>
-            <p>
+            <p class="mb-0"> <b class="text-secondary">
+                <i class="fa fa-cogs text-primary" aria-hidden="true"></i>
+                skills used /</b>
               {% for skill in post.skills %}
               <span class="badge rounded-pill bg-primary text-white">{{skill}}</span>
               {% endfor %}
@@ -80,6 +78,11 @@ redirect_from:
             {% endif%}
 
           </div>
+
+          <div class="col-6 offset-3 mt-5">
+            <img src="assets/images/logos/cf_logo_show_color.png" />
+          </div>
+
         </div>
       </div>
       {% endfor %}
