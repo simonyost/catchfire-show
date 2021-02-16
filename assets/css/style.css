@@ -8537,6 +8537,9 @@ a.loadmore-btn:active {
 .strike {
   text-decoration: line-through; }
 
+.fa.large {
+  font-size: 1.5em; }
+
 .fa.thumb {
   font-size: 7em;
   margin: 0 29px; }
