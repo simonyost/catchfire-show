@@ -9,7 +9,14 @@ linkedin_url: https://www.linkedin.com/in/jfarrellrobinson/
 bio: Creative Director, Design Educator
 image: /assets/images/contributor_img/jon_robinson.png
 location: St. Louis, MO, USA
-feature: false
+
+profile: false
+summary: xyz
+serve:
+  who: 123
+  how: abc
+skills:
+- xyz
 ---
 
 Jon is a user experience consultant, creative director, design educator, and contributor. 

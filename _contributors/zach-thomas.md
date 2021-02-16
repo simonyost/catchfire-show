@@ -10,7 +10,14 @@ website: https://leaderfarming.com/leader-farmer/
 bio: Entrepreneur, Author, Veteran
 image: /assets/images/contributor_img/zach_thomas.png
 location: Rockmart, GA, USA
-feature: false
+
+profile: false
+summary: xyz
+serve:
+  who: 123
+  how: abc
+skills:
+- xyz
 ---
 Zach Thomas is an entrepreneur, published author (order Leader Farming), blogger, business/life coach, public speaker and most importantly, follower of Christ, husband, and father of seven children.
 

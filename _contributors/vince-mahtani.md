@@ -10,7 +10,14 @@ website: https://www.vincemahtani.com
 bio: Leadership Coach
 image: /assets/images/contributor_img/vince_mahtani.png
 location: St. Louis, MO, USA
-feature: false
+
+profile: false
+summary: xyz
+serve:
+  who: 123
+  how: abc
+skills:
+- xyz
 ---
 
 Vince helps people discover how to become a better leader within their family, their company, and their community. 

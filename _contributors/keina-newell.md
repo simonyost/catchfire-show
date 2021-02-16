@@ -10,7 +10,14 @@ bio: Founder of Wealth Over Now and Financial Coach
 image: /assets/images/contributor_img/keina_newell.png
 location: Washington D.C., USA
 feature: true
-feature: false
+
+profile: false
+summary: xyz
+serve:
+  who: 123
+  how: abc
+skills:
+- xyz
 ---
 Keina works with passionate and hardworking single women who need help creating clear financial goals so that they can save more, pay off debt, and stress less about money.
 

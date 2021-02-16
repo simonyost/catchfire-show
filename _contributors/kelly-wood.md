@@ -9,7 +9,14 @@ linkedin_url: https://www.linkedin.com/in/kelly-wood-0987a226/
 bio: Educator
 image: /assets/images/contributor_img/kelly_wood.png
 location: St. Louis, MO, USA
-feature: false
+
+profile: false
+summary: xyz
+serve:
+  who: 123
+  how: abc
+skills:
+- xyz
 ---
 
 Teacher of the Deaf/Parent Educator at Central Institute for the Deaf

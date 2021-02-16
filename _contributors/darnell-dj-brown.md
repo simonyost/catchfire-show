@@ -10,7 +10,14 @@ website:
 bio: Founder and Third-generation Foster Parent
 image: /assets/images/contributor_img/darnell_brown.png
 location: St. Louis, MO, USA
-feature: false
+
+profile: false
+summary: xyz
+serve:
+  who: 123
+  how: abc
+skills:
+- xyz
 ---
 Darnell was raised in a family that joined in the work of foster care and now is a third-generation foster parent, along with his wife Anitra. His favorite life’s mantra “Empathy is my superpower.” He desires to channel the empathy that he has to help make more secure futures for the world's most vulnerable children.
 

@@ -10,7 +10,14 @@ website: https://www.toddhenry.com
 bio: Author and Speaker
 image: /assets/images/contributor_img/todd_henry.png
 location: Cincinnati, OH, USA
-feature: false
+
+profile: false
+summary: xyz
+serve:
+  who: 123
+  how: abc
+skills:
+- xyz
 ---
 
 Todd writes books, speaks internationally on creativity, productivity, and passion for work, and helps people and teams generate brilliant ideas. In short, he is an arms dealer for the creative revolution.

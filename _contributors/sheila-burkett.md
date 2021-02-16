@@ -10,7 +10,14 @@ website: https://sprydigital.com
 bio: CEO at Spry Digital
 image: /assets/images/contributor_img/sheila_burkett.png
 location: St. Louis, MO, USA
-feature: false
+
+profile: false
+summary: xyz
+serve:
+  who: 123
+  how: abc
+skills:
+- xyz
 ---
 
 Sheila Burkett is the Founder and CEO at a successful St. Louis interactive agency, Spry Digital, an advocate for women in technology, and a dynamic networker.
