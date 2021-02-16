@@ -83,12 +83,11 @@ autopages:
       - 'category.html'
     title: ' :coll' # :coll is replaced by the collection name
     permalink: '/:coll/'
-  
   tags:
     layouts: 
       - 'category.html'
     title: ':tag' # :tag is replaced by the tag name
-    permalink: '/podcast/:tag'  
+    permalink: '/podcast/:tag'
       
 tag_page_layout: category
 tag_page_dir: tag

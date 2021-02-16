@@ -7027,12 +7027,20 @@ small,
 
 .our-client {
   background-color: #eee;
-  padding: 45px;
+  padding: 45px 0;
   position: relative;
   margin-top: 50px;
   margin-bottom: 30px;
   text-align: center;
   min-height: 350px; }
+  .our-client .list-group-flush, .our-client .details, .our-client .rating {
+    background-color: #eee;
+    text-align: left; }
+    .our-client .list-group-flush .list-group-item, .our-client .details .list-group-item, .our-client .rating .list-group-item {
+      background-color: #eee; }
+  .our-client .details, .our-client .rating {
+    padding-left: 45px;
+    padding-right: 45px; }
   .our-client .client-img {
     position: inherit;
     margin: -120px auto 0 auto; }
@@ -7041,7 +7049,6 @@ small,
       max-width: 130px;
       border: 4px solid #eee; }
   .our-client .details {
-    text-align: left;
     margin-bottom: 20px; }
     .our-client .details h2 {
       font-weight: 600;
@@ -7049,10 +7056,8 @@ small,
       font-size: 18px; }
       .our-client .details h2 a {
         color: #13192d; }
-  .our-client .rating {
-    text-align: left; }
-    .our-client .rating i {
-      color: #f2b827; }
+  .our-client .rating i {
+    color: #f2b827; }
 
 .client-border-shape {
   height: 1px;

@@ -24,7 +24,7 @@ redirect_from:
     </div>
     <div class="row">
 
-      {% assign posts = site.contributors | sort: "last" %}
+      {% assign posts = site.contributors | where: 'profile', 'true' | sort: "last" %}
       {% for post in posts %}
       <h1>{{page.pagination.collection}}</h1>
       <div class="col-md-4 col-sm-6 mb-5">
@@ -48,19 +48,26 @@ redirect_from:
                 {{post.location}}
               </small>
             </span>
-            
+
+            <p>{{post.summary}}</p>
           </div>
+
+          {% if post.serve %}
+          <ul class="list-group list-group-flush my-3">
+            <li class="list-group-item">{{post.serve.who}}</li>
+            <li class="list-group-item">{{post.serve.how}}</li>
+            <li class="list-group-item">{{post.serve.what}}</li>
+          </ul>
+          {% endif%}
+
           <div class="rating">
-            <p>{{post.bio}}</p>
 
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-
-
-
+            <h6 class="text-secondary">Skills</h6>
+            {% for skill in post.skills %}
+            <a href="/skills/{{skill}}">
+              <span class="badge rounded-pill bg-primary text-white">{{skill}}</span>
+            </a>
+            {% endfor %}
 
           </div>
         </div>

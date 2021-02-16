@@ -936,12 +936,25 @@
 }
 .our-client {
 	background-color: #eee;
-	padding: 45px;
+	padding: 45px 0;
 	position: relative;
 	margin-top: 50px;
 	margin-bottom: $inner-30;
 	text-align: center;
 	min-height: 350px;
+
+	.list-group-flush, .details, .rating {
+		background-color: #eee;
+		text-align: left;
+		.list-group-item {
+			background-color: #eee;
+		}
+	}
+
+	.details, .rating {
+		padding-left: 45px;
+		padding-right: 45px;
+	}
 	.client-img {
 		position: inherit;
 		margin: -120px auto 0 auto;
@@ -953,7 +966,6 @@
 		}
 	}
 	.details {
-		text-align: left;
 		margin-bottom: 20px;
 		span {
 		}
@@ -968,7 +980,6 @@
 		}
 	}
 	.rating {
-		text-align: left;
 
 		i {
 			color: #f2b827;
