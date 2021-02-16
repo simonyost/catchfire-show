@@ -7,17 +7,22 @@ facebook_url: https://www.facebook.com/Sonic-Souljah-100785638537325/
 twitter_url: https://twitter.com/WakeUpMusic7
 linkedin_url: https://www.linkedin.com/in/daniel-fitzpatrick-ii-10819370/
 website: https://www.thewakeupmusic.com
-bio: Musician and Producer
+bio: Musician
 image: /assets/images/contributor_img/daniel_fitzpatrick.png
 location: St. Louis, MO, USA
 
-profile: false
-summary: xyz
+profile: true
+summary: Daniel serves as a songwriter, composer, sound engineer, pianist and cellist.
 serve:
-  who: 123
-  how: abc
+  who: music listeners
+  how: creating music
 skills:
-- xyz
+- Creativity
+- Collaboration
+- Emotional Intelligence (EQ)
+- Nonverbal Communication
+- Music Production
+- Music Composition
 ---
 Daniel Fitzpatrick II (a.k.a. Sonic Souljah) is the founder of <a href="https://www.thewakeupmusic.com">Wake Up Music Group</a>, a music production company that composes music for many styles, genres, and purposes. He serves as a songwriter, composer, sound engineer, pianist and cellist.
 

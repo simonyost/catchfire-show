@@ -7,17 +7,22 @@ facebook_url: https://www.facebook.com/jocelyn.matsuo
 twitter_url: https://twitter.com/jocelynmatsuo
 linkedin_url: https://www.linkedin.com/in/jocelyn-matsuo-68851753/
 website: 
-bio: Software Developer, Actor, Entrepreneur
+bio: Software Engineer
 image: /assets/images/contributor_img/jocelyn_matsuo.png
 location: St. Louis, MO, USA
 
-profile: false
-summary: xyz
+profile: true
+summary: Jocelyn currently serves as a full-stack software engineer at 1904labs.
 serve:
-  who: 123
-  how: abc
+  who: people using web apps
+  how: creating software
 skills:
-- xyz
+- Adaptability
+- Collaboration
+- Time Management
+- Consulting
+- Cloud Computing
+- Software Engineering
 ---
 Jocelyn has an MFA from University of Louisville in Theatre Arts. She also graduated LAMDA's program in Classical Acting.
 

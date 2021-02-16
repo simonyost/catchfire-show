@@ -6,17 +6,23 @@ contributor_id: 5
 facebook_url: https://www.facebook.com/david.dolak.96
 linkedin_url: https://www.linkedin.com/in/david-dolak-2582b55/
 website: https://phoenixcreative.com
-bio: Partner at Phoenix Creative Co.
+bio: Chief Creative Officer
 image: /assets/images/contributor_img/david_dolak.png
 location: St. Louis, MO, USA
 
-profile: false
-summary: xyz
+profile: true
+summary: David is a fine artist and graphic designer.
 serve:
-  who: 123
-  how: abc
+  who: fourtne companies
+  how: packaging and advertising
 skills:
-- xyz
+- Creativity
+- Persuasion
+- Collaboration
+- Time Management
+- Presentation
+- Market Research
+- Graphic Design
 ---
 Partner / Chief Creative Officer at Phoenix Creative Co.
 
