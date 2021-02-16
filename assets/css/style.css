@@ -8545,3 +8545,9 @@ a.loadmore-btn:active {
 .fa.thumb {
   font-size: 7em;
   margin: 0 29px; }
+
+.profile-logo {
+  margin-bottom: 85px; }
+
+.profile-summary {
+  font-size: 14px; }
