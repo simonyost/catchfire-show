@@ -8,12 +8,16 @@ tags: [protestors,students,technologists]
 categories: [podcast]
 contributor_id: 
 comments: false
-featured: false
+featured: true
 description: "Content creator, technologist, and cosmetologist, she has also made a career transition from radio to tech."
 excerpt: "GeNella McCrary is a content creator, technologist, and cosmetologist. She has also made a recent career transition from radio to tech."
 buzzsprout: 
 youtube: 3HOb8AEWRMA
 ---
+<blockquote>
+“It's the fire, right?!”
+</blockquote>
+
 <blockquote>
 “I started in radio right after college, where I stayed for five years. In that last year and a half, I felt like I wasn’t being an artist anymore.”
 </blockquote>

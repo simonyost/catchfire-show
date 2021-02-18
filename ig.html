@@ -27,8 +27,8 @@ redirect_from:
         </a>
       </div>
       <div class="col-6">
-        <a href="http://catchfire.cc/yts" class="btn btn-primary btn-block">
-          <i class="fa fa-youtube pr-2"></i> Subscribe
+        <a href="http://catchfire.show/profiles" class="btn btn-primary btn-block">
+          <i class="fa fa-users pr-2"></i> Profiles
         </a>
       </div>
 
@@ -40,7 +40,8 @@ redirect_from:
       </div>
       {% assign recents = site.posts | where: 'categories', 'podcast' |
       sort: 'date' | reverse %}
-      {% for recent in recents limit: 1 %}
+      {% assign recent = recents.first %}
+      
       <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
         <!-- Item start -->
         <a href="{{recent.url}}">
@@ -48,7 +49,7 @@ redirect_from:
         </a>
         <!-- Item video -->
       </div>
-      {% endfor %}
+      
 
 
 
@@ -56,6 +57,7 @@ redirect_from:
       {% assign posts = site.posts | where: 'categories', 'podcast' | where: 'featured', 'true' |
       sort: 'date' | reverse %}
       {% for post in posts limit: 5 %}
+      {% if post.id != recent.id %}
       <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
         <!-- Item start -->
         <a href="{{post.url}}">
@@ -63,6 +65,7 @@ redirect_from:
         </a>
         <!-- Item video -->
       </div>
+      {% endif %}
       {% endfor %}
     </div>
     
