@@ -36,8 +36,23 @@ redirect_from:
 
     <div class="row">
       <div class="col-12 mt-5">
-        <h2 class="text-secondary">Featured Profiles</h2>
+        <h2 class="text-secondary">Shows</h2>
       </div>
+      {% assign recents = site.posts | where: 'categories', 'podcast' |
+      sort: 'date' | reverse %}
+      {% for recent in recents limit: 1 %}
+      <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
+        <!-- Item start -->
+        <a href="{{recent.url}}">
+          <img src="{{recent.post_image}}" />
+        </a>
+        <!-- Item video -->
+      </div>
+      {% endfor %}
+
+
+
+
       {% assign posts = site.posts | where: 'categories', 'podcast' | where: 'featured', 'true' |
       sort: 'date' | reverse %}
       {% for post in posts limit: 5 %}
