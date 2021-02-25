@@ -37,59 +37,7 @@ redirect_from:
       {% assign posts = site.contributors | where: 'profile', 'true' | sort: "last" %}
       {% for post in posts %}
       <div class="col-md-4 col-sm-6 mb-5">
-
-        <div class="our-client">
-          <div class="client-img">
-            <a href="{{post.url}}">
-              <img src="{{post.image}}" alt="{{post.name}}">
-            </a>
-          </div>
-          <div class="details mt-3">
-            <h2><a href="{{post.url}}">{{post.name}}</a>
-              <small class="pl-2">
-                {{post.bio}}
-              </small>
-            </h2>
-
-            <span>
-              <small>
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                {{post.location}}
-              </small>
-            </span>
-            <div class="client-border-shape mb-2"></div>
-            <p class="profile-summary">{{post.summary}}</p>
-          </div>
-
-          <div class="rating">
-
-            {% if post.serve %}
-            <h6 class="text-secondary">service</h6>
-            <p> <b class="text-secondary">
-                <i class="fa fa-user text-primary" aria-hidden="true"></i>
-                who /</b>
-              {{post.serve.who}}</p>
-
-            <p> <b class="text-secondary">
-                <i class="fa fa-random text-primary" aria-hidden="true"></i>
-                how /</b>
-              {{post.serve.how}}</p>
-
-            {% endif%}
-
-            {% if post.skills %}
-            <p class="mb-0"> <b class="text-secondary">
-                <i class="fa fa-cogs text-primary" aria-hidden="true"></i>
-                skills used /</b>
-              {% for skill in post.skills %}
-              <span class="badge rounded-pill bg-primary text-white">{{skill}}</span>
-              {% endfor %}
-            </p>
-            {% endif%}
-
-          </div>
-
-        </div>
+        {% include profile-card-lg.html%}
       </div>
       {% endfor %}
 

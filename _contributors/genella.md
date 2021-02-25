@@ -10,6 +10,7 @@ bio: Scrum Master
 image: /assets/images/contributor_img/genella.png
 location: St. Louis, MO, USA
 
+featured: true
 profile: true
 summary: GeNella is a content creator, technologist, and cosmetologist.
 serve:

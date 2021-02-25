@@ -4,8 +4,8 @@ redirect_from:
 
 ---
 <!-- Banner Section Start -->
-<div id="home">
-  <div id="bannar-effect" class="bannar-image neon">
+<div>
+  <div id="bannar-effect" class="bannar-image">
   </div>
 </div>
 <!-- Banner Section End -->
@@ -18,7 +18,7 @@ redirect_from:
     <div class="row">
       <div class="col-sm-12">
         <div class="sec-title p-b-50">
-          <h2>profiles</h2>
+          <h2>story cards</h2>
         </div>
       </div>
     </div>
@@ -33,58 +33,7 @@ redirect_from:
           <img src="assets/images/logos/cf_logo_show_color.png" />
         </div>
 
-        <div class="our-client">
-          <div class="client-img">
-            <a href="{{post.url}}">
-              <img src="{{post.image}}" alt="{{post.name}}">
-            </a>
-          </div>
-          <div class="details">
-            <h2><a href="{{post.url}}">{{post.name}}</a>
-              <small class="pl-2">
-                {{post.bio}}
-              </small>
-            </h2>
-
-            <span>
-              <small>
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                {{post.location}}
-              </small>
-            </span>
-            <div class="client-border-shape mb-2"></div>
-            <p class="profile-summary">{{post.summary}}</p>
-          </div>
-
-          <div class="rating">
-
-            {% if post.serve %}
-            <h6 class="text-secondary">service</h6>
-            <p> <b class="text-secondary">
-                <i class="fa fa-user text-primary" aria-hidden="true"></i>
-                who /</b>
-              {{post.serve.who}}</p>
-
-            <p> <b class="text-secondary">
-                <i class="fa fa-random text-primary" aria-hidden="true"></i>
-                how /</b>
-              {{post.serve.how}}</p>
-
-            {% endif%}
-
-            {% if post.skills %}
-            <p class="mb-0"> <b class="text-secondary">
-                <i class="fa fa-cogs text-primary" aria-hidden="true"></i>
-                skills used /</b>
-              {% for skill in post.skills %}
-              <span class="badge rounded-pill bg-primary text-white">{{skill}}</span>
-              {% endfor %}
-            </p>
-            {% endif%}
-
-          </div>
-
-        </div>
+        {% include profile-card-story.html%}
       </div>
       {% endfor %}
 

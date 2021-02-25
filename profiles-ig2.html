@@ -18,7 +18,7 @@ redirect_from:
     <div class="row">
       <div class="col-sm-12">
         <div class="sec-title p-b-50">
-          <h2>profiles</h2>
+          <h2>post cards</h2>
         </div>
       </div>
     </div>
@@ -28,59 +28,8 @@ redirect_from:
       {% for post in posts %}
       <h1>{{page.pagination.collection}}</h1>
       <div class="col-md-4 col-sm-6 mt-5 mb-5">
-        <div class="our-client">
-          <div class="client-img">
-            <a href="{{post.url}}">
-              <img src="{{post.image}}" alt="{{post.name}}">
-            </a>
-          </div>
-          <div class="details">
-            <h2><a href="{{post.url}}">{{post.name}}</a>
-              <small class="pl-2">
-                {{post.bio}}
-              </small>
-            </h2>
 
-            <span>
-              <small>
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                {{post.location}}
-              </small>
-            </span>
-            <div class="client-border-shape mb-2"></div>
-            
-          </div>
-
-          <div class="rating">
-
-            {% if post.serve %}
-            <h6 class="text-secondary">service</h6>
-            <p> <b class="text-secondary">
-                <i class="fa fa-user text-primary" aria-hidden="true"></i>
-                who /</b>
-              {{post.serve.who}}</p>
-
-            <p> <b class="text-secondary">
-                <i class="fa fa-random text-primary" aria-hidden="true"></i>
-                how /</b>
-              {{post.serve.how}}</p>
-
-            {% endif%}
-
-            {% if post.skills %}
-            <p class="mb-0"> <b class="text-secondary">
-                <i class="fa fa-cogs text-primary" aria-hidden="true"></i>
-                skills used /</b>
-              {% for skill in post.skills limit: 2 %}
-              <span class="badge rounded-pill bg-primary text-white">{{skill}}</span>
-              {% endfor %}
-              <span class="badge rounded-pill bg-secondary text-white">more...</span>
-            </p>
-            {% endif%}
-
-          </div>
-
-        </div>
+        {% include profile-card-sm.html %}
       </div>
       {% endfor %}
 
