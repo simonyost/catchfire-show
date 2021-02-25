@@ -4,29 +4,38 @@ redirect_from:
 
 ---
 <!-- Banner Section Start -->
-<div id="home">
-  <div id="bannar-effect" class="bannar-image neon">
+<div class="bradcrumb-sec contributor">
+  <div class="bradcrumb-overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="page-heading">
+          <h1>Guest Profiles</h1>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 <!-- Banner Section End -->
 
-
-
 <!-- Blog Section Start -->
-<div id="blog" class="blog-sec pt-100 pb-150">
+<div id="blog" class="blog-sec pb-150">
   <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="sec-title p-b-50">
-          <h2>profiles</h2>
-        </div>
-      </div>
+
+    {% assign posts = site.contributors | where: 'profile', 'true' | sort: "last" %}
+
+    <div class="row mt-5 mb-5">
+      {% if jekyll.environment != 'production' %}
+      <!-- just for DEV -->
+      {% assign contrib = site.contributors | sort: "contributor_id" %}
+      <h4 class="mt-5">last id <small>{{contrib.last.contributor_id}} // {{contrib.last.name}}</small></h4>
+      {% endif %}
     </div>
+
     <div class="row">
 
       {% assign posts = site.contributors | where: 'profile', 'true' | sort: "last" %}
       {% for post in posts %}
-      <h1>{{page.pagination.collection}}</h1>
       <div class="col-md-4 col-sm-6 mb-5">
 
         <div class="our-client">
@@ -35,7 +44,7 @@ redirect_from:
               <img src="{{post.image}}" alt="{{post.name}}">
             </a>
           </div>
-          <div class="details">
+          <div class="details mt-3">
             <h2><a href="{{post.url}}">{{post.name}}</a>
               <small class="pl-2">
                 {{post.bio}}
