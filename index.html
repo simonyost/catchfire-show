@@ -27,19 +27,91 @@ layout: default
 </div>
 <!-- Banner Section End -->
 
+<!-- text intro  -->
+<div class="row pt-150 pb-150">
+   <div class="col-10 offset-1 col-lg-6 offset-lg-3">
+      <h2 class="text-secondary">Profiles, Paths, and Success Inspriation.</h2>
+      <p class="lead">Can’t decide on a career path? We help people looking for success outside traditional paths! Catch
+         Fire has exclusive content to find your fire and live for it.</p>
+   </div>
+</div>
+
+<!-- profiles  -->
+<div class="row pt-100 pb-100 bg-primary">
+   <div class="col-md-12">
+      <div class="sec-title">
+         <h2 class="text-white">
+            <i class="fa fa-fire pr-2"></i>
+            profiles
+         </h2>
+
+         <h5 class="text-dark">Guest taking non-traditional career paths.</h5>
+      </div>
+   </div>
+
+   <div class="col-10 offset-1">
+      <div class="row">
+         {% assign posts = site.contributors | where: 'featured', 'true' | sort: "contributor_id" | reverse %}
+         {% for post in posts limit: 3 %}
+         <div class="col-md-4 col-sm-6 mt-5 mb-5">
+
+            {% include profile-card-sm.html %}
+         </div>
+         {% endfor %}
+      </div>
+   </div>
+   <div class="col-10 offset-1 text-center">
+      <a href="/profiles" class="btn btn-info">More Profiles</a>
+   </div>
+</div>
+
+
+<!-- paths  -->
+<div class="row pt-150">
+   <div class="col-md-12">
+      <div class="sec-title">
+         <h2>
+            <i class="fa fa-random text-primary pr-2"></i>
+            paths
+         </h2>
+
+         <h5 class="text-secondary">Job opportunities to find your fire.</h5>
+      </div>
+   </div>
+
+   <div class="col-10 offset-1">
+      <div class="row">
+         {% assign jobs = site.data.jobs.featured | where: 'publish', 'x' | where: 'has_expired', 'false' | where:
+         'is_remote', 'true' %}
+         {% if jobs %}
+         {% for job in jobs limit: 3 %}
+         <div class="col-md-4 col-sm-6 mt-5">
+            {% include job-cards-sm.html %}
+         </div>
+         {% endfor %}
+         {% else %}
+         <p>No jobs found.</p>
+         {% endif %}
+      </div>
+   </div>
+
+   <div class="col-10 offset-1 text-center">
+      <a href="/jobs/featured/" class="btn btn-info">More Opportunities</a>
+   </div>
+</div>
 
 <!-- watch title  -->
 <div class="row pt-150">
    <div class="col-md-12">
       <div class="sec-title">
-         <h2>watch <small class="pl-3">
-            <i class="fa fa-twitch"></i>
-            <i class="fa fa-youtube"></i>
-            <i class="fa fa-facebook"></i> 
-         </small> 
+         <h2>
+            <i class="fa fa-tv text-primary"></i>
+            show
          </h2>
 
-         <h5 class="text-secondary">Watch live wednesday at 6pm CT</h5>
+         <h5 class="text-secondary">Join us Live or On-demand</h5>
+
+         {% include listen-locations-small.html %}
       </div>
    </div>
 </div>
@@ -47,87 +119,52 @@ layout: default
 <!-- watch -->
 <div class="row">
    <div class="col-12 offset-0 col-md-10 offset-md-1 col-lg-6 offset-lg-3">
-         <div class="row">
-            {% assign posts = site.posts | where: 'categories', 'podcast' | where_exp: 'item', 'item.youtube != null' |
-            sort: 'date' | reverse %}
-            <div class="col-sm-6 offset-sm-0 col-10 offset-1 mt-3 bg-primary py-3 px-5">
-               <h2 class="text-white">
-                  {{posts[0].title}}
-               </h2>
-               <p class="text-white">{{posts[0].excerpt}}</p>
-               <a class="btn btn-info btn-sm" href="https://catchfire.cc/yts">
-                  YouTube
-               </a>
-               <a class="btn btn-info btn-sm" href="https://www.facebook.com/getcatchfire/live">
-                  Facebook
-               </a>
-               <a class="btn btn-info btn-sm" href="https://www.twitch.tv/catchfireshow">
-                  Twitch
-               </a>
-               
+      <div class="row">
+         {% assign posts = site.posts | where: 'categories', 'podcast' | where_exp: 'item', 'item.youtube != null' |
+         sort: 'date' | reverse %}
+         {% for post in posts limit: 1 %}
+         <div class="col-md-12 offset-md-0 col-10 offset-1 mt-3">
+            <!-- Video start -->
+            <div class="video-responsive">
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/{{post.youtube}}" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
             </div>
-            {% for post in posts limit: 1 %}
-            <div class="col-sm-6 offset-sm-0 col-10 offset-1 mt-3">
-               <!-- Video start -->
-               <div class="video-responsive">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/{{post.youtube}}" frameborder="0"
-                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                     allowfullscreen></iframe>
-               </div>
-               <!-- End video -->
-            </div>
-            {% endfor %}
-         </div>
-
-         <div class="row">
-            {% assign posts = site.posts | where: 'categories', 'podcast' | where: 'featured', 'true' |
-            sort: 'date' | reverse %}
-            {% for post in posts limit: 3 %}
-            <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-0 col-sm-6 offset-sm-0 col-8 offset-2 mt-5">
-               <!-- Video start -->
-               <div class="video-responsive">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/{{post.youtube}}" frameborder="0"
-                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                     allowfullscreen></iframe>
-               </div>
-               <!-- End video -->
-               <div class="mt-3">
-                  {{post.excerpt}}
-                  <a href="{{post.url}}">more...</a>
-               </div>
-            </div>
-            {% endfor %}
-         </div>
-
-         <div class="row mt-2">
-            <div class="col-12 text-center">
-               <hr>
-               <a href="/show" class="btn btn-primary btn-round">more episodes</a>
+            <!-- End video -->
+            <div class="mt-3">
+               {{post.excerpt}}
+               <a href="{{post.url}}">more...</a>
             </div>
          </div>
-      
-   </div>
-</div>
-
-
-<!-- text intro  -->
-<div class="row pt-150">
-   <div class="col-10 offset-1 col-lg-6 offset-lg-3">
-      <div class="sec-title">
-         <h2><small class="pr-2">Can’t decide on a</small> career path?</h2>
+         {% endfor %}
       </div>
 
-      <p class="lead">We help people looking for success outside traditional paths! Catch Fire Show is creating exclusive content to find your fire and live for it.</p>
+      <div class="row">
+         {% assign posts = site.posts | where: 'categories', 'podcast' | where: 'featured', 'true' |
+         sort: 'date' | reverse %}
+         {% for post in posts limit: 3 %}
+         <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-0 col-10 offset-1 mt-5">
+            <a href="{{post.url}}">
+               <img src="{{post.post_image}}" alt="{{post.title}}"/>
+            </a>
+            <div class="mt-3">
+               {{post.excerpt}}
+               <a href="{{post.url}}">more...</a>
+            </div>
+         </div>
+         {% endfor %}
+      </div>
 
-         <p>Catch Fire Show helps people who are looking for success outside traditional career paths. We offer...</p>
-            <ul class="mt-0">
-               <li>career tips</li>
-               <li>profiles of expert guests</li>
-               <li>job opportunities</li>
-               <li>inspiration to fuel your success</li>
-            </ul>
+      <div class="row mt-2">
+         <div class="col-12 text-center">
+            <hr>
+            <a href="/show" class="btn btn-primary btn-round">more episodes</a>
+         </div>
+      </div>
+
    </div>
 </div>
+
 
 <!-- follow on insta -->
 <div class="row pt-150">

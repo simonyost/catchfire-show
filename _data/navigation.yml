@@ -1,5 +1,18 @@
 - title: home
   url: /
+- title: profiles
+  url: /profiles
+- title: paths
+  url: /jobs/featured
+  submenu:
+  - title: featured
+    url: /jobs/featured/
+  - title: creatives
+    url: /jobs/creatives/
+  - title: technology
+    url: /jobs/technologists
+  - title: protestors
+    url: /jobs/protestors
 - title: show
   url: /show
   submenu:
@@ -11,16 +24,3 @@
     url: /beginnings
   - title: friendsgiving 2020
     url: /podcast/friendsgiving
-- title: profiles
-  url: /profiles
-- title: jobs
-  url: /jobs/featured
-  submenu:
-  - title: featured
-    url: /jobs/featured/
-  - title: creatives
-    url: /jobs/creatives/
-  - title: technology
-    url: /jobs/technologists
-  - title: protestors
-    url: /jobs/protestors

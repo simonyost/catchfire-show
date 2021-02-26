@@ -2,6 +2,9 @@
   fa: youtube
   url: https://www.youtube.com/channel/UCdkoR4tJna8oaHHmv67YTvw
   large: true
+- name: Facebook
+  fa: facebook
+  url: https://www.facebook.com/getcatchfire/live
 - name: Twitch
   fa: twitch
   url: https://www.twitch.tv/catchfireshow
@@ -12,6 +15,3 @@
 - name: Spoify
   fa: spotify
   url: https://open.spotify.com/show/47EIWNNOV5Kc1ogZQk5jnK?si=HWjoElRuRoqvGsL2kanJUA
-- name: Google Podcasts
-  fa: google
-  url: https://podcasts.google.com/?feed%3DaHR0cHM6Ly9mZWVkcy5zb3VuZGNsb3VkLmNvbS91c2Vycy9zb3VuZGNsb3VkOnVzZXJzOjI4MjI0MDM4MC9zb3VuZHMucnNz
