@@ -22,6 +22,15 @@ exclude:
   - docs/
   - node_modules
   - .sass-cache
+  - README.md
+  - LICENSE.txt
+  - netlify.toml
+  - feed.xml
+  - docker-compose.yml
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 # Site Settings
 twitter_username: getcatchfire
