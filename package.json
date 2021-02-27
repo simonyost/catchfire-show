@@ -24,7 +24,6 @@
 		"url": "https://github.com/themeix/gulp-quickstart-pack/issues"
 	},
 	"dependencies": {
-		"algoliasearch": "^4.8.3",
 		"ansi-colors": "^3.2.4",
 		"concat": "^3.0.0",
 		"del": "^4.1.1",
@@ -45,12 +44,12 @@
 		"gulp-uglify": "^3.0.2",
 		"gulp-zip": "^5.0.2",
 		"instantsearch.js": "^4.9.2",
+		"jekyll": "^3.0.0-beta1",
 		"jquery-countdown": "^2.2.0",
 		"jshint": "^2.12.0",
 		"jshint-stylish": "^2.2.1",
 		"moment": "^2.29.1",
-		"run-sequence": "^2.2.1",
-		"jekyll": "^4.0.0"
+		"run-sequence": "^2.2.1"
 	},
 	"devDependencies": {
 		"gulp": "^4.0.2",
