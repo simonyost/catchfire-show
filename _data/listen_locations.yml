@@ -2,6 +2,10 @@
   fa: youtube
   url: https://www.youtube.com/channel/UCdkoR4tJna8oaHHmv67YTvw
   large: true
+- name: Instagram
+  fa: instagram
+  url: https://www.instagram.com/getcatchfire
+  large: true
 - name: Facebook
   fa: facebook
   url: https://www.facebook.com/getcatchfire/live

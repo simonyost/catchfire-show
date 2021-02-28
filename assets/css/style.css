@@ -1439,9 +1439,6 @@ pre {
   .form-control:-ms-input-placeholder {
     color: #6c757d;
     opacity: 1; }
-  .form-control::-ms-input-placeholder {
-    color: #6c757d;
-    opacity: 1; }
   .form-control::placeholder {
     color: #6c757d;
     opacity: 1; }
@@ -6590,10 +6587,10 @@ small,
     background: #d24d00 url(../images/show_img/b8.png) no-repeat scroll center center/cover; }
   .bannar-image.neon {
     background: #d24d00 url(../images/cfs_neon.jpg) no-repeat scroll center center/cover;
-    padding: 20% 0; }
+    padding: 4% 0 5% 0; }
     @media (max-width: 768px) {
       .bannar-image.neon {
-        padding: 32% 0; } }
+        padding: 26% 0 12% 0; } }
   .bannar-image.friendsgiving {
     background: #d24d00 url(../images/friendsgiving/04.png) no-repeat scroll center center/cover; }
     .bannar-image.friendsgiving .bannar-wrapper {

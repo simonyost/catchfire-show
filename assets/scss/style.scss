@@ -385,10 +385,10 @@
 	}
 	&.neon {
 		background: $primary url(../images/cfs_neon.jpg) no-repeat scroll center center / cover;
-		padding: 20% 0;
+		padding: 4% 0 5% 0;
 		
 		@media (max-width: 768px) {
-			padding: 32% 0;
+			padding: 26% 0 12% 0;
 		}
 	}
 	&.friendsgiving {
