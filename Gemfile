@@ -20,12 +20,11 @@ gem "minima", "~> 2.0"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed"
-  gem "jekyll-paginate-v2"
+  # gem "jekyll-paginate-v2"
   gem 'jekyll-tagging'
   gem 'jekyll-archives'
   gem 'jekyll-seo-tag'
   gem 'jekyll-redirect-from'
-  gem 'jekyll-algolia', '~> 1.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -36,4 +35,4 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 
 # Security fix
-#gem "kramdown", "~> 2.3.0"
+gem "kramdown", "~> 2.3.0"
