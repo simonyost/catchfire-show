@@ -22,7 +22,7 @@ excerpt: "There are many common and uncommon job titles for creative skills..."
     <div class="col-6 col-md-8">
         <h2 class="text-white mt-0">Related: Finding Opportunities</h2>
         <p class="lead">"Once there's motion, once you're in front of people, opportunity does present itself. It might not be the opportunity you think you want, but it will, something will happen again."</p>
-        <a class="btn btn-secondary" href="/podcast/2020/08/29/david-dolak">Full Episode</a>
+        <a class="btn btn-secondary" href="/tag/2020/08/29/david-dolak">Full Episode</a>
     </div>
 </div>
 

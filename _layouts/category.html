@@ -28,18 +28,18 @@ enabled: true
 
       {% if page.pagination.collection == 'contributors' and jekyll.environment != 'production' %}
         <!-- just for DEV -->
-        {% assign posts = paginator.posts | sort: "contributor_id"  %}
+        {% assign posts = page.posts | sort: "contributor_id"  %}
         <h4 class="mt-5">last id <small>{{posts.last.contributor_id}} // {{posts.last.name}}</small></h4>
 
         <!-- for PROD -->
-        {% assign posts = paginator.posts | sort: "last" %}
+        {% assign posts = page.posts | sort: "last" %}
       {% elsif page.pagination.collection == 'contributors' %}
-        {% assign posts = paginator.posts | sort: "last" %}
+        {% assign posts = page.posts | sort: "last" %}
       {% else %}
-        {% assign posts = paginator.posts %}
+        {% assign posts = page.posts %}
       {% endif %}
 
-      <div class="row pt-150 infinite-scroll">
+      <div class="row pt-150">
         {% for post in posts %}
         {% if page.pagination.collection == 'contributors' %}
         <div class="col-md-4 col-sm-6 post-item blog-post">
@@ -58,7 +58,7 @@ enabled: true
                 <div class="tagcloud05">
                   <ul>
                     {% for tag in post.tags %}
-                    <li><a href="/podcast/{{tag}}"><span>{{tag}}</span></a></li>
+                    <li><a href="/tag/{{tag}}"><span>{{tag}}</span></a></li>
                     {% endfor %}
                   </ul>
                 </div>

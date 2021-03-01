@@ -95,7 +95,7 @@ autopages:
     layouts: 
       - 'category.html'
     title: ':tag' # :tag is replaced by the tag name
-    permalink: '/podcast/:tag'
+    permalink: '/tag/:tag'
       
 tag_page_layout: category
 tag_page_dir: tag
