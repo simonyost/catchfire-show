@@ -1,4 +1,7 @@
 ---
+redirect_from:
+- /contributors/leonce_crump
+
 layout: contributor
 name: Léonce B. Crump Jr.
 last: Crump

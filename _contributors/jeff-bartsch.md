@@ -1,4 +1,7 @@
 ---
+redirect_from:
+- /contributors/jeff_bartsch
+
 layout: contributor
 name: Jeff Bartsch
 last: Bartsch
