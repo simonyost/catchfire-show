@@ -1,7 +1,7 @@
 ---
 layout: default
 redirect_from:
-
+description: Catch Fire Show's exclusive clips provide you inspiration for success.
 
 ---
 <!-- Banner Section Start -->
@@ -16,8 +16,7 @@ redirect_from:
                   <ul class="pl-0">
                      <li><a href="https://www.youtube.com/channel/UCdkoR4tJna8oaHHmv67YTvw"><i class="fa fa-youtube"></i> YouTube</a>
                      <li><a href="https://www.instagram.com/getcatchfire"><i class="fa fa-instagram"></i> Instagram</a></li>
-                     <li><a href="https://www.instagram.com/getcatchfire"><i class="fa fa-tiktok"></i> TikTok</a></li>
-                     <li></li>
+                     <li><a href="https://www.tiktok.com/@getcatchfire?">TikTok</a></li>
                   </ul>
                </div>
             </div>
@@ -34,6 +33,8 @@ redirect_from:
 <!-- context -->
 <div class="container">
 
+{% include clip-playlist.html %}
+
 <!-- text intro  -->
 <div class="row mt-5">
   <div class="col-10 offset-1 col-lg-6 offset-lg-3">
@@ -45,25 +46,19 @@ redirect_from:
 </div>
 </div>
 
-
-{% include video-playlist.html %}
-
-{% include listen-locations-section.html %}
-
-
 <!-- Blog Section Start -->
 <div id="blog" class="blog-sec pt-100 pb-150">
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
         <div class="sec-title p-b-50">
-          <h2>on-demand episodes</h2>
+          <h2>on-demand clips</h2>
         </div>
       </div>
     </div>
     <div class="row">
 
-      {% assign posts = site.posts | where: 'categories', 'podcast' %}
+      {% assign posts = site.posts | where: 'categories', 'clip' %}
       {% for post in posts %}
       <div class="col-lg-4 col-md-6 col-sm-6">
         <div class="themeix-box">
