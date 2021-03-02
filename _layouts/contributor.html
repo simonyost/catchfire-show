@@ -49,6 +49,10 @@ enabled: true
           <li class="list-inline-item"><a href="{{contributor.linkedin_url}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
           {% endif %}
         </ul>
+
+
+
+        
       </div>
       <div class="col-md-6 col-sm-6">
         {% if page.content.size > 0 %}
@@ -68,6 +72,36 @@ enabled: true
             <i class="fa fa-file-movie-o pr-2"></i> {{contributor_clips.size}}
           </h1>
         </div>
+      </div>
+
+      <div class="col-12 mt-5 d-none d-sm-block">
+        <hr>
+      </div>
+      
+      <div class="col-12 mt-5">
+        {% if contributor.serve %}
+        <h6 class="text-secondary">service</h6>
+        <p> <b class="text-secondary">
+                <i class="fa fa-user text-primary" aria-hidden="true"></i>
+                who /</b>
+            {{contributor.serve.who}}</p>
+
+        <p> <b class="text-secondary">
+                <i class="fa fa-random text-primary" aria-hidden="true"></i>
+                how /</b>
+            {{contributor.serve.how}}</p>
+
+        {% endif%}
+
+        {% if contributor.skills %}
+        <p class="mb-0"> <b class="text-secondary">
+                <i class="fa fa-cogs text-primary" aria-hidden="true"></i>
+                skills used /</b>
+            {% for skill in contributor.skills %}
+            <span class="badge rounded-pill bg-primary text-white">{{skill}}</span>
+            {% endfor %}
+        </p>
+        {% endif%}
       </div>
 
       <div class="col-12 mt-5 d-none d-sm-block">

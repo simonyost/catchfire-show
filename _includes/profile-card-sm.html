@@ -44,7 +44,9 @@
             {% for skill in post.skills limit: 2 %}
             <span class="badge rounded-pill bg-primary text-white">{{skill}}</span>
             {% endfor %}
-            <span class="badge rounded-pill bg-secondary text-white">more...</span>
+            <a href="{{post.url}}">
+                <span class="badge rounded-pill bg-secondary text-white">more...</span>
+            </a>
         </p>
         {% endif%}
 
