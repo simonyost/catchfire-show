@@ -30,7 +30,17 @@ comments: true
 <div class="blog-details pt-5 pb-100">
    <div class="container">
 
-      {% if page.youtube %}
+      {% if page.youtube and page.categories contains 'clip' %}
+      <div class="row">
+         <div class="col-12 col-md-6 offset-md-3 mb-2 mb-lg-4">
+            <div class="video-responsive tall">
+               <iframe
+                  src="https://www.youtube.com/embed/{{page.youtube}}?modestbranding=1&rel=0&cc_load_policy=1&theme=light&fs=0&controls=1"
+                  width="560" height="315" frameborder="0"></iframe>
+            </div>
+         </div>
+      </div>
+      {% elsif page.youtube %}
       <div class="row">
          <div class="col-12 col-lg-8 offset-lg-2 mb-2 mb-lg-4">
             <div class="video-responsive">

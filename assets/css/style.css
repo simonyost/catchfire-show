@@ -8477,6 +8477,8 @@ a.loadmore-btn:active {
   height: 0; }
   .video-responsive.square {
     padding-bottom: 100%; }
+  .video-responsive.tall {
+    padding-bottom: 179%; }
 
 .video-responsive iframe {
   left: 0;

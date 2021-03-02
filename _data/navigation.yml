@@ -18,6 +18,8 @@
   submenu:
   - title: episodes
     url: /show
+  - title: clips
+    url: /clips
   - title: topics
     url: /topics
   - title: beginnings
