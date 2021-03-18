@@ -1,14 +1,13 @@
 ---
 redirect_from:
-- /contributors/leonce_crump
 
 layout: contributor
 name: Kanika Sharma
 last: Sharma
 contributor_id: 33
-facebook_url: 
-linkedin_url: 
-website: 
+facebook_url: https://www.facebook.com/kani.sharma
+linkedin_url: https://www.linkedin.com/in/kanikasharma
+website: https://1904labs.com/work/case-studies/breaking-monoliths/
 bio: Pastor and Community Leader
 image: /assets/images/contributor_img/kanika_sharma.png
 location: St. Louis, MO, USA

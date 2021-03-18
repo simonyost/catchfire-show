@@ -10,13 +10,18 @@ bio: Creative Director, Design Educator
 image: /assets/images/contributor_img/jon_robinson.png
 location: St. Louis, MO, USA
 
-profile: false
-summary: xyz
+profile: true
+summary: Jon is a user experience consultant, creative director, design educator, and contributor.
 serve:
-  who: 123
-  how: abc
+  who: humans, end-users
+  how: design
 skills:
-- xyz
+- Creativity
+- Collaboration
+- Consulting
+- UI/UX
+- UX Design
+- Graphic Design
 ---
 
 Jon is a user experience consultant, creative director, design educator, and contributor. 
