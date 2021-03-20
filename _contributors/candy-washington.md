@@ -13,7 +13,7 @@ location: Los Angeles, CA, USA
 featured: true
 profile: true
 summary: Candy is an actress, blogger, on-camera host, social media influencer, and the founder, of Actress with Style.
-fire: Actor to Influencer
+fire: Actor + Influencer
 serve:
   who: audiences
   how: actress and influencer

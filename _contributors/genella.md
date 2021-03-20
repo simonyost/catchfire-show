@@ -13,6 +13,7 @@ location: St. Louis, MO, USA
 featured: true
 profile: true
 summary: GeNella is a content creator, technologist, and cosmetologist.
+fire: Radio to Software
 serve:
   who: technical project teams
   how: agile scrum master
