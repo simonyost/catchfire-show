@@ -12,6 +12,7 @@ location: St. Louis, MO, USA
 
 profile: true
 summary: Jon is a user experience consultant, creative director, design educator, and contributor.
+fire: Designer + Speaker + Author
 serve:
   who: humans, end-users
   how: design

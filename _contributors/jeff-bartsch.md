@@ -15,9 +15,10 @@ location: Los Angeles, CA, USA
 
 profile: true
 summary: Jeff built his career in Hollywood as a television editor, producer, and voiceover artist.
+fire: Music Composer to Film Editior
 serve:
   who: audiences
-  how: actress and influencer
+  how: film and tv editing
 skills:
 - Creativity
 - Persuasion

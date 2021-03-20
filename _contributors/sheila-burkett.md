@@ -13,6 +13,7 @@ location: St. Louis, MO, USA
 
 profile: true
 summary: Sheila Burkett is the Founder and CEO at Spry Digital, an advocate for women in technology, and a dynamic networker.
+fire: Executive to Entrepreneur
 serve:
   who: leaders
   how: creating digital tools

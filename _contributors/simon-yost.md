@@ -12,11 +12,12 @@ bio: Host of Catch Fire Show
 image: /assets/images/contributor_img/simon_yost.png
 location: St. Louis, MO, USA
 
-profile: false
-summary: Host of Catch Fire Show.
+profile: true
+summary: Founder of Catch Fire Show.
+fire: Theater to Software to Podcasting
 serve:
-  who: 123
-  how: abc
+  who: aspiring professionals
+  how: content creation
 skills:
 - Creativity
 - Collaboration
@@ -30,4 +31,4 @@ skills:
 - Content Strategy
 ---
 
-Host of Catch Fire Show. I unify & align teams around the power of technology so that tribes can thrive. I am a husband, father, amateur cyclist, and self-professed coffee aficionado. My passions include foster/adopt parenting and Nebraska football.
+Host of Catch Fire Show, Simon unifys & aligns teams around the power of technology so that tribes can thrive. He is a husband, father, amateur cyclist, and self-professed coffee aficionado. Simon's passions include foster/adopt parenting and Nebraska football.

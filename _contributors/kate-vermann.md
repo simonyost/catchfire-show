@@ -13,6 +13,7 @@ location: St. Louis, MO, USA
 
 profile: false
 summary: xyz
+fire: Technologist + Tri-athlete
 serve:
   who: 123
   how: abc

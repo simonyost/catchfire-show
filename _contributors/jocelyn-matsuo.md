@@ -13,6 +13,7 @@ location: St. Louis, MO, USA
 
 profile: true
 summary: Jocelyn currently serves as a full-stack software engineer at 1904labs.
+fire: Actor to Software
 serve:
   who: people using web apps
   how: creating software

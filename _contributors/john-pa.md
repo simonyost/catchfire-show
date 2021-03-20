@@ -13,6 +13,7 @@ location: St. Louis, MO, USA
 
 profile: true
 summary: John Pa has started multiple companies. He’s an investor, idea-enthusiast, and a writer.
+fire: Pastor to Entrepreneur
 serve:
   who: leaders
   how: content creation

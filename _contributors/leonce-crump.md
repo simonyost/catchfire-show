@@ -15,6 +15,7 @@ location: Atlanta, GA, USA
 
 profile: true
 summary: Léonce is a veteran of the NFL, community leader, and pastor of Renovation Church in Atlanta.
+fire: Professional Athlete to Pastor
 serve:
   who: constituents
   how: pastor

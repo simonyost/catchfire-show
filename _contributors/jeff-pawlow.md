@@ -12,6 +12,7 @@ location: St. Louis, MO, USA
 
 profile: true
 summary: Jeff is the Founder and Managing Shareholder of The Growth Partnership.
+fire: Marketer to Founder
 serve:
   who: accounting firms
   how: marketing, training, and growth

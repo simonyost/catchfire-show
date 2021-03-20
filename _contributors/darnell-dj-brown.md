@@ -13,6 +13,7 @@ location: St. Louis, MO, USA
 
 profile: true
 summary: Darnell is accelerating the care of kids from hard places using the power of technology.
+fire: Foster parent to Founder
 serve:
   who: foster parents
   how: creating mobile apps

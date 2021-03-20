@@ -12,6 +12,7 @@ location: St. Louis, MO, USA
 
 profile: true
 summary: David is a fine artist and graphic designer.
+fire: Designer + Chief Creative 
 serve:
   who: fourtne companies
   how: packaging and advertising

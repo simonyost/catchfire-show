@@ -13,6 +13,7 @@ location: St. Louis, MO, USA
 
 profile: true
 summary: Darren is the CEO of All Black Creatives, a community and agency.
+fire: Solopreneur to Fortune Company Partnerships
 serve:
   who: black artists
   how: fortune company partnerships

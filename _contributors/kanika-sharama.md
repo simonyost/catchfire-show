@@ -8,12 +8,13 @@ contributor_id: 33
 facebook_url: https://www.facebook.com/kani.sharma
 linkedin_url: https://www.linkedin.com/in/kanikasharma
 website: https://1904labs.com/work/case-studies/breaking-monoliths/
-bio: Pastor and Community Leader
+bio: Software Engineer and Tech Lead
 image: /assets/images/contributor_img/kanika_sharma.png
 location: St. Louis, MO, USA
 
 profile: true
 summary: Kanika Sharma is the Tech Lead for the Modern Software Practice at 1904labs.
+fire: Technologist + Global Citizen
 serve:
   who: other software engineers
   how: creating software

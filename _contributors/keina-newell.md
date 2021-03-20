@@ -11,13 +11,19 @@ image: /assets/images/contributor_img/keina_newell.png
 location: Washington D.C., USA
 feature: true
 
-profile: false
-summary: xyz
+profile: true
+summary: Keina works with passionate and hardworking single women who need help creating clear financial goals so that they can save more, pay off debt, and stress less about money.
+fire: Teacher to Financial Coach
 serve:
-  who: 123
-  how: abc
+  who: Hardworking single women
+  how: Financial Coach
 skills:
-- xyz
+- Adaptability
+- Emotional Intelligence (EQ)
+- Business development
+- Economics
+- Coaching
+- Social Media
 ---
 Keina works with passionate and hardworking single women who need help creating clear financial goals so that they can save more, pay off debt, and stress less about money.
 

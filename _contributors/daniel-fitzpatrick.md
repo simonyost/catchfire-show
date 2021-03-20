@@ -12,6 +12,7 @@ image: /assets/images/contributor_img/daniel_fitzpatrick.png
 location: St. Louis, MO, USA
 
 profile: true
+fire: Musician + Composer
 summary: Daniel serves as a songwriter, composer, sound engineer, pianist and cellist.
 serve:
   who: music listeners
