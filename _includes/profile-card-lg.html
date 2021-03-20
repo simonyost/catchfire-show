@@ -21,6 +21,12 @@
         <p class="profile-summary">{{post.summary}}</p>
     </div>
 
+    {% if post.fire %}
+    <div class="col-10 offset-1 bg-primary mt-3 mb-3 py-2 pl-4 text-white text-left">
+        <i class="fa fa-fire pr-2"></i> {{post.fire}}
+    </div>
+    {% endif%}
+
     <div class="rating">
 
         {% if post.serve %}

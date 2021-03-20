@@ -23,6 +23,13 @@
 
     <div class="rating">
 
+        {% if post.fire %}
+        <p> <b class="text-secondary">
+                <i class="fa fa-fire text-primary" aria-hidden="true"></i>
+                fire</b><br />
+            {{post.fire}}</p>
+        {% endif%}
+
         {% if post.serve %}
         <h6 class="text-secondary">service</h6>
         <p> <b class="text-secondary">
@@ -37,15 +44,9 @@
 
         {% endif%}
 
-        {% if post.skills %}
-        <p class="mb-0"> <b class="text-secondary">
-                <i class="fa fa-cogs text-primary" aria-hidden="true"></i>
-                skills used /</b>
-            {% for skill in post.skills %}
-            <span class="badge rounded-pill bg-primary text-white">{{skill}}</span>
-            {% endfor %}
-        </p>
-        {% endif%}
+        <div class="text-center">
+            <a class="btn btn-primary btn-round btn-sm">Expore @ catchfire.show</a>
+        </div>
 
     </div>
 

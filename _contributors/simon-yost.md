@@ -12,7 +12,7 @@ bio: Host of Catch Fire Show
 image: /assets/images/contributor_img/simon_yost.png
 location: St. Louis, MO, USA
 
-profile: true
+profile: false
 summary: Host of Catch Fire Show.
 serve:
   who: 123
