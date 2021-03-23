@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Starting an Underwear Company"
+author: John Pa, Simon Yost
 redirect_from:
 - /jp
 date: 2020-12-14 05:00:00

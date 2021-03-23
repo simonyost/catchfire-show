@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "How to find your Fire with Forever GeNella"
+title: "How do you find your Fire?"
+author: GeNella McCrary
 redirect_from:
 date: 2021-03-02T02:37:46Z
 post_image: https://i.ytimg.com/vi/PmdaKHQRH94/hqdefault.jpg

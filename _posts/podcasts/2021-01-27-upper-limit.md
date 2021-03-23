@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Upper Limit"
+author: Dr. Jeremy Bedenbaug, Simon Yost
 redirect_from:
 - /jb
 date: 2021-01-21 05:00:00

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Move Towards Love"
+author: Zach Thomas, Simon Yost
 redirect_from:
 - /zt
 date: 2020-12-20 05:00:00

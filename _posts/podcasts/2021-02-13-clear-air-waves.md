@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Clear Air Waves"
+author: GeNella McCrary, Simon Yost
 redirect_from:
 date: 2021-02-13T02:03:13Z
 post_image: /assets/images/show_img/s03/poster_genella.jpg

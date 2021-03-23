@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Finding Opportunities"
+author: Todd Henry
 redirect_from:
 - /test-topic
 date: 2020-11-10 05:00:00
@@ -19,3 +20,12 @@ excerpt: "Once there's motion... opportunity does present itself."
 <iframe src="https://share.descript.com/embed/BGhGAJ2ixNR" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 </div>
 
+Helping people who are looking for success outside the traditional paths!
+Career tips, profiles, job board, & success inspiration.
+We create exclusive content for you to find your fire and live for it.
+
+LEARN MORE👇
+https://catchfire.show
+
+JOB OPPORTUNITIES👇
+https://catchfire.show/jobs

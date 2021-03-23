@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jonathan F. Block joins Friendsgiving 2020"
+author: Jonathan F. Block , Simon Yost
 redirect_from:
 - /jb
 date: 2020-11-25 01:00:00

@@ -118,6 +118,8 @@ collections:
     permalink: /jobs/:title/    
     
 feed:
+  posts_limit: 40
+  excerpt_only: true
   collections:
     posts:
       path: "/sitemap.xml"

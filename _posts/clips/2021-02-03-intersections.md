@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to navigate the intersections of culture, politics, and race with Léonce Crump Jr."
+author:  Léonce Crump Jr.
 redirect_from:
 date: 2021-03-02T02:39:46Z
 post_image: https://i.ytimg.com/vi/1kJd_5KKvTk/hqdefault.jpg

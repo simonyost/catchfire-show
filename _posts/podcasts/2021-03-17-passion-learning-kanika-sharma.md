@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Passion for Learning with Kanika Sharma"
+title: "Passion for Learning"
+author: Kanika Sharma, Simon Yost
 redirect_from:
 date: 2021-03-16T01:54:42Z
 post_image: /assets/images/show_img/s03/poster_kanika.jpg

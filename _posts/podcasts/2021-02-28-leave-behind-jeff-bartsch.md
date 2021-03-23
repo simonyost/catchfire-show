@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Leave it Behind with Jeff Bartsch"
+title: "Leave it Behind"
+author: Jeff Bartsch, Simon Yost
 redirect_from:
 date: 2021-02-28T01:04:27Z
 post_image: /assets/images/show_img/s03/poster_jeff.jpg

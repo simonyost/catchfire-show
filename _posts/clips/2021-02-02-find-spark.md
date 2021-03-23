@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "How to find your spark with Forever GeNella"
+title: "How do your find your spark?"
+author: GeNella McCrary
 redirect_from:
 date: 2021-03-02T02:37:07Z
 post_image: https://i.ytimg.com/vi/tPRd_X5lIhQ/hqdefault.jpg
