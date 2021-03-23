@@ -8,7 +8,7 @@ tags: [entrepreneurs, leaders]
 categories: [podcast]
 contributor_id: 31
 comments: false
-featured: false
+featured: true
 description: "Jeff Bartsch built his career in Hollywood as a television editor, producer, and voiceover artist. His editing background includes work for ABC, NBC, Universal, Disney, Apple, and many others. "
 excerpt: "Jeff Bartsch built his career in Hollywood as a television editor, producer, and voiceover artist. His editing background includes work for ABC, NBC, Universal, Disney, Apple, and many others. "
 buzzsprout: 

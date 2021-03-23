@@ -8,7 +8,7 @@ tags: [technologists, leaders]
 categories: [podcast]
 contributor_id: 33
 comments: false
-featured: false
+featured: true
 description: "Kanika Sharma is the Tech Lead for the Modern Software Practice at 1904labs."
 excerpt: "Kanika Sharma is the Tech Lead for the Modern Software Practice at 1904labs. She puts her heart and soul into her work, as it has been her passion since high school."
 buzzsprout: 
