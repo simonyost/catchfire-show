@@ -12,7 +12,7 @@ image: /assets/images/contributor_img/john_pa.png
 location: St. Louis, MO, USA
 
 profile: true
-summary: John Pa has started multiple companies. He’s an investor, idea-enthusiast, and a writer.
+excerpt:  "John Pa has started multiple companies. He’s an investor, idea-enthusiast, and a writer. Career Path: Pastor to Entrepreneur"
 fire: Pastor to Entrepreneur
 serve:
   who: leaders

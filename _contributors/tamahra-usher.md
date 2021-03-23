@@ -10,7 +10,7 @@ image: /assets/images/contributor_img/tamahra_usher.png
 location: St. Louis, MO, USA
 
 profile: false
-summary: Digital strategist, business architect, service designer, sustainability consultant and futurist.
+excerpt:  Digital strategist, business architect, service designer, sustainability consultant and futurist.
 serve:
   who: 123
   how: abc

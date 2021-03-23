@@ -11,7 +11,7 @@ image: /assets/images/contributor_img/david_dolak.png
 location: St. Louis, MO, USA
 
 profile: true
-summary: David is a fine artist and graphic designer.
+excerpt: "David is a fine artist and graphic designer. Career Path: Designer + Chief Creative "
 fire: Designer + Chief Creative 
 serve:
   who: fourtne companies

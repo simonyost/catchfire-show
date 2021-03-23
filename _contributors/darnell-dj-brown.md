@@ -12,8 +12,8 @@ image: /assets/images/contributor_img/darnell_brown.png
 location: St. Louis, MO, USA
 
 profile: true
-summary: Darnell is accelerating the care of kids from hard places using the power of technology.
-fire: Foster parent to Founder
+excerpt:  "Darnell is accelerating the care of kids from hard places using the power of technology. Career Path: Foster parent + Founder"
+fire: Foster parent + Founder
 serve:
   who: foster parents
   how: creating mobile apps

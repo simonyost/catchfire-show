@@ -13,7 +13,7 @@ location: St. Louis, MO, USA
 
 profile: true
 fire: Musician + Composer
-summary: Daniel serves as a songwriter, composer, sound engineer, pianist and cellist.
+excerpt:  "Daniel serves as a songwriter, composer, sound engineer, pianist and cellist. Career Path: Musician + Composer"
 serve:
   who: music listeners
   how: creating music

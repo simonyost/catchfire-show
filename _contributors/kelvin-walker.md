@@ -11,7 +11,7 @@ location: New York, NY, USA
 feature: true
 
 profile: false
-summary: xyz
+excerpt:  Metro District Superintendent of the Alliance (C&MA)
 serve:
   who: 123
   how: abc

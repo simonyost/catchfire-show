@@ -11,7 +11,7 @@ image: /assets/images/contributor_img/darla_ahlert.png
 location: St. Louis, MO, USA
 
 profile: true
-summary: Darla is active in the tattoo, bowling, computer science, and kazoo communities.
+excerpt:  "Darla is active in the tattoo, bowling, computer science, and kazoo communities. Career Path: Math + Software"
 fire: Math + Software
 serve:
   who: people searching for pets

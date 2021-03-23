@@ -12,7 +12,7 @@ image: /assets/images/contributor_img/jocelyn_matsuo.png
 location: St. Louis, MO, USA
 
 profile: true
-summary: Jocelyn currently serves as a full-stack software engineer at 1904labs.
+excerpt:  "Jocelyn currently serves as a full-stack software engineer at 1904labs. Career Path: Actor to Software"
 fire: Actor to Software
 serve:
   who: people using web apps

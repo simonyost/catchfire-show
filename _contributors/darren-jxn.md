@@ -12,7 +12,7 @@ image: /assets/images/contributor_img/darren_jxn.png
 location: St. Louis, MO, USA
 
 profile: true
-summary: Darren is the CEO of All Black Creatives, a community and agency.
+excerpt:  "Darren is the CEO of All Black Creatives, a community and agency. Career Path: Solopreneur to Fortune Company Partnerships"
 fire: Solopreneur to Fortune Company Partnerships
 serve:
   who: black artists

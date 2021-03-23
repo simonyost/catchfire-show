@@ -12,7 +12,7 @@ image: /assets/images/contributor_img/tavon_brooks.png
 location: St. Louis, MO, USA
 
 profile: false
-summary: xyz
+excerpt: Travon skills include Public Relations and Hospitality.
 serve:
   who: 123
   how: abc
@@ -20,3 +20,4 @@ skills:
 - xyz
 ---
 
+Travon Brooks simply loves people. He is fluent in Hebrew, dabbles a bit in Russian and Arabic. Travon skills include Public Relations and Hospitality.

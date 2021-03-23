@@ -11,7 +11,7 @@ image: /assets/images/contributor_img/jon_robinson.png
 location: St. Louis, MO, USA
 
 profile: true
-summary: Jon is a user experience consultant, creative director, design educator, and contributor.
+excerpt:  "Jon is a user experience consultant, creative director, design educator, and contributor. Career Path: Designer + Speaker + Author"
 fire: Designer + Speaker + Author
 serve:
   who: humans, end-users

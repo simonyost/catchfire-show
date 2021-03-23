@@ -14,7 +14,7 @@ image: /assets/images/contributor_img/jeff_bartsch.png
 location: Los Angeles, CA, USA
 
 profile: true
-summary: Jeff built his career in Hollywood as a television editor, producer, and voiceover artist.
+excerpt:  "Jeff built his career in Hollywood as a television editor, producer, and voiceover artist. Career Path: Music Composer to Film Editior"
 fire: Music Composer to Film Editior
 serve:
   who: audiences

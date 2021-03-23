@@ -13,7 +13,7 @@ image: /assets/images/contributor_img/kanika_sharma.png
 location: St. Louis, MO, USA
 
 profile: true
-summary: Kanika Sharma is the Tech Lead for the Modern Software Practice at 1904labs.
+excerpt: "Kanika Sharma is the Tech Lead for the Modern Software Practice at 1904labs. Career Path: Technologist + Global Citizen"
 fire: Technologist + Global Citizen
 serve:
   who: other software engineers

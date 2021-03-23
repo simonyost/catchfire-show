@@ -12,7 +12,7 @@ image: /assets/images/contributor_img/kate_vermann.png
 location: St. Louis, MO, USA
 
 profile: false
-summary: xyz
+excerpt:  Kate is a professional tri-athlete and technology consultant focusing on user research.
 fire: Technologist + Tri-athlete
 serve:
   who: 123

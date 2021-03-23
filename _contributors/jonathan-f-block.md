@@ -12,7 +12,7 @@ image: /assets/images/contributor_img/jonathan_block.png
 location: Atlanta, GA, USA
 
 profile: false
-summary: xyz
+excerpt:  . Jonathan's work has reached thousands of employees in more than 25 countries, and he has served clients on six continents.
 serve:
   who: 123
   how: abc

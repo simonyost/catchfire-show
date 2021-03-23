@@ -11,7 +11,7 @@ image: /assets/images/contributor_img/jeff_pawlow.png
 location: St. Louis, MO, USA
 
 profile: true
-summary: Jeff is the Founder and Managing Shareholder of The Growth Partnership.
+excerpt:  "Jeff is the Founder and Managing Shareholder of The Growth Partnership. Career Path: Marketer to Founder"
 fire: Marketer to Founder
 serve:
   who: accounting firms

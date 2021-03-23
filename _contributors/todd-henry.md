@@ -12,7 +12,7 @@ image: /assets/images/contributor_img/todd_henry.png
 location: Cincinnati, OH, USA
 
 profile: false
-summary: xyz
+excerpt:  Todd writes books, speaks internationally on creativity, productivity, and passion for work, and helps people and teams generate brilliant ideas. 
 serve:
   who: 123
   how: abc

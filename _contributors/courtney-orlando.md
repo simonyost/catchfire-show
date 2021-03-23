@@ -12,8 +12,8 @@ location: St. Louis, MO, USA
 
 featured: true
 profile: true
-summary: Courtney is a urban/soul artist, songwriter and Grammy award-winning producer.
-fire: Musican + Community Leader
+excerpt: "Courtney is a urban/soul artist, songwriter and Grammy award-winning producer. Career Path: Musican + Producer + Community Leader"
+fire: Musican + Producer + Community Leader
 serve:
   who: music listeners
   how: creating music

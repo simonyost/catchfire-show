@@ -12,7 +12,7 @@ image: /assets/images/contributor_img/vince_mahtani.png
 location: St. Louis, MO, USA
 
 profile: false
-summary: xyz
+excerpt:  Vince helps people discover how to become a better leader within their family, their company, and their community. 
 serve:
   who: 123
   how: abc

@@ -14,7 +14,7 @@ image: /assets/images/contributor_img/leonce_crump.png
 location: Atlanta, GA, USA
 
 profile: true
-summary: Léonce is a veteran of the NFL, community leader, and pastor of Renovation Church in Atlanta.
+excerpt: "Léonce is a veteran of the NFL, community leader, and pastor of Renovation Church in Atlanta. Career Path: Professional Athlete to Pastor"
 fire: Professional Athlete to Pastor
 serve:
   who: constituents

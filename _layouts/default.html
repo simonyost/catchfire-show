@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
    <head>
+      {% if page.contributor_id and page.name and page.fire %}
+         <title>{{page.name}} | Career Path: {{page.fire}}</title>
+      {% endif %}
+
       <!-- meta -->
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">

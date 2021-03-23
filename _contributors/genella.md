@@ -12,7 +12,7 @@ location: St. Louis, MO, USA
 
 featured: true
 profile: true
-summary: GeNella is a content creator, technologist, and cosmetologist.
+excerpt:  "GeNella is a content creator, technologist, and cosmetologist. Career Path: Radio to Software"
 fire: Radio to Software
 serve:
   who: technical project teams

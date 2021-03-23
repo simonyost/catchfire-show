@@ -13,7 +13,7 @@ location: Omaha, NE, USA
 feature: false
 
 profile: true
-summary: Liz Hunt is the owner and founder of Daycloud Studios in Omaha, Nebraska.
+excerpt:  "Liz Hunt is the owner and founder of Daycloud Studios in Omaha, Nebraska. Career Path: Designer to Founder/CEO"
 fire: Designer to Founder/CEO
 serve:
   who: leaders

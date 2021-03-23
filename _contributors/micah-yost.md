@@ -12,7 +12,7 @@ image: /assets/images/contributor_img/micah_yost.png
 location: Omaha, NE, USA
 
 profile: false
-summary: xyz
+excerpt:  Micah's experienced over the past 15 years working with technology, communication, and creativity.
 serve:
   who: 123
   how: abc

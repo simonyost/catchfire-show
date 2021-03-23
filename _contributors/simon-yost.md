@@ -13,7 +13,7 @@ image: /assets/images/contributor_img/simon_yost.png
 location: St. Louis, MO, USA
 
 profile: true
-summary: Founder of Catch Fire Show.
+excerpt:  "Founder of Catch Fire Show. Career Path: Theater to Software to Podcasting"
 fire: Theater to Software to Podcasting
 serve:
   who: aspiring professionals

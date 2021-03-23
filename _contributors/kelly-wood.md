@@ -11,7 +11,7 @@ image: /assets/images/contributor_img/kelly_wood.png
 location: St. Louis, MO, USA
 
 profile: false
-summary: xyz
+excerpt:  Teacher of the Deaf/Parent Educator at Central Institute for the Deaf
 serve:
   who: 123
   how: abc
