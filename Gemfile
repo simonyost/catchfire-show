@@ -35,4 +35,4 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 
 # Security fix
-gem "kramdown", "~> 2.3.0"
+gem "kramdown", "~> 2.3.1"
