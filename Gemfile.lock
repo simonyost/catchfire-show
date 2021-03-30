@@ -43,7 +43,7 @@ GEM
       nuggets
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    kramdown (2.3.0)
+    kramdown (2.3.1)
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
@@ -73,6 +73,7 @@ GEM
     unicode-display_width (1.7.0)
 
 PLATFORMS
+  ruby
   universal-darwin-20
 
 DEPENDENCIES
@@ -82,7 +83,7 @@ DEPENDENCIES
   jekyll-redirect-from
   jekyll-seo-tag
   jekyll-tagging
-  kramdown (~> 2.3.0)
+  kramdown (~> 2.3.1)
   minima (~> 2.0)
   tzinfo-data
 
