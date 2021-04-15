@@ -89,6 +89,8 @@ comments: true
                      </a>
                   </div>
                </div>
+
+               {% if page.contributor_id %}
                {% assign contributor = site.contributors | where: 'contributor_id', page.contributor_id | first %}
                {% if contributor %}
                <div class="admin-sec">
@@ -102,7 +104,10 @@ comments: true
                                     <a href="{{contributor.url}}"><img src="{{contributor.image}}"
                                           alt="{{contributor.name}}" class="profile" /></a>
                                     <h5 class="card-title">{{contributor.name}}</h5>
-                                    <p class="card-text">{{contributor.bio}}</p>
+                                    <p class="card-text">{{contributor.bio}}
+                                       <br/>
+                                       <a href="{{contributor.url}}">Read more...</a>
+                                    </p>
 
                                     <div class="icon-block">
                                        {% if contributor.facebook %}
@@ -125,6 +130,7 @@ comments: true
                      </div>
                   </div>
                </div>
+               {% endif %}
                {% endif %}
             </div>
             <div class="comment-form ">

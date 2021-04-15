@@ -15,7 +15,7 @@ buzzsprout:
 youtube: qfUs-ZF4QHw
 ---
 <blockquote>
-quote goes here...
+I am a novice compared to the masters who inspire me.
 </blockquote>
 
 From his Casio 76 keyboard to acceptance to Berklee College of Music in Boston to contributing to the "Fresh Prince of Bel-Air" reboot's musical score, Royce Martin has caught fire over the past several years.

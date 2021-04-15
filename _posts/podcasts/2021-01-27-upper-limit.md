@@ -8,7 +8,7 @@ date: 2021-01-21 05:00:00
 post_image: /assets/images/show_img/s03/poster_jb.jpg
 tags: [entrepreneurs, leaders]
 categories: [podcast]
-contributor_id: 
+contributor_id: 36
 comments: false
 featured: false
 description: "What is the upper limit on a human being?"
