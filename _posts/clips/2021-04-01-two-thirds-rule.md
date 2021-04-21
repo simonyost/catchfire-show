@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Casey Nolen carves our space for the positive with the two-thirds rule"
+title: "Carves out space for the positive with the two-thirds rule"
 redirect_from:
 date: 2021-04-10T12:37:18Z
 post_image: https://i.ytimg.com/vi/2JhgGnh2LC0/hqdefault.jpg
