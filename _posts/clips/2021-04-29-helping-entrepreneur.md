@@ -5,7 +5,7 @@ redirect_from:
 date: 2021-04-29T19:40:32Z
 post_image: https://i.ytimg.com/vi/rDwx73a75m4/hqdefault.jpg
 tags: [entrepreneurs, leaders, technologists]
-categories: [podcast]
+categories: [clip]
 contributor_id: 37
 comments: false
 featured: false
