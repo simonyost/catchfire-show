@@ -2,6 +2,7 @@
 layout: post
 title: "David Price"
 redirect_from:
+- /dp
 date: 2021-04-25T01:07:48Z
 post_image: /assets/images/show_img/s03/poster_davePrice.jpg
 tags: [entrepreneurs, leaders, technologists]
