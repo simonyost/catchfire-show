@@ -17,7 +17,7 @@
   url: /show
   submenu:
   - title: episodes
-    url: /show
+    url: /show#demand
   - title: clips
     url: /clips
   - title: topics
