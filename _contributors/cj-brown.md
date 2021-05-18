@@ -7,8 +7,8 @@ last: Brown
 contributor_id: 38
 facebook_url: 
 linkedin_url: 
-instagram_url: https://www.instagram.com/sk8bort_tees
-website: https://www.sk8bortproductions.com/
+instagram_url: //www.instagram.com/sk8bort_tees
+website: //www.sk8bortproductions.com/
 bio: Skating Entrepreneur
 image: /assets/images/contributor_img/cj-brown.png
 location: St. Louis, MO, USA

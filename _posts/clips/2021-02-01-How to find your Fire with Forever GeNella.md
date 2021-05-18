@@ -4,7 +4,7 @@ title: "How do you find your Fire?"
 author: GeNella McCrary
 redirect_from:
 date: 2021-03-02T02:37:46Z
-post_image: https://i.ytimg.com/vi/PmdaKHQRH94/hqdefault.jpg
+post_image: //i.ytimg.com/vi/PmdaKHQRH94/hqdefault.jpg
 tags: [entrepreneurs, leaders]
 categories: [clip]
 contributor_id: 29

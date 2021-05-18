@@ -3,7 +3,7 @@ layout: post
 title: "How has design education evolved?"
 redirect_from:
 date: 2021-05-12T18:03:16Z
-post_image: https://i.ytimg.com/vi/O7A3pxfkeUE/hqdefault.jpg
+post_image: //i.ytimg.com/vi/O7A3pxfkeUE/hqdefault.jpg
 tags: [entrepreneurs, leaders, technologists]
 categories: [clip]
 contributor_id: 37
@@ -20,4 +20,4 @@ quote goes here...
 
 How has design education evolved? David Price joins us to share his path to design before it was taught at a staple in programs worldwide. 
 
-Full interview https://catchfire.show/dp
+Full interview //catchfire.show/dp

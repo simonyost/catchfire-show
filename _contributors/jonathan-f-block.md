@@ -3,9 +3,9 @@ layout: contributor
 name: Jonathan F. Block
 last: Block
 contributor_id: 26
-facebook_url: https://www.facebook.com/jonathanfblock
-twitter_url: https://twitter.com/JonathanFBlock
-linkedin_url: https://www.linkedin.com/in/jonathanfblock/
+facebook_url: //www.facebook.com/jonathanfblock
+twitter_url: //twitter.com/JonathanFBlock
+linkedin_url: //www.linkedin.com/in/jonathanfblock/
 website: 
 bio: Former White House staffer and Communication Leader
 image: /assets/images/contributor_img/jonathan_block.png

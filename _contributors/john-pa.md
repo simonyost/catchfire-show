@@ -28,4 +28,4 @@ skills:
 - Leadership 
 - Negotiation
 ---
-John Pa has started multiple companies (some, utter failures). His most current endeavors are, [Grain](http://grainforall.com/), [Clean Cookie Company](https://cleancookieco.com/), and [The Howard and John Show](https://howardandjohn.com/). He’s an investor, idea-enthusiast, and a writer. He often writes about mindset, self-improvement, wealth creation, and relationships.
+John Pa has started multiple companies (some, utter failures). His most current endeavors are, [Grain](http://grainforall.com/), [Clean Cookie Company](//cleancookieco.com/), and [The Howard and John Show](//howardandjohn.com/). He’s an investor, idea-enthusiast, and a writer. He often writes about mindset, self-improvement, wealth creation, and relationships.

@@ -3,10 +3,10 @@ layout: contributor
 name: Sheila Burkett
 last: Burkett
 contributor_id: 13
-facebook_url: https://www.facebook.com/saburkett
+facebook_url: //www.facebook.com/saburkett
 twitter_url: 
-linkedin_url: https://www.linkedin.com/in/sheilaburkett/
-website: https://sprydigital.com
+linkedin_url: //www.linkedin.com/in/sheilaburkett/
+website: //sprydigital.com
 bio: CEO at Spry Digital
 image: /assets/images/contributor_img/sheila_burkett.png
 location: St. Louis, MO, USA

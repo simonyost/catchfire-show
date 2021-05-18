@@ -13,7 +13,7 @@
 	"contributor": {
 		"name": "Themeix",
 		"email": "support@themeix.com",
-		"url": "https://themeix.com"
+		"url": "//themeix.com"
 	},
 	"keywords": [
 		"starter",
@@ -21,7 +21,7 @@
 		"themeix"
 	],
 	"bugs": {
-		"url": "https://github.com/themeix/gulp-quickstart-pack/issues"
+		"url": "//github.com/themeix/gulp-quickstart-pack/issues"
 	},
 	"dependencies": {
 		"ansi-colors": "^3.2.4",

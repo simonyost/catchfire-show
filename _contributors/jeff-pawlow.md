@@ -3,9 +3,9 @@ layout: contributor
 name: Jeff Pawlow
 last: Pawlow
 contributor_id: 6
-facebook_url: https://www.facebook.com/jeff.pawlow
+facebook_url: //www.facebook.com/jeff.pawlow
 twitter_url: 
-linkedin_url: https://www.linkedin.com/in/jeffreypawlow/
+linkedin_url: //www.linkedin.com/in/jeffreypawlow/
 bio: Founder
 image: /assets/images/contributor_img/jeff_pawlow.png
 location: St. Louis, MO, USA

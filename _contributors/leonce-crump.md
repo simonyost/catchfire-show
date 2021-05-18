@@ -6,9 +6,9 @@ layout: contributor
 name: Léonce B. Crump Jr.
 last: Crump
 contributor_id: 32
-facebook_url: https://www.facebook.com/LeonceCrumpJr
-linkedin_url: https://www.linkedin.com/in/leonce-b-crump-jr-46591811/
-website: https://www.leoncecrump.com
+facebook_url: //www.facebook.com/LeonceCrumpJr
+linkedin_url: //www.linkedin.com/in/leonce-b-crump-jr-46591811/
+website: //www.leoncecrump.com
 bio: Pastor and Community Leader
 image: /assets/images/contributor_img/leonce_crump.png
 location: Atlanta, GA, USA

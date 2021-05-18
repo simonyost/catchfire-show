@@ -1,6 +1,6 @@
 ###################################################################
 # Welcome to Paap Jekyll Theme 
-# Developed by https://themeix.com
+# Developed by //themeix.com
 # Version : 1.0.0
 ###################################################################
 title: Catch Fire
@@ -8,7 +8,7 @@ email: hello@catchfire.show
 description: >- # this means to ignore newlines until "baseurl:"
   Discover your career path.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://catchfire.show" # the base hostname & protocol for your site, e.g. https://example.com
+url: "//catchfire.show" # the base hostname & protocol for your site, e.g. //example.com
 
 exclude:
   - '*.zip'
@@ -37,15 +37,15 @@ twitter_username: getcatchfire
 logo_url: /assets/images/show_img/logo.png
 sticky_logo_url: /assets/images/show_img/logo_flame.png
 cover_image: /assets/images/blog-img-13
-mailclimp_url: 'https://show.us18.list-manage.com/subscribe/post?u=fced616372d180dde25297550&amp;id=e3e524efc9'
-facebook_url: https://www.facebook.com/getcatchfire
-instagram_url: https://www.instagram.com/getcatchfire
+mailclimp_url: '//show.us18.list-manage.com/subscribe/post?u=fced616372d180dde25297550&amp;id=e3e524efc9'
+facebook_url: //www.facebook.com/getcatchfire
+instagram_url: //www.instagram.com/getcatchfire
 twitter_url: http://twitter.com/getcatchfire
-linkedin_url: https://www.linkedin.com/company/getcatchfire
-pinterest_url: https://www.pinterest.com/getcatchfire
-medium_url: https://medium.com/catchfire
-youtube_url: https://www.youtube.com/channel/UCdkoR4tJna8oaHHmv67YTvw
-twitch_url: https://www.twitch.tv/catchfireshow
+linkedin_url: //www.linkedin.com/company/getcatchfire
+pinterest_url: //www.pinterest.com/getcatchfire
+medium_url: //medium.com/catchfire
+youtube_url: //www.youtube.com/channel/UCdkoR4tJna8oaHHmv67YTvw
+twitch_url: //www.twitch.tv/catchfireshow
 
 # Build settings
 markdown: kramdown

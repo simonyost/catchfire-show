@@ -5,7 +5,7 @@ last: Bedenbaug
 contributor_id: 36
 facebook_url: 
 linkedin_url: 
-website: https://www.recreate-solutions.com/
+website: //www.recreate-solutions.com/
 bio: Founder & CEO
 image: /assets/images/contributor_img/jeremy-bedenbaugh.png
 location: St. Louis, MO, USA
@@ -39,4 +39,4 @@ Dr. Jeremy Bedenbaugh, Founder & CEO of Recreate Solutions helping leaders and o
 To dive deeper, join Jeremy for the 21 day MAKE IT COUNT Challenge starting Monday, February 1. Signup now http://bit.ly/make-it-count-challenge
 
 LEARN MORE👇
-https://www.recreate-solutions.com
+//www.recreate-solutions.com

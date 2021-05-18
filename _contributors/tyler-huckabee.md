@@ -3,8 +3,8 @@ layout: contributor
 name: Tyler Huckabee
 last: Huckabee
 contributor_id: 17
-facebook_url: https://www.facebook.com/tyler.huckabee
-twitter_url: https://twitter.com/TylerHuckabee
+facebook_url: //www.facebook.com/tyler.huckabee
+twitter_url: //twitter.com/TylerHuckabee
 linkedin_url: 
 bio: Executive Editor at RELEVANT
 image: /assets/images/contributor_img/tyler_huckabee.png

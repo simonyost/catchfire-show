@@ -7,13 +7,13 @@ last: Dunn
 contributor_id: 39
 facebook_url: 
 linkedin_url: 
-instagram_url: https://www.instagram.com/sidewaysskates
-website: https://www.youtube.com/channel/UC7wpmSVjC7I4MYr9ZJ-Elgg
+instagram_url: //www.instagram.com/sidewaysskates
+website: //www.youtube.com/channel/UC7wpmSVjC7I4MYr9ZJ-Elgg
 bio: Skating Entrepreneur
 image: /assets/images/contributor_img/chris-dunn/chris-dunn.png
 location: St. Louis, MO, USA
 
-featured: true
+featured: false
 profile: true
 excerpt:  "Skater, artist, and all-around cool guy, Chris Dunn, founder of Sideways Skates."
 fire: brand building hustle

@@ -5,7 +5,7 @@
 // Normalization of HTML elements, manually forked from Normalize.css to remove
 // styles targeting irrelevant browsers while applying new styles.
 //
-// Normalize is licensed MIT. https://github.com/necolas/normalize.css
+// Normalize is licensed MIT. //github.com/necolas/normalize.css
 
 
 // Document
@@ -61,8 +61,8 @@ body {
 // or the browser has somehow determined that the user is primarily a keyboard user and/or
 // wants focus outlines to always be presented.
 //
-// See https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible
-// and https://developer.paciellogroup.com/blog/2018/03/focus-visible-and-backwards-compatibility/
+// See //developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible
+// and //developer.paciellogroup.com/blog/2018/03/focus-visible-and-backwards-compatibility/
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
@@ -197,7 +197,7 @@ a {
 // And undo these styles for placeholder links/named anchors (without href).
 // It would be more straightforward to just use a[href] in previous block, but that
 // causes specificity issues in many other styles that are too complex to fix.
-// See https://github.com/twbs/bootstrap/issues/19402
+// See //github.com/twbs/bootstrap/issues/19402
 
 a:not([href]):not([class]) {
   color: inherit;
@@ -256,7 +256,7 @@ img {
 
 svg {
   // Workaround for the SVG overflow bug in IE10/11 is still required.
-  // See https://github.com/twbs/bootstrap/issues/26878
+  // See //github.com/twbs/bootstrap/issues/26878
   overflow: hidden;
   vertical-align: middle;
 }
@@ -297,7 +297,7 @@ label {
 
 // Remove the default `border-radius` that macOS Chrome adds.
 //
-// Details at https://github.com/twbs/bootstrap/issues/24093
+// Details at //github.com/twbs/bootstrap/issues/24093
 button {
   // stylelint-disable-next-line property-blacklist
   border-radius: 0;
@@ -306,7 +306,7 @@ button {
 // Work around a Firefox/IE bug where the transparent `button` background
 // results in a loss of the default `button` focus styles.
 //
-// Credit: https://github.com/suitcss/base/
+// Credit: //github.com/suitcss/base/
 button:focus {
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color;
@@ -335,14 +335,14 @@ select {
 
 // Set the cursor for non-`<button>` buttons
 //
-// Details at https://github.com/twbs/bootstrap/pull/30562
+// Details at //github.com/twbs/bootstrap/pull/30562
 [role="button"] {
   cursor: pointer;
 }
 
 // Remove the inheritance of word-wrap in Safari.
 //
-// Details at https://github.com/twbs/bootstrap/issues/24990
+// Details at //github.com/twbs/bootstrap/issues/24990
 select {
   word-wrap: normal;
 }
@@ -396,8 +396,8 @@ fieldset {
   // Browsers set a default `min-width: min-content;` on fieldsets,
   // unlike e.g. `<div>`s, which have `min-width: 0;` by default.
   // So we reset that to ensure fieldsets behave more like a standard block element.
-  // See https://github.com/twbs/bootstrap/issues/12359
-  // and https://html.spec.whatwg.org/multipage/#the-fieldset-and-legend-elements
+  // See //github.com/twbs/bootstrap/issues/12359
+  // and //html.spec.whatwg.org/multipage/#the-fieldset-and-legend-elements
   min-width: 0;
   // Reset the default outline behavior of fieldsets so they don't affect page layout.
   padding: 0;
@@ -433,7 +433,7 @@ progress {
   // This overrides the extra rounded corners on search inputs in iOS so that our
   // `.form-control` class can properly style them. Note that this cannot simply
   // be added to `.form-control` as it's not specific enough. For details, see
-  // https://github.com/twbs/bootstrap/issues/11586.
+  // //github.com/twbs/bootstrap/issues/11586.
   outline-offset: -2px; // 2. Correct the outline style in Safari.
   -webkit-appearance: none;
 }

@@ -3,9 +3,9 @@ layout: contributor
 name: Jon Robinson
 last: Robinson
 contributor_id: 7
-facebook_url: https://www.facebook.com/jon.robinson.5
+facebook_url: //www.facebook.com/jon.robinson.5
 twitter_url: 
-linkedin_url: https://www.linkedin.com/in/jfarrellrobinson/
+linkedin_url: //www.linkedin.com/in/jfarrellrobinson/
 bio: Creative Director, Design Educator
 image: /assets/images/contributor_img/jon_robinson.png
 location: St. Louis, MO, USA

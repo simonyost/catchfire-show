@@ -3,9 +3,9 @@ layout: contributor
 name: Darnell Brown
 last: Brown
 contributor_id: 25
-facebook_url: https://www.facebook.com/darnell.j.brown
+facebook_url: //www.facebook.com/darnell.j.brown
 twitter_url: 
-linkedin_url: https://www.linkedin.com/in/darnell-dj-brown-4b28a0134/
+linkedin_url: //www.linkedin.com/in/darnell-dj-brown-4b28a0134/
 website: 
 bio: Founder
 image: /assets/images/contributor_img/darnell_brown.png

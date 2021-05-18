@@ -4,7 +4,7 @@ name: David Price
 last: Price
 contributor_id: 37
 facebook_url: 
-linkedin_url: https://www.linkedin.com/in/dsprice/
+linkedin_url: //www.linkedin.com/in/dsprice/
 website: 
 bio: Software Developer
 image: /assets/images/contributor_img/david-price.png

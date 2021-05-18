@@ -121,7 +121,7 @@
   animation-name: flash;
 }
 
-/* originally contributored by Nick Pettit - https://github.com/nickpettit/glide */
+/* originally contributored by Nick Pettit - //github.com/nickpettit/glide */
 
 @-webkit-keyframes pulse {
   from {
@@ -471,7 +471,7 @@
   animation-name: tada;
 }
 
-/* originally contributored by Nick Pettit - https://github.com/nickpettit/glide */
+/* originally contributored by Nick Pettit - //github.com/nickpettit/glide */
 
 @-webkit-keyframes wobble {
   from {
@@ -2631,7 +2631,7 @@
   animation-name: hinge;
 }
 
-/* originally contributored by Nick Pettit - https://github.com/nickpettit/glide */
+/* originally contributored by Nick Pettit - //github.com/nickpettit/glide */
 
 @-webkit-keyframes rollIn {
   from {
@@ -2666,7 +2666,7 @@
   animation-name: rollIn;
 }
 
-/* originally contributored by Nick Pettit - https://github.com/nickpettit/glide */
+/* originally contributored by Nick Pettit - //github.com/nickpettit/glide */
 
 @-webkit-keyframes rollOut {
   from {

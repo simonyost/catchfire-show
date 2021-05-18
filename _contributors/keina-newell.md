@@ -3,9 +3,9 @@ layout: contributor
 name: Keina Newell
 last: Newell
 contributor_id: 19
-facebook_url: https://www.facebook.com/wealthovernow
-linkedin_url: https://www.linkedin.com/in/keina-newell-55562b133/
-website: https://wealthovernow.com
+facebook_url: //www.facebook.com/wealthovernow
+linkedin_url: //www.linkedin.com/in/keina-newell-55562b133/
+website: //wealthovernow.com
 bio: Founder of Wealth Over Now and Financial Coach
 image: /assets/images/contributor_img/keina_newell.png
 location: Washington D.C., USA

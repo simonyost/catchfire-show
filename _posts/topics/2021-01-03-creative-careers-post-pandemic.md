@@ -16,7 +16,7 @@ excerpt: "There are many common and uncommon job titles for creative skills..."
 <div class="row bg-primary text-white py-5 px-3 my-5">
     <div class="col-6 col-md-4">
         <div class="video-responsive square">
-            <iframe src="https://share.descript.com/embed/bc4fa35b-13a7-4f53-b496-5bd503a96b3a" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+            <iframe src="//share.descript.com/embed/bc4fa35b-13a7-4f53-b496-5bd503a96b3a" width="640" height="360" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
     <div class="col-6 col-md-8">

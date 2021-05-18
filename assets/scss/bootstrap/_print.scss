@@ -1,11 +1,11 @@
 // stylelint-disable declaration-no-important, selector-no-qualifying-type
 
-// Source: https://github.com/h5bp/main.css/blob/master/src/_print.css
+// Source: //github.com/h5bp/main.css/blob/master/src/_print.css
 
 // ==========================================================================
 // Print styles.
 // Inlined to avoid the additional HTTP request:
-// https://www.phpied.com/delay-loading-your-print-css/
+// //www.phpied.com/delay-loading-your-print-css/
 // ==========================================================================
 
 @if $enable-print-styles {
@@ -57,7 +57,7 @@
 
     //
     // Printing Tables:
-    // https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+    // //web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
     //
 
     thead {

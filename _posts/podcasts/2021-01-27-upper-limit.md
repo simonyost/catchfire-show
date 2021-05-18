@@ -20,7 +20,7 @@ youtube: A6tiK2GrFRo
 We know what the lower limit of human beings are and the depravity people can sink to. We don't have any grasp on what the upper limit on a human being is, and that's exciting.
 </blockquote>
 
-<p>Dr. Jeremy Bedenbaug, Founder & CEO of <a href="https://www.recreate-solutions.com/" target="_blank">Recreate Solutions</a> helping leaders and organizations get started, get healthy and get unstuck. Recreate offers coaching and fractional executive services that support organizations large and small.</p>
+<p>Dr. Jeremy Bedenbaug, Founder & CEO of <a href="//www.recreate-solutions.com/" target="_blank">Recreate Solutions</a> helping leaders and organizations get started, get healthy and get unstuck. Recreate offers coaching and fractional executive services that support organizations large and small.</p>
 
 <p>To dive deeper, join Jeremy for the 21 day MAKE IT COUNT Challenge starting Monday, February 1.</p>
 

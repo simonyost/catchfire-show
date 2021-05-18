@@ -3,7 +3,7 @@ layout: post
 title: "What is the fire that fuels your startup?"
 redirect_from:
 date: 2021-04-30T18:04:44Z
-post_image: https://i.ytimg.com/vi/XF-PVyGJryo/hqdefault.jpg
+post_image: //i.ytimg.com/vi/XF-PVyGJryo/hqdefault.jpg
 tags: [entrepreneurs, leaders, technologists]
 categories: [clip]
 contributor_id: 37
@@ -18,4 +18,4 @@ youtube: XF-PVyGJryo
 quote goes here...
 </blockquote>
 
-What's the fire that fuels your startup? David S. Price joins the show to talk entrepreneurship, motivations, career paths, and pivots. | More at https://catchfire.show/
+What's the fire that fuels your startup? David S. Price joins the show to talk entrepreneurship, motivations, career paths, and pivots. | More at //catchfire.show/

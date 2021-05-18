@@ -3,10 +3,10 @@ layout: contributor
 name: Liz Hunt
 last: Hunt
 contributor_id: 11
-facebook_url: https://www.facebook.com/lizhuntdesigner
-twitter_url: https://twitter.com/lizhunt
-linkedin_url: https://www.linkedin.com/in/liz-hunt-61639a7a/
-website: https://daycloudstudios.com
+facebook_url: //www.facebook.com/lizhuntdesigner
+twitter_url: //twitter.com/lizhunt
+linkedin_url: //www.linkedin.com/in/liz-hunt-61639a7a/
+website: //daycloudstudios.com
 bio: Founder of Daycloud Studios
 image: /assets/images/contributor_img/liz_hunt.png
 location: Omaha, NE, USA

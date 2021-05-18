@@ -1,6 +1,6 @@
 // Embedded icons from Open Iconic.
 // Released under MIT and copyright 2014 Waybury.
-// https://useiconic.com/open
+// //useiconic.com/open
 
 
 // Checkboxes and radios
@@ -55,7 +55,7 @@
     @include box-shadow($custom-control-indicator-active-box-shadow);
   }
 
-  // Use [disabled] and :disabled to work around https://github.com/twbs/bootstrap/issues/28247
+  // Use [disabled] and :disabled to work around //github.com/twbs/bootstrap/issues/28247
   &[disabled],
   &:disabled {
     ~ .custom-control-label {
@@ -214,7 +214,7 @@
 // Select
 //
 // Replaces the browser default select with a custom one, mostly pulled from
-// https://primer.github.io/.
+// //primer.github.io/.
 //
 
 .custom-select {
@@ -249,7 +249,7 @@
       // suppress the default white text on blue background highlight given to
       // the selected option text when the (still closed) <select> receives focus
       // in IE and (under certain conditions) Edge.
-      // See https://github.com/twbs/bootstrap/issues/19398.
+      // See //github.com/twbs/bootstrap/issues/19398.
       color: $input-color;
       background-color: $input-bg;
     }
@@ -321,7 +321,7 @@
     box-shadow: $custom-file-focus-box-shadow;
   }
 
-  // Use [disabled] and :disabled to work around https://github.com/twbs/bootstrap/issues/28247
+  // Use [disabled] and :disabled to work around //github.com/twbs/bootstrap/issues/28247
   &[disabled] ~ .custom-file-label,
   &:disabled ~ .custom-file-label {
     background-color: $custom-file-disabled-bg;
