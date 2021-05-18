@@ -6,7 +6,7 @@ date: 2021-05-02T01:04:58Z
 post_image: /assets/images/show_img/s03/poster_LeslieGill.jpg
 tags: [entrepreneurs, leaders]
 categories: [podcast]
-contributor_id: 
+contributor_id: 40
 comments: false
 featured: false
 description: "Leslie Gill has been deeply involved in a wide range of social welfare issues."

@@ -10,7 +10,7 @@ bio: Musician
 image: /assets/images/contributor_img/courtney_orlando.png
 location: St. Louis, MO, USA
 
-featured: true
+featured: false
 profile: true
 excerpt: "Courtney is a urban/soul artist, songwriter and Grammy award-winning producer. Career Path: Musican + Producer + Community Leader"
 fire: Musican + Producer + Community Leader

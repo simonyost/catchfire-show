@@ -13,7 +13,7 @@ bio: Skating Entrepreneur
 image: /assets/images/contributor_img/cj-brown.png
 location: St. Louis, MO, USA
 
-featured: true
+featured: false
 profile: true
 excerpt:  "CJ Brown is a skating entrepreneur working hard to bridge the gap between up-and-coming more corporate skate brands."
 fire: brand building hustle
