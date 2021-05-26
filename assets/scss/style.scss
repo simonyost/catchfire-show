@@ -2917,7 +2917,8 @@ a.loadmore-btn:active {
 .profile {
 	.client-img {
 		position: inherit;
-		// margin: -120px auto 0 auto;
+		margin-left: auto;
+		margin-right: auto;
 		border-radius: 100%;
 		width: 130px;
 		height: 130px;
