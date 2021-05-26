@@ -40,7 +40,7 @@ description: Learn from creative successful people through exclusive interviews 
 </div>
 
 <!-- watch title  -->
-<div class="row pt-150">
+<div class="row pt-100">
    <div class="col-md-12">
       <div class="sec-title">
          <h2>
@@ -57,18 +57,35 @@ description: Learn from creative successful people through exclusive interviews 
 
 
 <!-- watch -->
-<div class="row pb-100">
-   <div class="col-12 offset-0 col-sm-8 offset-sm-2">
-      <h4 class="text-secondary">CLIPS</h4>
-      <!-- Start Preview playlist -->
-      <div class="video-responsive">
-          <iframe width="560" height="315" src="//www.youtube.com/embed/videoseries?list=PL77wUH3sO_auz2j6Z5v0JP6u6WkH5m7bn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="col-10 offset-1 pb-100">
+   <div class="row">
+      {% assign recents = site.posts | where: 'categories', 'podcast' |
+      sort: 'date' | reverse %}
+      {% assign recent = recents.first %}
+   
+      <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
+        <!-- Item start -->
+        <a href="{{recent.url}}">
+          <img src="{{recent.post_image}}" alt="{{recent.title}}" />
+        </a>
+        <!-- Item video -->
       </div>
-      <!-- End Preview playlist -->
-
-      <div class="mt-5 d-md-none d-lg-none d-xl-none"></div>
-  </div>
+      {% assign posts = site.posts | where: 'categories', 'podcast' | where: 'featured', 'true' |
+      sort: 'date' | reverse %}
+      {% for post in posts limit: 5 %}
+      {% if post.id != recent.id %}
+      <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
+        <!-- Item start -->
+        <a href="{{post.url}}">
+          <img src="{{post.post_image}}" alt="{{post.title}}"/>
+        </a>
+        <!-- Item video -->
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
 </div>
+
 
 <!-- profiles  -->
 <div class="row pt-100 pb-100 bg-primary">
