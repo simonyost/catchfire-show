@@ -13,7 +13,7 @@ bio: Skating Entrepreneur
 image: /assets/images/contributor_img/chris-dunn/chris-dunn.png
 location: St. Louis, MO, USA
 
-featured: false
+featured: true
 profile: true
 excerpt:  "Skater, artist, and all-around cool guy, Chris Dunn, founder of Sideways Skates."
 fire: brand building hustle

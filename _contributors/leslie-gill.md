@@ -13,7 +13,7 @@ bio: President at Rung for Women
 image: /assets/images/contributor_img/leslie-gill.png
 location: St. Louis, MO, USA
 
-featured: true
+featured: false
 profile: true
 excerpt: Leslie Gill has been deeply involved in a wide range of social welfare issues.
 fire: empowering women
