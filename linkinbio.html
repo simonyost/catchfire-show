@@ -1,7 +1,7 @@
 ---
 layout: content-only
 redirect_from:
-
+- /ig
 ---
 
 <!-- Mini-Header Section Start -->
@@ -19,20 +19,29 @@ redirect_from:
 <!-- Blog Section Start -->
 <div id="blog">
   <div class="container">
-
-    <div class="row mt-5">
-      <div class="col-6">
-        <a href="/jobs/featured/" class="btn btn-primary btn-block">
-          <i class="fa fa-search pr-2"></i> Job board
-        </a>
-      </div>
-      <div class="col-6">
-        <a href="http://catchfire.show/profiles" class="btn btn-primary btn-block">
-          <i class="fa fa-users pr-2"></i> Profiles
-        </a>
+    <div class="row">
+      <div class="col-12 mt-5">
+        <h2 class="text-secondary">Profiles</h2>
       </div>
 
+      {% assign profiles = site.contributors | where: 'featured', 'true' | sort: "last" %}
+
+      {% for profile in profiles limit: 5 %}
+      <div class="col-4 mb-5 profile text-center">
+        <!-- Item start -->
+        <div class="client-img">
+          <a href="{{profile.url}}">
+              <img src="{{profile.image}}" alt="{{profile.name}}">
+          </a>
+        </div>
+        <a href="{{profile.url}}">
+          <b>{{profile.name}}</b>
+      </a>
+        <!-- Item video -->
+      </div>
+      {% endfor %}
     </div>
+
 
     <div class="row">
       <div class="col-12 mt-5">
@@ -41,7 +50,7 @@ redirect_from:
       {% assign recents = site.posts | where: 'categories', 'podcast' |
       sort: 'date' | reverse %}
       {% assign recent = recents.first %}
-      
+
       <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
         <!-- Item start -->
         <a href="{{recent.url}}">
@@ -49,11 +58,6 @@ redirect_from:
         </a>
         <!-- Item video -->
       </div>
-      
-
-
-
-
       {% assign posts = site.posts | where: 'categories', 'podcast' | where: 'featured', 'true' |
       sort: 'date' | reverse %}
       {% for post in posts limit: 5 %}
@@ -68,7 +72,7 @@ redirect_from:
       {% endif %}
       {% endfor %}
     </div>
-    
+
 
 
   </div>
