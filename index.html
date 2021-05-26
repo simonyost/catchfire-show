@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Profiles and inspiration from creative, successful people.
 ---
 <!-- Banner Section Start -->
 <div id="home">
@@ -10,8 +11,8 @@ layout: default
 
                <div class="bannar-wrapper">
                   <div class="bannar-text">
-                     <h1>Discover your career path.</h1>
-                     <h2 class="text-white mt-2 mb-5">Find your fire. Live for it.</h2>
+                     <h2 class="text-white mb-0">Learn from</h2>
+                     <h1>Creative Successful People.</h1>
                      <ul class="pl-0">
                         <!-- <li><a href="/jobs/featured"><i class="fa fa-random"></i> Paths</a></li> -->
                         <li><a href="/show"><i class="fa fa-play-circle"></i> Show</a></li>
@@ -31,8 +32,8 @@ layout: default
 <!-- text intro  -->
 <div class="row pt-150">
    <div class="col-10 offset-1 col-lg-6 offset-lg-3">
-      <h2 class="text-secondary">Profiles, Paths, and Success Inspiration.</h2>
-      <p class="lead">Can’t decide on a career path? We help people looking for success outside traditional paths! Catch
+      <h2 class="text-secondary">Find your fire. Live for it.</h2>
+      <p class="lead">Can’t decide on a career path? We help people looking for success outside traditional paths. Catch
          Fire has exclusive content to find your fire and live for it.</p>
    </div>
 </div>
@@ -77,7 +78,7 @@ layout: default
             profiles
          </h2>
 
-         <h5 class="text-dark">Guest taking non-traditional career paths.</h5>
+         <h5 class="text-dark">Successful people taking creative career paths.</h5>
       </div>
    </div>
 
@@ -94,41 +95,6 @@ layout: default
    </div>
    <div class="col-10 offset-1 text-center">
       <a href="/profiles" class="btn btn-info">More Profiles</a>
-   </div>
-</div>
-
-
-<!-- paths  -->
-<div class="row pt-150">
-   <div class="col-md-12">
-      <div class="sec-title">
-         <h2>
-            <i class="fa fa-random text-primary pr-2"></i>
-            paths
-         </h2>
-
-         <h5 class="text-secondary">Job opportunities to find your fire.</h5>
-      </div>
-   </div>
-
-   <div class="col-10 offset-1">
-      <div class="row">
-         {% assign jobs = site.data.jobs.featured | where: 'publish', 'x' | where: 'has_expired', 'false' | where:
-         'is_remote', 'true' %}
-         {% if jobs %}
-         {% for job in jobs limit: 3 %}
-         <div class="col-md-4 col-sm-6 mt-5">
-            {% include job-cards-sm.html %}
-         </div>
-         {% endfor %}
-         {% else %}
-         <p>No jobs found.</p>
-         {% endif %}
-      </div>
-   </div>
-
-   <div class="col-10 offset-1 text-center">
-      <a href="/jobs/featured/" class="btn btn-info">More Opportunities</a>
    </div>
 </div>
 
