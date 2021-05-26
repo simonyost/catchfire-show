@@ -130,3 +130,6 @@ feed:
       
 whitelist:
   - jekyll-redirect-from
+
+sass:
+  style: compressed
