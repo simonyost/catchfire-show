@@ -16,14 +16,14 @@ enabled: true
   <div class="container">
     <div class="row">
       <div class="col-4 col-lg-3">
-        <img src="{{contributor.image}}" alt="{{contributor.name}}" />
+        <img src="{{page.post_image}}" alt="{{page.name}}" />
       </div>
       <div class="col-8 col-lg-9 text-center">
         <div class="page-heading pt-lg-5 mt-lg-5 mt-md-5 pt-md-4 pt-sm-3 pt-5">
-          <h1>{{contributor.name}} <br />
-            {%if contributor.fire %}
+          <h1>{{page.title}} <br />
+            {%if page.fire %}
             <small>
-              <i class="fa fa-fire pr-2" aria-hidden="true"></i></b> {{contributor.fire}}</p>
+              <i class="fa fa-fire pr-2" aria-hidden="true"></i></b> {{page.fire}}</p>
             </small>
             {% endif %}
           </h1>
@@ -40,23 +40,23 @@ enabled: true
 
     <div class="row">
       <div class="col-md-3 col-sm-6 d-none d-sm-block">
-        <h3 class="mb-0 d-none d-sm-block">{{contributor.name}}</h3>
-        <p class="mt-0 d-none d-sm-block">{{contributor.location}}</p>
+        <h3 class="mb-0 d-none d-sm-block">{{page.name}}</h3>
+        <p class="mt-0 d-none d-sm-block">{{page.location}}</p>
         <ul class="pl-0  d-none d-sm-block">
-          {% if contributor.website %}
-          <li class="list-inline-item"><a href="{{contributor.website}}" target="_blank"><i class="fa fa-globe"></i></a>
+          {% if page.website %}
+          <li class="list-inline-item"><a href="{{page.website}}" target="_blank"><i class="fa fa-globe"></i></a>
           </li>
           {% endif %}
-          {% if contributor.facebook_url %}
-          <li class="list-inline-item"><a href="{{contributor.facebook_url}}" target="_blank"><i
+          {% if page.facebook_url %}
+          <li class="list-inline-item"><a href="{{page.facebook_url}}" target="_blank"><i
                 class="fa fa-facebook"></i></a></li>
           {% endif %}
-          {% if contributor.twitter_url %}
-          <li class="list-inline-item"><a href="{{contributor.twitter_url}}" target="_blank"><i
+          {% if page.twitter_url %}
+          <li class="list-inline-item"><a href="{{page.twitter_url}}" target="_blank"><i
                 class="fa fa-twitter"></i></a></li>
           {% endif %}
-          {% if contributor.linkedin_url %}
-          <li class="list-inline-item"><a href="{{contributor.linkedin_url}}" target="_blank"><i
+          {% if page.linkedin_url %}
+          <li class="list-inline-item"><a href="{{page.linkedin_url}}" target="_blank"><i
                 class="fa fa-linkedin"></i></a></li>
           {% endif %}
         </ul>
@@ -69,7 +69,7 @@ enabled: true
         {% if page.content.size > 0 %}
         {{page.content}}
         {% else%}
-        <p>{{contributor.bio}}</p>
+        <p>{{page.bio}}</p>
         {% endif %}
       </div>
 
@@ -90,25 +90,25 @@ enabled: true
       </div>
 
       <div class="col-12 mt-5">
-        {% if contributor.serve %}
+        {% if page.serve %}
         <h6 class="text-secondary">service</h6>
         <p> <b class="text-secondary">
             <i class="fa fa-user text-primary" aria-hidden="true"></i>
             who /</b>
-          {{contributor.serve.who}}</p>
+          {{page.serve.who}}</p>
 
         <p> <b class="text-secondary">
             <i class="fa fa-random text-primary" aria-hidden="true"></i>
             how /</b>
-          {{contributor.serve.how}}</p>
+          {{page.serve.how}}</p>
 
         {% endif%}
 
-        {% if contributor.skills %}
+        {% if page.skills %}
         <p class="mb-0"> <b class="text-secondary">
             <i class="fa fa-cogs text-primary" aria-hidden="true"></i>
             skills used /</b>
-          {% for skill in contributor.skills %}
+          {% for skill in page.skills %}
           <span class="badge rounded-pill bg-primary text-white">{{skill}}</span>
           {% endfor %}
         </p>

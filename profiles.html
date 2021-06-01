@@ -33,7 +33,8 @@ description: Catch Fire Show's exclusive interviews with guest taking non-tradit
 <div id="blog" class="blog-sec pb-150">
   <div class="container">
 
-    {% assign posts = site.contributors | where: 'profile', 'true' | sort: "last" %}
+    <!-- {% assign posts = site.contributors | where: 'profile', 'true' | sort: "last" %} -->
+    {% assign posts = site.posts | where: 'categories', 'profile' %}
 
     <div class="row mt-5 mb-5">
       {% if jekyll.environment != 'production' %}
@@ -45,7 +46,7 @@ description: Catch Fire Show's exclusive interviews with guest taking non-tradit
 
     <div class="row">
 
-      {% assign posts = site.contributors | where: 'profile', 'true' | sort: "last" %}
+      {% assign posts = site.posts | where: 'categories', 'profile' %}
       {% for post in posts %}
       <div class="col-md-4 col-sm-6 mb-5">
         {% include profile-card-lg.html%}
