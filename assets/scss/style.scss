@@ -2931,3 +2931,8 @@ a.loadmore-btn:active {
 		}
 	}
 }
+
+// Horizontal scroll fix
+body, html {
+	overflow-x:hidden;
+}

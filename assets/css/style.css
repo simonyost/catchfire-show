@@ -8561,3 +8561,6 @@ a.loadmore-btn:active {
   .profile .client-img img {
     max-width: 125%;
     margin: -10% 0 0 -10%; }
+
+body, html {
+  overflow-x: hidden; }
