@@ -24,9 +24,11 @@ redirect_from:
         <h2 class="text-secondary">Profiles</h2>
       </div>
 
-      {% assign profiles = site.contributors | where: 'featured', 'true' | sort: "last" %}
+      
+      {% assign profiles = site.posts | where: 'categories', 'profile' %}
+      {% assign featured = profiles | where: 'featured', 'true' | sort: "contributor_id" | reverse %}
 
-      {% for profile in profiles limit: 5 %}
+      {% for profile in featured limit: 5 %}
       <div class="col-4 mb-5 profile text-center">
         <!-- Item start -->
         <div class="client-img">

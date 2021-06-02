@@ -102,8 +102,9 @@ description: Learn from creative successful people through exclusive interviews 
 
    <div class="col-10 offset-1">
       <div class="row">
-         {% assign posts = site.contributors | where: 'featured', 'true' | sort: "contributor_id" | reverse %}
-         {% for post in posts limit: 3 %}
+         {% assign profiles = site.posts | where: 'categories', 'profile' %}
+         {% assign featured = profiles | where: 'featured', 'true' | sort: "contributor_id" | reverse %}
+         {% for post in featured limit: 3 %}
          <div class="col-md-4 col-sm-6 mt-5 mb-5">
 
             {% include profile-card-sm.html %}
