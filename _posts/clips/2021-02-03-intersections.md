@@ -5,7 +5,7 @@ author:  Léonce Crump Jr.
 redirect_from:
 date: 2021-03-02T02:39:46Z
 post_image: //i.ytimg.com/vi/1kJd_5KKvTk/hqdefault.jpg
-tags: [entrepreneurs, leaders]
+
 categories: [clip]
 contributor_id: 32
 comments: false

@@ -5,7 +5,7 @@ author: Candy Washington
 redirect_from:
 date: 2021-03-02T02:15:58Z
 post_image: //i.ytimg.com/vi/8K2u6RQt2cY/hqdefault.jpg
-tags: [entrepreneurs, leaders]
+
 categories: [clip]
 contributor_id: 30
 comments: false

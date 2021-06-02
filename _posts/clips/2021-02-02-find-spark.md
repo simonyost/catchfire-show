@@ -5,7 +5,7 @@ author: GeNella McCrary
 redirect_from:
 date: 2021-03-02T02:37:07Z
 post_image: //i.ytimg.com/vi/tPRd_X5lIhQ/hqdefault.jpg
-tags: [entrepreneurs, leaders]
+
 categories: [clip]
 contributor_id: 29
 comments: false

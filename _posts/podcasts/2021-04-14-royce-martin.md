@@ -4,7 +4,7 @@ title: "Royce Martin"
 redirect_from:
 date: 2021-04-14T01:38:42Z
 post_image: assets/images/show_img/s03/poster_royce.jpg
-tags: [creatives]
+
 categories: [podcast]
 contributor_id: 
 comments: false

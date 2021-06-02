@@ -5,7 +5,7 @@ author: Kanika Sharma
 redirect_from:
 date: 2021-03-18T15:23:23Z
 post_image: //i.ytimg.com/vi/R6F-Jf-Jqbw/hqdefault.jpg
-tags: [technologists, leaders]
+
 categories: [clip]
 contributor_id: 33
 comments: false

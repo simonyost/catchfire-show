@@ -5,7 +5,7 @@ author: Kanika Sharma, Simon Yost
 redirect_from:
 date: 2021-03-16T01:54:42Z
 post_image: /assets/images/show_img/s03/poster_kanika.jpg
-tags: [technologists, leaders]
+
 categories: [podcast]
 contributor_id: 33
 comments: false

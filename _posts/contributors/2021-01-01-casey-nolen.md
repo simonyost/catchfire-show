@@ -18,7 +18,6 @@ fire: Behind to On Camera
 serve:
   who: Greater St. Louis Region
   how: News reporting
-tags: [creativity]
 tags:
 - Adaptability
 - Creativity

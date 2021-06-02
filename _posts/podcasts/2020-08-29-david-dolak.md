@@ -5,7 +5,6 @@ redirect_from:
 - /dd
 date: 2020-08-29 12:00:00 +0600
 post_image: /assets/images/show_img/014/001.png 
-tags: [creatives, students, leaders]
 categories: [podcast]
 contributor_id: 5
 comments: false

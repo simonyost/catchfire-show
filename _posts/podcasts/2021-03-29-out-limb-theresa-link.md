@@ -5,7 +5,7 @@ author: Theresa Link, Simon Yost
 redirect_from:
 date: 2021-03-28T21:31:29Z
 post_image: /assets/images/show_img/s03/poster_theresa.jpg
-tags: [technologists, leaders]
+
 categories: [podcast]
 contributor_id: 34
 comments: false

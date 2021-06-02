@@ -5,7 +5,7 @@ author: Becky Gandillon, Simon Yost
 redirect_from:
 date: 2021-03-22T21:31:29Z
 post_image: /assets/images/show_img/s03/poster_becky.jpg
-tags: [technologists, leaders]
+
 categories: [podcast]
 contributor_id: 
 comments: false

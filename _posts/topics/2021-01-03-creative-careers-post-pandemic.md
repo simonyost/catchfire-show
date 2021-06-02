@@ -3,7 +3,7 @@ layout: topic
 title: How do creatives find careers post-pandemic?
 date: 2020-01-03 05:00:00
 post_image: /assets/images/jobs-banner-001.jpg
-tags: [creatives]
+
 categories: [topic]
 contributor_id: 14
 featured: true

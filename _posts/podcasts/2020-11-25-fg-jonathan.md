@@ -6,7 +6,6 @@ redirect_from:
 - /jb
 date: 2020-11-25 01:00:00
 post_image: /assets/images/friendsgiving/jonathan.png
-tags: [leaders, friendsgiving]
 categories: [podcast]
 contributor_id: 26
 comments: false
