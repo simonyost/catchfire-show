@@ -1,7 +1,6 @@
 ---
-redirect_from:
-
 layout: contributor
+categories: [profile]
 title: Kanika Sharma
 last: Sharma
 contributor_id: 33

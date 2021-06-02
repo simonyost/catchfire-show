@@ -1,5 +1,6 @@
 ---
 layout: contributor
+categories: [profile]
 title: Darnell Brown
 last: Brown
 contributor_id: 25

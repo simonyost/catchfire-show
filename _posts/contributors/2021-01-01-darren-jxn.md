@@ -1,5 +1,6 @@
 ---
 layout: contributor
+categories: [profile]
 title: Darren Jxn
 last: Jxn
 contributor_id: 4

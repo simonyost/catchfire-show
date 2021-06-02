@@ -3,6 +3,7 @@ redirect_from:
 - /contributors/jeff_bartsch
 
 layout: contributor
+categories: [profile]
 title: Jeff Bartsch
 last: Bartsch
 contributor_id: 31

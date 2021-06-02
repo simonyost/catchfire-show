@@ -1,5 +1,6 @@
 ---
 layout: contributor
+categories: [profile]
 title: Dr. Jeremy Bedenbaugh
 last: Bedenbaug
 contributor_id: 36

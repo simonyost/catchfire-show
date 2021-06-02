@@ -1,5 +1,6 @@
 ---
 layout: contributor
+categories: [profile]
 title: Jon Robinson
 last: Robinson
 contributor_id: 7

@@ -1,5 +1,6 @@
 ---
 layout: contributor
+categories: [profile]
 title: David Dolak
 last: Dolak
 contributor_id: 5

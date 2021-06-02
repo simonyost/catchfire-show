@@ -1,5 +1,6 @@
 ---
 layout: contributor
+categories: [profile]
 title: Keina Newell
 last: Newell
 contributor_id: 19

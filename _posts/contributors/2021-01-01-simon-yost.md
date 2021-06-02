@@ -1,5 +1,6 @@
 ---
 layout: contributor
+categories: [profile]
 title: Simon Yost
 last: Yost
 contributor_id: 14

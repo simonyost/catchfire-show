@@ -1,5 +1,6 @@
 ---
 layout: contributor
+categories: [profile]
 title: Jeff Pawlow
 last: Pawlow
 contributor_id: 6

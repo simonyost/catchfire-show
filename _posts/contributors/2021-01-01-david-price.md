@@ -1,5 +1,6 @@
 ---
 layout: contributor
+categories: [profile]
 title: David Price
 last: Price
 contributor_id: 37

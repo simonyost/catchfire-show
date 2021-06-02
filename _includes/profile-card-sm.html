@@ -35,7 +35,8 @@
                 <i class="fa fa-cogs text-primary" aria-hidden="true"></i>
                 skills used</b><br />
             {% for skill in post.tags limit: 2 %}
-            <span class="badge rounded-pill bg-primary text-white">{{skill}}</span>
+            
+            <a href="/tag/{{ skill | downcase | replace: ' ', '-' }}" class="badge rounded-pill bg-primary text-white">{{skill}}</a>
             {% endfor %}
             <a href="{{post.url}}">
                 <span class="badge rounded-pill bg-secondary text-white">more...</span>

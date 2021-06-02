@@ -1,5 +1,6 @@
 ---
 layout: contributor
+categories: [profile]
 title: Sheila Burkett
 last: Burkett
 contributor_id: 13

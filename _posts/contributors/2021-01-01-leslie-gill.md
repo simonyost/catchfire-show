@@ -1,5 +1,6 @@
 ---
 layout: contributor
+categories: [profile]
 redirect_from:
 - /lg
 title: Leslie Gill

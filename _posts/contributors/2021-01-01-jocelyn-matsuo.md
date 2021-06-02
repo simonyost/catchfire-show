@@ -1,5 +1,6 @@
 ---
 layout: contributor
+categories: [profile]
 title: Jocelyn Matsuo
 last: Matsuo
 contributor_id: 23
