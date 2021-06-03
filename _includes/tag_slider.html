@@ -1,0 +1,32 @@
+<header class="ms-header">
+    <h1 class="ms-header__title">
+       Learn from successful people skilled at <br/>
+       <div class="ms-slider">
+          <ul class="ms-slider__words">
+
+             {% capture tags %}
+                {% for tag in site.tags %}
+                   {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
+                {% endfor %}
+             {% endcapture %}
+
+             {% assign tagcount = 0 %}
+             {% assign sortedtags = tags | split:' ' | sort | uniq %}
+             {% for tag in sortedtags reversed %}
+             {% assign tagitems = tag | split: '#' %}
+             {% if tagitems[2] and tagcount < 4 %}
+             <li class="ms-slider__word">
+                <a href="/tag/{{tag[0] | slugify }}" class="text-white">
+                   <i class="fa fa-search pr-2"></i>
+                   {{ tagitems[1] }}
+                </a>
+             </li>
+             {% assign tagcount = tagcount | plus: 1 %}
+             {% endif %}
+             {% endfor %}
+
+          </ul>
+       </div>
+    </h1>
+ </header>
+

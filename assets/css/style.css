@@ -8564,3 +8564,69 @@ a.loadmore-btn:active {
 
 body, html {
   overflow-x: hidden; }
+
+.dim {
+  opacity: 0.5; }
+
+.ms-header {
+  display: flex; }
+  .ms-header__title {
+    flex: 1 1 100%;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: bold; }
+
+.ms-slider {
+  display: inline-block;
+  overflow: hidden;
+  height: 3rem;
+  border: 2px solid;
+  padding: 1.5rem;
+  margin-top: 0.5rem;
+  vertical-align: middle; }
+  .ms-slider__words {
+    display: inline-block;
+    margin: -1.5rem 0 0 0;
+    padding: 0;
+    list-style: none;
+    -webkit-animation-name: wordSlider;
+            animation-name: wordSlider;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-duration: 7s;
+            animation-duration: 7s; }
+  .ms-slider__word {
+    display: block;
+    line-height: 3rem;
+    text-align: left; }
+
+@-webkit-keyframes wordSlider {
+  0%,
+  27% {
+    transform: translateY(0%); }
+  33%,
+  60% {
+    transform: translateY(-25%); }
+  66%,
+  93% {
+    transform: translateY(-50%); }
+  100% {
+    transform: translateY(-75%); } }
+
+@keyframes wordSlider {
+  0%,
+  27% {
+    transform: translateY(0%); }
+  33%,
+  60% {
+    transform: translateY(-25%); }
+  66%,
+  93% {
+    transform: translateY(-50%); }
+  100% {
+    transform: translateY(-75%); } }
+
+#home .ms-header__title {
+  color: #fff; }

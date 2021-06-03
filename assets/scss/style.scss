@@ -2936,3 +2936,79 @@ a.loadmore-btn:active {
 body, html {
 	overflow-x:hidden;
 }
+
+// dim
+.dim {
+	opacity: 0.5;
+}
+// text slider
+.ms-header {
+	display: flex;
+	
+	&__title {
+	  flex: 1 1 100%;
+	  width: 100%;
+	  font-size: 2rem;
+	  font-weight: bold;
+	}
+  }
+  
+  .ms-slider {
+	display: inline-block;
+	overflow: hidden;
+
+	height: 3rem;
+	border: 2px solid;
+	padding: 1.5rem;
+	margin-top: 0.5rem;
+	
+	vertical-align: middle;
+	
+	// mask-image: linear-gradient(transparent, white, white, white, transparent);
+	// mask-type: luminance;
+	// mask-mode: alpha;
+	
+	&__words {
+	  display: inline-block;
+	  margin: -1.5rem 0 0 0;
+	  padding: 0;
+	
+	  list-style: none;
+	  
+	  animation-name: wordSlider;
+	  animation-timing-function: ease-out;
+	  animation-iteration-count: infinite;
+	  animation-duration: 7s;
+	}
+	
+	&__word {
+	  display: block;
+	  line-height: 3rem;
+	  text-align: left;
+	}
+  }
+  
+  @keyframes wordSlider {
+	$steps: -0%, -25%, -50%, -75%;
+	
+	@for $index from 0 to length($steps)-1 {
+	  $next: $index+1;
+	  $step: floor(100/(length($steps)-1));
+	  $animation_step: floor($step*.2);
+	
+	  #{$step*$index}%,
+	  #{($step*$next) - $animation_step}% {
+		transform: translateY(nth($steps, $index+1));
+	  }
+	}
+	100% {
+	  transform: translateY(nth($steps, length($steps)));
+	}
+  }
+
+  #home .ms-header {
+	
+	&__title {
+	  color: #fff;
+	}
+  }
