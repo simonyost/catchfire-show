@@ -6602,6 +6602,40 @@ small,
       @media only screen and (min-width: 1199px) {
         .bannar-image.friendsgiving .bannar-wrapper {
           padding: 450px 0 100px 0; } }
+  .bannar-image.cat_1 {
+    background: #d24d00 url(../images/headers/cat_1.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_2 {
+    background: #d24d00 url(../images/headers/cat_2.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_3 {
+    background: #d24d00 url(../images/headers/cat_3.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_4 {
+    background: #d24d00 url(../images/headers/cat_4.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_5 {
+    background: #d24d00 url(../images/headers/cat_5.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_6 {
+    background: #d24d00 url(../images/headers/cat_6.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_7 {
+    background: #d24d00 url(../images/headers/cat_7.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_8 {
+    background: #d24d00 url(../images/headers/cat_8.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_9 {
+    background: #d24d00 url(../images/headers/cat_9.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_10 {
+    background: #d24d00 url(../images/headers/cat_10.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_11 {
+    background: #d24d00 url(../images/headers/cat_11.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_12 {
+    background: #d24d00 url(../images/headers/cat_12.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_13 {
+    background: #d24d00 url(../images/headers/cat_13.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_14 {
+    background: #d24d00 url(../images/headers/cat_14.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_15 {
+    background: #d24d00 url(../images/headers/cat_15.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_16 {
+    background: #d24d00 url(../images/headers/cat_16.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_17 {
+    background: #d24d00 url(../images/headers/cat_17.jpg) no-repeat scroll center center/cover; }
   .bannar-image .bannar-text {
     padding-bottom: 0; }
     .bannar-image .bannar-text ul li:last-child a {

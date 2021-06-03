@@ -1,29 +1,46 @@
 ---
 layout: default
 ---
+{% capture random_number %}
+  {%- assign min = 1 -%}
+  {%- assign max = 17 -%}
+  {%- assign diff = max | minus: min -%}
+  {%- assign random_number = "now" | date: "%N" | modulo: diff | plus: min -%}
+  {{random_number}}
+{% endcapture %}
+
+
 {% capture cats %}
   {% for post in page.posts %}
     {{ post.categories }}
   {% endfor %}
 {% endcapture %}
 
+<h1>random_number: {{random_number}}</h1>
 {% if cats contains 'profile' %}
 <!-- YES PROFILES  !-->
-<!-- Breadcrumb Start  !-->
-<div class="bradcrumb-sec">
-  <div class="bradcrumb-overlay"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <div class="page-heading">
-          <h2 class="text-white">Learn from...</h2>
-          <h1>{{page.title}}</h1>
+<!-- Banner Section Start -->
+<div>
+  <div id="bannar-effect" class="bannar-image cat_{{ random_number }}">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10">
+          <div class="bannar-wrapper">
+            <div class="bannar-text mt-0 pt-0 mb-0 pb-0">
+              <h2 class="text-white mb-0">Successful people, skilled at...</h2>
+              <h1 class="text-white mt-0">
+                {{page.title}}
+
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
   </div>
 </div>
-<!-- Breadcrumb End  !-->
+<!-- Banner Section End -->
+
 
 <!-- Blog Section Start -->
 <div id="blog" class="blog-sec pb-150">
