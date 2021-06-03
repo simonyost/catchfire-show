@@ -14,7 +14,10 @@
              {% assign sortedtags = tags | split:' ' | sort | uniq %}
              {% for tag in sortedtags reversed %}
              {% assign tagitems = tag | split: '#' %}
-             {% if tagitems[2] and tagcount < 4 %}
+             {% if tagitems[2] and tagcount < 3 %}
+               {% if tagcount == 0 %}
+               {% assign firsttag = tagitems[1] %}
+               {% endif %}
              <li class="ms-slider__word">
                 <a href="/tag/{{ tagitems[1] | slugify }}">
                    <i class="fa fa-search pr-2"></i>
@@ -24,6 +27,13 @@
              {% assign tagcount = tagcount | plus: 1 %}
              {% endif %}
              {% endfor %}
+
+             <li class="ms-slider__word">
+               <a href="/tag/{{ firsttag | slugify }}">
+                  <i class="fa fa-search pr-2"></i>
+                  {{ firsttag }}
+               </a>
+            </li>
 
           </ul>
        </div>
