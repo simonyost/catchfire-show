@@ -1,0 +1,104 @@
+---
+title: Learn from people with the top skills
+layout: default
+<!-- pagination:
+  enabled: true -->
+redirect_from:
+
+description: Learn from people with the top skills
+---
+<!-- Banner Section Start -->
+<div>
+  <div id="bannar-effect" class="bannar-image neon">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10">
+          <div class="bannar-wrapper mt-0 mb-0 pb-0">
+            <div class="bannar-text mt-0 pt-0 mb-0 pb-0">
+              <h2 class="text-white mb-0">Successful people, skilled at...</h2>
+              <h1 class="text-white mt-0">
+                On-demand <small>anytime</small></h1>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Banner Section End -->
+
+
+
+<!-- context -->
+<div class="container">
+
+  <!-- text intro  -->
+  <div class="row mt-5">
+    <div class="col-10 offset-1 col-lg-6 offset-lg-3">
+      <h2 class="text-secondary">Success Inspiration.</h2>
+      <p class="lead">Can’t decide on a career path? We help people looking for success outside traditional paths.</p>
+
+      <p class="lead">Learn from dozens of stories about success in non-tranditional careers paths and all the adventure
+        along the way.</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- Skills Table Start -->
+<div id="blog" class="blog-sec pt-100 pb-150">
+  <div class="container">
+    <div class="row">
+      <div class="col-10 offset-1">
+        <table class="table">
+          <thead>
+            <th>Skill</th>
+            <th>People</th>
+            <th>People</th>
+          </thead>
+
+
+
+
+          {% capture tags %}
+          {% for tag in site.tags %}
+          {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
+          {% endfor %}
+          {% endcapture %}
+          {% assign sortedtags = tags | split:' ' | sort | uniq %}
+
+
+
+
+          <tbody>
+            {% for tag in sortedtags reversed %}
+            {% assign tagitems = tag | split: '#' %}
+            {% if tagitems[2]%} <tr>
+              <td>
+                <a href="/tag/{{ tagitems[1] | slugify }}">{{ tagitems[1] }}</a>
+              </td>
+              <td>{{ tagitems[2] }}</td>
+              <td>
+                {% assign tagholder = tagitems[1] %}
+
+                {% for post in site.tags[tagholder] %}
+                <a href="{{ post.url }}">{{ post.title }}</a>,
+                {% endfor %}
+
+              </td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- Skills Table End -->
