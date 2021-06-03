@@ -3,146 +3,152 @@ layout: content-only
 redirect_from:
 - /ig
 ---
-
-<!-- Mini-Header Section Start -->
-<div id="header" class="bg-primary pt-3 pb-4">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-3 offset-md-4 col-6 offset-3">
-        <a href="{{site.url}}"><img src="{{site.logo_url}}" alt="{{site.title}}" /></a>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Mini-Header  Section End -->
-
-<!-- Blog Section Start -->
-<div id="blog">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 mt-5">
-        <h2 class="text-secondary">Profiles</h2>
-      </div>
-
-      
-      {% assign profiles = site.posts | where: 'categories', 'profile' %}
-      {% assign featured = profiles | where: 'featured', 'true' | sort: "contributor_id" | reverse %}
-
-      {% for profile in featured limit: 5 %}
-      <div class="col-4 mb-5 profile text-center">
-        <!-- Item start -->
-        <div class="client-img">
-          <a href="{{profile.url}}">
-              <img src="{{profile.image}}" alt="{{profile.name}}">
-          </a>
+<div id="linkinbio">
+  <!-- Mini-Header Section Start -->
+  <div class="bg-primary pt-3 pb-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 offset-md-4 col-6 offset-3">
+          <a href="{{site.url}}"><img src="{{site.logo_url}}" alt="{{site.title}}" /></a>
         </div>
-        <a href="{{profile.url}}">
-          <b>{{profile.name}}</b>
-      </a>
-        <!-- Item video -->
       </div>
-      {% endfor %}
     </div>
-
-
-    <div class="row">
-      <div class="col-12 mt-5">
-        <h2 class="text-secondary">Shows</h2>
-      </div>
-      {% assign recents = site.posts | where: 'categories', 'podcast' |
-      sort: 'date' | reverse %}
-      {% assign recent = recents.first %}
-
-      <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
-        <!-- Item start -->
-        <a href="{{recent.url}}">
-          <img src="{{recent.post_image}}" />
-        </a>
-        <!-- Item video -->
-      </div>
-      {% assign posts = site.posts | where: 'categories', 'podcast' | where: 'featured', 'true' |
-      sort: 'date' | reverse %}
-      {% for post in posts limit: 5 %}
-      {% if post.id != recent.id %}
-      <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
-        <!-- Item start -->
-        <a href="{{post.url}}">
-          <img src="{{post.post_image}}" />
-        </a>
-        <!-- Item video -->
-      </div>
-      {% endif %}
-      {% endfor %}
-    </div>
-
-
-
   </div>
-</div>
-<!-- Blog Section End -->
+  <!-- Mini-Header  Section End -->
 
-<footer class="footer-area clearfix pb-5 pt-5">
-  <div class="container">
+  <!-- Blog Section Start -->
+  <div>
+    <div class="container">
 
-    <div class="row">
-      <div class="col-md-12 mx-auto">
-        <div class="footer-top">
+      <div class="row">
+        <div class="col-10 offset-1 mt-5">
+          {% include tag_slider.html %}
+        </div>
 
-          <hr />
-          <div class="social-icon d-flex justify-content-center pt-4">
+        <div class="row">
+          <div class="col-10 offset-1 mt-5">
+            <h2 class="text-secondary">Profiles</h2>
+          </div>
 
-            <ul class="list-inline">
-              {% if site.facebook_url %}
-              <li class="list-inline-item facebook"><a href="{{site.facebook_url}}" target="_blank"><i
-                    class="fa fa-facebook"></i> Facebook</a></li>
-              {% endif %}
+          {% assign profiles = site.posts | where: 'categories', 'profile' %}
+          {% assign featured = profiles | where: 'featured', 'true' | sort: "contributor_id" | reverse %}
 
-              {% if site.twitter_url %}
-              <li class="list-inline-item twitter"><a href="{{site.twitter_url}}" target="_blank"><i
-                    class="fa fa-twitter"></i> Twitter</a> </li>
-              {% endif %}
+          {% for profile in featured limit: 5 %}
+          <div class="col-4 mb-5 profile text-center">
+            <!-- Item start -->
+            <div class="client-img">
+              <a href="{{profile.url}}">
+                <img src="{{profile.post_image}}" alt="{{profile.title}}">
+              </a>
+            </div>
+            <a href="{{profile.url}}">
+              <b>{{profile.title}}</b>
+            </a>
+            <!-- Item video -->
+          </div>
+          {% endfor %}
+        </div>
 
-              {% if site.instagram_url %}
-              <li class="list-inline-item instagram"><a href="{{site.instagram_url}}" target="_blank"><i
-                    class="fa fa-instagram"></i>Instagram</a></li>
-              {% endif %}
 
-              {% if site.pinterest_url %}
-              <li class="list-inline-item pinterest"><a href="{{site.pinterest_url}}" target="_blank"><i
-                    class="fa fa-pinterest"></i> Pinterest</a></li>
-              {% endif %}
+        <div class="row">
+          <div class="col-10 offset-1 mt-5">
+            <h2 class="text-secondary">Shows</h2>
+          </div>
+          {% assign recents = site.posts | where: 'categories', 'podcast' |
+          sort: 'date' | reverse %}
+          {% assign recent = recents.first %}
 
-              {% if site.medium_url %}
-              <li class="list-inline-item medium"><a href="{{site.medium_url}}" target="_blank"><i
-                    class="fa fa-medium"></i> Medium</a></li>
-              {% endif %}
+          <div class="col-10 offset-1 col-lg-4 col-md-6 col-sm-6 mb-5">
+            <!-- Item start -->
+            <a href="{{recent.url}}">
+              <img src="{{recent.post_image}}" />
+            </a>
+            <!-- Item video -->
+          </div>
+          {% assign posts = site.posts | where: 'categories', 'podcast' | where: 'featured', 'true' |
+          sort: 'date' | reverse %}
+          {% for post in posts limit: 5 %}
+          {% if post.id != recent.id %}
+          <div class="col-10 offset-1 col-lg-4 col-md-6 col-sm-6 mb-5">
+            <!-- Item start -->
+            <a href="{{post.url}}">
+              <img src="{{post.post_image}}" />
+            </a>
+            <!-- Item video -->
+          </div>
+          {% endif %}
+          {% endfor %}
+        </div>
 
-              {% if site.linkedin_url %}
-              <li class="list-inline-item youtube"><a href="{{site.linkedin_url}}" target="_blank"><i
-                    class="fa fa-linkedin"></i> LinkedIn</a></li>
-              {% endif %}
 
-              {% if site.youtube_url %}
-              <li class="list-inline-item youtube"><a href="{{site.youtube_url}}" target="_blank"><i
-                    class="fa fa-youtube"></i> YouTube</a></li>
-              {% endif %}
-            </ul>
+
+      </div>
+    </div>
+    <!-- Blog Section End -->
+
+    <footer class="footer-area clearfix pb-5 pt-5">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-12 mx-auto">
+            <div class="footer-top">
+
+              <hr />
+              <div class="social-icon d-flex justify-content-center pt-4">
+
+                <ul class="list-inline">
+                  {% if site.facebook_url %}
+                  <li class="list-inline-item facebook"><a href="{{site.facebook_url}}" target="_blank"><i
+                        class="fa fa-facebook"></i> Facebook</a></li>
+                  {% endif %}
+
+                  {% if site.twitter_url %}
+                  <li class="list-inline-item twitter"><a href="{{site.twitter_url}}" target="_blank"><i
+                        class="fa fa-twitter"></i> Twitter</a> </li>
+                  {% endif %}
+
+                  {% if site.instagram_url %}
+                  <li class="list-inline-item instagram"><a href="{{site.instagram_url}}" target="_blank"><i
+                        class="fa fa-instagram"></i>Instagram</a></li>
+                  {% endif %}
+
+                  {% if site.pinterest_url %}
+                  <li class="list-inline-item pinterest"><a href="{{site.pinterest_url}}" target="_blank"><i
+                        class="fa fa-pinterest"></i> Pinterest</a></li>
+                  {% endif %}
+
+                  {% if site.medium_url %}
+                  <li class="list-inline-item medium"><a href="{{site.medium_url}}" target="_blank"><i
+                        class="fa fa-medium"></i> Medium</a></li>
+                  {% endif %}
+
+                  {% if site.linkedin_url %}
+                  <li class="list-inline-item youtube"><a href="{{site.linkedin_url}}" target="_blank"><i
+                        class="fa fa-linkedin"></i> LinkedIn</a></li>
+                  {% endif %}
+
+                  {% if site.youtube_url %}
+                  <li class="list-inline-item youtube"><a href="{{site.youtube_url}}" target="_blank"><i
+                        class="fa fa-youtube"></i> YouTube</a></li>
+                  {% endif %}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="footer-bottom text-center">
+              <div class="bottom-text pt-4">
+                <p> </p>
+                <address class="footer-address">@ Copyright - {{ site.time | date: '%Y' }}<span> | {{ site.title }} | <a
+                      href="{{site.url}}/privacy.html">Privacy Policy</a></span></address>
+                <p></p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <div class="footer-bottom text-center">
-          <div class="bottom-text pt-4">
-            <p> </p>
-            <address class="footer-address">@ Copyright - {{ site.time | date: '%Y' }}<span> | {{ site.title }} | <a
-                  href="{{site.url}}/privacy.html">Privacy Policy</a></span></address>
-            <p></p>
-          </div>
-        </div>
-      </div>
-    </div>
+    </footer>
+    <!-- Footer Section End -->
   </div>
-</footer>
-<!-- Footer Section End -->

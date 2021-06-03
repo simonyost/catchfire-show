@@ -16,7 +16,7 @@
              {% assign tagitems = tag | split: '#' %}
              {% if tagitems[2] and tagcount < 4 %}
              <li class="ms-slider__word">
-                <a href="/tag/{{tag[0] | slugify }}" class="text-white">
+                <a href="/tag/{{ tagitems[1] | slugify }}">
                    <i class="fa fa-search pr-2"></i>
                    {{ tagitems[1] }}
                 </a>
