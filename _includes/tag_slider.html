@@ -14,7 +14,7 @@
              {% assign sortedtags = tags | split:' ' | sort | uniq %}
              {% for tag in sortedtags reversed %}
              {% assign tagitems = tag | split: '#' %}
-             {% if tagitems[2] and tagcount < 3 %}
+             {% if tagitems[2] and tagcount < 8 %}
                {% if tagcount == 0 %}
                {% assign firsttag = tagitems[1] %}
                {% endif %}

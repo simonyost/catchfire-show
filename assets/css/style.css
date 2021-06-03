@@ -8599,9 +8599,6 @@ a.loadmore-btn:active {
 body, html {
   overflow-x: hidden; }
 
-.dim {
-  opacity: 0.5; }
-
 .ms-header {
   display: flex; }
   .ms-header__title {
@@ -8629,8 +8626,8 @@ body, html {
             animation-timing-function: ease-out;
     -webkit-animation-iteration-count: infinite;
             animation-iteration-count: infinite;
-    -webkit-animation-duration: 7s;
-            animation-duration: 7s; }
+    -webkit-animation-duration: 10s;
+            animation-duration: 10s; }
   .ms-slider__word {
     display: block;
     line-height: 3rem;
@@ -8638,29 +8635,59 @@ body, html {
 
 @-webkit-keyframes wordSlider {
   0%,
-  27% {
+  10% {
     transform: translateY(0%); }
-  33%,
-  60% {
-    transform: translateY(-25%); }
-  66%,
-  93% {
-    transform: translateY(-50%); }
+  12%,
+  22% {
+    transform: translateY(-11%); }
+  24%,
+  34% {
+    transform: translateY(-22%); }
+  36%,
+  46% {
+    transform: translateY(-33%); }
+  48%,
+  58% {
+    transform: translateY(-44%); }
+  60%,
+  70% {
+    transform: translateY(-55%); }
+  72%,
+  82% {
+    transform: translateY(-66.5%); }
+  84%,
+  94% {
+    transform: translateY(-77.5%); }
   100% {
-    transform: translateY(-75%); } }
+    transform: translateY(-88.5%); } }
 
 @keyframes wordSlider {
   0%,
-  27% {
+  10% {
     transform: translateY(0%); }
-  33%,
-  60% {
-    transform: translateY(-25%); }
-  66%,
-  93% {
-    transform: translateY(-50%); }
+  12%,
+  22% {
+    transform: translateY(-11%); }
+  24%,
+  34% {
+    transform: translateY(-22%); }
+  36%,
+  46% {
+    transform: translateY(-33%); }
+  48%,
+  58% {
+    transform: translateY(-44%); }
+  60%,
+  70% {
+    transform: translateY(-55%); }
+  72%,
+  82% {
+    transform: translateY(-66.5%); }
+  84%,
+  94% {
+    transform: translateY(-77.5%); }
   100% {
-    transform: translateY(-75%); } }
+    transform: translateY(-88.5%); } }
 
 #home .ms-header__title {
   color: #fff; }

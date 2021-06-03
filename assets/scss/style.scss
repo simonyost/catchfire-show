@@ -3007,11 +3007,7 @@ body, html {
 	overflow-x:hidden;
 }
 
-// dim
-.dim {
-	opacity: 0.5;
-}
-// text slider
+// text slider --------------------------------------
 .ms-header {
 	display: flex;
 	
@@ -3048,7 +3044,7 @@ body, html {
 	  animation-name: wordSlider;
 	  animation-timing-function: ease-out;
 	  animation-iteration-count: infinite;
-	  animation-duration: 7s;
+	  animation-duration: 10s;
 	}
 	
 	&__word {
@@ -3059,7 +3055,7 @@ body, html {
   }
   
   @keyframes wordSlider {
-	$steps: -0%, -25%, -50%, -75%;
+	$steps: -0%, -11%, -22%, -33%, -44%, -55%, -66.5%, -77.5%, -88.5%;
 	
 	@for $index from 0 to length($steps)-1 {
 	  $next: $index+1;
