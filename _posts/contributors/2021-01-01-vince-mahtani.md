@@ -17,7 +17,7 @@ serve:
   who: 123
   how: abc
 tags:
-- xyz
+
 ---
 
 Vince helps people discover how to become a better leader within their family, their company, and their community. 

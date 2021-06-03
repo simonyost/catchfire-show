@@ -16,7 +16,7 @@ serve:
   who: 123
   how: abc
 tags:
-- xyz
+
 ---
 
 Metro District Superintendent of the Alliance (C&MA)

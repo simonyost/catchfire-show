@@ -121,7 +121,8 @@ enabled: true
     </div>
 
     <div class="row mt-5">
-      {% for post in contributor_posts %}
+      {% for post in contributor_posts  %}
+      {% unless post.categories contains 'profile' or post.id == page.id %}
       <div class="col-md-4 col-sm-6">
         <div class="themeix-box">
           <div class="single-post">
@@ -139,6 +140,7 @@ enabled: true
           </div>
         </div>
       </div>
+      {% endunless %}
       {% endfor %}
 
     </div>

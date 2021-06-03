@@ -16,7 +16,7 @@ serve:
   who: 123
   how: abc
 tags:
-- xyz
+
 ---
 
 Teacher of the Deaf/Parent Educator at Central Institute for the Deaf

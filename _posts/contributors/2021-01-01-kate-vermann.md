@@ -18,6 +18,6 @@ serve:
   who: 123
   how: abc
 tags:
-- xyz
+
 ---
 Kate is a professional tri-athlete and technology consultant focusing on user research.

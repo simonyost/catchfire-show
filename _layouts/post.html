@@ -91,7 +91,8 @@ comments: true
                </div>
 
                {% if page.contributor_id %}
-               {% assign contributor = site.contributors | where: 'contributor_id', page.contributor_id | first %}
+               {% assign contributorposts = site.posts | where: 'contributor_id', page.contributor_id %}
+               {% assign contributor = contributorposts | where: 'categories', 'profile' | first %}
                {% if contributor %}
                <div class="admin-sec">
                   <div class="about-admin">
@@ -101,10 +102,10 @@ comments: true
                            <div class="col-md-12">
                               <div class="card profile-card-2 m-t-40">
                                  <div class="card-body pt-5">
-                                    <a href="{{contributor.url}}"><img src="{{contributor.image}}"
+                                    <a href="{{contributor.url}}"><img src="{{contributor.post_image}}"
                                           alt="{{contributor.name}}" class="profile" /></a>
-                                    <h5 class="card-title">{{contributor.name}}</h5>
-                                    <p class="card-text">{{contributor.bio}}
+                                    <h5 class="card-title">{{contributor.title}}</h5>
+                                    <p class="card-text">{{contributor.excerpt}}
                                        <br/>
                                        <a href="{{contributor.url}}">Read more...</a>
                                     </p>

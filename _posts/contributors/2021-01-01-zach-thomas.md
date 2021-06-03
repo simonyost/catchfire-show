@@ -17,7 +17,7 @@ serve:
   who: 123
   how: abc
 tags:
-- xyz
+
 ---
 Zach Thomas is an entrepreneur, published author (order Leader Farming), blogger, business/life coach, public speaker and most importantly, follower of Christ, husband, and father of seven children.
 

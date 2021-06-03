@@ -17,7 +17,7 @@ serve:
   who: 123
   how: abc
 tags:
-- xyz
+
 ---
 
 Laura is an Accomplished recruiting lead and a bomb promoter on social media. She was born and raised in the Virgin Islands (St. Thomas) and the Co-Owner of St Louis's premier, international tattoo convention: Tattoo The Lou and the St Louis Classic Tattoo Expo. Plus, she owns about 75 vintage Troll dolls.

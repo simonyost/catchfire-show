@@ -4,7 +4,7 @@ title: "Your Next Adventure"
 permalink: /topic/next-adventure
 date: 2020-11-10 05:00:00
 post_image: /assets/images/topics/next_adventure.png
-tags: [students]
+tags: 
 categories: [topic]
 contributor_id: 14
 comments: false

@@ -17,7 +17,7 @@ serve:
   who: 123
   how: abc
 tags:
-- xyz
+
 ---
 
 Todd writes books, speaks internationally on creativity, productivity, and passion for work, and helps people and teams generate brilliant ideas. In short, he is an arms dealer for the creative revolution.

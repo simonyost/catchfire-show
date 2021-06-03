@@ -16,7 +16,7 @@ serve:
   who: 123
   how: abc
 tags:
-- xyz
+
 ---
 
 Sean is the co-founder and Managing Director of 1904labs, a firm helping leaders digitally transform their business by implementing modern software and data solutions with innovative people who emphasize the customer and deliver results.

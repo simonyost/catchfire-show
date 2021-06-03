@@ -17,7 +17,7 @@ serve:
   who: 123
   how: abc
 tags:
-- xyz
+
 ---
 With experience in industry, big 4 consulting, and the US White House, Jonathan has successfully guided CEO handovers, culture turnarounds, digital transformations, mergers and acquisitions, strategy changes, and technology implementations. In the organizational development space more broadly, he has launched innovation greenhouses and led performance management for Fortune 250 companies. Jonathan's work has reached thousands of employees in more than 25 countries, and he has served clients on six continents.
 

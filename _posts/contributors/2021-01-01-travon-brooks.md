@@ -17,7 +17,7 @@ serve:
   who: 123
   how: abc
 tags:
-- xyz
+
 ---
 
 Travon Brooks simply loves people. He is fluent in Hebrew, dabbles a bit in Russian and Arabic. Travon skills include Public Relations and Hospitality.
