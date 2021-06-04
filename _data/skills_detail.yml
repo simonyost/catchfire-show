@@ -1,15 +1,15 @@
 - name: Collaboration
   header: cat_1
   icon: search
-  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
+  description: ‘Collaboration is defined as "working with another individual or group to reach or accomplish a goal."‘
 - name: Creativity
   header: cat_2
   icon: search
-  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
+  description: The ability to develop or recognize ideas, alternatives, or possibilities that may be useful in solving issues, interacting with others, or entertaining ourselves and others is referred to as creativity.
 - name: Adaptability
   header: cat_3
   icon: search
-  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
+  description: Adaptability is a soft skill that refers to the ability to quickly pick up new abilities and behaviors in response to changing situations.
 - name: Persuasion
   header: cat_4
   icon: search
