@@ -1,0 +1,52 @@
+- name: Collaboration
+  header: cat_1
+- name: Creativity
+  header: cat_2
+- name: Adaptability
+  header: cat_3
+- name: Persuasion
+  header: cat_4
+- name: Leadership
+  header: cat_5
+- name: Consulting
+  header: cat_6
+- name: Coaching
+  header: cat_7
+- name: Writing
+  header: cat_8
+- name: Sales
+  header: cat_9
+- name: Research
+  header: cat_10
+- name: Presentation
+  header: cat_11
+- name: UI/UX
+  header: cat_12
+- name: Problem-solving
+  header: cat_13
+- name: Journalism
+  header: cat_14
+- name: Negotiation
+  header: cat_15
+- name: Editing
+  header: cat_16
+- name: Economics
+  header: cat_17
+- name: Business analysis
+  header: cat_1
+- name: Emotional Intelligence (EQ)
+  header: cat_2
+- name: Business development
+  header: cat_3
+- name: Critical thinking
+  header: cat_4
+- name: Time Management
+  header: cat_5
+- name: Business storytelling
+  header: cat_6
+
+  
+
+  
+  
+  

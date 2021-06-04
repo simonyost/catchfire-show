@@ -22,9 +22,9 @@
         <p class="mb-0"> <b class="text-secondary">
                 <i class="fa fa-cogs text-primary" aria-hidden="true"></i>
                 skills used</b><br />
-            {% for skill in post.tags limit: 2 %}
-            
-            <a href="/tag/{{ skill | downcase | replace: ' ', '-' }}" class="badge rounded-pill bg-primary text-white">{{skill}}</a>
+            {% for skill in post.tags limit: 4 %}
+
+            <a href="/tag/{{ skill | slugify }}" class="badge rounded-pill bg-primary text-white">{{skill}}</a>
             {% endfor %}
             <a href="{{post.url}}">
                 <span class="badge rounded-pill bg-secondary text-white">more...</span>
