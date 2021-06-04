@@ -22,11 +22,9 @@ layout: default
             <div class="bannar-text mt-0 pt-0 mb-0 pb-0">
               <h2 class="text-white mb-0">Learn from successful people, skilled at...</h2>
               <h1 class="text-white mt-0">
-                {{page.title}}
-
+                {{page.title | downcase}}
             </div>
           </div>
-
         </div>
       </div>
     </div>
@@ -34,15 +32,23 @@ layout: default
 </div>
 <!-- Banner Section End -->
 
+<!-- text intro  -->
+<div class="row pt-100">
+  <div class="col-10 offset-1 col-lg-6 offset-lg-3">
+     <h2 class="text-secondary">Are you interested in learning about {{ details.name | downcase }}?</h2>
+     <p class="lead">{{ details.description }}</p>
+  </div>
+</div>
 
-<!-- Blog Section Start -->
-<div id="blog" class="blog-sec pb-150">
+
+<!-- Profile Section Start -->
+<div id="blog" class="blog-sec mt-5">
   <div class="container">
 
     {% assign posts = page.posts %}
-    <div class="row pt-150">
+    <div class="row">
       {% for post in posts %}
-      <div class="col-md-4 col-sm-6 col-8 offset-2 mt-5">
+      <div class="col-md-4 col-sm-6 offset-sm-0 col-8 offset-2 mt-5">
         {% include profile-card-xs.html %}
       </div>
       {% endfor %}

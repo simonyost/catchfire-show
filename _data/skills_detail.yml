@@ -1,72 +1,95 @@
 - name: Collaboration
   header: cat_1
   icon: search
+  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
 - name: Creativity
   header: cat_2
   icon: search
+  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
 - name: Adaptability
   header: cat_3
   icon: search
+  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
 - name: Persuasion
   header: cat_4
   icon: search
+  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
 - name: Leadership
   header: cat_5
   icon: search
+  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
 - name: Consulting
   header: cat_6
   icon: search
+  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
 - name: Coaching
   header: cat_7
   icon: search
+  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
 - name: Writing
   header: cat_8
   icon: search
+  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
 - name: Sales
   header: cat_9
   icon: search
+  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
 - name: Research
   header: cat_10
   icon: search
+  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
 - name: Presentation
   header: cat_11
   icon: search
+  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
 - name: UI/UX
   header: cat_12
   icon: search
+  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
 - name: Problem-solving
   header: cat_13
   icon: search
+  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
 - name: Journalism
   header: cat_14
   icon: search
+  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
 - name: Negotiation
   header: cat_15
   icon: search
+  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
 - name: Editing
   header: cat_16
   icon: search
+  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
 - name: Economics
   header: cat_17
   icon: search
+  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
 - name: Business analysis
   header: cat_1
   icon: search
+  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
 - name: Emotional Intelligence (EQ)
   header: cat_2
   icon: search
+  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
 - name: Business development
   header: cat_3
   icon: search
+  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
 - name: Critical thinking
   header: cat_4
   icon: search
+  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
 - name: Time Management
   header: cat_5
   icon: search
+  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
 - name: Business storytelling
   header: cat_6
   icon: search
+  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
 
   
 
