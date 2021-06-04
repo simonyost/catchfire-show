@@ -1,49 +1,72 @@
 - name: Collaboration
   header: cat_1
+  icon: search
 - name: Creativity
   header: cat_2
+  icon: search
 - name: Adaptability
   header: cat_3
+  icon: search
 - name: Persuasion
   header: cat_4
+  icon: search
 - name: Leadership
   header: cat_5
+  icon: search
 - name: Consulting
   header: cat_6
+  icon: search
 - name: Coaching
   header: cat_7
+  icon: search
 - name: Writing
   header: cat_8
+  icon: search
 - name: Sales
   header: cat_9
+  icon: search
 - name: Research
   header: cat_10
+  icon: search
 - name: Presentation
   header: cat_11
+  icon: search
 - name: UI/UX
   header: cat_12
+  icon: search
 - name: Problem-solving
   header: cat_13
+  icon: search
 - name: Journalism
   header: cat_14
+  icon: search
 - name: Negotiation
   header: cat_15
+  icon: search
 - name: Editing
   header: cat_16
+  icon: search
 - name: Economics
   header: cat_17
+  icon: search
 - name: Business analysis
   header: cat_1
+  icon: search
 - name: Emotional Intelligence (EQ)
   header: cat_2
+  icon: search
 - name: Business development
   header: cat_3
+  icon: search
 - name: Critical thinking
   header: cat_4
+  icon: search
 - name: Time Management
   header: cat_5
+  icon: search
 - name: Business storytelling
   header: cat_6
+  icon: search
 
   
 

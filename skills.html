@@ -47,7 +47,45 @@ description: Top skills to learn in 2021
   </div>
 </div>
 
+<!-- Skills Blocks Start -->
+<div id="service" class="service-sec pt-100 pb-150">
+  <div class="container">
 
+    {% capture tags %}
+    {% for tag in site.tags %}
+    {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
+    {% endfor %}
+    {% endcapture %}
+    {% assign sortedtags = tags | split:' ' | sort | uniq | reverse%}
+
+    <div class="row">
+
+      {% for tag in sortedtags %}
+      {% assign tagitems = tag | split: '#' %}
+      {% if tagitems[2]%} 
+      <div class="col-md-4 col-sm-6 inner-box">
+        <div class="inner">
+           <div class="themeix-box">
+              <div class="service-icon pt-2 pr-2 pl-2 pb-2">
+                {% assign details = site.data.skills_detail | where: 'name', tagitems[1] | first %}
+                <i class="fa fa-{{ details.icon }} fa-2x text-white"></i>
+              </div>
+              <div class="service-content">
+                <a href="/tag/{{ tagitems[1] | slugify }}"><h2>{{ tagitems[1] }} <small> ({{ tagitems[2] }})</small></h2></a>
+              
+                 <p>Welis bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida dictum fusce ut placerat.</p>
+              </div>
+           </div>
+        </div>
+     </div>
+     {% endif %}
+     {% endfor %}
+
+    </div>
+
+  </div>
+</div>
+<!-- Skills Blocks End -->
 
 
 
