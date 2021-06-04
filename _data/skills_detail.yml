@@ -5,7 +5,7 @@
 - name: Creativity
   header: cat_2
   icon: search
-  description: The ability to develop or recognize ideas, alternatives, or possibilities that may be useful in solving issues, interacting with others, or entertaining ourselves and others is referred to as creativity.
+  description: The ability to develop ideas, alternatives, or possibilities that may be useful in solving issues or interacting with others is referred to as creativity.
 - name: Adaptability
   header: cat_3
   icon: search
@@ -13,67 +13,67 @@
 - name: Persuasion
   header: cat_4
   icon: search
-  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
+  description: Persuasion is the process of influencing someone else to do something or accept an idea.
 - name: Leadership
   header: cat_5
   icon: search
-  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
+  description: The art of encouraging a group of individuals to work together toward a single goal is known as leadership. 
 - name: Consulting
   header: cat_6
   icon: search
-  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
+  description: On the basis of their own experience, consultants provide expert opinions, analyses, and suggestions to organizations or individuals.
 - name: Coaching
   header: cat_7
   icon: search
-  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
+  description: Coaching is the process of providing people with the tools, knowledge, and opportunities they need to fully develop themselves in order to be successful in their commitments to themselves, their company, and their work.
 - name: Writing
   header: cat_8
   icon: search
-  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
+  description: You display courtesy, attention to detail, and intelligence when you write correctly. Writing well improves your credibility.
 - name: Sales
   header: cat_9
   icon: search
-  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
+  description: Several sub-skills empower sales activities such as negotiating, data analytics, pipeline planning, competitor analysis, essential market knowledge, and internal and external influencing. 
 - name: Research
   header: cat_10
   icon: search
-  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
+  description: The capacity to find and analyze relevant information on a certain topic is referred to as research abilities.
 - name: Presentation
   header: cat_11
   icon: search
-  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
+  description: The ability to provide successful and compelling presentations to a variety of audiences is known as presenting skills. 
 - name: UI/UX
   header: cat_12
   icon: search
-  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
+  description: User interface and experience (UI/UX) activities include design, user research, information architecture, wireframing, prototyping, visual communication, and empathy.
 - name: Problem-solving
   header: cat_13
   icon: search
-  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
+  description: Problem-solving abilities allow you to figure out why something is happening and how to fix it. It's one of the most important abilities that businesses look for in job candidates.
 - name: Journalism
   header: cat_14
   icon: search
-  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
+  description: The action of acquiring, evaluating, generating, and presenting news and information is known as journalism.
 - name: Negotiation
   header: cat_15
   icon: search
-  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
+  description: Negotiation is a strategic dialogue that aims to resolve an issue for both parties—avoiding dispute and finding a suitable solution.
 - name: Editing
   header: cat_16
   icon: search
-  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
+  description: The technique of modifying and rearranging video clips to create a new piece is known as video editing.
 - name: Economics
   header: cat_17
   icon: search
-  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
+  description: Economics is a social science that studies how products and services are produced, distributed, and consumed. It investigates how individuals, businesses, governments, and nations make resource allocation decisions.
 - name: Business analysis
   header: cat_1
   icon: search
-  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
+  description: Business analysis is used to discover and express the need for change in how organizations operate, as well as to help organizations implement that change.
 - name: Emotional Intelligence (EQ)
   header: cat_2
   icon: search
-  description: Aliquam erat volutpat. Vivamus vitae ex tellus. Quisque dictum porta arcu quis tempor. Ut sit amet massa sed libero lacinia dictum et non sem. Curabitur.
+  description: The ability to sense, control, and assess emotions is referred to as emotional intelligence.
 - name: Business development
   header: cat_3
   icon: search
