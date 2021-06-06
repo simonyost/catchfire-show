@@ -27,6 +27,23 @@ enabled: true
             </small>
             {% endif %}
           </h1>
+
+          <div class="row">
+            <div class="col-4 offset-2">
+              <h5 class="text-white">
+                <i class="fa fa-headphones pr-2"></i> {{contributor_podcast.size}}<br/>
+                <small>episodes</small>
+              </h5>
+            </div>
+            <div class="col-4">
+              <h5 class="text-white">
+                <i class="fa fa-file-movie-o pr-2"></i> {{contributor_clips.size}} <br/>
+                <small>clips</small>
+              </h5>
+            </div>
+          </div>
+
+
         </div>
       </div>
     </div>
@@ -75,49 +92,37 @@ enabled: true
 
       <div class="col-md-3 col-sm-12">
 
-        <div class="row bg-primary py-md-5 px-md-5 pt-4 text-center">
-          <h1 class="col-md-12 col-6 text-white mb-4">
-            <i class="fa fa-headphones pr-2"></i> {{contributor_podcast.size}}
-          </h1>
-          <h1 class="col-md-12 col-6 text-white">
-            <i class="fa fa-file-movie-o pr-2"></i> {{contributor_clips.size}}
-          </h1>
-        </div>
+          {% if page.serve %}
+          <h6 class="text-secondary">service</h6>
+          <p> <b class="text-secondary">
+              <i class="fa fa-user text-primary" aria-hidden="true"></i>
+              who /</b>
+            {{page.serve.who}}</p>
+  
+          <p> <b class="text-secondary">
+              <i class="fa fa-random text-primary" aria-hidden="true"></i>
+              how /</b>
+            {{page.serve.how}}</p>
+  
+          {% endif%}
+  
+          {% if page.tags %}
+          <p class="mb-0"> <b class="text-secondary">
+              <i class="fa fa-cogs text-primary" aria-hidden="true"></i>
+              skills used /</b>
+            {% for skill in page.tags %}
+            <a href="/tag/{{ skill | slugify }}" class="badge rounded-pill bg-primary text-white">{{skill}}</a>
+            {% endfor %}
+          </p>
+          {% endif%}
+      
+
       </div>
 
       <div class="col-12 mt-5 d-none d-sm-block">
         <hr>
       </div>
 
-      <div class="col-12 mt-5">
-        {% if page.serve %}
-        <h6 class="text-secondary">service</h6>
-        <p> <b class="text-secondary">
-            <i class="fa fa-user text-primary" aria-hidden="true"></i>
-            who /</b>
-          {{page.serve.who}}</p>
-
-        <p> <b class="text-secondary">
-            <i class="fa fa-random text-primary" aria-hidden="true"></i>
-            how /</b>
-          {{page.serve.how}}</p>
-
-        {% endif%}
-
-        {% if page.skills %}
-        <p class="mb-0"> <b class="text-secondary">
-            <i class="fa fa-cogs text-primary" aria-hidden="true"></i>
-            skills used /</b>
-          {% for skill in page.skills %}
-          <span class="badge rounded-pill bg-primary text-white">{{skill}}</span>
-          {% endfor %}
-        </p>
-        {% endif%}
-      </div>
-
-      <div class="col-12 mt-5 d-none d-sm-block">
-        <hr>
-      </div>
     </div>
 
     <div class="row mt-5">

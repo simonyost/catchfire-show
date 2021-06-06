@@ -35,8 +35,10 @@ layout: default
 <!-- text intro  -->
 <div class="row pt-100">
   <div class="col-10 offset-1 col-lg-6 offset-lg-3">
-     <h2 class="text-secondary">Are you interested in learning about {{ details.name | downcase }}?</h2>
+     <h2 class="text-secondary">Are you interested in learning about {{page.title | downcase}}?</h2>
+     {% if details %}
      <p class="lead">{{ details.description }}</p>
+     {% endif %}
   </div>
 </div>
 
