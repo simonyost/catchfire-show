@@ -8,7 +8,7 @@ email: hello@catchfire.show
 description: >- # this means to ignore newlines until "baseurl:"
   Discover your career path.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "//catchfire.show" # the base hostname & protocol for your site, e.g. //example.com
+url: "https://catchfire.show" # the base hostname & protocol for your site, e.g. //example.com
 
 exclude:
   - '*.zip'
