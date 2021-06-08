@@ -4,10 +4,10 @@ categories: [profile]
 title: Daniel Fitzpatrick II
 last: Fitzpatrick
 contributor_id: 2
-facebook_url: //www.facebook.com/Sonic-Souljah-100785638537325/
-twitter_url: //twitter.com/WakeUpMusic7
-linkedin_url: //www.linkedin.com/in/daniel-fitzpatrick-ii-10819370/
-website: //www.thewakeupmusic.com
+facebook_url: https://www.facebook.com/Sonic-Souljah-100785638537325/
+twitter_url: https://twitter.com/WakeUpMusic7
+linkedin_url: https://www.linkedin.com/in/daniel-fitzpatrick-ii-10819370/
+website: https://www.thewakeupmusic.com
 bio: Musician
 post_image: /assets/images/contributor_img/daniel_fitzpatrick.png
 location: St. Louis, MO, USA

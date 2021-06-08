@@ -7,8 +7,8 @@ title: Leslie Gill
 last: Gill
 contributor_id: 40
 facebook_url: 
-linkedin_url: //www.linkedin.com/in/leslie-gill-97586218/
-instagram_url: //www.instagram.com/rungforwomen/
+linkedin_url: https://www.linkedin.com/in/leslie-gill-97586218/
+instagram_url: https://www.instagram.com/rungforwomen/
 website: https://rungforwomen.org/
 bio: President at Rung for Women
 post_image: /assets/images/contributor_img/leslie-gill.png

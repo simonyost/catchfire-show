@@ -4,9 +4,9 @@ categories: [profile]
 title: Candy Washington
 last: Washington
 contributor_id: 30
-facebook_url: //www.facebook.com/actresswithstyle
-linkedin_url: //www.linkedin.com/in/candywashington/
-website: //candywashington.com/
+facebook_url: https://www.facebook.com/actresswithstyle
+linkedin_url: https://www.linkedin.com/in/candywashington/
+website: https://candywashington.com/
 bio: Influencer
 post_image: /assets/images/contributor_img/candy-washington.png
 location: Los Angeles, CA, USA

@@ -4,9 +4,9 @@ categories: [profile]
 title: Kanika Sharma
 last: Sharma
 contributor_id: 33
-facebook_url: //www.facebook.com/kani.sharma
-linkedin_url: //www.linkedin.com/in/kanikasharma
-website: //1904labs.com/work/case-studies/breaking-monoliths/
+facebook_url: https://www.facebook.com/kani.sharma
+linkedin_url: https://www.linkedin.com/in/kanikasharma
+website: https://1904labs.com/work/case-studies/breaking-monoliths/
 bio: Software Engineer and Tech Lead
 post_image: /assets/images/contributor_img/kanika_sharma.png
 location: St. Louis, MO, USA

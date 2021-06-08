@@ -3,9 +3,9 @@ layout: contributor
 title: Laura Tromben
 last: Tromben
 contributor_id: 24
-facebook_url: //www.facebook.com/babybunnylt
-twitter_url: //twitter.com/LauraT1904Labs
-linkedin_url: //www.linkedin.com/in/laura-tromben-74043a9/
+facebook_url: https://www.facebook.com/babybunnylt
+twitter_url: https://twitter.com/LauraT1904Labs
+linkedin_url: https://www.linkedin.com/in/laura-tromben-74043a9/
 website: Buisness Development, Talent Acquisition, Entrepreneur
 bio: Clients, Entrepreneur
 post_image: /assets/images/contributor_img/laura_tromben.png

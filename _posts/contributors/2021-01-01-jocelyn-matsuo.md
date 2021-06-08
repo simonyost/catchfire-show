@@ -4,9 +4,9 @@ categories: [profile]
 title: Jocelyn Matsuo
 last: Matsuo
 contributor_id: 23
-facebook_url: //www.facebook.com/jocelyn.matsuo
-twitter_url: //twitter.com/jocelynmatsuo
-linkedin_url: //www.linkedin.com/in/jocelyn-matsuo-68851753/
+facebook_url: https://www.facebook.com/jocelyn.matsuo
+twitter_url: https://twitter.com/jocelynmatsuo
+linkedin_url: https://www.linkedin.com/in/jocelyn-matsuo-68851753/
 website: 
 bio: Software Engineer
 post_image: /assets/images/contributor_img/jocelyn_matsuo.png

@@ -6,8 +6,8 @@ last: Jxn
 contributor_id: 4
 facebook_url: 
 twitter_url: 
-linkedin_url: //www.linkedin.com/in/darren-jxn-3a5618122/
-website: //www.allblackcreatives.com
+linkedin_url: https://www.linkedin.com/in/darren-jxn-3a5618122/
+website: https://www.allblackcreatives.com
 bio: CEO
 post_image: /assets/images/contributor_img/darren_jxn.png
 location: St. Louis, MO, USA

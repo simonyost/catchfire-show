@@ -3,10 +3,10 @@ layout: contributor
 title: Vince Mahtani
 last: Mahtani
 contributor_id: 18
-facebook_url: //www.facebook.com/vincentmahtani
+facebook_url: https://www.facebook.com/vincentmahtani
 twitter_url: 
-linkedin_url: //www.linkedin.com/in/vincemahtani/
-website: //www.vincemahtani.com
+linkedin_url: https://www.linkedin.com/in/vincemahtani/
+website: https://www.vincemahtani.com
 bio: Leadership Coach
 post_image: /assets/images/contributor_img/vince_mahtani.png
 location: St. Louis, MO, USA

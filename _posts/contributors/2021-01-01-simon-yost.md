@@ -5,10 +5,10 @@ title: Simon Yost
 last: Yost
 contributor_id: 14
 email: hello@catchfire.show
-facebook_url: //www.facebook.com/simonyost
-twitter_url: //twitter.com/simonyost
-linkedin_url: //www.linkedin.com/in/simonyost
-website: //simonyost.com
+facebook_url: https://www.facebook.com/simonyost
+twitter_url: https://twitter.com/simonyost
+linkedin_url: https://www.linkedin.com/in/simonyost
+website: https://simonyost.com
 bio: Host of Catch Fire Show
 post_image: /assets/images/contributor_img/simon_yost.png
 location: St. Louis, MO, USA

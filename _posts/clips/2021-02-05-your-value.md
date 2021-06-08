@@ -4,7 +4,7 @@ title: "How to know your value and worth as a person with Candy Washington"
 author: Candy Washington
 redirect_from:
 date: 2021-03-02T02:15:58Z
-post_image: //i.ytimg.com/vi/8K2u6RQt2cY/hqdefault.jpg
+post_image: https://i.ytimg.com/vi/8K2u6RQt2cY/hqdefault.jpg
 
 categories: [clip]
 contributor_id: 30

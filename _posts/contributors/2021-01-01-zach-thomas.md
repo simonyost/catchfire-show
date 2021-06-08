@@ -5,8 +5,8 @@ last: Thomas
 contributor_id: 28
 facebook_url: http://facebook.com/zachary.l.thomas
 twitter_url: 
-linkedin_url: //www.linkedin.com/in/theleaderfarmer/
-website: //leaderfarming.com/leader-farmer/
+linkedin_url: https://www.linkedin.com/in/theleaderfarmer/
+website: https://leaderfarming.com/leader-farmer/
 bio: Entrepreneur, Author, Veteran
 post_image: /assets/images/contributor_img/zach_thomas.png
 location: Rockmart, GA, USA

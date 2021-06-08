@@ -3,8 +3,8 @@ layout: contributor
 title: Tamarah Usher
 last: Usher
 contributor_id: 15
-facebook_url: //www.facebook.com/tamarahusher
-linkedin_url: //www.linkedin.com/in/tamarahusher/
+facebook_url: https://www.facebook.com/tamarahusher
+linkedin_url: https://www.linkedin.com/in/tamarahusher/
 bio: Futurist
 post_image: /assets/images/contributor_img/tamahra_usher.png
 location: St. Louis, MO, USA

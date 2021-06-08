@@ -7,9 +7,9 @@ categories: [profile]
 title: Jeff Bartsch
 last: Bartsch
 contributor_id: 31
-facebook_url: //www.facebook.com/jeffbartsch
-linkedin_url: //www.linkedin.com/in/jeff-bartsch-0265934/
-website: //www.storygreenlight.com/
+facebook_url: https://www.facebook.com/jeffbartsch
+linkedin_url: https://www.linkedin.com/in/jeff-bartsch-0265934/
+website: https://www.storygreenlight.com/
 bio: Television Editor
 post_image: /assets/images/contributor_img/jeff_bartsch.png
 location: Los Angeles, CA, USA

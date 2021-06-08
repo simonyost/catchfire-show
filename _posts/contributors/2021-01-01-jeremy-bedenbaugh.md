@@ -6,7 +6,7 @@ last: Bedenbaug
 contributor_id: 36
 facebook_url: 
 linkedin_url: 
-website: //www.recreate-solutions.com/
+website: https://www.recreate-solutions.com/
 bio: Founder & CEO
 post_image: /assets/images/contributor_img/jeremy-bedenbaugh.png
 location: St. Louis, MO, USA

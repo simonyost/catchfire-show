@@ -5,8 +5,8 @@ last: Henry
 contributor_id: 16
 twitter_url: 
 facebook_url: http://facebook.com/toddhenry.ac
-linkedin_url: //www.linkedin.com/in/toddhenry1/
-website: //www.toddhenry.com
+linkedin_url: https://www.linkedin.com/in/toddhenry1/
+website: https://www.toddhenry.com
 bio: Author and Speaker
 post_image: /assets/images/contributor_img/todd_henry.png
 location: Cincinnati, OH, USA
