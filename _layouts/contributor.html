@@ -31,13 +31,13 @@ enabled: true
           <div class="row">
             <div class="col-4 offset-2">
               <h5 class="text-white">
-                <i class="fa fa-headphones pr-2"></i> {{contributor_podcast.size}}<br/>
+                <i class="fa fa-headphones pr-2"></i> {{contributor_podcast.size}}<br />
                 <small>episodes</small>
               </h5>
             </div>
             <div class="col-4">
               <h5 class="text-white">
-                <i class="fa fa-file-movie-o pr-2"></i> {{contributor_clips.size}} <br/>
+                <i class="fa fa-file-movie-o pr-2"></i> {{contributor_clips.size}} <br />
                 <small>clips</small>
               </h5>
             </div>
@@ -52,13 +52,14 @@ enabled: true
 <!-- Breadcrumb End  !-->
 
 <!-- Blog Section Start -->
-<div id="blog" class="blog-sec pt-150  pb-150">
+<div id="blog" class="blog-sec pt-5 pb-150">
   <div class="container">
 
     <div class="row">
-      <div class="col-md-3 col-sm-6 d-none d-sm-block">
-        <h3 class="mb-0 d-none d-sm-block">{{page.name}}</h3>
-        <p class="mt-0 d-none d-sm-block">{{page.location}}</p>
+      <div class="col-md-3 col-sm-6">
+        <h3 class="mb-0 d-none d-sm-block">{{page.title}}</h3>
+        <p class="mt-0 d-none d-sm-block">{{page.bio}} <br />
+          {{page.location}}</p>
         <ul class="pl-0  d-none d-sm-block">
           {% if page.website %}
           <li class="list-inline-item"><a href="{{page.website}}" target="_blank"><i class="fa fa-globe"></i></a>
@@ -69,8 +70,8 @@ enabled: true
                 class="fa fa-facebook"></i></a></li>
           {% endif %}
           {% if page.twitter_url %}
-          <li class="list-inline-item"><a href="{{page.twitter_url}}" target="_blank"><i
-                class="fa fa-twitter"></i></a></li>
+          <li class="list-inline-item"><a href="{{page.twitter_url}}" target="_blank"><i class="fa fa-twitter"></i></a>
+          </li>
           {% endif %}
           {% if page.linkedin_url %}
           <li class="list-inline-item"><a href="{{page.linkedin_url}}" target="_blank"><i
@@ -78,6 +79,28 @@ enabled: true
           {% endif %}
         </ul>
 
+
+        <!-- START MEDIA -->
+        <div class="card text-secondary bg-info mt-5 mb-5">
+          <div class="card-body">
+            <h5 class="card-title mb-0">watch &amp learn</h5>
+          </div>
+          <ul class="list-group list-group-flush">
+            {% for post in contributor_posts %}
+            {% unless post.categories contains 'profile' or post.id == page.id %}
+            <li class="list-group-item bg-info">
+              {% if post.categories contains 'podcast'%}
+              <i class="fa fa-headphones pr-2"></i> Episode:
+              {% else if post.categories contains 'clip'%}
+              <i class="fa fa-file-movie-o pr-2"></i>
+              {% endif%}
+              <a class="text-secondary" href="{{post.url}}">{{post.title}}</a>
+            </li>
+            {% endunless %}
+            {% endfor %}
+          </ul>
+        </div>
+        <!-- END MEDIA -->
 
 
 
@@ -92,63 +115,56 @@ enabled: true
 
       <div class="col-md-3 col-sm-12">
 
-          {% if page.serve %}
-          <h6 class="text-secondary">service</h6>
-          <p> <b class="text-secondary">
-              <i class="fa fa-user text-primary" aria-hidden="true"></i>
-              who /</b>
-            {{page.serve.who}}</p>
-  
-          <p> <b class="text-secondary">
-              <i class="fa fa-random text-primary" aria-hidden="true"></i>
-              how /</b>
-            {{page.serve.how}}</p>
-  
-          {% endif%}
-  
-          {% if page.tags %}
-          <p class="mb-0"> <b class="text-secondary">
-              <i class="fa fa-cogs text-primary" aria-hidden="true"></i>
-              skills used /</b>
-            {% for skill in page.tags %}
-            <a href="/tag/{{ skill | slugify }}" class="badge rounded-pill bg-primary text-white">{{skill}}</a>
-            {% endfor %}
-          </p>
-          {% endif%}
-      
+        {% if page.serve %}
+        <h6 class="text-secondary">service</h6>
+        <p> <b class="text-secondary">
+            <i class="fa fa-user text-primary" aria-hidden="true"></i>
+            who /</b>
+          {{page.serve.who}}</p>
+
+        <p> <b class="text-secondary">
+            <i class="fa fa-random text-primary" aria-hidden="true"></i>
+            how /</b>
+          {{page.serve.how}}</p>
+
+        {% endif%}
+
+        {% if page.tags %}
+        <p class="mb-0"> <b class="text-secondary">
+            <i class="fa fa-cogs text-primary" aria-hidden="true"></i>
+            skills used /</b>
+          {% for skill in page.tags %}
+          <a href="/tag/{{ skill | slugify }}" class="badge rounded-pill bg-primary text-white">{{skill}}</a>
+          {% endfor %}
+        </p>
+        {% endif%}
+
 
       </div>
+    </div>
 
-      <div class="col-12 mt-5 d-none d-sm-block">
+    <!-- START OTHER PROFILES -->
+    {% assign posts = site.posts | where: 'categories', 'profile' | sort: "last" %}
+
+    {% if posts %}
+    
+    <div class="row">
+      <div class="col-12 mt-5 mb-5">
         <hr>
       </div>
 
-    </div>
-
-    <div class="row mt-5">
-      {% for post in contributor_posts  %}
-      {% unless post.categories contains 'profile' or post.id == page.id %}
-      <div class="col-md-4 col-sm-6">
-        <div class="themeix-box">
-          <div class="single-post">
-            <div class="single-post-thumb">
-              <img src="{{post.post_image}}" alt="{{post.title}}" />
-            </div>
-            <div class="blog-text">
-              <div class="post-info">
-                <h2><a href="{{post.url}}">{{post.title}}</a></h2>
-
-                <a class="btn btn-dark btn-sm disabled" href="#">{{post.categories}}</a>
-              </div>
-              <p>{{post.excerpt}}</p>
-            </div>
-          </div>
-        </div>
+      <h4 class="col-12 text-secondary mb-3">Similar Profiles</h4>
+      {% for post in posts limit:4 %}
+      {% unless profile.id == page.id %}
+      <div class="col-md-3 col-sm-6 offset-sm-0 col-8 offset-2 mt-5">
+        {% include profile-card-xs.html %}
       </div>
       {% endunless %}
       {% endfor %}
-
     </div>
+    {% endif %}
+    <!-- END OTHER PROFILES -->
+
   </div>
 </div>
 <!-- Blog Section End -->
