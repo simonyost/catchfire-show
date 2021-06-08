@@ -4,8 +4,8 @@ title: "How do you keep focused and motivated living in a different culture?"
 author: Kanika Sharma
 redirect_from:
 date: 2021-03-18T15:23:23Z
-post_image: //i.ytimg.com/vi/R6F-Jf-Jqbw/hqdefault.jpg
-tags: [technologists, leaders]
+post_image: https://i.ytimg.com/vi/R6F-Jf-Jqbw/hqdefault.jpg
+
 categories: [clip]
 contributor_id: 33
 comments: false

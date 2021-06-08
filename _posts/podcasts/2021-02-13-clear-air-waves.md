@@ -5,7 +5,6 @@ author: GeNella McCrary, Simon Yost
 redirect_from:
 date: 2021-02-13T02:03:13Z
 post_image: /assets/images/show_img/s03/poster_genella.jpg
-tags: [protestors,students,technologists]
 categories: [podcast]
 contributor_id: 29
 comments: false

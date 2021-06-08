@@ -6602,6 +6602,40 @@ small,
       @media only screen and (min-width: 1199px) {
         .bannar-image.friendsgiving .bannar-wrapper {
           padding: 450px 0 100px 0; } }
+  .bannar-image.cat_1 {
+    background: #d24d00 url(../images/headers/cat_1.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_2 {
+    background: #d24d00 url(../images/headers/cat_2.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_3 {
+    background: #d24d00 url(../images/headers/cat_3.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_4 {
+    background: #d24d00 url(../images/headers/cat_4.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_5 {
+    background: #d24d00 url(../images/headers/cat_5.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_6 {
+    background: #d24d00 url(../images/headers/cat_6.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_7 {
+    background: #d24d00 url(../images/headers/cat_7.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_8 {
+    background: #d24d00 url(../images/headers/cat_8.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_9 {
+    background: #d24d00 url(../images/headers/cat_9.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_10 {
+    background: #d24d00 url(../images/headers/cat_10.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_11 {
+    background: #d24d00 url(../images/headers/cat_11.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_12 {
+    background: #d24d00 url(../images/headers/cat_12.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_13 {
+    background: #d24d00 url(../images/headers/cat_13.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_14 {
+    background: #d24d00 url(../images/headers/cat_14.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_15 {
+    background: #d24d00 url(../images/headers/cat_15.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_16 {
+    background: #d24d00 url(../images/headers/cat_16.jpg) no-repeat scroll center center/cover; }
+  .bannar-image.cat_17 {
+    background: #d24d00 url(../images/headers/cat_17.jpg) no-repeat scroll center center/cover; }
   .bannar-image .bannar-text {
     padding-bottom: 0; }
     .bannar-image .bannar-text ul li:last-child a {
@@ -8564,3 +8598,99 @@ a.loadmore-btn:active {
 
 body, html {
   overflow-x: hidden; }
+
+.ms-header {
+  display: flex; }
+  .ms-header__title {
+    flex: 1 1 100%;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: bold; }
+
+.ms-slider {
+  display: inline-block;
+  overflow: hidden;
+  height: 3rem;
+  border: 2px solid;
+  padding: 1.5rem;
+  margin-top: 0.5rem;
+  vertical-align: middle; }
+  .ms-slider__words {
+    display: inline-block;
+    margin: -1.5rem 0 0 0;
+    padding: 0;
+    list-style: none;
+    -webkit-animation-name: wordSlider;
+            animation-name: wordSlider;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-duration: 10s;
+            animation-duration: 10s; }
+  .ms-slider__word {
+    display: block;
+    line-height: 3rem;
+    text-align: left; }
+
+@-webkit-keyframes wordSlider {
+  0%,
+  10% {
+    transform: translateY(0%); }
+  12%,
+  22% {
+    transform: translateY(-11%); }
+  24%,
+  34% {
+    transform: translateY(-22%); }
+  36%,
+  46% {
+    transform: translateY(-33%); }
+  48%,
+  58% {
+    transform: translateY(-44%); }
+  60%,
+  70% {
+    transform: translateY(-55%); }
+  72%,
+  82% {
+    transform: translateY(-66.5%); }
+  84%,
+  94% {
+    transform: translateY(-77.5%); }
+  100% {
+    transform: translateY(-88.5%); } }
+
+@keyframes wordSlider {
+  0%,
+  10% {
+    transform: translateY(0%); }
+  12%,
+  22% {
+    transform: translateY(-11%); }
+  24%,
+  34% {
+    transform: translateY(-22%); }
+  36%,
+  46% {
+    transform: translateY(-33%); }
+  48%,
+  58% {
+    transform: translateY(-44%); }
+  60%,
+  70% {
+    transform: translateY(-55%); }
+  72%,
+  82% {
+    transform: translateY(-66.5%); }
+  84%,
+  94% {
+    transform: translateY(-77.5%); }
+  100% {
+    transform: translateY(-88.5%); } }
+
+#home .ms-header__title {
+  color: #fff; }
+
+#home .ms-header a {
+  color: #fff; }

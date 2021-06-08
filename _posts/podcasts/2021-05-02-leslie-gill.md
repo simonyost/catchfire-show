@@ -4,7 +4,7 @@ title: "Leslie Gill"
 redirect_from:
 date: 2021-05-02T01:04:58Z
 post_image: /assets/images/show_img/s03/poster_LeslieGill.jpg
-tags: [entrepreneurs, leaders]
+
 categories: [podcast]
 contributor_id: 40
 comments: false

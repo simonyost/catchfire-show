@@ -5,7 +5,6 @@ author: Jeff Bartsch, Simon Yost
 redirect_from:
 date: 2021-02-28T01:04:27Z
 post_image: /assets/images/show_img/s03/poster_jeff.jpg
-tags: [entrepreneurs, leaders, authors]
 categories: [podcast]
 contributor_id: 31
 comments: false

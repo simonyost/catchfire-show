@@ -2,17 +2,8 @@
   url: /
 - title: profiles
   url: /profiles
-- title: paths
-  url: /jobs/featured
-  submenu:
-  - title: featured
-    url: /jobs/featured/
-  - title: creatives
-    url: /jobs/creatives/
-  - title: technology
-    url: /jobs/technologists
-  - title: protestors
-    url: /jobs/protestors
+- title: skills
+  url: /skills
 - title: show
   url: /show
   submenu:
@@ -22,5 +13,3 @@
     url: /clips
   - title: topics
     url: /topics
-  - title: friendsgiving 2020
-    url: /tag/friendsgiving

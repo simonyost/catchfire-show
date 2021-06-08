@@ -6,7 +6,7 @@ redirect_from:
 - /test-topic
 date: 2020-11-10 05:00:00
 post_image: /assets/images/show_img/014/001.png 
-tags: [creatives]
+
 categories: [clip]
 contributor_id: 5
 comments: false

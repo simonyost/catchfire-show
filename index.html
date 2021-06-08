@@ -8,19 +8,16 @@ description: Learn from creative successful people through exclusive interviews 
    <div id="bannar-effect" class="bannar-image">
       <div class="container">
          <div class="row">
-            <div class="col-md-10">
+            <div class="col-12">
 
                <div class="bannar-wrapper">
-                  <div class="bannar-text">
-                     <h2 class="text-white mb-0">Learn from</h2>
-                     <h1>Creative Successful People.</h1>
-                     <ul class="pl-0">
-                        <!-- <li><a href="/jobs/featured"><i class="fa fa-random"></i> Paths</a></li> -->
-                        <li><a href="/show"><i class="fa fa-play-circle"></i> Show</a></li>
-                        <li><a href="/profiles"><i class="fa fa-fire"></i> Profiles</a>
-                        <li></li>
-                     </ul>
-                  </div>
+
+                  {% include tag_slider.html %}
+
+                  <p>
+                     <a href="/skills" class="btn btn-sm btn-link text-white">view all skills >></a>
+                  </p>
+
                </div>
 
             </div>
@@ -29,6 +26,7 @@ description: Learn from creative successful people through exclusive interviews 
    </div>
 </div>
 <!-- Banner Section End -->
+
 
 <!-- text intro  -->
 <div class="row pt-150">
@@ -62,28 +60,28 @@ description: Learn from creative successful people through exclusive interviews 
       {% assign recents = site.posts | where: 'categories', 'podcast' |
       sort: 'date' | reverse %}
       {% assign recent = recents.first %}
-   
+
       <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
-        <!-- Item start -->
-        <a href="{{recent.url}}">
-          <img src="{{recent.post_image}}" alt="{{recent.title}}" />
-        </a>
-        <!-- Item video -->
+         <!-- Item start -->
+         <a href="{{recent.url}}">
+            <img src="{{recent.post_image}}" alt="{{recent.title}}" />
+         </a>
+         <!-- Item video -->
       </div>
       {% assign posts = site.posts | where: 'categories', 'podcast' | where: 'featured', 'true' |
       sort: 'date' | reverse %}
       {% for post in posts limit: 5 %}
       {% if post.id != recent.id %}
       <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
-        <!-- Item start -->
-        <a href="{{post.url}}">
-          <img src="{{post.post_image}}" alt="{{post.title}}"/>
-        </a>
-        <!-- Item video -->
+         <!-- Item start -->
+         <a href="{{post.url}}">
+            <img src="{{post.post_image}}" alt="{{post.title}}" />
+         </a>
+         <!-- Item video -->
       </div>
       {% endif %}
       {% endfor %}
-    </div>
+   </div>
 </div>
 
 
@@ -102,8 +100,9 @@ description: Learn from creative successful people through exclusive interviews 
 
    <div class="col-10 offset-1">
       <div class="row">
-         {% assign posts = site.contributors | where: 'featured', 'true' | sort: "contributor_id" | reverse %}
-         {% for post in posts limit: 3 %}
+         {% assign profiles = site.posts | where: 'categories', 'profile' %}
+         {% assign featured = profiles | where: 'featured', 'true' | sort: "contributor_id" | reverse %}
+         {% for post in featured limit: 3 %}
          <div class="col-md-4 col-sm-6 mt-5 mb-5">
 
             {% include profile-card-sm.html %}

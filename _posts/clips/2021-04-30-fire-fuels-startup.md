@@ -3,8 +3,8 @@ layout: post
 title: "What is the fire that fuels your startup?"
 redirect_from:
 date: 2021-04-30T18:04:44Z
-post_image: //i.ytimg.com/vi/XF-PVyGJryo/hqdefault.jpg
-tags: [entrepreneurs, leaders, technologists]
+post_image: https://i.ytimg.com/vi/XF-PVyGJryo/hqdefault.jpg
+
 categories: [clip]
 contributor_id: 37
 comments: false

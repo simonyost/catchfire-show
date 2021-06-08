@@ -16,17 +16,34 @@ enabled: true
   <div class="container">
     <div class="row">
       <div class="col-4 col-lg-3">
-        <img src="{{contributor.image}}" alt="{{contributor.name}}" />
+        <img src="{{page.post_image}}" alt="{{page.name}}" />
       </div>
       <div class="col-8 col-lg-9 text-center">
         <div class="page-heading pt-lg-5 mt-lg-5 mt-md-5 pt-md-4 pt-sm-3 pt-5">
-          <h1>{{contributor.name}} <br />
-            {%if contributor.fire %}
+          <h1>{{page.title}} <br />
+            {%if page.fire %}
             <small>
-              <i class="fa fa-fire pr-2" aria-hidden="true"></i></b> {{contributor.fire}}</p>
+              <i class="fa fa-fire pr-2" aria-hidden="true"></i></b> {{page.fire}}</p>
             </small>
             {% endif %}
           </h1>
+
+          <div class="row">
+            <div class="col-4 offset-2">
+              <h5 class="text-white">
+                <i class="fa fa-headphones pr-2"></i> {{contributor_podcast.size}}<br />
+                <small>episodes</small>
+              </h5>
+            </div>
+            <div class="col-4">
+              <h5 class="text-white">
+                <i class="fa fa-file-movie-o pr-2"></i> {{contributor_clips.size}} <br />
+                <small>clips</small>
+              </h5>
+            </div>
+          </div>
+
+
         </div>
       </div>
     </div>
@@ -35,32 +52,55 @@ enabled: true
 <!-- Breadcrumb End  !-->
 
 <!-- Blog Section Start -->
-<div id="blog" class="blog-sec pt-150  pb-150">
+<div id="blog" class="blog-sec pt-5 pb-150">
   <div class="container">
 
     <div class="row">
-      <div class="col-md-3 col-sm-6 d-none d-sm-block">
-        <h3 class="mb-0 d-none d-sm-block">{{contributor.name}}</h3>
-        <p class="mt-0 d-none d-sm-block">{{contributor.location}}</p>
+      <div class="col-md-3 col-sm-6">
+        <h3 class="mb-0 d-none d-sm-block">{{page.title}}</h3>
+        <p class="mt-0 d-none d-sm-block">{{page.bio}} <br />
+          {{page.location}}</p>
         <ul class="pl-0  d-none d-sm-block">
-          {% if contributor.website %}
-          <li class="list-inline-item"><a href="{{contributor.website}}" target="_blank"><i class="fa fa-globe"></i></a>
+          {% if page.website %}
+          <li class="list-inline-item"><a href="{{page.website}}" target="_blank"><i class="fa fa-globe"></i></a>
           </li>
           {% endif %}
-          {% if contributor.facebook_url %}
-          <li class="list-inline-item"><a href="{{contributor.facebook_url}}" target="_blank"><i
+          {% if page.facebook_url %}
+          <li class="list-inline-item"><a href="{{page.facebook_url}}" target="_blank"><i
                 class="fa fa-facebook"></i></a></li>
           {% endif %}
-          {% if contributor.twitter_url %}
-          <li class="list-inline-item"><a href="{{contributor.twitter_url}}" target="_blank"><i
-                class="fa fa-twitter"></i></a></li>
+          {% if page.twitter_url %}
+          <li class="list-inline-item"><a href="{{page.twitter_url}}" target="_blank"><i class="fa fa-twitter"></i></a>
+          </li>
           {% endif %}
-          {% if contributor.linkedin_url %}
-          <li class="list-inline-item"><a href="{{contributor.linkedin_url}}" target="_blank"><i
+          {% if page.linkedin_url %}
+          <li class="list-inline-item"><a href="{{page.linkedin_url}}" target="_blank"><i
                 class="fa fa-linkedin"></i></a></li>
           {% endif %}
         </ul>
 
+
+        <!-- START MEDIA -->
+        <div class="card text-secondary bg-info mt-5 mb-5">
+          <div class="card-body">
+            <h5 class="card-title mb-0">watch &amp learn</h5>
+          </div>
+          <ul class="list-group list-group-flush">
+            {% for post in contributor_posts %}
+            {% unless post.categories contains 'profile' or post.id == page.id %}
+            <li class="list-group-item bg-info">
+              {% if post.categories contains 'podcast'%}
+              <i class="fa fa-headphones pr-2"></i> Episode:
+              {% else if post.categories contains 'clip'%}
+              <i class="fa fa-file-movie-o pr-2"></i>
+              {% endif%}
+              <a class="text-secondary" href="{{post.url}}">{{post.title}}</a>
+            </li>
+            {% endunless %}
+            {% endfor %}
+          </ul>
+        </div>
+        <!-- END MEDIA -->
 
 
 
@@ -69,79 +109,67 @@ enabled: true
         {% if page.content.size > 0 %}
         {{page.content}}
         {% else%}
-        <p>{{contributor.bio}}</p>
+        <p>{{page.bio}}</p>
         {% endif %}
       </div>
 
       <div class="col-md-3 col-sm-12">
 
-        <div class="row bg-primary py-md-5 px-md-5 pt-4 text-center">
-          <h1 class="col-md-12 col-6 text-white mb-4">
-            <i class="fa fa-headphones pr-2"></i> {{contributor_podcast.size}}
-          </h1>
-          <h1 class="col-md-12 col-6 text-white">
-            <i class="fa fa-file-movie-o pr-2"></i> {{contributor_clips.size}}
-          </h1>
-        </div>
-      </div>
-
-      <div class="col-12 mt-5 d-none d-sm-block">
-        <hr>
-      </div>
-
-      <div class="col-12 mt-5">
-        {% if contributor.serve %}
+        {% if page.serve %}
         <h6 class="text-secondary">service</h6>
         <p> <b class="text-secondary">
             <i class="fa fa-user text-primary" aria-hidden="true"></i>
             who /</b>
-          {{contributor.serve.who}}</p>
+          {{page.serve.who}}</p>
 
         <p> <b class="text-secondary">
             <i class="fa fa-random text-primary" aria-hidden="true"></i>
             how /</b>
-          {{contributor.serve.how}}</p>
+          {{page.serve.how}}</p>
 
         {% endif%}
 
-        {% if contributor.skills %}
+        {% if page.tags %}
         <p class="mb-0"> <b class="text-secondary">
             <i class="fa fa-cogs text-primary" aria-hidden="true"></i>
             skills used /</b>
-          {% for skill in contributor.skills %}
-          <span class="badge rounded-pill bg-primary text-white">{{skill}}</span>
+          {% for skill in page.tags %}
+          <a href="/tag/{{ skill | slugify }}" class="badge rounded-pill bg-primary text-white">{{skill}}</a>
           {% endfor %}
         </p>
         {% endif%}
-      </div>
 
-      <div class="col-12 mt-5 d-none d-sm-block">
+
+      </div>
+    </div>
+
+    <!-- START OTHER PROFILES -->
+    {% assign posts = site.posts | where: 'categories', 'profile' | sort: "contributor_id" %}
+    
+    <!-- build range -->
+    {% assign min = 1 %}
+    {% assign max = posts.size %}
+    {% assign diff = max | minus: min %}
+    {% assign randomNumber = page.contributor_id | modulo: diff | plus: min %}
+
+    {% if posts %}
+    <div class="row">
+      <div class="col-12 mt-5 mb-5">
         <hr>
       </div>
-    </div>
 
-    <div class="row mt-5">
-      {% for post in contributor_posts %}
-      <div class="col-md-4 col-sm-6">
-        <div class="themeix-box">
-          <div class="single-post">
-            <div class="single-post-thumb">
-              <img src="{{post.post_image}}" alt="{{post.title}}" />
-            </div>
-            <div class="blog-text">
-              <div class="post-info">
-                <h2><a href="{{post.url}}">{{post.title}}</a></h2>
-
-                <a class="btn btn-dark btn-sm disabled" href="#">{{post.categories}}</a>
-              </div>
-              <p>{{post.excerpt}}</p>
-            </div>
-          </div>
-        </div>
+      <h4 class="col-12 text-secondary mb-3">More Profiles</h4>
+      {% for post in posts offset:randomNumber limit:4 %}
+      {% unless profile.id == page.id %}
+      <div class="col-md-3 col-sm-6 offset-sm-0 col-8 offset-2 mt-5">
+        {% include profile-card-xs.html %}
       </div>
+      {% endunless %}
       {% endfor %}
-
     </div>
+    {% endif %}
+    <!-- END OTHER PROFILES -->
+
   </div>
 </div>
 <!-- Blog Section End -->

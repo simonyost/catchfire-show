@@ -24,8 +24,10 @@ redirect_from:
     </div>
     <div class="row">
 
-      {% assign posts = site.contributors | where: 'profile', 'true' | sort: "last" %}
-      {% for post in posts %}
+      {% assign profiles = site.posts | where: 'categories', 'profile' %}
+      {% assign featured = profiles | where: 'featured', 'true' | sort: "contributor_id" | reverse %}
+
+      {% for post in featured %}
       <h1>{{page.pagination.collection}}</h1>
       <div class="col-md-4 col-sm-6 mt-5 mb-5">
 

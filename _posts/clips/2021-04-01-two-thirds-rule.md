@@ -3,8 +3,8 @@ layout: post
 title: "Carves out space for the positive with the two-thirds rule"
 redirect_from:
 date: 2021-04-10T12:37:18Z
-post_image: //i.ytimg.com/vi/2JhgGnh2LC0/hqdefault.jpg
-tags: [entrepreneurs, leaders]
+post_image: https://i.ytimg.com/vi/2JhgGnh2LC0/hqdefault.jpg
+
 categories: [clip]
 contributor_id: 35
 comments: false

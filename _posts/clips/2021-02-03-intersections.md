@@ -4,8 +4,8 @@ title: "How to navigate the intersections of culture, politics, and race with LÃ
 author:  LÃ©once Crump Jr.
 redirect_from:
 date: 2021-03-02T02:39:46Z
-post_image: //i.ytimg.com/vi/1kJd_5KKvTk/hqdefault.jpg
-tags: [entrepreneurs, leaders]
+post_image: https://i.ytimg.com/vi/1kJd_5KKvTk/hqdefault.jpg
+
 categories: [clip]
 contributor_id: 32
 comments: false

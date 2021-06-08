@@ -3,8 +3,8 @@ layout: post
 title: "How has design education evolved?"
 redirect_from:
 date: 2021-05-12T18:03:16Z
-post_image: //i.ytimg.com/vi/O7A3pxfkeUE/hqdefault.jpg
-tags: [entrepreneurs, leaders, technologists]
+post_image: https://i.ytimg.com/vi/O7A3pxfkeUE/hqdefault.jpg
+
 categories: [clip]
 contributor_id: 37
 comments: false

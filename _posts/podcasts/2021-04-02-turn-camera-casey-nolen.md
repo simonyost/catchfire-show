@@ -5,7 +5,6 @@ redirect_from:
 - /casey
 date: 2021-04-01T22:50:38Z
 post_image: /assets/images/show_img/s03/poster_casey.jpg
-tags: [leaders, influencers]
 categories: [podcast]
 contributor_id: 35
 comments: false

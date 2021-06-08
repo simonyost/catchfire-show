@@ -3,19 +3,19 @@
   url: /show
 - name: YouTube
   fa: youtube
-  url: //www.youtube.com/channel/UCdkoR4tJna8oaHHmv67YTvw
+  url: https://www.youtube.com/channel/UCdkoR4tJna8oaHHmv67YTvw
   large: true
 - name: Instagram
   fa: instagram
-  url: //www.instagram.com/getcatchfire
+  url: https://www.instagram.com/getcatchfire
   large: true
 - name: Facebook
   fa: facebook
-  url: //www.facebook.com/getcatchfire/live
+  url: https://www.facebook.com/getcatchfire/live
 - name: Apple Podcasts
   fa: apple
-  url: //podcasts.apple.com/us/tag/catch-fire-show/id1513500111
+  url: https://podcasts.apple.com/us/tag/catch-fire-show/id1513500111
   large: true
 - name: Spoify
   fa: spotify
-  url: //open.spotify.com/show/47EIWNNOV5Kc1ogZQk5jnK?si=HWjoElRuRoqvGsL2kanJUA
+  url: https://open.spotify.com/show/47EIWNNOV5Kc1ogZQk5jnK?si=HWjoElRuRoqvGsL2kanJUA

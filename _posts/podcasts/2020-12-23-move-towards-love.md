@@ -6,7 +6,6 @@ redirect_from:
 - /zt
 date: 2020-12-20 05:00:00
 post_image: /assets/images/show_img/s02_14/001.png
-tags: [entrepreneurs, authors, leaders, veterans]
 categories: [podcast]
 contributor_id: 28
 comments: false

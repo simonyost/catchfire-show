@@ -6,7 +6,6 @@ redirect_from:
 - /jp
 date: 2020-12-14 05:00:00
 post_image: /assets/images/show_img/s02_13/001.png
-tags: [students, entrepreneurs, leaders]
 categories: [podcast]
 contributor_id: 27
 comments: false

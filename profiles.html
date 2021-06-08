@@ -29,24 +29,23 @@ description: Catch Fire Show's exclusive interviews with guest taking non-tradit
   </div>
 </div>
 
+{% if jekyll.environment != 'production' %}
+{% assign contrib = site.posts | where: 'categories', 'profile' | sort: "contributor_id" %}
+  <h4>last id: {{contrib.last.contributor_id}} | {{ contrib.last.title }}</h4> <br />
+  <h4>count <small>{{contrib.size}}</small></h4>
+{% endif %}
+
 <!-- Blog Section Start -->
-<div id="blog" class="blog-sec pb-150">
+<div id="blog" class="blog-sec mt-5 pb-150">
   <div class="container">
 
-    {% assign posts = site.contributors | where: 'profile', 'true' | sort: "last" %}
+    {% assign profiles = site.posts | where: 'categories', 'profile' | sort: "last" %}
 
-    <div class="row mt-5 mb-5">
-      {% if jekyll.environment != 'production' %}
-      <!-- just for DEV -->
-      {% assign contrib = site.contributors | sort: "contributor_id" %}
-      <h4 class="mt-5">last id <small>{{contrib.last.contributor_id}} // {{contrib.last.name}}</small></h4>
-      {% endif %}
-    </div>
+
 
     <div class="row">
 
-      {% assign posts = site.contributors | where: 'profile', 'true' | sort: "last" %}
-      {% for post in posts %}
+      {% for post in profiles %}
       <div class="col-md-4 col-sm-6 mb-5">
         {% include profile-card-lg.html%}
       </div>

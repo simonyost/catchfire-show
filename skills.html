@@ -1,0 +1,131 @@
+---
+title: Top skills to learn in 2021
+layout: default
+<!-- pagination:
+  enabled: true -->
+redirect_from:
+
+description: Top skills to learn in 2021
+---
+
+<!-- Banner Section Start -->
+<div>
+  <div id="bannar-effect" class="bannar-image cat_1">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="bannar-wrapper">
+            <div class="bannar-text">
+              <h1 class="text-white mt-0">Learn Top Skills from Successful People</h1>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Banner Section End -->
+
+
+
+<!-- context -->
+<div class="container">
+
+  <!-- Skills Blocks Start -->
+  <div id="service" class="service-sec pt-100">
+    <div class="container">
+
+      {% capture tags %}
+      {% for tag in site.tags %}
+      {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
+      {% endfor %}
+      {% endcapture %}
+      {% assign sortedtags = tags | split:' ' | sort | uniq | reverse%}
+
+      <div class="row">
+
+        {% for tag in sortedtags %}
+        {% assign tagitems = tag | split: '#' %}
+        {% if tagitems[2]%}
+        <div class="col-md-4 col-sm-6 inner-box">
+          <div class="inner">
+            <div class="themeix-box">
+              <div class="service-icon pt-2 pr-2 pl-2 pb-2">
+                {% assign details = site.data.skills_detail | where: 'name', tagitems[1] | first %}
+                <i class="fa fa-{{ details.icon }} fa-2x text-white"></i>
+              </div>
+              <div class="service-content">
+                <a href="/tag/{{ tagitems[1] | slugify }}">
+                  <h2>{{ tagitems[1] }}</h2>
+                </a>
+
+                <p><small>{{details.description}}</small></p>
+                <a href="/tag/{{ tagitems[1] | slugify }}" class="btn btn-sm btn-outline-secondary">Learn Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+
+      </div>
+
+    </div>
+  </div>
+  <!-- Skills Blocks End -->
+
+  {% if jekyll.environment != 'production' %}
+  <!-- Skills Table Start -->
+  <div id="blog" class="blog-sec pt-100 pb-150">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 offset-1">
+          <table class="table">
+            <thead>
+              <th>Skill</th>
+              <th>People</th>
+              <th>People</th>
+            </thead>
+
+
+
+
+            {% capture tags %}
+            {% for tag in site.tags %}
+            {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
+            {% endfor %}
+            {% endcapture %}
+            {% assign sortedtags = tags | split:' ' | sort | uniq %}
+
+
+
+
+            <tbody>
+              {% for tag in sortedtags reversed %}
+              {% assign tagitems = tag | split: '#' %}
+              {% if tagitems[2]%} <tr>
+                <td>
+                  <a href="/tag/{{ tagitems[1] | slugify }}">{{ tagitems[1] }}</a>
+                </td>
+                <td>{{ tagitems[2] }}</td>
+                <td>
+                  {% assign tagholder = tagitems[1] %}
+
+                  {% for post in site.tags[tagholder] %}
+                  <a href="{{ post.url }}">{{ post.title }}</a>,
+                  {% endfor %}
+
+                </td>
+              </tr>
+              {% endif %}
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- Skills Table End -->
+  {% endif %}
