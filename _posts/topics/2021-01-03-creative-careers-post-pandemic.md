@@ -5,7 +5,7 @@ date: 2020-01-03 05:00:00
 post_image: /assets/images/jobs-banner-001.jpg
 tags: 
 categories: [topic]
-contributor_id: 14
+contributor_id: 5
 featured: true
 description: "There are many common and uncommon job titles for creative skills..."
 excerpt: "There are many common and uncommon job titles for creative skills..."

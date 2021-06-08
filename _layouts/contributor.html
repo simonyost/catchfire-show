@@ -144,17 +144,22 @@ enabled: true
     </div>
 
     <!-- START OTHER PROFILES -->
-    {% assign posts = site.posts | where: 'categories', 'profile' | sort: "last" %}
+    {% assign posts = site.posts | where: 'categories', 'profile' | sort: "contributor_id" %}
+    
+    <!-- build range -->
+    {% assign min = 1 %}
+    {% assign max = posts.size %}
+    {% assign diff = max | minus: min %}
+    {% assign randomNumber = page.contributor_id | modulo: diff | plus: min %}
 
     {% if posts %}
-    
     <div class="row">
       <div class="col-12 mt-5 mb-5">
         <hr>
       </div>
 
-      <h4 class="col-12 text-secondary mb-3">Similar Profiles</h4>
-      {% for post in posts limit:4 %}
+      <h4 class="col-12 text-secondary mb-3">More Profiles</h4>
+      {% for post in posts offset:randomNumber limit:4 %}
       {% unless profile.id == page.id %}
       <div class="col-md-3 col-sm-6 offset-sm-0 col-8 offset-2 mt-5">
         {% include profile-card-xs.html %}
