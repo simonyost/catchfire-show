@@ -33,7 +33,7 @@ description: Catch Fire Show's exclusive interviews with guest taking non-tradit
 {% assign contrib = site.posts | where: 'categories', 'profile' | sort: "contributor_id" %}
   <h4>last id: {{contrib.last.contributor_id}} | {{ contrib.last.title }}</h4> <br />
   <h4>count <small>{{contrib.size}}</small></h4>
-{% endif %}>
+{% endif %}
 
 <!-- Blog Section Start -->
 <div id="blog" class="blog-sec mt-5 pb-150">
