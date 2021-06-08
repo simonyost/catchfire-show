@@ -1,9 +1,11 @@
 ---
 layout: contributor
-categories: [profile]
 redirect_from:
 - /cd
-title: Chris
+- /contributors/chris
+- /contributors/chris-dunn
+categories: [profile]
+title: Chris Dunn
 last: Dunn
 contributor_id: 39
 facebook_url: 

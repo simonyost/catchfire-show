@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/darla-ahlert
 categories: [profile]
 title: Darla Ahlert
 last: Ahlert

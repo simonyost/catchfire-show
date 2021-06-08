@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/tyler-huckabee
 title: Tyler Huckabee
 last: Huckabee
 contributor_id: 17

@@ -1,7 +1,6 @@
 ---
 redirect_from:
 - /contributors/leonce_crump
-
 layout: contributor
 categories: [profile]
 title: Léonce B. Crump Jr.

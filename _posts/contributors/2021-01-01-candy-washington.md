@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/candy-washington
 categories: [profile]
 title: Candy Washington
 last: Washington

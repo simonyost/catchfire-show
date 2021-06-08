@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/jeremy-bedenbaugh/
 categories: [profile]
 title: Dr. Jeremy Bedenbaugh
 last: Bedenbaug

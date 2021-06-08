@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/sean-waslsh
 title: Sean Walsh
 last: Walsh
 contributor_id: 12

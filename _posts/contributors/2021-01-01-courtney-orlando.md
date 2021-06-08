@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/courtney-orlando
 categories: [profile]
 title: Courtney Orlando
 last: Orlando

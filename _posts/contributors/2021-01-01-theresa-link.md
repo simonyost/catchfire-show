@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/theresa-link
 title: Theresa Link
 last: Link
 contributor_id: 34

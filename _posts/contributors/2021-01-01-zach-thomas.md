@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/zach-thomas
 title: Zach Thomas
 last: Thomas
 contributor_id: 28

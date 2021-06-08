@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/kelly-wood
 title: Kelly Wood
 last: Wood
 contributor_id: 9

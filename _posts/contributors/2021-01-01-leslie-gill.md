@@ -3,6 +3,7 @@ layout: contributor
 categories: [profile]
 redirect_from:
 - /lg
+- /contributors/leslie-gill
 title: Leslie Gill
 last: Gill
 contributor_id: 40

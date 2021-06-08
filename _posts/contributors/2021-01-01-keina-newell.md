@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/keina-newell
 categories: [profile]
 title: Keina Newell
 last: Newell

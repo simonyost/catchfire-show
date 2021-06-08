@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/sheila-burkett
 categories: [profile]
 title: Sheila Burkett
 last: Burkett

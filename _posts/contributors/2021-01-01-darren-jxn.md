@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/darren-jxn
 categories: [profile]
 title: Darren Jxn
 last: Jxn

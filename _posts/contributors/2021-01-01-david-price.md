@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/david-price
 categories: [profile]
 title: David Price
 last: Price

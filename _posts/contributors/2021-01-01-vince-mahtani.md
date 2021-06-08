@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/vince-mahtani
 title: Vince Mahtani
 last: Mahtani
 contributor_id: 18

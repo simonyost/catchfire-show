@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/laura-tromben
 title: Laura Tromben
 last: Tromben
 contributor_id: 24

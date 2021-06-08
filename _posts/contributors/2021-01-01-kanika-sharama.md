@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/kanika-sharma
 categories: [profile]
 title: Kanika Sharma
 last: Sharma

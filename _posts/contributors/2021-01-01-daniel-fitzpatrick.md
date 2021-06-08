@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/daniel-fitzpatrick/
 categories: [profile]
 title: Daniel Fitzpatrick II
 last: Fitzpatrick

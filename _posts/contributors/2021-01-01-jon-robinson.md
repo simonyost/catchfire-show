@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/jon-robinson
 categories: [profile]
 title: Jon Robinson
 last: Robinson

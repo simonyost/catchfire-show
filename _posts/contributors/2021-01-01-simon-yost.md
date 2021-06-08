@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/simon-yost
 categories: [profile]
 title: Simon Yost
 last: Yost

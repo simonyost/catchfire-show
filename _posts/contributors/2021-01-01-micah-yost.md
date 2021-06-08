@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/micah-yost
 title: Micah Yost
 last: Yost
 contributor_id: 22

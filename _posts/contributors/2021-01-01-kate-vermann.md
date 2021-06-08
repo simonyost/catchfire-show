@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/kate-vermann
 title: Kate Vermann
 last: Vermann
 contributor_id: 21

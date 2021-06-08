@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/travon-brooks
 title: Travon Brooks
 last: Brooks
 contributor_id: 20

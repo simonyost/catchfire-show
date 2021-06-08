@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/david-dolak
 categories: [profile]
 title: David Dolak
 last: Dolak

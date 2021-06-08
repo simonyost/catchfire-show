@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/tamarah-usher
 title: Tamarah Usher
 last: Usher
 contributor_id: 15

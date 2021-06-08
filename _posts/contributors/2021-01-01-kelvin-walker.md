@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/kelvin-walker
 title: Kelvin Walker
 last: Walker
 contributor_id: 10

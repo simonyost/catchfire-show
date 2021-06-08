@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/tood-henry
 title: Todd Henry
 last: Henry
 contributor_id: 16

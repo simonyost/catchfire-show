@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/jeff-pawlow
 categories: [profile]
 title: Jeff Pawlow
 last: Pawlow

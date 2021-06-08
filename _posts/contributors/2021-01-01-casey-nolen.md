@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/casey-nolen
 categories: [profile]
 title: Casey Nolen
 last: Nolen

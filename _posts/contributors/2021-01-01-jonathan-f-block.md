@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/jonathan-f-block/
 title: Jonathan F. Block
 last: Block
 contributor_id: 26

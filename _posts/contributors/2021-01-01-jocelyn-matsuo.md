@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/jocelyn-matsuo
 categories: [profile]
 title: Jocelyn Matsuo
 last: Matsuo

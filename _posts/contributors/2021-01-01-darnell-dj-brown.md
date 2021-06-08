@@ -1,5 +1,7 @@
 ---
 layout: contributor
+redirect_from:
+- /contributors/darnell-brown
 categories: [profile]
 title: Darnell Brown
 last: Brown
