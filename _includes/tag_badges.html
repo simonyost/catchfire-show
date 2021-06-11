@@ -1,0 +1,23 @@
+<h1>Learn from successful people skilled at</h1>
+
+
+{% capture tags %}
+{% for tag in site.tags %}
+   {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
+{% endfor %}
+{% endcapture %}
+
+{% assign tagcount = 0 %}
+{% assign sortedtags = tags | split:' ' | sort | uniq %}
+<h2>
+{% for tag in sortedtags reversed %}
+{% assign tagitems = tag | split: '#' %}
+{% if tagitems[2] and tagcount < 15 %}
+{% if tagcount == 0 %}
+{% assign firsttag = tagitems[1] %}
+{% endif %}
+<a href="/tag/{{ tagitems[1] | slugify }}" class="badge badge-pill badge badge-primary text-white mt-2 pt-2 pb-2 pl-3 pr-3">{{ tagitems[1] }} <small>({{ tagitems[2] }})</small></a>
+{% assign tagcount = tagcount | plus: 1 %}
+{% endif %}
+{% endfor %}
+</h2>
