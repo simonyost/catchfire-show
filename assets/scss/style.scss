@@ -409,6 +409,10 @@
 		}
 	}
 
+	&.simon {
+		background: $primary url(../images/show_img/b15.jpg) no-repeat scroll center center / cover;
+	}
+
 	&.cat_1 {
 		background: $primary url(../images/headers/cat_1.jpg) no-repeat scroll center center / cover;
 	}

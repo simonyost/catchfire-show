@@ -6602,6 +6602,8 @@ small,
       @media only screen and (min-width: 1199px) {
         .bannar-image.friendsgiving .bannar-wrapper {
           padding: 450px 0 100px 0; } }
+  .bannar-image.simon {
+    background: #d24d00 url(../images/show_img/b15.jpg) no-repeat scroll center center/cover; }
   .bannar-image.cat_1 {
     background: #d24d00 url(../images/headers/cat_1.jpg) no-repeat scroll center center/cover; }
   .bannar-image.cat_2 {
