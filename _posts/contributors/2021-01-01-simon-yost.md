@@ -33,6 +33,7 @@ tags:
 - UI/UX
 - Content Strategy
 ---
+My mission is to help you gain skills to succeed without the university price tag.
 
 After graduating college, I spent a year trying to launch a career in live production—something I had trained for since middle school. It not only failed financially, but it also cost me personally.  I gave up my dreams to heal and provide for my family.
 
