@@ -106,6 +106,8 @@
 	}
 	img {
 		max-width: 83%;
+		-webkit-filter: drop-shadow(1px 1px 1px #222);
+		filter:         drop-shadow(1px 1px 1px #222); 
 
 		@media (max-width: 768px) {
 			max-width: 30% !important;
@@ -118,6 +120,8 @@
 		img {
 			max-height: 40px;
 			margin-top: 4px;
+			-webkit-filter: none;
+			filter:         none;
 		}
 	}
 }
@@ -411,6 +415,16 @@
 
 	&.simon {
 		background: $primary url(../images/show_img/b15.jpg) no-repeat scroll center center / cover;
+
+		@media only screen and (min-width: 768px) and (max-width: 991px) {
+			padding: 50px 0 25px 0;
+		}
+		@media only screen and (min-width: 991px) and (max-width: 1198px) {
+			padding: 100px 0 50px 0;
+		}
+		@media only screen and (min-width: 1199px) {
+			padding: 225px 0 150px 0;
+		}
 	}
 
 	&.cat_1 {
@@ -3018,17 +3032,24 @@ body, html {
 	&__title {
 	  flex: 1 1 100%;
 	  width: 100%;
-	  font-size: 2rem;
+	  font-size: 1.2rem;
+	  color: #555;
 	  font-weight: bold;
 	}
+
+	a {
+		color: #555 !important;
+	}
   }
+
+
   
   .ms-slider {
 	display: inline-block;
 	overflow: hidden;
 
 	height: 3rem;
-	border: 2px solid;
+	border: 2px solid #555;
 	padding: 1.5rem;
 	margin-top: 0.5rem;
 	

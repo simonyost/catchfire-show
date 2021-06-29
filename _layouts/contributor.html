@@ -31,7 +31,14 @@ enabled: true
           <div class="row">
             <div class="col-4 offset-2">
               <h5 class="text-white">
-                <i class="fa fa-headphones pr-2"></i> {{contributor_podcast.size}}<br />
+                <i class="fa fa-headphones pr-2"></i> 
+                
+                {% if page.contributor_id == 14 %}
+                all
+                {% else %}
+                {{contributor_podcast.size}}
+                {% endif %}
+                <br />
                 <small>episodes</small>
               </h5>
             </div>
