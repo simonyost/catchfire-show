@@ -33,18 +33,18 @@ tags:
 - UI/UX
 - Content Strategy
 ---
-My mission is to help you gain skills to succeed without the university price tag.
+Nine thousand dollars. That is how much I made, in whole, the year after graduating from college. After spending 8+ years (since middle school) training for my dream: live lighting, sound, and video production, I needed to give up my dream and pivot for any hope of supporting my wellbeing.
 
-After graduating college, I spent a year trying to launch a career in live production—something I had trained for since middle school. It not only failed financially, but it also cost me personally.  I gave up my dreams to heal and provide for my family.
+A decade later, my income began to exceed six figures. Looking back, I see a pattern to my pivots. Successful pivots align three things:
 
-Giving up my dream started a season of reskilling, and almost no one understood what I was attempting. I had to acquiesce to an office job and go into a pay-my-dues mode (again). This season required leaving behind the skills I had mastered to learn new skills.
-
-The year after college, I claimed $9,000 of income. Within 11 years, I had mastered my new skillsets enough to earn six figures. I learned how to gain additional skills without (another) university price tag. Forgoing the cost of additional university training allowed me to pay off my student loans while gaining skills that add value in the marketplace.
-
-Looking back, I now see that I was trying to align three things:
 - *Who* I want to serve
 - *How* I wish to serve
 - *What* skills/resources I need to help those people in that way
 
-Now I’m working on a new dream of which you are a part:
-*To help others (1) find their who/how/what and (2) gain skills to serve without the university price tag.*
+Above is a receipt that you can practice to scale your income even faster than I did. Additionally, it became clear to me that the recipe will include different flavors each time. So, I started Catch Fire Show to profile many people like myself, grounded in purpose and sharing it with folks through various career formats. 
+
+Now I’m working on a new dream of which you are a part: to help others:
+- Find their who/how/what and
+- Gain skills to serve without the university price tag.
+
+Catch Fire Show is not complete with you! I look forward to you joining the conversation.

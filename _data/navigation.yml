@@ -4,6 +4,8 @@
   url: /profiles
 - title: skills
   url: /skills
+- title: press kit
+  url: https://catchfire.cc/kit
 - title: show
   url: /show
   submenu:
